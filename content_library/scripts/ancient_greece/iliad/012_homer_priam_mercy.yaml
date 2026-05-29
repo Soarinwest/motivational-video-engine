@@ -1,0 +1,44 @@
+script_id: 012_homer_priam_mercy
+arc_id: ancient_greece_iliad
+region: ancient_greece
+quote_source_id: homer_iliad_priam_mercy
+
+title: "Priam in the Tent"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: bm_lewis
+music: low_strings
+visual_world: mythic
+visual_motif: "interior of a Bronze-age commander's tent at night, oil lamp, an old king kneeling before a seated warrior"
+caption_style: sparse_centered_captions
+
+script: |
+  In Book XXIV of the Iliad, the war is almost over.
+  Hector is dead. Achilles killed him.
+
+  And then, at night, alone, the king of Troy
+  crosses the battlefield to the tent of the man who killed his son.
+
+  Priam kneels.
+  He asks for the body.
+
+  Achilles weeps.
+  He gives it back.
+
+  When you have no reason left to be merciful —
+  no honor demanding it, no audience to see it —
+  that is the only place mercy lives.
+
+  They wept.
+  He gave him back.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: Samuel Butler
+  source_url: "https://www.gutenberg.org/ebooks/2199"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: ""

@@ -1,0 +1,47 @@
+script_id: 014_homer_polyphemus_cunning
+arc_id: ancient_greece_odyssey
+region: ancient_greece
+quote_source_id: homer_odyssey_polyphemus_cunning
+
+title: "Nobody"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: bm_lewis
+music: somber_cinematic
+visual_world: mythic
+visual_motif: "a glowing cave mouth at the bottom of a dark canyon, sheep nearby, two small figures"
+caption_style: sharp_white_text
+
+script: |
+  Trapped in the Cyclops's cave, Odysseus does the unmanly thing.
+
+  Asked his name, he says:
+  "Nobody."
+
+  Then he blinds Polyphemus in his sleep
+  and escapes under the bellies of the sheep.
+
+  He survived by being nobody.
+
+  Then, sailing away, he cannot help himself.
+  He shouts his real name across the water.
+
+  Polyphemus hears it. Calls down a curse.
+  And every storm of the next ten years
+  begins with a name spoken to the wind.
+
+  Cunning saves you.
+  Pride sells what cunning bought.
+
+  Be nobody first.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: Samuel Butler
+  source_url: "https://www.gutenberg.org/ebooks/1727"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: ""

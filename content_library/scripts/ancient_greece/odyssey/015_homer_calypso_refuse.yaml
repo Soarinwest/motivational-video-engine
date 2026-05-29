@@ -1,0 +1,43 @@
+script_id: 015_homer_calypso_refuse
+arc_id: ancient_greece_odyssey
+region: ancient_greece
+quote_source_id: homer_odyssey_calypso_refuse
+
+title: "He Went Home to Die"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: bm_george
+music: soft_lyre_ambient
+visual_world: mythic
+visual_motif: "stone cottage on an island shore at twilight, glowing windows, path toward the sea"
+caption_style: sea_blue_shadow_captions
+
+script: |
+  Calypso offers Odysseus eternal life.
+
+  Stay with her on the island. Beautiful. Endless.
+  Never grow old. Never die.
+
+  He says no.
+
+  Not because the island is bad.
+  Because eternal life on a stranger's island
+  is not life. It is a prison disguised as one.
+
+  Penelope is mortal. Telemachus is mortal.
+  Ithaca will not wait forever.
+
+  A life that cannot end cannot fully begin.
+
+  He went home to die.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: Samuel Butler
+  source_url: "https://www.gutenberg.org/ebooks/1727"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: ""

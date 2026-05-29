@@ -1,0 +1,29 @@
+id: antigone_grief_after_war_001
+series: literary_dark
+author: Sophocles (Antigone)
+theme: grief
+duration_seconds: 30
+message: 'In Sophocles'' Antigone, before the burial, before the trial, Antigone tells her sister Ismene plainly what she
+  has already seen:'
+hook: 'In Sophocles'' Antigone, before the burial, before the trial, Antigone tells her sister Ismene plainly what she has
+  already seen:'
+voiceover: "In Sophocles' Antigone, before the burial, before the trial, Antigone tells her sister Ismene plainly what she\
+  \ has already seen:\n\n\"Nothing painful is there, nothing fraught with ruin, no shame, no dishonour, that I have not seen.\"\
+  \n\nShe is not boasting.\nShe is not asking for pity.\n\nShe is naming the cost out loud \u2014 and then paying it.\n\n\
+  That is what a survivor does.\nCatalogue the ruin. Act anyway.\n\nShe knew. She did it anyway."
+final_line: She knew. She did it anyway.
+visual:
+  world: ancient_greece
+  background_prompt_key: woman_at_balcony_sea
+  figure_prompt_key: none
+  motion_profile: slow_pan
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: literary_male
+  music_profile: somber_cinematic
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

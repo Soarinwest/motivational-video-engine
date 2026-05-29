@@ -1,0 +1,41 @@
+script_id: 005_aristotle_choice
+arc_id: ancient_greece_self_command
+region: ancient_greece
+quote_source_id: aristotle_ethics_perfected_by_habit
+
+title: "You Are Not Finished by Nature"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: am_michael
+music: low_strings
+visual_world: ancient_greece
+visual_motif: "sculptor's chisel on unfinished marble"
+caption_style: hard_cut_captions
+
+script: |
+  Aristotle writes that moral virtues do not simply appear in us by nature:
+
+  "We are adapted by nature to receive them, and are made perfect by habit."
+
+  This means you are not doomed by your first impulse.
+  But you are responsible for what you train.
+
+  Every repeated act is instruction.
+  Every excuse is instruction.
+  Every restraint is instruction.
+
+  You are always practicing something.
+
+  Choose carefully.
+  Practice becomes character.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: W. D. Ross
+  source_url: "https://classics.mit.edu/Aristotle/nicomachaen.2.ii.html"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: ""

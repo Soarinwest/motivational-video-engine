@@ -1,0 +1,50 @@
+id: homer_calypso_refuse_001
+series: literary_dark
+author: Homer
+theme: mortality
+duration_seconds: 30
+message: Calypso offers Odysseus eternal life.
+hook: Calypso offers Odysseus eternal life.
+voiceover: 'Calypso offers Odysseus eternal life.
+
+
+  Stay with her on the island. Beautiful. Endless.
+
+  Never grow old. Never die.
+
+
+  He says no.
+
+
+  Not because the island is bad.
+
+  Because eternal life on a stranger''s island
+
+  is not life. It is a prison disguised as one.
+
+
+  Penelope is mortal. Telemachus is mortal.
+
+  Ithaca will not wait forever.
+
+
+  A life that cannot end cannot fully begin.
+
+
+  He went home to die.'
+final_line: He went home to die.
+visual:
+  world: mythic
+  background_prompt_key: calypso_island_twilight
+  figure_prompt_key: none
+  motion_profile: medium_zoom
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: classical_male
+  music_profile: soft_lyre_ambient
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

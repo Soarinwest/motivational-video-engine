@@ -1,0 +1,28 @@
+id: homer_penelope_patience_001
+series: women_left_alive
+author: Homer
+theme: patience
+duration_seconds: 30
+message: Penelope is alone in the great house.
+hook: Penelope is alone in the great house.
+voiceover: "Penelope is alone in the great house.\nTwenty years. Odysseus is gone.\n\nThe suitors crowd her halls every day,\n\
+  demanding she remarry.\n\nShe says yes.\nAfter I finish weaving this burial shroud for Laertes.\n\nShe weaves it by day.\n\
+  At night, by lamplight, she pulls every thread out.\n\nThe waiting wife is not a backdrop.\nShe is the second hero of the\
+  \ epic \u2014\n\noutlasting twenty years by refusing\nevery easy answer they offered her.\n\nShe held the house\nby holding\
+  \ her own hand back."
+final_line: by holding her own hand back.
+visual:
+  world: mythic
+  background_prompt_key: penelope_at_loom
+  figure_prompt_key: none
+  motion_profile: figure_pan
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: literary_male
+  music_profile: ambient_strings_low
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

@@ -1,0 +1,40 @@
+script_id: 006_homer_anger
+arc_id: ancient_greece_iliad
+region: ancient_greece
+quote_source_id: homer_iliad_check_anger
+
+title: "Anger of Power"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: bm_lewis
+music: somber_cinematic
+visual_world: war
+visual_motif: "storm over Aegean, bronze helmet on sand"
+caption_style: large_centered_text
+
+script: |
+  In Homer's Iliad, the war turns on rage, rank, and wounded pride.
+
+  "Son of Atreus, check your anger, I implore you."
+
+  The warning is simple: power does not make anger wise.
+  It only makes anger expensive.
+
+  A leader's pride can become another man's grave.
+  A private insult can become public ruin.
+
+  Before you answer from rage, count the cost.
+
+  Anger may feel like strength.
+  Often, it is command lost.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: Samuel Butler
+  source_url: "https://www.gutenberg.org/ebooks/2199"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: ""

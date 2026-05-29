@@ -1,0 +1,41 @@
+# Brand identity for motive-engine.
+# Edit freely. The engine reads named profiles from here.
+
+name: motive-engine
+creed: Hard truth. Clean heart.
+
+tone:
+  description: >
+    Masculine, direct, calm, load-bearing. Discipline without resentment.
+    Hard truth without contempt.
+  qualities:
+    - direct
+    - earned
+    - without_enemies
+    - without_grievance
+
+# Music profiles referenced by content specs (audio.music_profile).
+#
+# Each profile may declare a `folder` under assets/music/ — the render stage
+# picks the first .mp3 in that folder, loops or trims it to the voice duration,
+# and mixes it under the voice at `gain_db` (default -18 dB below 0 dBFS).
+# A profile with no `folder` is silent (current behavior for `silence`).
+music_profiles:
+  ambient_low:
+    description: Low ambient drone. No melody. No percussion.
+    folder: ancient_low_drone
+    gain_db: -16
+  ambient_strings_low:
+    description: Sustained low strings. Sparse, mournful, not melodramatic.
+    folder: low_strings
+    gain_db: -14
+  soft_lyre_ambient:
+    description: Mellow ambient with melodic instruments. Reflective.
+    folder: soft_lyre_ambient
+    gain_db: -14
+  somber_cinematic:
+    description: Dark, dramatic, cinematic. For war and tragedy material.
+    folder: somber_cinematic
+    gain_db: -12
+  silence:
+    description: No music. Use sparingly.

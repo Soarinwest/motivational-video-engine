@@ -1,0 +1,70 @@
+arc_id: ancient_greece_self_command
+region: ancient_greece
+title: "Ancient Greece: Self-Command"
+
+purpose: >
+  The foundation arc. A person must examine themselves, know what is in
+  their control, and build virtue through repeated action. This is the
+  moral grammar the rest of the project depends on.
+
+visual_world: ancient_greece
+default_visual_motifs:
+  - "Athenian agora at dusk, lone philosopher silhouette"
+  - "olive grove, repeated footsteps on worn stone"
+  - "temple columns aligned in shadow"
+  - "sculptor's chisel on unfinished marble"
+
+tone:
+  - serious
+  - restrained
+  - cinematic
+  - direct
+
+themes:
+  - self_command
+  - restraint
+  - duty
+  - honor_service
+  - usefulness_competence
+
+primary_sources:
+  - plato/apology.md
+  - plato/republic.md
+  - epictetus/enchiridion.md
+  - aristotle/nicomachean_ethics.md
+
+primary_source_ids:
+  - plato_apology_unexamined_life
+  - plato_apology_daily_virtue
+  - plato_apology_speaker_truth
+  - plato_republic_justice_soul
+  - plato_republic_justice_happiness
+  - plato_republic_good_soul_rules
+  - epictetus_enchiridion_control_first_rule
+  - epictetus_enchiridion_own_actions
+  - epictetus_enchiridion_not_own_actions
+  - epictetus_enchiridion_appearance_not_thing
+  - epictetus_enchiridion_nothing_to_you
+  - aristotle_ethics_moral_virtue_habit
+  - aristotle_ethics_perfected_by_habit
+  - aristotle_ethics_first_exercising
+  - aristotle_ethics_not_by_nature
+
+scripts:
+  - 001_plato_examined_life
+  - 002_epictetus_control
+  - 003_aristotle_habit
+  - 004_plato_inner_order
+  - 005_aristotle_choice
+
+publishing_notes: >
+  Publish this arc first. It establishes the project's vocabulary:
+  examination, control, habit, order, and choice. Everything after
+  this — war, rage, tragedy, conscience — lands harder because the
+  viewer already understands what self-command is supposed to prevent.
+
+review_rules:
+  - verify_translation_rights
+  - verify_quote_wording
+  - distinguish_quote_from_interpretation
+  - human_review_before_publish

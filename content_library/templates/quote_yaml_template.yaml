@@ -1,0 +1,46 @@
+# Quote / source-entry YAML template.
+# Copy one block into the appropriate file under sources/<author>/<work>.md,
+# separated by `---` from sibling entries.
+# Schema reference: ../01_SCHEMA.md
+# Rights vocabulary: ../04_RIGHTS_AND_SOURCE_NOTES.md
+
+id: author_work_topic_001
+
+source:
+  author: ""
+  work: ""
+  section: ""
+  translator: null
+  source_url: null
+  rights_status: copyright_status_unknown   # see 04_RIGHTS_AND_SOURCE_NOTES.md
+  translation_check_needed: true            # set false only after verifying wording against the cited edition
+  notes: ""
+
+classification:
+  era_written: ""       # slug from eras/
+  world_depicted: ""    # slug from eras/ (often equals era_written)
+  region: ""            # high-level region slug used by scripts/<region>/ and arcs/
+  traditions: []        # slugs from traditions/
+  themes: []            # slugs from themes/
+  tone: []              # free tags: severe, restrained, direct, elegiac, defiant, mournful, ironic
+
+content:
+  direct_quote: ""      # leave empty unless rights_status permits
+  paraphrase: ""        # safe to use for any rights_status
+  core_idea: ""         # the underlying claim, one sentence
+  interpretation: ""    # the project's own commentary, one or two sentences
+
+video:
+  series: []                # slugs from series/
+  arcs: []                  # slugs from arcs/
+  visual_worlds: []         # slugs from assets/backgrounds/
+  visual_motif: ""          # short composition description within the world
+  voice_profile: null       # Kokoro TTS voice id
+  music_profile: null
+  caption_style: null
+  script_angle: ""
+  final_line: ""
+
+review:
+  human_review_required: true
+  notes: ""

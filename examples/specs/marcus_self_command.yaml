@@ -1,0 +1,28 @@
+id: marcus_self_command_001
+series: stoic_practice
+author: Marcus Aurelius
+theme: self-command
+duration_seconds: 35
+message: The first work of the day is governing yourself.
+hook: Before you give a single order to the world, give one to yourself.
+voiceover: "Before you give a single order to the world, give one to yourself.\nNo one rules a household, a craft, or a country\n\
+  without first ruling his own attention, his own appetite, his own mouth.\nMarcus Aurelius wrote his notes alone, at night,\
+  \ by lamplight \u2014\nnot to instruct anyone else.\nHe was instructing the only man he could.\n"
+final_line: Begin where he began. Govern yourself.
+visual:
+  world: stoic_rome
+  background_prompt_key: ruined_courtyard_dawn
+  figure_prompt_key: marcus_bust_storm_light
+  motion_profile: figure_pan
+  overlays:
+  - dust_motes
+  - subtle_grain
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: classical_male
+  music_profile: ambient_strings_low
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

@@ -1,0 +1,69 @@
+arc_id: ancient_greece_odyssey
+region: ancient_greece
+title: "Ancient Greece: The Odyssey"
+
+purpose: >
+  Homer's Odyssey as long-form discipline: the return is the work,
+  not the war. Cunning over strength, patience as resistance, mortality
+  as the price of meaning, the descent that buys the homecoming.
+  The hero is matched at home by the wife who outlasted him.
+
+visual_world: mythic
+default_visual_motifs:
+  - "shoreline at dawn, ship silhouette"
+  - "broken mast, dark sea, dawn line"
+  - "cloaked figure on cliffs above dark sea"
+  - "ancient Greek interior, woman by window, oil lamp, sea beyond"
+  - "glowing cave mouth in a dark canyon"
+  - "misty grey shoreline with a ruined stone gateway"
+
+tone:
+  - elegiac
+  - severe
+  - restrained
+  - longing
+
+themes:
+  - duty
+  - homefront_rebuilding
+  - restraint
+  - courage
+  - suffering
+  - grief
+  - mortality
+  - self_command
+  - women_and_war
+
+primary_sources:
+  - homer/odyssey.md
+
+primary_source_ids:
+  - homer_odyssey_tell_muse
+  - homer_odyssey_suffered_much
+  - homer_odyssey_want_home
+  - homer_odyssey_bear_it
+  - homer_odyssey_polyphemus_cunning
+  - homer_odyssey_calypso_refuse
+  - homer_odyssey_penelope_patience
+  - homer_odyssey_tiresias_underworld
+
+scripts:
+  - 008_homer_return_home
+  - 009_homer_bear_the_wreck
+  - 014_homer_polyphemus_cunning      # TODO write
+  - 015_homer_calypso_refuse          # TODO write
+  - 016_homer_penelope_patience       # TODO write
+  - 017_homer_tiresias_underworld     # TODO write
+
+publishing_notes: >
+  Publish roughly in narrative order: the want of home (008), Polyphemus
+  cunning (014), Calypso refusal (015), the underworld (017), Penelope's
+  patience at home (016), bear the wreck (009). The Odyssey arc is
+  longer-form discipline than the Iliad's — slower beats, more interiors.
+
+review_rules:
+  - verify_translation_rights
+  - verify_quote_wording
+  - distinguish_quote_from_interpretation
+  - women_and_war_frame_check
+  - human_review_before_publish

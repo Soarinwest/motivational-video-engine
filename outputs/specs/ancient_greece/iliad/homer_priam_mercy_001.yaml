@@ -1,0 +1,27 @@
+id: homer_priam_mercy_001
+series: literary_dark
+author: Homer
+theme: grief
+duration_seconds: 30
+message: In Book XXIV of the Iliad, the war is almost over.
+hook: In Book XXIV of the Iliad, the war is almost over.
+voiceover: "In Book XXIV of the Iliad, the war is almost over.\nHector is dead. Achilles killed him.\n\nAnd then, at night,\
+  \ alone, the king of Troy\ncrosses the battlefield to the tent of the man who killed his son.\n\nPriam kneels.\nHe asks\
+  \ for the body.\n\nAchilles weeps.\nHe gives it back.\n\nWhen you have no reason left to be merciful \u2014\nno honor demanding\
+  \ it, no audience to see it \u2014\nthat is the only place mercy lives.\n\nThey wept.\nHe gave him back."
+final_line: He gave him back.
+visual:
+  world: mythic
+  background_prompt_key: priam_in_tent
+  figure_prompt_key: none
+  motion_profile: medium_zoom
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: literary_male
+  music_profile: ambient_strings_low
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

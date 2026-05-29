@@ -1,0 +1,38 @@
+script_id: 001_plato_examined_life
+arc_id: ancient_greece_self_command
+region: ancient_greece
+quote_source_id: plato_apology_unexamined_life
+
+title: "The Examined Life"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: bm_george
+music: ancient_low_drone
+visual_world: ancient_greece
+visual_motif: "Athenian agora at dusk, lone philosopher silhouette"
+caption_style: marble_serif_centered
+
+script: |
+  Socrates, in Plato's Apology, gives us one of the hardest lines in philosophy:
+
+  "The life which is unexamined is not worth living."
+
+  He is not saying your life must be flawless.
+  He is saying you cannot drift forever and call it freedom.
+
+  Look at your habits.
+  Look at your excuses.
+  Look at what you are becoming.
+
+  Examine it before life does.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: Benjamin Jowett
+  source_url: "https://classics.mit.edu/Plato/apology.html"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Confirm quote wording against selected Jowett edition before render."

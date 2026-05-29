@@ -1,0 +1,74 @@
+season_id: season_01_ancient_greece
+title: "Season 01: Ancient Greece"
+region: ancient_greece
+
+creative_principle: "Hard truth. Clean heart."
+
+visual_world: ancient_greece
+
+default_palette:
+  - marble_white
+  - olive_green
+  - bronze
+  - storm_gray
+  - dark_blue_sea
+  - cold_gold
+  - dust_parchment
+
+default_caption_style: marble_serif_centered
+
+sub_arcs:
+  - arc_id: ancient_greece_self_command
+    order: 1
+    scripts:
+      - 001_plato_examined_life
+      - 002_epictetus_control
+      - 003_aristotle_habit
+      - 004_plato_inner_order
+      - 005_aristotle_choice
+
+  - arc_id: ancient_greece_iliad
+    order: 2
+    scripts:
+      - 006_homer_anger
+      - 007_homer_check_your_anger
+      - 011_homer_hector_farewell
+      - 012_homer_priam_mercy
+      - 013_homer_patroclus_rage
+
+  - arc_id: ancient_greece_odyssey
+    order: 3
+    scripts:
+      - 008_homer_return_home
+      - 014_homer_polyphemus_cunning
+      - 015_homer_calypso_refuse
+      - 017_homer_tiresias_underworld
+      - 016_homer_penelope_patience
+      - 009_homer_bear_the_wreck
+
+  - arc_id: ancient_greece_women_law_tragedy
+    order: 4
+    scripts:
+      - 010_antigone_i_deny_nothing
+      # - 0XX_antigone_unwritten_laws    # TODO write
+      # - 0XX_antigone_grief_after_war   # TODO write
+
+publishing_order_rationale: >
+  Self-command first establishes the moral grammar of the season:
+  examination, control, habit, order, choice. The Iliad arc then
+  shows what happens when self-command fails — pride and grief in
+  the most expensive currency. The Odyssey arc is the long discipline
+  of the return: cunning over strength, patience as resistance,
+  mortality as the price of meaning. Antigone closes the season with
+  conscience under pressure, owned without performance.
+
+review_rules:
+  - verify_translation_rights
+  - verify_quote_wording
+  - distinguish_quote_from_interpretation
+  - human_review_before_publish
+
+cadence_notes: >
+  Cadence TBD. Suggested: one video per week, full season runs
+  ~12 weeks. Reorder only if a translation verification blocks
+  the originally-scheduled script.

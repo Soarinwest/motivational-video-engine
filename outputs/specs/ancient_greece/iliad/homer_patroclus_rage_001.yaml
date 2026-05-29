@@ -1,0 +1,54 @@
+id: homer_patroclus_rage_001
+series: literary_dark
+author: Homer
+theme: grief
+duration_seconds: 30
+message: Achilles will not fight.
+hook: Achilles will not fight.
+voiceover: 'Achilles will not fight.
+
+  Not for Agamemnon. Not for the spoils. Not for command.
+
+
+  He stays in his tent. He sulks.
+
+  The Greeks die in the surf for it.
+
+
+  Then word comes:
+
+  Patroclus is dead. Hector killed him.
+
+
+  The same man who would not move for an order
+
+  is on his feet before the messenger finishes.
+
+
+  Pride kept him in. Grief took him out.
+
+
+  Some withdrawals only end at a loss
+
+  the man cannot ignore.
+
+
+  Not honor.
+
+  Grief.'
+final_line: Grief.
+visual:
+  world: mythic
+  background_prompt_key: greek_ship_storm
+  figure_prompt_key: none
+  motion_profile: medium_zoom
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: literary_male
+  music_profile: somber_cinematic
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

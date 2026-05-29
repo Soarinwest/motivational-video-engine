@@ -1,0 +1,80 @@
+arc_id: ancient_greece_olympian_myth
+region: ancient_greece
+title: "Ancient Greece: The Olympian Myths"
+
+purpose: >
+  The myths in which gods and mortals collide, and the price is
+  always paid by the mortal. Prometheus stealing fire and being
+  chained for it. Persephone taken to the underworld and the
+  seasons born from her absence. Orpheus refusing to trust the
+  silence behind him and losing her again. Icarus flying too high.
+  These are not adventures — they are diagnoses of the human
+  tendencies that always cost us.
+
+visual_world: mythic
+default_visual_motifs:
+  - "a figure chained to a stone mountainside under a hot sun, an eagle in the distance"
+  - "a misty grey shoreline at dusk, a small boat drawing close, a single figure walking ahead"
+  - "a young woman in pale robes surrounded by dark trees and pomegranate fruit, half in shadow"
+  - "winged figure plummeting toward a sunlit Mediterranean sea, melted wax trailing behind"
+  - "a small lyre lying on a stone path at dusk, no figure"
+
+tone:
+  - mythic
+  - severe
+  - elegiac
+  - mournful
+
+themes:
+  - mortality
+  - ambition
+  - grief
+  - power_corruption
+  - homefront_rebuilding
+  - self_command
+  - restraint
+
+primary_sources:
+  - hesiod/theogony.md       # TODO create
+  - apollodorus/library.md   # TODO create
+  - ovid/metamorphoses.md    # TODO
+
+primary_source_ids:
+  # All TODO
+  - prometheus_fire_001              # the gift to humanity and the cost
+  - prometheus_punishment_001        # the eagle, the daily renewal of suffering
+  - persephone_seasons_001           # taken, returned in part, grief embedded in the calendar
+  - orpheus_eurydice_001             # the music, the descent, the looking back
+  - icarus_father_warning_001        # the warning ignored, the fall
+  - narcissus_self_image_001         # the reflection that kills him
+  - phaethon_chariot_001             # the son taking the father's chariot, the scorched earth
+  - tantalus_001                     # may overlap with heroic_myth arc
+
+scripts:
+  # All TODO
+  - 0XX_prometheus_cost_of_gift
+  - 0XX_persephone_grief_in_seasons
+  - 0XX_orpheus_looking_back
+  - 0XX_icarus_warning_ignored
+  - 0XX_narcissus_self_image
+  - 0XX_phaethon_inheriting_what_burns
+
+publishing_notes: >
+  These are the easiest Greek-myth videos to misframe. The temptation
+  is to treat them as cautionary tales with simple morals ("don't
+  fly too high"). They are richer than that — they're about the
+  forms of human longing that cannot be unmade.
+
+  Pairs with existential traditions (Camus on Sisyphus, Kierkegaard
+  on Abraham). Persephone material pairs with women_law_tragedy
+  through Hecuba and Andromache — both are stories of women whose
+  grief shapes the world after.
+
+review_rules:
+  - verify_translation_rights
+  - verify_quote_wording
+  - distinguish_quote_from_interpretation
+  - avoid_simple_moral_framing
+  - human_review_before_publish
+
+status: drafted

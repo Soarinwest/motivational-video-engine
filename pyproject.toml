@@ -1,0 +1,49 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "motive-engine"
+version = "0.0.1"
+description = "Local-first motivational video generation. Hard truth. Clean heart."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Soren Donisvitch" }]
+keywords = ["video", "automation", "local-first", "pipeline"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 2 - Pre-Alpha",
+]
+dependencies = [
+    "typer>=0.12",
+    "pydantic>=2.6",
+    "pyyaml>=6.0",
+    "sqlmodel>=0.0.16",
+    "python-dotenv>=1.0",
+    "rich>=13.7",
+    "kokoro>=0.3",
+    "moviepy>=1.0",
+    "streamlit>=1.32",
+    "httpx>=0.27",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+]
+
+[project.scripts]
+motive = "motive_engine.cli:app"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/motive_engine"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-ra"

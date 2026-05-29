@@ -1,0 +1,45 @@
+id: antigone_i_deny_nothing_001
+series: literary_dark
+author: Sophocles (Antigone)
+theme: moral-responsibility
+duration_seconds: 30
+message: In Sophocles' Antigone, Creon asks whether she committed the forbidden burial.
+hook: In Sophocles' Antigone, Creon asks whether she committed the forbidden burial.
+voiceover: 'In Sophocles'' Antigone, Creon asks whether she committed the forbidden burial.
+
+  Antigone answers:
+
+
+  "I did it, I deny it not."
+
+
+  This is moral courage without performance.
+
+  She does not hide behind confusion.
+
+  She does not outsource the consequence.
+
+
+  Whether she is right or doomed, she owns the act.
+
+
+  For us, the lesson is severe: if conscience demands a choice, do not dress it up as accident.
+
+
+  Stand where you chose to stand.'
+final_line: Stand where you chose to stand.
+visual:
+  world: stoic_rome
+  background_prompt_key: antigone_ruined_courtyard
+  figure_prompt_key: none
+  motion_profile: medium_zoom
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: literary_male
+  music_profile: ambient_strings_low
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

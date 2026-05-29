@@ -1,0 +1,15 @@
+# Series definitions. A content spec's `series` field must match a key here.
+
+series:
+  stoic_practice:
+    description: Daily Stoic practice — Marcus, Epictetus, Seneca.
+    default_world: stoic_rome
+  socratic_questions:
+    description: Socratic dialogue — the examined life.
+    default_world: ancient_greece
+  literary_dark:
+    description: Dostoevsky, Tolstoy, Camus — existential weight, restraint.
+    default_world: literary_dark
+  field_notes:
+    description: Observational pieces from nature, weather, recovery.
+    default_world: field_notes

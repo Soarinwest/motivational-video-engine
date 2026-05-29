@@ -1,0 +1,47 @@
+id: homer_bear_wreck_001
+series: literary_dark
+author: Homer
+theme: endurance
+duration_seconds: 30
+message: 'Odysseus says in the Odyssey:'
+hook: 'Odysseus says in the Odyssey:'
+voiceover: 'Odysseus says in the Odyssey:
+
+
+  "If some god wrecks me when I am on the sea, I will bear it and make the best of it."
+
+
+  This is not optimism.
+
+  It is endurance without theatre.
+
+
+  He does not pretend the sea is gentle.
+
+  He does not pretend fate is fair.
+
+  He simply refuses to collapse before the storm arrives.
+
+
+  There is dignity in meeting hardship plainly.
+
+
+  Do not worship the wreck.
+
+  Row through it.'
+final_line: Row through it.
+visual:
+  world: literary_dark
+  background_prompt_key: homer_bear_wreck_harbor
+  figure_prompt_key: none
+  motion_profile: medium_zoom
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: low_steady_male
+  music_profile: somber_cinematic
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

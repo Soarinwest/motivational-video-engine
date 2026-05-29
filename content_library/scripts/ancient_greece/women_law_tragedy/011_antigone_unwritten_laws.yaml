@@ -1,0 +1,40 @@
+script_id: 011_antigone_unwritten_laws
+arc_id: ancient_greece_women_law_tragedy
+region: ancient_greece
+quote_source_id: sophocles_antigone_unwritten_laws
+
+title: "The Older Laws"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: bm_lewis
+music: low_strings
+visual_world: ancient_greece
+visual_motif: "empty throne room, single shaft of light"
+caption_style: marble_serif_centered
+
+script: |
+  In Sophocles' Antigone, Creon's edict forbids her brother's burial.
+
+  Antigone tells the king why she defied it:
+
+  "Nor did I deem that thou, a mortal man, could'st by a breath annul and override the immutable unwritten laws of Heaven."
+
+  Power can pass laws. It cannot author conscience.
+
+  When the two collide, conscience is older.
+
+  The code in your hand was written this morning.
+  The one in your chest was written before any of us got here.
+
+  Answer to the older ones.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: F. Storr
+  source_url: "https://classics.mit.edu/Sophocles/antigone.html"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Translation check critical — Storr phrasing differs from Jebb and from modern translations. Verify lines 450-460 in chosen edition."

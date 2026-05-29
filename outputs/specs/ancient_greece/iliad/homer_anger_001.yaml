@@ -1,0 +1,45 @@
+id: homer_anger_001
+series: literary_dark
+author: Homer
+theme: war
+duration_seconds: 30
+message: In Homer's Iliad, the war turns on rage, rank, and wounded pride.
+hook: In Homer's Iliad, the war turns on rage, rank, and wounded pride.
+voiceover: 'In Homer''s Iliad, the war turns on rage, rank, and wounded pride.
+
+
+  "Son of Atreus, check your anger, I implore you."
+
+
+  The warning is simple: power does not make anger wise.
+
+  It only makes anger expensive.
+
+
+  A leader''s pride can become another man''s grave.
+
+  A private insult can become public ruin.
+
+
+  Before you answer from rage, count the cost.
+
+
+  Anger may feel like strength.
+
+  Often, it is command lost.'
+final_line: Often, it is command lost.
+visual:
+  world: literary_dark
+  background_prompt_key: homer_anger_storm
+  figure_prompt_key: none
+  motion_profile: medium_zoom
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: literary_male
+  music_profile: somber_cinematic
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

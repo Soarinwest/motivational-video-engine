@@ -1,0 +1,634 @@
+# Visual worlds for motive-engine.
+#
+# Each world defines an aesthetic vocabulary. Content specs pick a world by
+# name and a background_prompt_key / figure_prompt_key from that world's
+# catalogs. The image_prompt_template combines those phrases with the spec's
+# author + theme into a ready-to-paste image-generator prompt.
+#
+# Template placeholders: {background}, {figure}, {author}, {theme}.
+# A template may omit placeholders it doesn't need (e.g. field_notes has no
+# {figure}). The engine always supplies all four; unused ones are dropped.
+
+worlds:
+
+  # -----------------------------------------------------------------------
+  stoic_rome:
+    description: >-
+      Roman ruins, marble busts, fluted columns, storm light, drifting ash,
+      cold golden dawn. Severe, disciplined, ancient.
+    mood:
+      - severe
+      - disciplined
+      - ancient
+      - quiet
+      - weighty
+      - reverent
+    palette:
+      - cold marble white
+      - slate grey
+      - weathered bronze
+      - ochre dust
+      - storm-cloud charcoal
+      - cold golden dawn light
+    motifs:
+      - marble busts
+      - fluted columns
+      - ruined courtyards
+      - eagle reliefs
+      - lictor's fasces
+      - drifting ash
+      - distant temples
+      - paved Roman roads
+    common_overlays:
+      - dust_motes
+      - drifting_ash
+      - subtle_grain
+      - storm_haze
+    recommended_motion_profiles:
+      - slow_zoom
+      - static
+      - slow_pan
+    suitable_series:
+      - stoic_practice
+    suitable_authors:
+      - Marcus Aurelius
+      - Seneca
+      - Epictetus
+      - Cato the Younger
+      - Cicero
+
+    background_prompts:
+      ruined_courtyard_dawn: >-
+        a ruined Roman courtyard at dawn, broken paving stones, fluted
+        columns to one side, storm clouds breaking above distant ruins
+      stoic_road_at_dawn: >-
+        an empty paved Roman road at dawn, milestones to one side, fields
+        of dry grass, low storm clouds on the horizon
+      ruined_temple_storm: >-
+        the steps of a ruined Roman temple under storm light, cracked
+        marble, weathered columns, distant lightning
+      empty_amphitheater: >-
+        the empty stone tiers of a Roman amphitheater at dusk, long
+        shadows, drifting dust in cold light
+      broken_column_ash: >-
+        a single broken marble column standing in a field of grey ash,
+        cold morning light, distant ruins on the horizon
+      aristotle_choice_marble: >-
+        a sculptor's chisel resting on a block of partially carved marble in
+        a quiet stone workshop at dawn, fine marble dust on the bench, chisel
+        marks visible, severe and disciplined ancient atmosphere
+      antigone_ruined_courtyard: >-
+        an empty ruined Roman courtyard at dawn after a city has fallen,
+        broken stone steps, drifting ash, distant smoke beyond the columns,
+        tragic and severe atmosphere
+
+    figure_prompts:
+      marcus_bust_storm_light: >-
+        a weathered marble bust of Marcus Aurelius in cold storm light,
+        textured marble, dignified expression, not speaking
+      seneca_seated_lamplight: >-
+        a robed figure of Seneca seated at a stone desk by lamplight,
+        face partly in shadow, restrained posture
+      anonymous_centurion_silhouette: >-
+        the silhouette of a Roman centurion standing alone, helmet under
+        one arm, back to the viewer, looking toward the horizon
+      none: ""
+
+    image_prompt_template: |
+      Create a cinematic vertical 9:16 image for a video about {theme},
+      in the spirit of {author}.
+
+      In the foreground, {figure}. The setting is {background}. The light
+      is severe and disciplined. Restrained colors, weathered surfaces,
+      ancient atmosphere. Leave dark negative space in the upper third for
+      captions.
+
+      Style: painterly realism, cinematic lighting, textured marble and
+      stone, historical atmosphere, serious and masculine, not cartoonish,
+      not glossy, not fantasy.
+
+    negative_prompt: >-
+      modern objects, modern clothing, text, watermark, logo, fantasy
+      armor, exaggerated muscles, neon lighting, glossy AI render,
+      smiling face, influencer pose, extra fingers, distorted face, anime,
+      cartoon
+
+  # -----------------------------------------------------------------------
+  ancient_greece:
+    description: >-
+      Greek temples above the sea, agora in shadow, classical figures,
+      sun-bleached stone, olive groves, parchment scrolls.
+    mood:
+      - contemplative
+      - sunlit
+      - dialectical
+      - austere
+      - calm
+    palette:
+      - sun-bleached white stone
+      - deep Aegean blue
+      - olive grove green
+      - terracotta
+      - parchment cream
+      - deep classical shadow
+    motifs:
+      - doric columns
+      - marble agora
+      - olive trees
+      - sea horizon
+      - draped robes
+      - philosopher silhouettes
+      - parchment scrolls
+      - broken vases
+    common_overlays:
+      - sea_haze
+      - sun_glare
+      - soft_grain
+      - drifting_dust
+    recommended_motion_profiles:
+      - static
+      - slow_pan
+      - slow_zoom
+    suitable_series:
+      - socratic_questions
+      - stoic_practice
+    suitable_authors:
+      - Socrates
+      - Plato
+      - Epictetus
+      - Heraclitus
+      - Diogenes
+      - Aristotle
+
+    background_prompts:
+      temple_above_sea: >-
+        a Greek temple of weathered white stone perched on a cliff above
+        the Aegean Sea, sun-bleached columns, deep blue water below
+      sun_bleached_agora: >-
+        the empty marble floor of an ancient Greek agora at midday,
+        long shadows, broken columns, a distant temple
+      olive_grove_dusk: >-
+        an ancient olive grove at dusk, knotted trunks, silver leaves,
+        warm slanting light through dust
+      marble_steps_classical: >-
+        the wide marble steps of a classical Greek temple, sun-bleached
+        and weathered, deep shadow in the doorway
+      broken_amphora_shore: >-
+        a broken terracotta amphora half-buried in sand at the edge of
+        the Aegean, calm sea, sun-bleached driftwood
+      plato_examined_life: >-
+        the Athenian agora at dusk, marble columns silhouetted against a
+        fading violet sky, a distant Acropolis on the hill, contemplative
+        philosophical atmosphere
+      epictetus_control_vineyard: >-
+        a Mediterranean hillside vineyard at golden hour, terraced fields
+        with dry stone walls, weathered tools at the edge of a path,
+        distant sea, disciplined ancient pastoral atmosphere
+      aristotle_habit_coast: >-
+        an olive grove on a Mediterranean coastline at golden hour, knotted
+        trees, dappled light on a worn stone path leading down to the sea,
+        ancient pastoral atmosphere
+      plato_inner_order_temple: >-
+        the interior of an ancient Greek temple at dusk, tall fluted marble
+        columns aligned in deep shadow, a single shaft of cold light from
+        above, severe philosophical atmosphere
+      homer_return_home_ships: >-
+        Bronze-age Greek long ships resting on a dark shoreline at dawn,
+        prows facing the sea, low mist over the water, distant cliffs,
+        epic and elegiac atmosphere
+      ithaca_homecoming_path: >-
+        an ancient stone path through olive groves at golden hour,
+        leading toward a distant Doric temple above the sea, rugged
+        Mediterranean landscape, atmosphere of homecoming
+      woman_on_city_walls: >-
+        a noblewoman in dark robes seen from behind, standing on
+        weathered city walls overlooking a Mediterranean coastal city
+        at dusk, distant ships in harbor, atmosphere of vigil and grief
+      woman_at_balcony_sea: >-
+        a young woman in pale flowing robes seated at a tall stone
+        balcony window, looking out at a distant Mediterranean city
+        and sea at dawn, atmosphere of longing and waiting
+
+    figure_prompts:
+      epictetus_in_shadow: >-
+        the silhouette of Epictetus in worn robes, partly in shadow at
+        the edge of a marble portico, weathered features, calm
+      socrates_at_agora: >-
+        Socrates standing in the agora, plain robe, bare feet, gesturing
+        with one hand, face thoughtful and direct
+      robed_philosopher_silhouette: >-
+        the silhouette of a robed Greek philosopher with his back to the
+        viewer, looking toward the sea
+      none: ""
+
+    image_prompt_template: |
+      Create a cinematic vertical 9:16 image for a video about {theme},
+      in the spirit of {author}.
+
+      In the foreground, {figure}. The setting is {background}. The light
+      is calm, austere, and classical. Sun-bleached stone, deep shadow,
+      Aegean atmosphere. Leave dark negative space in the upper third for
+      captions.
+
+      Style: painterly realism, cinematic lighting, textured weathered
+      stone, classical historical atmosphere, serious and dignified, not
+      cartoonish, not glossy, not fantasy.
+
+    negative_prompt: >-
+      modern objects, modern clothing, text, watermark, logo, fantasy
+      armor, exaggerated muscles, neon lighting, glossy AI render,
+      smiling influencer, extra fingers, distorted face, anime, cartoon
+
+  # -----------------------------------------------------------------------
+  literary_dark:
+    description: >-
+      Candlelit desks, leather-bound books, rain on glass, manuscript
+      pages. Interior, quiet, weighty, restrained, melancholic.
+    mood:
+      - interior
+      - quiet
+      - weighty
+      - restrained
+      - melancholic
+      - focused
+    palette:
+      - deep ink black
+      - candle amber
+      - ox-blood red
+      - parchment cream
+      - walnut brown
+      - rain-grey
+    motifs:
+      - wax candles
+      - leather-bound books
+      - manuscript pages
+      - ink wells
+      - quill pens
+      - rain on glass
+      - oil lamps
+      - wooden desks
+    common_overlays:
+      - rain_streaks
+      - candle_flicker
+      - subtle_grain
+      - paper_texture
+    recommended_motion_profiles:
+      - static
+      - slow_pan
+    suitable_series:
+      - literary_dark
+    suitable_authors:
+      - Dostoevsky
+      - Tolstoy
+      - Camus
+      - Pascal
+      - Kierkegaard
+      - Solzhenitsyn
+
+    background_prompts:
+      candlelit_desk_rain: >-
+        a wooden writing desk by a tall window with rain on the glass,
+        single candle, leather-bound books stacked to one side, deep
+        shadow in the room
+      open_book_lamplight: >-
+        an open leather-bound book on a dark wooden desk under the warm
+        circle of an oil lamp, surrounding darkness
+      manuscript_pages_drift: >-
+        loose manuscript pages scattered across a dark desk, ink well and
+        quill at the edge, candle burning low
+      dark_study_window: >-
+        a dim study seen from across the room, lamplight reflecting in
+        rain-streaked windows, walls lined with bookshelves in deep shadow
+      rain_on_window_pane: >-
+        an interior view of rain streaming down a tall paned window at
+        night, candlelight glinting on the glass
+      homer_anger_storm: >-
+        a heavy storm gathering over a dark Aegean sea at dusk, towering
+        thunderheads, a bronze warrior's helmet half-buried on a wet sand
+        beach in the foreground, tragic and epic atmosphere
+      homer_bear_wreck_harbor: >-
+        a small ancient harbor at dawn after a storm, broken wooden masts
+        and tangled rigging at the waterline, dark sea, distant rocky
+        cliffs, melancholy weathered atmosphere
+
+    figure_prompts:
+      writer_at_desk_silhouette: >-
+        the silhouette of a writer hunched at a desk, head bowed, pen in
+        hand, only the side of the face caught by lamplight
+      hand_with_quill: >-
+        a single weathered hand holding a quill above an open manuscript,
+        ink-stained fingers, warm lamplight
+      none: ""
+
+    image_prompt_template: |
+      Create a cinematic vertical 9:16 image for a video about {theme},
+      in the spirit of {author}.
+
+      {figure} The scene is {background}. The light is warm, low, and
+      interior — candle and lamp. Deep surrounding shadow. Leave dark
+      negative space in the upper third for captions.
+
+      Style: painterly realism, chiaroscuro lighting, textured paper and
+      wood and leather, restrained colors, literary and weighty, serious,
+      not cartoonish, not glossy, not fantasy.
+
+    negative_prompt: >-
+      modern objects, modern electronics, text, watermark, logo, neon,
+      glossy AI render, smiling face, influencer pose, extra fingers,
+      distorted face, anime, cartoon
+
+  # -----------------------------------------------------------------------
+  field_notes:
+    description: >-
+      Forests, mountains, weather, recovering land. No human figure.
+      Observational, elemental, patient.
+    mood:
+      - observational
+      - patient
+      - weathered
+      - elemental
+      - quiet
+    palette:
+      - pine green
+      - ash grey
+      - ridge brown
+      - bone white
+      - low sky blue
+      - peat black
+      - frost silver
+    motifs:
+      - burned trees regrowing
+      - mist on ridges
+      - recovering forest floor
+      - river stones
+      - animal tracks
+      - weathered rock
+      - frost
+      - low fog
+    common_overlays:
+      - drifting_ash
+      - low_fog
+      - soft_grain
+      - light_rain
+    recommended_motion_profiles:
+      - slow_pan
+      - static
+      - slow_zoom
+    suitable_series:
+      - field_notes
+    suitable_authors: []   # field_notes pieces have no author attribution
+
+    background_prompts:
+      burned_ridge_recovering: >-
+        a mountain ridge a year after fire — black trunks still standing,
+        new green ground cover pushing up between them, low morning light
+      foggy_morning_ridge: >-
+        a forested ridge in heavy morning fog, the trees softened to
+        silhouettes, no human presence
+      river_stones_dawn: >-
+        smooth river stones at the edge of a slow-moving stream at dawn,
+        fine mist over the water, weathered banks
+      frost_on_pines: >-
+        pine boughs heavy with frost, low blue light, the forest floor
+        white and still
+      recovering_forest_floor: >-
+        a close patch of recovering forest floor — moss, new shoots,
+        fallen burned twigs, soft directional light
+
+    figure_prompts:
+      none: ""
+
+    image_prompt_template: |
+      Create a cinematic vertical 9:16 image for a field-notes piece about
+      {theme}. No human figure.
+
+      The scene is {background}. The light is weathered, elemental, and
+      patient. Restrained colors, atmospheric depth, subtle background
+      detail. Leave dark negative space in the upper third for captions.
+
+      Style: painterly realism, cinematic natural lighting, textured
+      natural surfaces, observational atmosphere, quiet, not cartoonish,
+      not glossy, not fantasy.
+
+    negative_prompt: >-
+      people, human figure, faces, modern objects, text, watermark, logo,
+      neon, glossy AI render, anime, cartoon, fantasy creatures
+
+  # -----------------------------------------------------------------------
+  mythic:
+    description: >-
+      Bronze-age warriors, ancient shorelines, wind-scoured ridges, and
+      camp-fire embers. Heroic but grounded — for Homer, Beowulf, the
+      Iliad-Odyssey lineage. Not fantasy armor, not exaggerated muscles.
+    mood:
+      - severe
+      - heroic
+      - mournful
+      - elemental
+      - weathered
+      - epic
+    palette:
+      - bronze
+      - storm-cloud charcoal
+      - cold sea blue
+      - ash grey
+      - banked ember orange
+      - weathered leather brown
+    motifs:
+      - bronze helmets and shields
+      - long ships on dark shores
+      - extinguished campfires
+      - wind-scoured ridges
+      - cliffs above grey seas
+      - cracked stone cairns
+    common_overlays:
+      - drifting_ash
+      - storm_haze
+      - subtle_grain
+      - sea_spray
+    recommended_motion_profiles:
+      - static
+      - slow_zoom
+      - slow_pan
+    suitable_series:
+      - hard_truths_for_men
+    suitable_authors:
+      - Homer
+      - Hesiod
+      - the Beowulf poet
+
+    background_prompts:
+      # Iliad
+      war_camp_fire_meadow: >-
+        an empty Bronze-age war camp at dawn, extinguished fire pits,
+        scattered weapons on bare ground, a single bronze helmet upturned
+        beside the fire, distant snow-capped mountains, mythic and
+        mournful atmosphere
+      greek_ship_storm: >-
+        an ancient Greek sailing ship caught in towering stormy waves at
+        sea, dramatic god-light through breaking clouds, mythic and
+        elemental atmosphere
+      hector_city_gates: >-
+        the towering bronze-age walls of an ancient city at sunset, the
+        gate yawning open, a warrior in worn bronze armor walking through
+        with his cloaked wife and small child at his side, weeping but
+        proud, severe and elegiac atmosphere
+      priam_in_tent: >-
+        the interior of a Bronze-age war commander's tent at night, a
+        single oil lamp casting warm shadows on hanging cloth and a low
+        table, an old king kneeling before a seated warrior, atmosphere
+        of grief, mercy, and weighted silence
+
+      # Odyssey
+      polyphemus_cave: >-
+        a narrow rocky canyon at night with a glowing cave mouth at the
+        bottom, two small figures and a flock of sheep nearby, low
+        firelight inside the cave, severe and mythic atmosphere
+      sea_cave_entrance: >-
+        the dramatic view from inside a vast sea cave looking out toward
+        the open sea, the moon visible through the rocky opening, dark
+        waves on glistening rocks, weathered and elemental atmosphere
+      calypso_island_twilight: >-
+        a solitary stone cottage on an island shore at twilight, glowing
+        windows, grass path leading toward the sea, distant tree-lined
+        coast, mythic and longing atmosphere
+      penelope_by_window: >-
+        a woman in flowing ancient Greek robes seated quietly by a wide
+        window in a dim stone interior, oil lamp on a small table beside
+        her, sea visible in the distance through the window, atmosphere
+        of patient grief and waiting
+      bow_in_great_hall: >-
+        an ornate ancient bow with arrows resting on the polished stone
+        floor of a vast candlelit ancient hall, low ottoman beside it,
+        chandeliers and tall columns, atmosphere of return and judgement
+      ithaca_dawn_cliffs: >-
+        rugged Mediterranean cliffs at dawn with olive trees, an ancient
+        stone village clinging to the rocks above the sea, golden light,
+        homecoming atmosphere
+      odysseus_shoreline: >-
+        a cloaked figure standing on a cliff edge looking out over a dark
+        sea at sunset, distant rocky islets, weathered and still
+      odysseus_shoreline_dawn: >-
+        a cloaked figure on rocky cliffs at dawn, dramatic sky with
+        shafts of cold light through clouds, churning sea below,
+        epic and weathered atmosphere
+      boat_on_shore_sunset: >-
+        a single small wooden fishing boat on calm sandy beach at sunset,
+        a distant ship on the horizon, mythic and quiet atmosphere
+      underworld_shoreline: >-
+        a misty grey shoreline at dusk, the ruins of a stone gateway in
+        the distance reflected in still dark water, atmosphere of
+        confronting the dead
+      crossing_river_of_dead: >-
+        a dark Stygian river at night with a small boat rowed by a
+        cloaked ferryman, pale figures on the banks, dim moonlight,
+        atmosphere of crossing into the dead
+
+      # Iliad / Trojan war additions
+      hero_overlooking_camp: >-
+        a Bronze-age warrior hero seen from behind on a cliff at dusk,
+        looking down over a vast beached fleet and tented Greek camp,
+        weathered armor, atmospheric storm light
+      greek_camp_at_troy: >-
+        a panoramic Bronze-age Greek encampment on the shore beneath
+        distant walled Troy at dawn, beached longships, scattered fires,
+        thousands of small figures, epic atmosphere
+      warrior_at_city_gates: >-
+        a young Bronze-age warrior in bronze armor standing at a tall
+        weathered city gate at sunset, helmet in hand, weary, severe
+        and tender atmosphere
+      old_king_in_palace: >-
+        an old king seated in a dim stone throne room, single brazier
+        and oil lamp, ornate tapestries in shadow, weight of grief,
+        weathered noble atmosphere
+      war_tent_at_sunset: >-
+        the interior of a Bronze-age war commander's tent at sunset,
+        bronze helmet and armor laid on dark cloth, ships visible
+        through the open tent flap, quiet weighted atmosphere
+      troy_walls_storm: >-
+        massive fortified Bronze-age city walls under a dark stormy
+        sky, a broken wooden wagon wheel in the muddy foreground,
+        bleak post-battle atmosphere
+      warrior_grieving_campfire: >-
+        a Bronze-age warrior sitting alone at a campfire at night,
+        head bowed, armor scattered, distant ships at the shore,
+        atmosphere of grief and exhaustion
+      battlefield_aftermath: >-
+        a muddy battlefield at dawn, broken shield and spear in the
+        foreground, walled city in the distance, shafts of cold light
+        through clouds, atmosphere of cost
+
+      # Odyssey additions
+      polyphemus_cave_men_interior: >-
+        the interior of a vast dim cave with the looming shadow of
+        the Cyclops at the back, men huddled in the foreground around
+        a single torch, sheep on rocky ground, mythic and severe
+      polyphemus_cave_with_torch: >-
+        a tall narrow cave with the Cyclops standing in dim light at
+        the back, Odysseus in the foreground with a torch, sheep
+        between, mythic and tense atmosphere
+      polyphemus_cave_torchbearer: >-
+        the view down into a deep stone cave, a torch-bearer leading
+        sheep past silent figures, looming dim cyclops shape behind,
+        mythic and tense atmosphere
+      odysseus_facing_sunset: >-
+        a cloaked Bronze-age figure seen from behind standing on a
+        rocky shore at sunset, distant island, golden light on rough
+        sea, contemplative atmosphere
+      oar_on_beach_sunset: >-
+        a single weathered wooden oar lying alone in the wet sand at
+        the edge of the sea at sunset, a distant ancient ship on the
+        horizon, mythic and prophetic atmosphere
+      penelope_at_loom: >-
+        an ancient Greek woman seated at a tall wooden loom by a
+        moonlit window, the sea visible through the window, single
+        oil lamp on a small table, atmosphere of patient grief
+      ship_in_lightning_storm: >-
+        an ancient Greek sailing ship caught in a violent storm at
+        sea, lightning splitting dark clouds, towering waves, figures
+        struggling at the rigging, severe and elemental
+      odysseus_olive_bed: >-
+        a rough wooden bed built around the living trunk of an olive
+        tree in a stone-walled bedchamber at dawn, soft light through
+        linen curtains, atmosphere of homecoming and faithful memory
+      eumaeus_cottage_twilight: >-
+        a small stone cottage on an island path at twilight, glowing
+        doorway, garden with vines, distant sunset over the sea,
+        humble and welcoming atmosphere
+
+      # Beowulf / generic mythic
+      beowulf_warrior_cave: >-
+        a lone figure walking toward the tall narrow mouth of a cave in
+        a stark northern landscape, golden light pouring through the
+        opening, mist and rock, severe and mythic atmosphere
+      lone_ship_dark_shore: >-
+        a single Bronze-age long ship pulled up on a dark windswept shore
+        at dusk, low storm light, no figures, mythic atmosphere
+      cairn_on_ridge: >-
+        a weathered stone cairn on a wind-scoured ridge above a grey sea,
+        cold morning light, mythic mournful atmosphere
+
+    figure_prompts:
+      none: ""
+      warrior_silhouette: >-
+        the silhouette of a Bronze-age warrior in worn cloak and bronze
+        helmet seen from behind, looking out toward a grey sea, weathered
+        and still
+
+    image_prompt_template: |
+      Create a cinematic vertical 9:16 image for a mythic-tradition piece
+      about {theme}, in the spirit of {author}.
+
+      In the foreground, {figure}. The setting is {background}. The light
+      is severe, elemental, and weathered. Restrained bronze and storm
+      colors, no fantasy elements. Leave dark negative space in the upper
+      third for captions.
+
+      Style: painterly realism, cinematic lighting, weathered bronze and
+      stone, epic but grounded atmosphere, not cartoonish, not glossy,
+      not fantasy armor.
+
+    negative_prompt: >-
+      fantasy armor, exaggerated muscles, modern clothing, text, watermark,
+      logo, neon, glossy AI render, smiling face, influencer pose, dragons,
+      elves, orcs, anime, cartoon, distorted face, extra fingers

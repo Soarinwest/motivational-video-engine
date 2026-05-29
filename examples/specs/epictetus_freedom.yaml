@@ -1,0 +1,27 @@
+id: epictetus_freedom_001
+series: stoic_practice
+author: Epictetus
+theme: inner-freedom
+duration_seconds: 30
+message: Freedom is not the absence of constraint. It is the right relationship to what you cannot control.
+hook: A slave taught Rome what freedom is.
+voiceover: "A slave taught Rome what freedom is.\nEpictetus was lame, owned, and exiled \u2014\nand he told the empire's free\
+  \ men they were captives of their own appetites.\nFreedom, he said, is not the absence of constraint.\nIt is the right relationship\
+  \ to what you cannot control.\nDrop what is not yours. Carry only what is.\n"
+final_line: That is the only freedom no one can take.
+visual:
+  world: ancient_greece
+  background_prompt_key: temple_above_sea
+  figure_prompt_key: epictetus_in_shadow
+  motion_profile: figure_pan
+  overlays:
+  - sea_haze
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: classical_male
+  music_profile: ambient_low
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

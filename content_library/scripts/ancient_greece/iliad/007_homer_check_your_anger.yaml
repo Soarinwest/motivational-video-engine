@@ -1,0 +1,40 @@
+script_id: 007_homer_check_your_anger
+arc_id: ancient_greece_iliad
+region: ancient_greece
+quote_source_id: homer_iliad_end_quarrel
+
+title: "The Quarrel"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: bm_lewis
+music: low_strings
+visual_world: war
+visual_motif: "empty war camp, extinguished fire"
+caption_style: slow_reveal_captions
+
+script: |
+  In the Iliad, Nestor pleads for peace between Agamemnon and Achilles:
+
+  "End this quarrel with Achilles."
+
+  He is not asking them to become weak.
+  He is asking them to see consequence before consequence arrives.
+
+  Some conflicts are not worth the victory.
+  Some arguments become storms because no one will step back first.
+
+  Honor without restraint becomes hunger.
+  Pride without wisdom becomes damage.
+
+  Win yourself before you try to win the room.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: Samuel Butler
+  source_url: "https://www.gutenberg.org/ebooks/2199"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: ""

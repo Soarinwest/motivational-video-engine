@@ -1,0 +1,47 @@
+id: epictetus_control_001
+series: stoic_practice
+author: Epictetus
+theme: self-command
+duration_seconds: 30
+message: 'Epictetus begins the Enchiridion with a clean division:'
+hook: 'Epictetus begins the Enchiridion with a clean division:'
+voiceover: 'Epictetus begins the Enchiridion with a clean division:
+
+
+  "Some things are in our control and others not."
+
+
+  This means your first task is not to control the world.
+
+  It is to stop surrendering command of yourself.
+
+
+  Your opinion.
+
+  Your desire.
+
+  Your refusal.
+
+  Your next action.
+
+
+  Those are yours.
+
+
+  Do not waste your strength arguing with what was never yours to command.'
+final_line: Do not waste your strength arguing with what was never yours to command.
+visual:
+  world: ancient_greece
+  background_prompt_key: epictetus_control_vineyard
+  figure_prompt_key: none
+  motion_profile: slow_zoom
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: low_steady_male
+  music_profile: ambient_strings_low
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

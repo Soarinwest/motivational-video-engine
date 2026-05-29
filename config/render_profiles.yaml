@@ -1,0 +1,19 @@
+# Render presets. A content spec's `render` block can be filled by hand or
+# (later) reference one of these by name.
+
+profiles:
+  vertical_short:
+    description: Default short-form vertical (TikTok / Reels / Shorts).
+    resolution: 1080x1920
+    fps: 30
+    format: mp4
+  vertical_short_60fps:
+    description: Same as vertical_short, 60fps for smoother motion.
+    resolution: 1080x1920
+    fps: 60
+    format: mp4
+  vertical_short_cinematic:
+    description: 24fps for a more cinematic, less video-like feel.
+    resolution: 1080x1920
+    fps: 24
+    format: mp4

@@ -1,0 +1,41 @@
+script_id: 009_homer_bear_the_wreck
+arc_id: ancient_greece_odyssey
+region: ancient_greece
+quote_source_id: homer_odyssey_bear_it
+
+title: "Bearing the Wreck"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: am_michael
+music: somber_cinematic
+visual_world: mythic
+visual_motif: "broken mast, dark sea, dawn line"
+caption_style: sharp_white_text
+
+script: |
+  Odysseus says in the Odyssey:
+
+  "If some god wrecks me when I am on the sea, I will bear it and make the best of it."
+
+  This is not optimism.
+  It is endurance without theatre.
+
+  He does not pretend the sea is gentle.
+  He does not pretend fate is fair.
+  He simply refuses to collapse before the storm arrives.
+
+  There is dignity in meeting hardship plainly.
+
+  Do not worship the wreck.
+  Row through it.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: Samuel Butler
+  source_url: "https://www.gutenberg.org/ebooks/1727"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: ""

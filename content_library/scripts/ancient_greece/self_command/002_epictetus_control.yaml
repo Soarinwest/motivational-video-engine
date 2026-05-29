@@ -1,0 +1,41 @@
+script_id: 002_epictetus_control
+arc_id: ancient_greece_self_command
+region: ancient_greece
+quote_source_id: epictetus_enchiridion_control_first_rule
+
+title: "What Is Yours"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: am_michael
+music: low_strings
+visual_world: ancient_greece
+visual_motif: "stone road, hand opening and closing over dust"
+caption_style: clean_white_caps_centered
+
+script: |
+  Epictetus begins the Enchiridion with a clean division:
+
+  "Some things are in our control and others not."
+
+  This means your first task is not to control the world.
+  It is to stop surrendering command of yourself.
+
+  Your opinion.
+  Your desire.
+  Your refusal.
+  Your next action.
+
+  Those are yours.
+
+  Do not waste your strength arguing with what was never yours to command.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: Elizabeth Carter
+  source_url: "https://classics.mit.edu/Epictetus/epicench.html"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: ""

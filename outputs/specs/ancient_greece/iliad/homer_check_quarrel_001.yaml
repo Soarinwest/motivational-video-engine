@@ -1,0 +1,45 @@
+id: homer_check_quarrel_001
+series: literary_dark
+author: Homer
+theme: restraint
+duration_seconds: 30
+message: 'In the Iliad, Nestor pleads for peace between Agamemnon and Achilles:'
+hook: 'In the Iliad, Nestor pleads for peace between Agamemnon and Achilles:'
+voiceover: 'In the Iliad, Nestor pleads for peace between Agamemnon and Achilles:
+
+
+  "End this quarrel with Achilles."
+
+
+  He is not asking them to become weak.
+
+  He is asking them to see consequence before consequence arrives.
+
+
+  Some conflicts are not worth the victory.
+
+  Some arguments become storms because no one will step back first.
+
+
+  Honor without restraint becomes hunger.
+
+  Pride without wisdom becomes damage.
+
+
+  Win yourself before you try to win the room.'
+final_line: Win yourself before you try to win the room.
+visual:
+  world: mythic
+  background_prompt_key: war_camp_fire_meadow
+  figure_prompt_key: none
+  motion_profile: medium_pan
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: literary_male
+  music_profile: ambient_strings_low
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

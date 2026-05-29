@@ -1,0 +1,32 @@
+# Voice profiles. A content spec's audio.voice_profile must match a key here.
+# voice_id, lang_code, and speed are tuned per voice — auditioned via
+# tests/audition_kokoro_voices.py.
+
+voices:
+
+  low_steady_male:
+    description: >-
+      Modern hard-truth voice. The default narrator. Direct, calm,
+      contemporary — for pieces where the message is plainly stated.
+    tts_provider: kokoro
+    voice_id: am_michael
+    lang_code: a       # American English
+    speed: 0.92
+
+  classical_male:
+    description: >-
+      Classical Stoic / ancient-wisdom voice. British, measured, slightly
+      ceremonial. For Stoic practice, Socratic dialogue, ancient sources.
+    tts_provider: kokoro
+    voice_id: bm_george
+    lang_code: b       # British English
+    speed: 0.88
+
+  literary_male:
+    description: >-
+      Literary, reflective, field-notes voice. British, restrained,
+      slightly melancholic. For literary_dark and observational pieces.
+    tts_provider: kokoro
+    voice_id: bm_lewis
+    lang_code: b       # British English
+    speed: 0.88

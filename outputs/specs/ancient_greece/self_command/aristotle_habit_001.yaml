@@ -1,0 +1,44 @@
+id: aristotle_habit_001
+series: socratic_questions
+author: Aristotle
+theme: habit
+duration_seconds: 30
+message: 'Aristotle, in the Nicomachean Ethics, does not treat virtue as a mood:'
+hook: 'Aristotle, in the Nicomachean Ethics, does not treat virtue as a mood:'
+voiceover: 'Aristotle, in the Nicomachean Ethics, does not treat virtue as a mood:
+
+
+  "Moral virtue comes about as a result of habit."
+
+
+  This means character is not what you claim under calm conditions.
+
+  It is what repeated action has made automatic.
+
+
+  You become just by doing justice.
+
+  Disciplined by practicing restraint.
+
+  Brave by meeting fear.
+
+
+  Do not ask what kind of person you are.
+
+  Watch what you repeatedly do.'
+final_line: Watch what you repeatedly do.
+visual:
+  world: ancient_greece
+  background_prompt_key: aristotle_habit_coast
+  figure_prompt_key: none
+  motion_profile: slow_pan
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: classical_male
+  music_profile: soft_lyre_ambient
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

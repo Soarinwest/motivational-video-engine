@@ -1,0 +1,35 @@
+# Field notes — observational, no author, resilience after disturbance.
+id: field_notes_resilience_001
+series: field_notes
+author: null
+theme: resilience
+duration_seconds: 25
+message: A forest after fire is not destroyed. It is starting.
+hook: Walk a burned ridge a year after the fire.
+voiceover: |
+  Walk a burned ridge a year after the fire.
+  The trunks are black. The ground is open.
+  But under the ash, new green is pushing up faster
+  than anywhere else on the mountain.
+  Disturbance is not the end of growth.
+  It is the condition for it.
+final_line: Your hard year is doing the same work.
+
+visual:
+  world: field_notes
+  background_prompt_key: burned_ridge_recovering
+  figure_prompt_key: none
+  motion_profile: slow_pan
+  overlays:
+    - drifting_ash
+  caption_style: sans_quiet
+
+audio:
+  tts_provider: kokoro
+  voice_profile: literary_male
+  music_profile: ambient_low
+
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

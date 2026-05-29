@@ -1,0 +1,46 @@
+id: homer_return_home_001
+series: literary_dark
+author: Homer
+theme: endurance
+duration_seconds: 30
+message: In Homer's Odyssey, Odysseus is offered ease, beauty, and escape.
+hook: In Homer's Odyssey, Odysseus is offered ease, beauty, and escape.
+voiceover: 'In Homer''s Odyssey, Odysseus is offered ease, beauty, and escape.
+
+  Still he says:
+
+
+  "Nevertheless, I want to get home, and can think of nothing else."
+
+
+  This is not comfort speaking.
+
+  It is purpose.
+
+
+  A man can survive storms if he knows what shore he is trying to reach.
+
+  Without that, every pleasure becomes a delay.
+
+
+  Know your home.
+
+  Know your aim.
+
+  Then endure the sea between.'
+final_line: Then endure the sea between.
+visual:
+  world: ancient_greece
+  background_prompt_key: homer_return_home_ships
+  figure_prompt_key: none
+  motion_profile: medium_pan
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: classical_male
+  music_profile: soft_lyre_ambient
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

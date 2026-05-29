@@ -1,0 +1,46 @@
+script_id: 016_homer_penelope_patience
+arc_id: ancient_greece_odyssey
+region: ancient_greece
+quote_source_id: homer_odyssey_penelope_patience
+
+title: "What She Wove and Unwove"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: bm_lewis
+music: low_strings
+visual_world: mythic
+visual_motif: "woman seated by a wide window in a dim stone interior, oil lamp, sea visible through the window"
+caption_style: sparse_centered_captions
+
+script: |
+  Penelope is alone in the great house.
+  Twenty years. Odysseus is gone.
+
+  The suitors crowd her halls every day,
+  demanding she remarry.
+
+  She says yes.
+  After I finish weaving this burial shroud for Laertes.
+
+  She weaves it by day.
+  At night, by lamplight, she pulls every thread out.
+
+  The waiting wife is not a backdrop.
+  She is the second hero of the epic —
+
+  outlasting twenty years by refusing
+  every easy answer they offered her.
+
+  She held the house
+  by holding her own hand back.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: Samuel Butler
+  source_url: "https://www.gutenberg.org/ebooks/1727"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Treat the women_and_war frame carefully. The subject is hers."

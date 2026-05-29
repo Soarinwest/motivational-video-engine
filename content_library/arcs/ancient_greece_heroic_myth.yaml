@@ -1,0 +1,78 @@
+arc_id: ancient_greece_heroic_myth
+region: ancient_greece
+title: "Ancient Greece: The Heroic Myths"
+
+purpose: >
+  The mythic-tradition heroes — Heracles, Theseus, Jason, Perseus,
+  Bellerophon. The labors that test, the monsters that mirror, the
+  wisdom won by surviving what should have killed you. Mythic but
+  grounded: not fantasy, not action — moral instruction by image.
+
+visual_world: mythic
+default_visual_motifs:
+  - "a powerful weary figure carrying a heavy burden up a rocky path at dawn"
+  - "a labyrinth corridor in dim torchlight"
+  - "a Bronze-age warrior facing a coiled serpent at the edge of a pool"
+  - "a single ship rowing across a still sea at dawn"
+  - "winged figure plummeting toward a sunlit sea"
+
+tone:
+  - mythic
+  - severe
+  - elegiac
+  - heroic
+
+themes:
+  - courage
+  - self_command
+  - mortality
+  - honor_service
+  - suffering
+  - homefront_rebuilding
+
+primary_sources:
+  # Most heroic myths live in late compilations rather than primary works.
+  # Sources to add over time:
+  - apollodorus/library.md         # TODO — The Library (Pseudo-Apollodorus)
+  - pindar/odes.md                 # TODO — Pindar's victory odes
+  - ovid/metamorphoses.md          # TODO — Roman, but the canonical source for many myths
+
+primary_source_ids:
+  # All TODO — these source entries don't exist yet
+  - heracles_labors_001                    # the twelve labors, opening
+  - heracles_atonement_001                 # killing his family, the labors as penance
+  - theseus_labyrinth_001                  # the thread, the minotaur
+  - theseus_father_signal_001              # forgetting the white sail
+  - jason_golden_fleece_001                # the long voyage, the help of Medea
+  - perseus_medusa_001                     # the mirror, indirect seeing
+  - bellerophon_pride_001                  # flying too high, the fall
+  - icarus_pride_001                       # already adjacent to olympian_myth arc — may belong there
+  - sisyphus_001                           # if not in existential arc
+  - tantalus_001                           # the curse of perpetual reaching
+
+scripts:
+  # All TODO
+  - 0XX_heracles_labors_atonement
+  - 0XX_theseus_thread_and_father
+  - 0XX_jason_long_voyage
+  - 0XX_perseus_indirect_seeing
+  - 0XX_bellerophon_flying_too_high
+  - 0XX_sisyphus_endurance
+
+publishing_notes: >
+  Pairs with the Odyssey arc — both are about the long endurance
+  of the long return. Heracles and Sisyphus also speak to existential
+  themes (Camus on Sisyphus), so cross-tag accordingly.
+
+  Avoid the fantasy-action trap. These myths are moral instruction
+  by image, not adventure stories. Hercules's labors are the work
+  of atonement, not a power-fantasy.
+
+review_rules:
+  - verify_translation_rights
+  - verify_quote_wording
+  - distinguish_quote_from_interpretation
+  - avoid_fantasy_action_framing
+  - human_review_before_publish
+
+status: drafted

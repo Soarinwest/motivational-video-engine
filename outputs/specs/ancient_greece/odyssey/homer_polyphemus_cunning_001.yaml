@@ -1,0 +1,57 @@
+id: homer_polyphemus_cunning_001
+series: literary_dark
+author: Homer
+theme: self-command
+duration_seconds: 30
+message: Trapped in the Cyclops's cave, Odysseus does the unmanly thing.
+hook: Trapped in the Cyclops's cave, Odysseus does the unmanly thing.
+voiceover: 'Trapped in the Cyclops''s cave, Odysseus does the unmanly thing.
+
+
+  Asked his name, he says:
+
+  "Nobody."
+
+
+  Then he blinds Polyphemus in his sleep
+
+  and escapes under the bellies of the sheep.
+
+
+  He survived by being nobody.
+
+
+  Then, sailing away, he cannot help himself.
+
+  He shouts his real name across the water.
+
+
+  Polyphemus hears it. Calls down a curse.
+
+  And every storm of the next ten years
+
+  begins with a name spoken to the wind.
+
+
+  Cunning saves you.
+
+  Pride sells what cunning bought.
+
+
+  Be nobody first.'
+final_line: Be nobody first.
+visual:
+  world: mythic
+  background_prompt_key: polyphemus_cave
+  figure_prompt_key: none
+  motion_profile: medium_zoom
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: literary_male
+  music_profile: somber_cinematic
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

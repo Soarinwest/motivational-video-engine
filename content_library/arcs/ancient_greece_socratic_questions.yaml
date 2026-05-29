@@ -1,0 +1,75 @@
+arc_id: ancient_greece_socratic_questions
+region: ancient_greece
+title: "Ancient Greece: The Socratic Questions"
+
+purpose: >
+  Socrates the gadfly — the man who asked the questions Athens
+  preferred not to answer, and was killed for it. The arc treats
+  the Apology, the Crito, and the Phaedo as one long meditation on
+  what it costs to live by examination, and what it costs to die
+  for it. Plato wrote it down; Socrates lived it.
+
+visual_world: ancient_greece
+default_visual_motifs:
+  - "Athenian agora at dusk, columns silhouetted against fading sky"
+  - "empty Athenian courtroom, columns in early shadow"
+  - "a sparse prison cell in late afternoon, light through high window"
+  - "olive grove path at golden hour"
+
+tone:
+  - severe
+  - direct
+  - elegiac
+  - philosophical
+
+themes:
+  - self_command
+  - duty
+  - courage
+  - honor_service
+  - mortality
+  - restraint
+
+primary_sources:
+  - plato/apology.md
+  - plato/republic.md     # for the Allegory of the Cave material
+
+primary_source_ids:
+  # Existing
+  - plato_apology_unexamined_life
+  - plato_apology_daily_virtue
+  - plato_apology_speaker_truth
+  - plato_republic_justice_soul
+  - plato_republic_justice_happiness
+  - plato_republic_good_soul_rules
+  # New entries to add (see TODO below)
+  - plato_apology_gadfly_001                 # TODO add to sources/plato/apology.md
+  - plato_apology_better_to_suffer_wrong_001 # TODO
+  - plato_crito_unjust_to_repay_001          # TODO add new sources/plato/crito.md
+  - plato_phaedo_die_well_001                # TODO add new sources/plato/phaedo.md
+  - plato_republic_cave_001                  # TODO
+
+scripts:
+  # Existing already shipped under self_command arc:
+  - 001_plato_examined_life     # shared with self_command — examined life
+  - 004_plato_inner_order       # shared with self_command — inner order
+  # New scripts to write specifically for this arc:
+  - 0XX_plato_the_gadfly                # TODO
+  - 0XX_plato_better_to_suffer_wrong    # TODO
+  - 0XX_plato_crito_refuse_escape       # TODO
+  - 0XX_plato_phaedo_die_well           # TODO
+  - 0XX_plato_cave_allegory             # TODO
+
+publishing_notes: >
+  Best paired with the self_command arc — viewers who liked
+  "examined life" come back for the trial and death sequence.
+  Cave allegory works as the bridge: it explains why Socrates
+  could not unsee what the city refused to see.
+
+review_rules:
+  - verify_translation_rights
+  - verify_quote_wording
+  - distinguish_quote_from_interpretation
+  - human_review_before_publish
+
+status: drafted   # YAML written, scripts not yet

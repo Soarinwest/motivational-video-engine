@@ -1,0 +1,46 @@
+script_id: 017_homer_tiresias_underworld
+arc_id: ancient_greece_odyssey
+region: ancient_greece
+quote_source_id: homer_odyssey_tiresias_underworld
+
+title: "He Went Down to Ask"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: bm_lewis
+music: somber_cinematic
+visual_world: mythic
+visual_motif: "misty grey shoreline at dusk, ruins of a stone gateway reflected in still dark water"
+caption_style: sparse_centered_captions
+
+script: |
+  In Book Eleven, Odysseus rows to the edge of the world.
+
+  He sails to the land of the dead
+  to ask the blind prophet Tiresias the way home.
+
+  Tiresias does not flatter the living.
+
+  He tells Odysseus: yes, you will get back.
+  But the homecoming is not the end.
+
+  You will leave again, inland this time,
+  carrying an oar on your shoulder
+  until a stranger asks why you carry that strange winnowing fan.
+
+  Then you may plant it. Then you may rest.
+
+  Some answers live only on the other side
+  of the threshold you fear to cross.
+
+  And the journey continues past the homecoming.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: Samuel Butler
+  source_url: "https://www.gutenberg.org/ebooks/1727"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: ""

@@ -1,0 +1,42 @@
+script_id: 011_homer_hector_farewell
+arc_id: ancient_greece_iliad
+region: ancient_greece
+quote_source_id: homer_iliad_hector_farewell
+
+title: "Hector at the Gates"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: bm_lewis
+music: somber_cinematic
+visual_world: mythic
+visual_motif: "Bronze-age city gate at sunset, a warrior walking through, his wife and infant beside him"
+caption_style: sparse_centered_captions
+
+script: |
+  In the Iliad, Book VI, Hector says goodbye to his wife and infant son
+  at the gates of Troy.
+
+  The child cries at the bronze helmet —
+  the gleaming crest, the warrior's mask of war.
+
+  So Hector takes it off.
+  He kisses the boy. He prays for him.
+
+  Then he puts the helmet back on
+  and walks toward the man who will kill him.
+
+  Honor is what you do for the people who would still keep you home.
+
+  He set the helmet down.
+  Then he went.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: Samuel Butler
+  source_url: "https://www.gutenberg.org/ebooks/2199"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Verify Book VI line numbers. Treat the women_and_war frame carefully."

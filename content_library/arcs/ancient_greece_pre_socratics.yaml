@@ -1,0 +1,76 @@
+arc_id: ancient_greece_pre_socratics
+region: ancient_greece
+title: "Ancient Greece: The Pre-Socratics"
+
+purpose: >
+  Before Socrates asked what justice was, others asked what anything
+  was. Heraclitus on the river that is never the same. Parmenides on
+  what is and what isn't. Pythagoras on the harmony beneath the noise.
+  Anaximander on the unbounded. These are the first ideas — terse,
+  severe, almost koan-like. Short videos that lean on a single
+  fragment.
+
+visual_world: ancient_greece
+default_visual_motifs:
+  - "a still mountain stream at dawn, light moving on water"
+  - "a single column of cracked marble in a field of dust"
+  - "a starlit night over the Aegean, perfect silence"
+  - "a fire on a hearth at night, watched by no one"
+
+tone:
+  - severe
+  - restrained
+  - elemental
+  - quiet
+
+themes:
+  - self_command
+  - restraint
+  - mortality
+  - nature_resilience
+  - homefront_rebuilding
+
+primary_sources:
+  - heraclitus/fragments.md     # TODO create
+  - parmenides/fragments.md     # TODO create
+  - pythagoras/fragments.md     # TODO create
+  - anaximander/fragments.md    # TODO create
+
+primary_source_ids:
+  # All TODO — Pre-Socratic material survives only in fragments
+  # quoted by later writers (Plato, Aristotle, Sextus Empiricus,
+  # Simplicius). Translations of Diels-Kranz are mostly public domain;
+  # John Burnet's *Early Greek Philosophy* (1892) is the standard
+  # public-domain English source.
+  - heraclitus_river_001                  # "no man steps in the same river twice"
+  - heraclitus_strife_001                 # "war is the father of all things" — frame carefully
+  - heraclitus_hidden_harmony_001         # "the hidden harmony is better than the apparent"
+  - parmenides_what_is_001                # "what is, is"
+  - pythagoras_silence_001                # the five-year silence of new members
+  - anaximander_unbounded_001             # the apeiron as the first principle
+
+scripts:
+  # All TODO
+  - 0XX_heraclitus_same_river
+  - 0XX_heraclitus_hidden_harmony
+  - 0XX_parmenides_what_is
+  - 0XX_pythagoras_first_silence
+
+publishing_notes: >
+  Pre-Socratics work well as the SHORTEST videos in the project —
+  20-25 seconds is plenty. A fragment, a beat, a one-line interpretation.
+  Closer to a koan than to a stoic exhortation.
+
+  Heraclitus's "war is the father of all things" must be framed
+  carefully. He does NOT mean war is good. He means strife — the
+  collision of opposites — is what generates form. Misreading it
+  as militarism is the failure state.
+
+review_rules:
+  - verify_translation_rights
+  - verify_quote_wording
+  - distinguish_quote_from_interpretation
+  - avoid_militarism_misreading
+  - human_review_before_publish
+
+status: drafted

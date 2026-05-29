@@ -1,0 +1,40 @@
+script_id: 004_plato_inner_order
+arc_id: ancient_greece_self_command
+region: ancient_greece
+quote_source_id: plato_republic_justice_soul
+
+title: "Inner Order"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: bm_george
+music: ancient_low_drone
+visual_world: ancient_greece
+visual_motif: "temple columns aligned in shadow"
+caption_style: marble_serif_centered
+
+script: |
+  In Plato's Republic, justice is not only about courts or cities.
+  It is about the soul.
+
+  "Justice is the excellence of the soul."
+
+  This means disorder inside you has consequences outside you.
+  A divided person becomes easy to rule by appetite, fear, or praise.
+
+  Put the inner city in order.
+  Let reason command.
+  Let courage serve.
+  Let desire know its place.
+
+  A disordered soul cannot build a worthy life.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: Benjamin Jowett
+  source_url: "https://www.gutenberg.org/ebooks/1497"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Confirm Book IV wording against Jowett."

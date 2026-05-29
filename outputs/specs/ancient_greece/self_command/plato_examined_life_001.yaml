@@ -1,0 +1,42 @@
+id: plato_examined_life_001
+series: socratic_questions
+author: Plato (Socrates)
+theme: self-command
+duration_seconds: 30
+message: 'Socrates, in Plato''s Apology, gives us one of the hardest lines in philosophy:'
+hook: 'Socrates, in Plato''s Apology, gives us one of the hardest lines in philosophy:'
+voiceover: 'Socrates, in Plato''s Apology, gives us one of the hardest lines in philosophy:
+
+
+  "The life which is unexamined is not worth living."
+
+
+  He is not saying your life must be flawless.
+
+  He is saying you cannot drift forever and call it freedom.
+
+
+  Look at your habits.
+
+  Look at your excuses.
+
+  Look at what you are becoming.
+
+
+  Examine it before life does.'
+final_line: Examine it before life does.
+visual:
+  world: ancient_greece
+  background_prompt_key: plato_examined_life
+  figure_prompt_key: none
+  motion_profile: slow_zoom
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: classical_male
+  music_profile: ambient_low
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

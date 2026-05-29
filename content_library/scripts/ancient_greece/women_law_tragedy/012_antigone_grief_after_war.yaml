@@ -1,0 +1,39 @@
+script_id: 012_antigone_grief_after_war
+arc_id: ancient_greece_women_law_tragedy
+region: ancient_greece
+quote_source_id: sophocles_antigone_grief_sisters
+
+title: "She Knew The Cost"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: bm_lewis
+music: somber_cinematic
+visual_world: ancient_greece
+visual_motif: "two women in a doorway at dawn after a city falls"
+caption_style: sparse_centered_captions
+
+script: |
+  In Sophocles' Antigone, before the burial, before the trial, Antigone tells her sister Ismene plainly what she has already seen:
+
+  "Nothing painful is there, nothing fraught with ruin, no shame, no dishonour, that I have not seen."
+
+  She is not boasting.
+  She is not asking for pity.
+
+  She is naming the cost out loud — and then paying it.
+
+  That is what a survivor does.
+  Catalogue the ruin. Act anyway.
+
+  She knew. She did it anyway.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: F. Storr
+  source_url: "https://classics.mit.edu/Sophocles/antigone.html"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Verify opening dialogue line numbers against chosen Storr or Jebb edition."

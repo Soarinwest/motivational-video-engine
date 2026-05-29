@@ -1,0 +1,39 @@
+script_id: 003_aristotle_habit
+arc_id: ancient_greece_self_command
+region: ancient_greece
+quote_source_id: aristotle_ethics_moral_virtue_habit
+
+title: "Virtue Is Trained"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: bm_george
+music: soft_lyre_ambient
+visual_world: ancient_greece
+visual_motif: "olive grove, repeated footsteps on worn stone"
+caption_style: parchment_lower_third
+
+script: |
+  Aristotle, in the Nicomachean Ethics, does not treat virtue as a mood:
+
+  "Moral virtue comes about as a result of habit."
+
+  This means character is not what you claim under calm conditions.
+  It is what repeated action has made automatic.
+
+  You become just by doing justice.
+  Disciplined by practicing restraint.
+  Brave by meeting fear.
+
+  Do not ask what kind of person you are.
+  Watch what you repeatedly do.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: W. D. Ross
+  source_url: "https://classics.mit.edu/Aristotle/nicomachaen.2.ii.html"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Avoid the Will Durant paraphrase 'we are what we repeatedly do' — not Aristotle."

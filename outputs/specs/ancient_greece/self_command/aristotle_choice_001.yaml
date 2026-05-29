@@ -1,0 +1,47 @@
+id: aristotle_choice_001
+series: stoic_practice
+author: Aristotle
+theme: habit
+duration_seconds: 30
+message: 'Aristotle writes that moral virtues do not simply appear in us by nature:'
+hook: 'Aristotle writes that moral virtues do not simply appear in us by nature:'
+voiceover: 'Aristotle writes that moral virtues do not simply appear in us by nature:
+
+
+  "We are adapted by nature to receive them, and are made perfect by habit."
+
+
+  This means you are not doomed by your first impulse.
+
+  But you are responsible for what you train.
+
+
+  Every repeated act is instruction.
+
+  Every excuse is instruction.
+
+  Every restraint is instruction.
+
+
+  You are always practicing something.
+
+
+  Choose carefully.
+
+  Practice becomes character.'
+final_line: Practice becomes character.
+visual:
+  world: stoic_rome
+  background_prompt_key: aristotle_choice_marble
+  figure_prompt_key: none
+  motion_profile: slow_zoom
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: low_steady_male
+  music_profile: ambient_strings_low
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

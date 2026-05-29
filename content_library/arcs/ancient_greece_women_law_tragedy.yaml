@@ -1,0 +1,55 @@
+arc_id: ancient_greece_women_law_tragedy
+region: ancient_greece
+title: "Ancient Greece: Women, Law, and Tragedy"
+
+purpose: >
+  The third arc. After self-command and the cost of war, turn to
+  the figure of Antigone: a woman who refuses to outsource her
+  conscience. Law versus older law. Survivor's dignity. Grief
+  spoken plainly. Honors women as historical subjects, not as
+  backdrop for men's stories.
+
+visual_world: ancient_greece
+default_visual_motifs:
+  - "woman on temple steps after war, no crowd"
+  - "empty throne room, single shaft of light"
+  - "two women in a doorway at dawn after a city falls"
+
+tone:
+  - severe
+  - mournful
+  - defiant
+  - restrained
+
+themes:
+  - duty
+  - courage
+  - women_and_war
+  - grief
+  - honor_service
+  - homefront_rebuilding
+
+primary_sources:
+  - sophocles/antigone.md
+
+primary_source_ids:
+  - sophocles_antigone_i_deny_not
+  - sophocles_antigone_unwritten_laws
+  - sophocles_antigone_grief_sisters
+
+scripts:
+  - 010_antigone_i_deny_nothing
+  - 011_antigone_unwritten_laws
+  - 012_antigone_grief_after_war
+
+publishing_notes: >
+  Publish after the war arc. Antigone gives the season its closing
+  voice. Treat carefully — see ../03_CONTENT_ETHICS.md on the
+  women_and_war frame. The subject is hers, not ours.
+
+review_rules:
+  - verify_translation_rights
+  - verify_quote_wording
+  - distinguish_quote_from_interpretation
+  - women_and_war_frame_check
+  - human_review_before_publish

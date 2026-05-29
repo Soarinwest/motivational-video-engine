@@ -1,0 +1,81 @@
+arc_id: ancient_greece_greek_tragedy
+region: ancient_greece
+title: "Ancient Greece: The Tragic Stage"
+
+purpose: >
+  Greek tragedy as moral instruction. The collision of human will and
+  consequence — Oedipus chasing the truth that destroys him, Antigone
+  burying her brother against the king's decree, the Trojan women
+  picked over after a city falls. Aeschylus, Sophocles, Euripides.
+  The form Shakespeare and Dostoevsky inherit.
+
+visual_world: ancient_greece
+default_visual_motifs:
+  - "an ancient Greek amphitheater at dusk, empty stone tiers, distant mountains"
+  - "a cracked theater mask on a marble stage, single shaft of cold light"
+  - "a ruined courtyard at dawn, ash drifting, a woman seated alone"
+  - "the walls of a fallen city, smoke, women and children walking away"
+
+tone:
+  - severe
+  - mournful
+  - inevitable
+  - tragic
+
+themes:
+  - mortality
+  - ambition
+  - power_corruption
+  - grief
+  - women_and_war
+  - homefront_rebuilding
+  - duty
+  - honor_service
+
+primary_sources:
+  - sophocles/antigone.md
+  - sophocles/tragedies.md
+  # New sources to add (see TODO):
+  - sophocles/oedipus_rex.md   # TODO create
+  - euripides/trojan_women.md  # TODO create source folder + file
+
+primary_source_ids:
+  # Existing
+  - sophocles_antigone_i_deny_not
+  - sophocles_antigone_unwritten_laws
+  - sophocles_antigone_grief_sisters
+  # New (TODO add entries)
+  - sophocles_oedipus_i_must_know_001
+  - sophocles_oedipus_blind_to_see_001
+  - euripides_trojan_women_hecuba_001
+  - euripides_trojan_women_andromache_001
+  - aeschylus_agamemnon_homecoming_001
+
+scripts:
+  # Existing
+  - 010_antigone_i_deny_nothing
+  # New scripts to write
+  - 0XX_antigone_unwritten_laws         # TODO (source exists)
+  - 0XX_antigone_grief_after_war        # TODO (source exists)
+  - 0XX_oedipus_chasing_truth           # TODO
+  - 0XX_oedipus_blind_to_see            # TODO
+  - 0XX_trojan_women_hecuba             # TODO
+  - 0XX_trojan_women_andromache         # TODO
+  - 0XX_agamemnon_dark_homecoming       # TODO
+
+publishing_notes: >
+  Pairs naturally with the Iliad arc (Trojan Women picks up where the
+  Iliad ends — the city falls, the women are taken). Antigone closes
+  ancient Season 01; Oedipus and the Trojan Women can anchor a later
+  full-tragedy season. Treat the women_and_war frame carefully — the
+  Trojan women are the subject, not the backdrop.
+
+review_rules:
+  - verify_translation_rights
+  - verify_quote_wording
+  - distinguish_quote_from_interpretation
+  - women_and_war_frame_check
+  - cost_test_required
+  - human_review_before_publish
+
+status: drafted

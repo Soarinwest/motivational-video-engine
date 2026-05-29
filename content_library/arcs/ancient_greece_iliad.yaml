@@ -1,0 +1,62 @@
+arc_id: ancient_greece_iliad
+region: ancient_greece
+title: "Ancient Greece: The Iliad"
+
+purpose: >
+  Homer's Iliad as moral instruction: pride and anger as the engines
+  of ruin, duty under cost, mercy at the end of every reason for it,
+  women holding what war breaks. Bronze-age tragedy with modern bite.
+
+visual_world: mythic
+default_visual_motifs:
+  - "storm over Aegean, bronze helmet on sand"
+  - "empty war camp, extinguished fire"
+  - "Bronze-age city gate at sunset with figures walking through"
+  - "interior of a Bronze-age commander's tent at night, single oil lamp"
+
+tone:
+  - severe
+  - cinematic
+  - elegiac
+  - mournful
+
+themes:
+  - power_corruption
+  - restraint
+  - war_and_peace
+  - grief
+  - honor_service
+  - mortality
+  - women_and_war
+
+primary_sources:
+  - homer/iliad.md
+
+primary_source_ids:
+  - homer_iliad_check_anger
+  - homer_iliad_end_quarrel
+  - homer_iliad_order_not_me
+  - homer_iliad_hector_farewell
+  - homer_iliad_priam_mercy
+  - homer_iliad_patroclus_rage
+
+scripts:
+  - 006_homer_anger
+  - 007_homer_check_your_anger
+  - 011_homer_hector_farewell    # TODO write
+  - 012_homer_priam_mercy        # TODO write
+  - 013_homer_patroclus_rage     # TODO write
+
+publishing_notes: >
+  Publish in the order: Book I rage (006), the quarrel (007), then the
+  three Book VI / XVIII / XXIV pieces that show what the rage costs.
+  Always honour the cost. Battle as spectacle without grief is the
+  failure state.
+
+review_rules:
+  - verify_translation_rights
+  - verify_quote_wording
+  - distinguish_quote_from_interpretation
+  - cost_test_required
+  - women_and_war_frame_check
+  - human_review_before_publish

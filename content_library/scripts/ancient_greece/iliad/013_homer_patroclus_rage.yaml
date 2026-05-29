@@ -1,0 +1,45 @@
+script_id: 013_homer_patroclus_rage
+arc_id: ancient_greece_iliad
+region: ancient_greece
+quote_source_id: homer_iliad_patroclus_rage
+
+title: "Grief, Not Honor"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: bm_lewis
+music: somber_cinematic
+visual_world: mythic
+visual_motif: "ancient Greek warship caught in storm, dark sky with shafts of light through clouds"
+caption_style: hard_cut_captions
+
+script: |
+  Achilles will not fight.
+  Not for Agamemnon. Not for the spoils. Not for command.
+
+  He stays in his tent. He sulks.
+  The Greeks die in the surf for it.
+
+  Then word comes:
+  Patroclus is dead. Hector killed him.
+
+  The same man who would not move for an order
+  is on his feet before the messenger finishes.
+
+  Pride kept him in. Grief took him out.
+
+  Some withdrawals only end at a loss
+  the man cannot ignore.
+
+  Not honor.
+  Grief.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: Samuel Butler
+  source_url: "https://www.gutenberg.org/ebooks/2199"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: ""

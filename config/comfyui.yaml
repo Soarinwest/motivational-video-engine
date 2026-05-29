@@ -1,0 +1,35 @@
+# ComfyUI server profiles for the `motive make-images` stage.
+#
+# Each profile binds a local ComfyUI endpoint to a workflow JSON template
+# and the resolution / timeout knobs we pass through. The default profile
+# (named by `default_profile:` below) is used unless --profile is passed.
+#
+# The workflow JSON must be in API format (export from ComfyUI with dev
+# mode enabled, then "Save (API Format)"). The template should include
+# the six tokens listed in config/comfyui_workflow.json — values are
+# substituted before the JSON is parsed.
+
+default_profile: sdxl_local
+
+profiles:
+
+  sdxl_local:
+    description: >-
+      Local SDXL workflow at vertical 9:16. Used for background plates.
+    base_url: http://127.0.0.1:8000
+    workflow_path: config/comfyui_workflow.json
+    width: 1080
+    height: 1920
+    timeout_seconds: 300
+    poll_interval_seconds: 1.5
+
+  # Add more profiles below as workflows accumulate. Examples:
+  #
+  # flux_local:
+  #   description: Local Flux workflow; higher quality, slower.
+  #   base_url: http://127.0.0.1:8188
+  #   workflow_path: config/comfyui_workflow_flux.json
+  #   width: 1080
+  #   height: 1920
+  #   timeout_seconds: 600
+  #   poll_interval_seconds: 2.0
