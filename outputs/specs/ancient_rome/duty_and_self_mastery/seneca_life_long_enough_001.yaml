@@ -1,0 +1,28 @@
+id: seneca_life_long_enough_001
+series: stoic_practice
+author: Seneca (On the Shortness of Life)
+theme: self-command
+duration_seconds: 30
+message: 'In On the Shortness of Life, Seneca opens with the universal complaint, and then inverts it:'
+hook: 'In On the Shortness of Life, Seneca opens with the universal complaint, and then inverts it:'
+voiceover: "In On the Shortness of Life, Seneca opens with the universal complaint, and then inverts it:\n\n\"It is not that\
+  \ we have a short time to live, but that we waste much of it. Life is long enough \u2014 if it were all well invested.\"\
+  \n\nYou do not have too little life.\n\nYou waste too much of the life you have.\n\nTime is not the scarce resource. Attention\
+  \ is.\n\nThe man who attends to his life finds it long enough.\n\nInvest the rest."
+final_line: Invest the rest.
+visual:
+  world: stoic_rome
+  background_prompt_key: seneca_shortness_of_life
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: slow_zoom
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: classical_male
+  music_profile: ambient_strings_low
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

@@ -1,0 +1,66 @@
+script_id: 017_homer_anger_opening
+arc_id: ancient_greece_iliad
+region: ancient_greece
+quote_source_id: homer_iliad_anger_opening
+
+title: "The First Word Is Anger"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: narrator_blend
+music: bardic_invocation
+visual_world: iliad
+visual_motif: "Bronze-age city walls under a dark stormy sky"
+caption_style: marble_serif_centered
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/bardic_invocation/bardic_invocation_kingdom_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "Homeric narrator"
+  role: "epic narrator invoking the Muse"
+
+addressee:
+  name: "Muse"
+  role: "goddess invoked as the source of song at the poem's opening"
+
+scene_context: >
+  The poem's first line. Before any character speaks, the narrator declares
+  the whole epic to be the song of one man's wrath. The Iliad is not the
+  story of the Trojan War. It is the story of Achilles being angry — and what
+  that anger cost everyone else.
+
+script: |
+  The first words of the Iliad are not about glory, courage, or victory.
+
+  The poet invokes the Muse with one subject:
+
+  "Sing, O goddess, the anger of Achilles, son of Peleus, that brought countless ills upon the Achaeans."
+
+  Anger is the first word of Western literature.
+
+  Everything that follows — the quarrel, the withdrawal, the dead friend, the dragged body — is the receipt.
+
+  A great man's anger is rarely his own.
+  It leaks out of his life into the lives of the people who depend on him.
+
+  And what it cost.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: Samuel Butler
+  source_url: "https://www.gutenberg.org/ebooks/2199"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Verify Butler Iliad I.1-7."

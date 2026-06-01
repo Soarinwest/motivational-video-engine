@@ -1,0 +1,53 @@
+id: samurai_restraint_power_under_form_001
+series: literary_dark
+author: project synthesis
+theme: restraint
+duration_seconds: 30
+message: The sword is not the lesson by itself.
+hook: The sword is not the lesson by itself.
+voiceover: 'The sword is not the lesson by itself.
+
+
+  The lesson is form.
+
+
+  How you stand.
+
+  How you breathe.
+
+  How you act before fear makes demands.
+
+
+  Power without form becomes panic.
+
+  Skill without restraint becomes vanity.
+
+  Discipline without humility becomes another mask.
+
+
+  The mature person does not become harmless.
+
+  He becomes governed.
+
+
+  Strength is not enough.
+
+
+  Strength must learn its shape.'
+final_line: Strength must learn its shape.
+visual:
+  world: samurai_zen
+  background_prompt_key: power_under_form
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: static
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: low_steady_male
+  music_profile: temple_drum_and_koto_resolve
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

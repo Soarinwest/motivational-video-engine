@@ -1,0 +1,61 @@
+script_id: 001_marcus_morning_preparation
+arc_id: ancient_rome_stoic_discipline
+region: ancient_rome
+quote_source_id: marcus_meditations_morning_preparation
+
+title: "None Of It Should Surprise You"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: bm_george
+music: ancient_low_drone
+visual_world: stoic_rome
+visual_motif: "Roman forum at first light, empty colonnade"
+caption_style: marble_serif_centered
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/ancient_low_drone/ancient_low_drone_calm_dreamscape_004.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "Marcus Aurelius"
+  role: "emperor writing to himself on campaign"
+
+addressee:
+  name: "himself"
+  role: "a man preparing to meet other people at their worst"
+
+scene_context: >
+  Marcus rehearses the day's difficulty before it arrives — Meditations II.1.
+
+script: |
+  In Meditations Book II, Marcus opens his day with a warning to himself:
+
+  "Begin the morning by saying to thyself, I shall meet with the busybody, the ungrateful, arrogant, deceitful, envious, unsocial."
+
+  He is not bitter.
+  He is rehearsing the friction in advance.
+
+  A man who already saw it coming is not deformed by it when it arrives.
+
+  Today you will meet people at their worst.
+
+  None of it should surprise you.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: George Long
+  source_url: "https://classics.mit.edu/Antoninus/meditations.html"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Verify Long wording for Book II.1."

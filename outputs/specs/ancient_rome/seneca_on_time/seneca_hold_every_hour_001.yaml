@@ -1,0 +1,42 @@
+id: seneca_hold_every_hour_001
+series: stoic_practice
+author: Seneca (Letters)
+theme: self-command
+duration_seconds: 30
+message: 'In his first letter to Lucilius, Seneca writes:'
+hook: 'In his first letter to Lucilius, Seneca writes:'
+voiceover: 'In his first letter to Lucilius, Seneca writes:
+
+
+  "Hold every hour in your grasp. Lay hold of today''s task, and you will not need to depend so much upon tomorrow''s."
+
+
+  Time is not stolen by other people.
+
+
+  It leaks out of every hour you do not consciously hold.
+
+
+  The man who postpones is not waiting.
+
+  He is paying tomorrow with hours he has not yet earned.
+
+
+  Close the hand on the hour.'
+final_line: Close the hand on the hour.
+visual:
+  world: stoic_rome
+  background_prompt_key: seneca_writing_desk
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: slow_zoom
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: classical_male
+  music_profile: ambient_strings_low
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

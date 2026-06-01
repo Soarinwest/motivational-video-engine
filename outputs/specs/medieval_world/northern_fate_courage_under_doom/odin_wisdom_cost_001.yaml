@@ -1,0 +1,29 @@
+id: odin_wisdom_cost_001
+series: literary_dark
+author: "Anonymous (H\xE1vam\xE1l \u2014 Runatal)"
+theme: sacrifice
+duration_seconds: 30
+message: "In the H\xE1vam\xE1l, Odin describes the price he paid for wisdom:"
+hook: "In the H\xE1vam\xE1l, Odin describes the price he paid for wisdom:"
+voiceover: "In the H\xE1vam\xE1l, Odin describes the price he paid for wisdom:\n\n\"I hung on a wind-rocked tree nine whole\
+  \ nights, with a spear wounded, and to Odin offered, myself to myself.\"\n\nWisdom here is not soft.\nIt is not downloaded.\n\
+  It is not given to the comfortable.\n\nTo see more, you usually have to lose something:\npride,\nease,\nillusion,\nsometimes\
+  \ even the person you were.\n\nReal understanding has a price.\n\nIf your knowledge costs you nothing, it may be worth the\
+  \ same."
+final_line: If your knowledge costs you nothing, it may be worth the same.
+visual:
+  world: northern_fate
+  background_prompt_key: odin_wisdom_has_a_cost
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: slow_zoom
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: classical_male
+  music_profile: dark_strings
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

@@ -1,0 +1,70 @@
+script_id: 003_brutus_republic_over_blood
+arc_id: ancient_rome_power_empire_corruption
+region: ancient_rome
+quote_source_id: plutarch_lives_brutus_republic_over_blood
+
+title: "And The Republic Still Died"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: narrator_blend
+music: grief_lament
+visual_world: stoic_rome
+visual_motif: "shadowed Roman chamber, dagger on a marble table, busts of ancestors lining the walls"
+caption_style: sparse_centered_captions
+
+quote_type: narrative_scene
+
+music_asset:
+  local_path: "music/grief_lament/grief_lament_strings_epic_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "Brutus (Marcus Junius Brutus)"
+  role: "Roman senator, descendant of the Brutus who expelled the kings"
+
+addressee:
+  name: "his own conscience"
+  role: "the inner argument between personal loyalty to Caesar and inherited duty to the Republic"
+
+scene_context: >
+  Caesar has made himself dictator for life. Brutus is one of his closest
+  friends — Caesar has called him 'son.' The conspirators recruit Brutus by
+  reminding him that his ancestor expelled the Roman kings five centuries
+  earlier. The question Plutarch poses: will Brutus put personal love above
+  the Republic, or the Republic above personal love?
+
+script: |
+  In Plutarch's Life of Brutus, Caesar has called Brutus his son.
+
+  The conspirators come to Brutus and remind him that his ancestor expelled the kings of Rome five centuries earlier.
+
+  They ask: will you put personal love above the Republic, or the Republic above personal love?
+
+  Brutus chooses the Republic.
+
+  He helps kill the man who loved him.
+
+  And the Republic still died.
+
+  The duty that costs you the most is the one that does not solve the problem.
+
+  Brutus's example is not the simple instruction to do the right thing.
+
+  It is the harder one: do the right thing knowing it will not work.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: John Dryden / Arthur Hugh Clough
+  source_url: "https://www.gutenberg.org/ebooks/674"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Verify Dryden/Clough Brutus 10-12. Treat the assassination as tragedy, not model."

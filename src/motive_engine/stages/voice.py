@@ -74,14 +74,32 @@ def load_voice_profile(
     return VoiceProfile.model_validate(voices[name])
 
 
-def make_kokoro_synthesizer(lang_code: str) -> Synthesizer:
-    """Build a synthesizer backed by Kokoro for a specific language code."""
+def make_kokoro_synthesizer(profile: VoiceProfile) -> Synthesizer:
+    """Build a synthesizer backed by Kokoro for the given voice profile.
+
+    Supports both single-voice profiles (uses `voice_id` string) and blended
+    voice profiles (pre-loads each component's voice tensor, combines them as
+    a normalized weighted sum, and passes the blended tensor to Kokoro).
+    """
     from kokoro import KPipeline  # type: ignore[import-untyped]
 
-    pipeline = KPipeline(lang_code=lang_code)
+    pipeline = KPipeline(lang_code=profile.lang_code)
+
+    if profile.is_blend:
+        tensors = [pipeline.load_voice(c.voice_id) for c in profile.voice_blend]
+        weights = [c.weight for c in profile.voice_blend]
+        total = sum(weights)
+        normalized = [w / total for w in weights]
+        blended = normalized[0] * tensors[0]
+        for w, t in zip(normalized[1:], tensors[1:]):
+            blended = blended + w * t
+        voice_arg: Any = blended
+    else:
+        voice_arg = profile.voice_id
 
     def synth(text: str, voice_id: str, speed: float) -> Iterable[tuple[str, str, Any]]:
-        return pipeline(text, voice=voice_id, speed=speed)
+        # voice_id arg is ignored — the profile-bound voice_arg is used.
+        return pipeline(text, voice=voice_arg, speed=speed)
 
     return synth
 

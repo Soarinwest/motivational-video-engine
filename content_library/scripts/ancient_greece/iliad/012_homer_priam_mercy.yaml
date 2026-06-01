@@ -7,11 +7,35 @@ title: "Priam in the Tent"
 duration_target_seconds: 30
 word_count_target: "65-85"
 
-voice: bm_lewis
-music: low_strings
-visual_world: mythic
+voice: narrator_blend
+music: grief_lament
+visual_world: iliad
 visual_motif: "interior of a Bronze-age commander's tent at night, oil lamp, an old king kneeling before a seated warrior"
 caption_style: sparse_centered_captions
+
+quote_type: narrative_scene
+
+music_asset:
+  local_path: "music/grief_lament/grief_lament_strings_epic_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "Priam"
+  role: "king of Troy, father of Hector"
+
+addressee:
+  name: "Achilles"
+  role: "the warrior who killed his son"
+
+scene_context: >
+  Priam crosses the battlefield at night to beg Achilles for the body of
+  Hector.
 
 script: |
   In Book XXIV of the Iliad, the war is almost over.

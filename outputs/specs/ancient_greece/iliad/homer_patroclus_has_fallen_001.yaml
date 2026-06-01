@@ -1,0 +1,48 @@
+id: homer_patroclus_has_fallen_001
+series: literary_dark
+author: Homer
+theme: grief
+duration_seconds: 30
+message: In Book XVIII of the Iliad, Antilochus runs across the Greek camp to the tent he does not want to enter.
+hook: In Book XVIII of the Iliad, Antilochus runs across the Greek camp to the tent he does not want to enter.
+voiceover: 'In Book XVIII of the Iliad, Antilochus runs across the Greek camp to the tent he does not want to enter.
+
+
+  He delivers six words:
+
+
+  "Patroclus has fallen, and they are fighting around his body."
+
+
+  Achilles has refused embassy, gifts, reason.
+
+
+  Pride could not move him.
+
+  Grief did.
+
+
+  The cost of a man''s pride is paid by the people he loves.
+
+
+  The pride that kept him in the tent could not be moved by any argument.
+
+
+  Only by a corpse.'
+final_line: Only by a corpse.
+visual:
+  world: iliad
+  background_prompt_key: warrior_grieving_campfire
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: slow_pan
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: narrator_blend
+  music_profile: grief_lament
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

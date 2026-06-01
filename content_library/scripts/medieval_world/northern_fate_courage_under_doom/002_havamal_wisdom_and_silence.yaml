@@ -1,0 +1,65 @@
+script_id: 002_havamal_wisdom_and_silence
+arc_id: medieval_world_northern_fate_courage_under_doom
+region: medieval_world
+quote_source_id: havamal_wisdom_and_silence
+
+title: "Wisdom and Silence"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: am_michael
+music: cold_ambient
+visual_world: northern_fate
+visual_motif: "solitary Norse man seated in silence inside a dim timber hall, firelight low"
+caption_style: marble_serif_centered
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/ancient_low_drone/ancient_low_drone_calm_dreamscape_004.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "Odin (gnomic wisdom voice of the Hávamál)"
+  role: "traditional wisdom speaker warning against foolish speech"
+
+addressee:
+  name: "the listener"
+  role: "any person being warned against overconfidence and careless speech"
+
+scene_context: >
+  The Hávamál repeatedly warns against foolishness, overconfidence, careless
+  speech. The wisdom is practical, social, and survival-oriented.
+
+script: |
+  The Hávamál warns against loose certainty:
+
+  "The unwise man thinks that he knows all."
+
+  This is the old lesson.
+  Noise is not wisdom.
+  Boasting is not strength.
+  Speaking first is not the same as seeing clearly.
+
+  A foolish man feels tallest where he is never tested.
+  A wise man learns caution, silence, and measure.
+
+  Do not rush to prove yourself with words.
+
+  Let reality examine you first.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: Olive Bray
+  source_url: "https://en.wikisource.org/wiki/The_Elder_or_Poetic_Edda"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Verify Bray wisdom-stanza wording."

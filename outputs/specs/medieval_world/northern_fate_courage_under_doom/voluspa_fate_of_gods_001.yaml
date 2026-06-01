@@ -1,0 +1,29 @@
+id: voluspa_fate_of_gods_001
+series: literary_dark
+author: "Anonymous (V\xF6lusp\xE1)"
+theme: fate
+duration_seconds: 30
+message: "In the V\xF6lusp\xE1, a seeress speaks to Odin and tells him what even gods must face:"
+hook: "In the V\xF6lusp\xE1, a seeress speaks to Odin and tells him what even gods must face:"
+voiceover: "In the V\xF6lusp\xE1, a seeress speaks to Odin and tells him what even gods must face:\n\n\"Brothers shall fight\
+  \ and fell each other. Hard is it on earth.\"\n\nBrothers will fight.\nThe world will darken.\nWhat is made will break.\n\
+  \nThe northern mind does not promise safety.\nIt does not flatter you with permanence.\n\nIt says: learn to live under fate\
+  \ without becoming small.\n\nThe strong person is not the one who thinks the end cannot come.\n\nIt is the one who stands\
+  \ upright while it approaches."
+final_line: It is the one who stands upright while it approaches.
+visual:
+  world: northern_fate
+  background_prompt_key: voluspa_fate_of_the_gods
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: slow_pan
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: classical_male
+  music_profile: nordic_chant_low
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

@@ -1,0 +1,61 @@
+script_id: 005_seneca_life_long_enough
+arc_id: ancient_rome_duty_and_self_mastery
+region: ancient_rome
+quote_source_id: seneca_shortness_life_long_enough
+
+title: "Invest The Rest"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: bm_george
+music: low_strings
+visual_world: stoic_rome
+visual_motif: "Seneca in a sparse Roman study, scrolls beside him, water clock or sundial nearby, sunlight on marble"
+caption_style: marble_serif_centered
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/low_strings/low_strings_violin_cello_loop_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: ""
+  role: ""
+
+addressee:
+  name: ""
+  role: ""
+
+scene_context: ""
+
+script: |
+  In On the Shortness of Life, Seneca opens with the universal complaint, and then inverts it:
+
+  "It is not that we have a short time to live, but that we waste much of it. Life is long enough — if it were all well invested."
+
+  You do not have too little life.
+
+  You waste too much of the life you have.
+
+  Time is not the scarce resource. Attention is.
+
+  The man who attends to his life finds it long enough.
+
+  Invest the rest.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: Aubrey Stewart
+  source_url: "https://en.wikisource.org/wiki/Of_a_Happy_Life,_etc./On_the_Shortness_of_Life"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Verify Stewart wording for De Brevitate Vitae I.3-4."

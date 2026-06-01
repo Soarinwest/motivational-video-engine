@@ -1,0 +1,68 @@
+script_id: 018_homer_patroclus_has_fallen
+arc_id: ancient_greece_iliad
+region: ancient_greece
+quote_source_id: homer_iliad_patroclus_has_fallen
+
+title: "Around The Body"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: narrator_blend
+music: grief_lament
+visual_world: iliad
+visual_motif: "Bronze-age warrior at a campfire at night, head bowed, distant ships at shore"
+caption_style: sparse_centered_captions
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/grief_lament/grief_lament_strings_epic_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "Antilochus"
+  role: "young Greek warrior, son of Nestor, messenger"
+
+addressee:
+  name: "Achilles"
+  role: "greatest Greek warrior, withdrawn from the war in pride"
+
+scene_context: >
+  Achilles is still in his tent, still refusing to fight, still punishing
+  Agamemnon by withholding himself from the war. Antilochus runs across the
+  camp with news he does not want to deliver. Patroclus wore Achilles's armor
+  into battle and was killed by Hector.
+
+script: |
+  In Book XVIII of the Iliad, Antilochus runs across the Greek camp to the tent he does not want to enter.
+
+  He delivers six words:
+
+  "Patroclus has fallen, and they are fighting around his body."
+
+  Achilles has refused embassy, gifts, reason.
+
+  Pride could not move him.
+  Grief did.
+
+  The cost of a man's pride is paid by the people he loves.
+
+  The pride that kept him in the tent could not be moved by any argument.
+
+  Only by a corpse.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: Samuel Butler
+  source_url: "https://www.gutenberg.org/ebooks/2199"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Verify Butler XVIII.18-21."

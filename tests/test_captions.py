@@ -142,6 +142,24 @@ def test_render_ass_includes_headers_and_styles_and_events() -> None:
 
 def test_render_ass_escapes_newlines_in_text() -> None:
     spec = _spec("marcus_self_command.yaml")
+    # Build a CaptionTrack directly with an embedded \n in the chunk text
+    # (build_caption_track now splits on whitespace and so does not produce
+    # \n-containing chunks, but render_ass's escape behavior must still work
+    # if upstream code ever hands it such a chunk).
+    from motive_engine.stages.captions import CaptionLine, CaptionTrack
+    track = CaptionTrack(
+        spec_id=spec.id,
+        style=spec.visual.caption_style,
+        resolution=spec.render.resolution,
+        lines=[CaptionLine(index=1, start_seconds=0.0, end_seconds=3.0, text="line one\nline two")],
+    )
+    ass = render_ass(track, get_caption_style(spec.visual.caption_style))
+    assert "line one\\Nline two" in ass
+
+
+def test_build_caption_track_chunks_long_lines_to_max_ten_words() -> None:
+    """A single voice line over 10 words is split into multiple caption blocks."""
+    spec = _spec("marcus_self_command.yaml")
     voice_track = VoiceTrack(
         spec_id=spec.id,
         voice_profile="classical_male",
@@ -149,12 +167,22 @@ def test_render_ass_escapes_newlines_in_text() -> None:
         lang_code="b",
         speed=0.88,
         lines=[
-            VoiceLine(index=1, filename="line-001.wav", graphemes="line one\nline two", duration_seconds=3.0),
+            VoiceLine(
+                index=1,
+                filename="line-001.wav",
+                # 14 words; should chunk into 10 + 4
+                graphemes="one two three four five six seven eight nine ten eleven twelve thirteen fourteen",
+                duration_seconds=14.0,
+            ),
         ],
     )
     captions = build_caption_track(spec, voice_track)
-    ass = render_ass(captions, get_caption_style(spec.visual.caption_style))
-    assert "line one\\Nline two" in ass
+    assert len(captions.lines) == 2
+    assert len(captions.lines[0].text.split()) == 10
+    assert len(captions.lines[1].text.split()) == 4
+    # Duration distributed proportionally (10/14 and 4/14 of 14.0s)
+    assert abs(captions.lines[0].end_seconds - captions.lines[0].start_seconds - 10.0) < 0.01
+    assert abs(captions.lines[1].end_seconds - captions.lines[1].start_seconds - 4.0) < 0.01
 
 
 # ---- write_captions end-to-end -------------------------------------------

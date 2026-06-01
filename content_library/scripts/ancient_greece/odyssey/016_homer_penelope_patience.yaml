@@ -7,14 +7,38 @@ title: "What She Wove and Unwove"
 duration_target_seconds: 30
 word_count_target: "65-85"
 
-voice: bm_lewis
-music: low_strings
-visual_world: mythic
+voice: narrator_blend
+music: homecoming_recognition
+visual_world: odyssey
 visual_motif: "woman seated by a wide window in a dim stone interior, oil lamp, sea visible through the window"
 caption_style: sparse_centered_captions
 
+quote_type: narrative_scene
+
+music_asset:
+  local_path: "music/homecoming_recognition/homecoming_recognition_strings_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "Homeric narrator"
+  role: "epic narrator"
+
+addressee:
+  name: "the reader"
+  role: "a reader watching active patience hold a house"
+
+scene_context: >
+  Penelope weaves Laertes's burial shroud by day and unweaves it by night to
+  delay the suitors.
+
 script: |
-  Penelope is alone in the great house.
+  In the Odyssey, Penelope is alone in the great house.
   Twenty years. Odysseus is gone.
 
   The suitors crowd her halls every day,

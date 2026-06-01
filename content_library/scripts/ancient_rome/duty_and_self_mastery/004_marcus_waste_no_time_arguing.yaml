@@ -1,0 +1,61 @@
+script_id: 004_marcus_waste_no_time_arguing
+arc_id: ancient_rome_duty_and_self_mastery
+region: ancient_rome
+quote_source_id: marcus_meditations_waste_no_time_arguing
+
+title: "Be One"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: bm_george
+music: ancient_low_drone
+visual_world: stoic_rome
+visual_motif: "Roman camp at dawn, soldiers and red standards in mist behind a calm severe man"
+caption_style: marble_serif_centered
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/ancient_low_drone/ancient_low_drone_calm_dreamscape_004.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: ""
+  role: ""
+
+addressee:
+  name: ""
+  role: ""
+
+scene_context: ""
+
+script: |
+  In Meditations Book X, Marcus writes one line to himself and then closes the conversation:
+
+  "No longer talk at all about the kind of man that a good man ought to be, but be such."
+
+  Every hour spent characterizing the right kind of man is an hour not spent being one.
+
+  The argument about virtue is not the practice of virtue.
+
+  Stop describing.
+  Stop debating.
+  Stop performing the conversation.
+
+  Be one.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: George Long
+  source_url: "https://classics.mit.edu/Antoninus/meditations.html"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Verify Long wording for Book X.16."

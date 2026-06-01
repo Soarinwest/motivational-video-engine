@@ -2,7 +2,7 @@
 
 Snapshot of what is in `assets/` and what is missing. Pair this with [figures/visual_asset_prompt_library.md](figures/visual_asset_prompt_library.md) for prompt templates and curation rules.
 
-## Backgrounds — 112 assets across 11/14 worlds
+## Backgrounds — 125 assets across 12 worlds
 
 Organized by visual world. Targets are from the prompt-library asset-pack table.
 
@@ -10,14 +10,16 @@ For sorting new drops into `_unsorted/`, see [docs/UNSORTED_ASSETS_RUNBOOK.md](.
 
 | World | Have | Target | Gap |
 |---|---:|---:|---|
-| [stoic_rome/](backgrounds/stoic_rome/) | 11 | 5-10 | Over target — well-stocked |
-| [ancient_greece/](backgrounds/ancient_greece/) | 14 | 5-10 | Over target — well-stocked |
-| [literary_dark/](backgrounds/literary_dark/) | 7 | 5-10 | OK |
+| [stoic_rome/](backgrounds/stoic_rome/) | 37 | 5-10 | Massively over target — 20-PNG Rome arc drop landed (15 subject-in-scene, 5 scene-only). |
+| [ancient_greece/](backgrounds/ancient_greece/) | 10 | 5-10 | OK. Antigone bindings (`antigone_throne_dawn`, `antigone_sisters_doorway`) are registered prompts but **need ComfyUI gen** — old fem assets were renamed and moved to `iliad/`. |
+| [iliad/](backgrounds/iliad/) | 15 | 5-10 | **New world** — split out of `mythic/`. Trojan War assets; includes renamed Helen, Andromache, Achilles. |
+| [odyssey/](backgrounds/odyssey/) | 20 | 5-10 | **New world** — split out of `mythic/`. Sea voyage, islands, caves, looms. |
+| [literary_dark/](backgrounds/literary_dark/) | 5 | 5-10 | OK. Lost 2 Hudson River School orphans that had been miscast as Homer bgs (`homer_anger_storm.jpg` still in place for 006; `homer_bear_wreck_harbor.{jpg,png}` deleted). |
 | [field_notes/](backgrounds/field_notes/) | 7 | 5-10 | OK |
 | [modern_discipline/](backgrounds/modern_discipline/) | 3 | 5-10 | Need 2-7 more |
 | [quiet_strength/](backgrounds/quiet_strength/) | 4 | 3-5 | OK |
 | [existential/](backgrounds/existential/) | 1 | 3-5 | Need 2-4 more |
-| [mythic/](backgrounds/mythic/) | 33 | 3-5 | Over target — Iliad + Odyssey arcs richly stocked |
+| [mythic/](backgrounds/mythic/) | 1 | 3-5 | Slim — generic Bronze-age / Beowulf bucket after Iliad/Odyssey split. Only `beowulf_warrior_cave.png` remains. |
 | [chivalric/](backgrounds/chivalric/) | 6 | 3-5 | Over target |
 | [hudson_river_school/](backgrounds/hudson_river_school/) | 15 | — | **New world** — historical paintings; documented below |
 | [anti_doom_scroll/](backgrounds/anti_doom_scroll/) | 0 | 3-5 | **Empty** |
@@ -26,29 +28,31 @@ For sorting new drops into `_unsorted/`, see [docs/UNSORTED_ASSETS_RUNBOOK.md](.
 | [war/](backgrounds/war/) | 0 | TBD | **New world** — no prompts in library yet |
 | [_unsorted/](backgrounds/_unsorted/) | 1 | — | `_review_amalfi_coastal_village_001.png` held for curation decision |
 
-### Mythic — Iliad + Odyssey-ready (33 files)
+### Iliad — Trojan War assets (15 files)
 
-All mythic backgrounds named to content (simple-key convention matches the rest of the project). Drives `ancient_greece_iliad` and `ancient_greece_odyssey` arcs.
-
-**Iliad-side (13 files):**
+Split out of the former mythic bucket. Drives `ancient_greece_iliad` arc. Bronze-age war camps, walls, tents.
 
 | File | Source | Used by script |
 |---|---|---|
+| `achilles_overlooking_camp.png` | ChatGPT | (alt — Achilles surveying; renamed from `hero_overlooking_camp`) |
+| `andromache_on_city_walls.png` | ChatGPT | (Andromache vigil on the walls of Troy; renamed from `woman_on_city_walls`) |
 | `battlefield_aftermath.png` | ChatGPT | (alt for Iliad battle scripts) |
 | `greek_camp_at_troy.png` | ChatGPT | (broad camp shot) |
 | `greek_ship_storm.png` | Midjourney | 013 patroclus_rage |
 | `hector_city_gates.png` | **ComfyUI / Juggernaut** | 011 hector_farewell |
-| `hero_overlooking_camp.png` | ChatGPT | (alt — Achilles surveying) |
+| `helen_of_troy_at_balcony_sea.png` | ChatGPT | (Helen at balcony above Troy; renamed from `woman_at_balcony_sea`) |
 | `old_king_in_palace.png` | ChatGPT | (alt for Priam) |
 | `priam_in_tent.png` | **ComfyUI / Juggernaut** | 012 priam_mercy |
-| `troy_walls_storm.png` | ChatGPT | (alt for siege scripts) |
+| `ship_in_lightning_storm.png` | ChatGPT | (alt — drama at sea, Patroclus rage) |
+| `troy_walls_storm.png` | ChatGPT | (alt for siege scripts; recommended fix for 006 homer_anger) |
 | `war_camp_fire_meadow.png` | Midjourney | 007 homer_check_quarrel |
 | `war_tent_at_sunset.png` | ChatGPT | (alt for Achilles tent) |
 | `warrior_at_city_gates.png` | ChatGPT | (alt for Hector) |
 | `warrior_grieving_campfire.png` | ChatGPT | (alt — Patroclus grief) |
-| `ship_in_lightning_storm.png` | ChatGPT | (alt — drama at sea, Patroclus rage) |
 
-**Odyssey-side (17 files):**
+### Odyssey — Sea-voyage assets (20 files)
+
+Split out of the former mythic bucket. Drives `ancient_greece_odyssey` arc. Islands, caves, looms, shorelines.
 
 | File | Source | Used by script |
 |---|---|---|
@@ -57,13 +61,14 @@ All mythic backgrounds named to content (simple-key convention matches the rest 
 | `calypso_island_twilight.png` | Midjourney | 015 calypso_refuse |
 | `crossing_river_of_dead.png` | ChatGPT | (alt for Tiresias underworld) |
 | `eumaeus_cottage_twilight.png` | ChatGPT | (swineherd's hut; unassigned) |
-| `ithaca_dawn_cliffs.png` | Midjourney | (Ithaca arrival; unassigned) |
-| `oar_on_beach_sunset.png` | ChatGPT | (the literal oar — Tiresias prophecy) |
+| `ithaca_dawn_cliffs.png` | Midjourney | **008 homer_return_home** |
+| `ithaca_homecoming_path.png` | ChatGPT | (homecoming approach; moved from ancient_greece/) |
+| `oar_on_beach_sunset.png` | ChatGPT | **009 homer_bear_wreck** (the literal oar — Tiresias prophecy) |
 | `odysseus_facing_sunset.png` | ChatGPT | (alt — Odysseus contemplation) |
 | `odysseus_olive_bed.png` | ChatGPT | (the olive bed, Book XXIII — homecoming) |
 | `odysseus_shoreline.png` | Midjourney | (alt) |
 | `odysseus_shoreline_dawn.png` | Midjourney | (alt) |
-| `penelope_at_loom.png` | ChatGPT | **016 penelope_patience** (replaces penelope_by_window) |
+| `penelope_at_loom.png` | ChatGPT | **016 penelope_patience** |
 | `penelope_by_window.png` | Midjourney | (alt — woman at window) |
 | `polyphemus_cave.png` | Midjourney | 014 polyphemus_cunning |
 | `polyphemus_cave_men_interior.png` | ChatGPT | (alt cave shot) |
@@ -72,19 +77,13 @@ All mythic backgrounds named to content (simple-key convention matches the rest 
 | `sea_cave_entrance.png` | Midjourney | (Scylla candidate; unassigned) |
 | `underworld_shoreline.png` | Midjourney | 017 tiresias_underworld |
 
-**Beowulf / generic (3 files):**
+### Mythic — Beowulf / generic (1 file)
+
+Slim bucket after the Iliad/Odyssey split. Holds non-Homer Bronze-age / northern-heroic assets.
 
 | File | Source | Used by script |
 |---|---|---|
 | `beowulf_warrior_cave.png` | Midjourney | (unassigned) |
-
-### Ancient Greece — Iliad + Odyssey-relevant additions (3 new files)
-
-| File | Source | Use case |
-|---|---|---|
-| `ithaca_homecoming_path.png` | ChatGPT | path through olives toward temple — Odyssey homecoming approach |
-| `woman_at_balcony_sea.png` | ChatGPT | Helen/Andromache at the window |
-| `woman_on_city_walls.png` | ChatGPT | Andromache vigil on the walls of Troy |
 
 ### Hudson River School — 15 paintings
 
@@ -108,33 +107,51 @@ Historical paintings, named `{artist_lastname}_{title_snake_case}.{ext}`.
 | `moran_colburns_butte_south_utah.jpg` | Thomas Moran | Colburn's Butte, South Utah |
 | `whittredge_the_trout_pool.jpg` | Worthington Whittredge | The Trout Pool |
 
-## Figures — restructured by archetype
+## Figures — restructured by archetype (40 archetypes, 51 assets)
 
 Each archetype has its own folder under `masculine/` or `feminine/`. Source type (generated vs. real reference photo) is encoded in the filename suffix, e.g. `marcus_aurelius_generated_bust_001.png` vs. `aristotle_real_001.png`.
 
-### Masculine — 12 archetypes, 12 assets
+**Asset principle (new):** figures = the named subject as an alpha-channel cutout, composited onto a background by the render stage. Backgrounds may show people only as far-off distant figures; the named subject lives here. Currently the figure pipeline isn't exercised by any shipped spec — spec `figure_prompt_key: "none"` everywhere — but the assets are positioned for it.
+
+### Masculine — 24 archetypes
 
 | Archetype | Files | Notes |
 |---|---:|---|
 | [marcus_aurelius/](figures/masculine/marcus_aurelius/) | 1 generated | Bust three-quarter |
-| [socrates/](figures/masculine/socrates/) | 1 generated | — |
-| [epictetus/](figures/masculine/epictetus/) | 1 generated | — |
-| [odysseus/](figures/masculine/odysseus/) | 1 generated | Weathered traveler |
-| [shakespeare_king/](figures/masculine/shakespeare_king/) | 1 generated | Tragic king silhouette |
-| [aristotle/](figures/masculine/aristotle/) | 1 real | Classical bust |
+| [socrates/](figures/masculine/socrates/) | 2 generated | Includes new `socrates_examined_life` |
+| [plato/](figures/masculine/plato/) | 1 generated | `plato_inner_city` — **new** |
+| [aristotle/](figures/masculine/aristotle/) | 1 real + 1 generated | Bust + `aristotle_virtue_as_habit` |
+| [diogenes/](figures/masculine/diogenes/) | 1 generated | `diogenes_needed_less` — **new** |
+| [epictetus/](figures/masculine/epictetus/) | 1 generated + 1 new | `epictetus_freedom_within` |
+| [epicurus/](figures/masculine/epicurus/) | 1 generated | `epicurus_quiet_garden` — **new** (distinct from `epikouros/` real bust) |
+| [epikouros/](figures/masculine/epikouros/) | 1 real | Epicurus bust |
+| [zeno_of_citium/](figures/masculine/zeno_of_citium/) | 1 generated | `zeno_painted_porch` — **new** |
+| [heraclitus/](figures/masculine/heraclitus/) | 1 generated | `heraclitus_fire_and_change` — **new** |
+| [pythagoras/](figures/masculine/pythagoras/) | 1 generated | `pythagoras_number_cosmos` — **new** |
+| [democritus/](figures/masculine/democritus/) | 1 generated | `democritus_laughing` — **new** |
 | [chrysippos/](figures/masculine/chrysippos/) | 1 real | Stoic philosopher bust |
 | [demosthenes/](figures/masculine/demosthenes/) | 1 real | Orator bust |
-| [epikouros/](figures/masculine/epikouros/) | 1 real | Epicurus bust (distinct from Epictetus) |
 | [hesiod/](figures/masculine/hesiod/) | 1 real | — |
 | [hippokrates/](figures/masculine/hippokrates/) | 1 real | — |
 | [hypnos_thanatos/](figures/masculine/hypnos_thanatos/) | 1 real | Greek vase scene |
+| [odysseus/](figures/masculine/odysseus/) | 1 generated | Weathered traveler |
+| [shakespeare_king/](figures/masculine/shakespeare_king/) | 1 generated | Tragic king silhouette |
+| [zeus/](figures/masculine/zeus/) | 1 generated | `zeus_thunder_above_troy` — **new** |
+| [poseidon/](figures/masculine/poseidon/) | 1 generated | `poseidon_seas_wrath` — **new** |
+| [apollo/](figures/masculine/apollo/) | 1 generated | `apollo_far_striking_bow` — **new** |
+| [hermes/](figures/masculine/hermes/) | 1 generated | `hermes_guide_between_worlds` — **new** |
+| [polyphemus/](figures/masculine/polyphemus/) | 1 generated | `polyphemus_cave_giant` — **new** |
 
-### Feminine — 11 archetypes, 17 assets
+### Feminine — 16 archetypes
 
 | Archetype | Files | Notes |
 |---|---:|---|
+| [athena/](figures/feminine/athena/) | 2 generated | Includes new `athena_grey_eyed_counsel` |
+| [hera/](figures/feminine/hera/) | 1 generated | `hera_queen_of_heaven` — **new** |
 | [aphrodite/](figures/feminine/aphrodite/) | 3 generated | — |
-| [athena/](figures/feminine/athena/) | 1 generated | — |
+| [circe/](figures/feminine/circe/) | 1 generated | `circe_island_enchantress` — **new** |
+| [calypso/](figures/feminine/calypso/) | 1 generated | `calypso_immortal_island` — **new** |
+| [sirens/](figures/feminine/sirens/) | 1 generated | `sirens_over_black_rocks` — **new** |
 | [greek_muse/](figures/feminine/greek_muse/) | 1 generated | — |
 | [melpomene/](figures/feminine/melpomene/) | 1 real | Muse of tragedy |
 | [greek_heroine/](figures/feminine/greek_heroine/) | 1 generated | Tragic figure |

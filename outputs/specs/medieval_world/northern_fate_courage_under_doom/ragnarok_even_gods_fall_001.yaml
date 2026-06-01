@@ -1,0 +1,28 @@
+id: ragnarok_even_gods_fall_001
+series: literary_dark
+author: "Anonymous (V\xF6lusp\xE1)"
+theme: courage
+duration_seconds: 30
+message: "In the V\xF6lusp\xE1, the seeress describes Ragnar\xF6k, when the world itself breaks:"
+hook: "In the V\xF6lusp\xE1, the seeress describes Ragnar\xF6k, when the world itself breaks:"
+voiceover: "In the V\xF6lusp\xE1, the seeress describes Ragnar\xF6k, when the world itself breaks:\n\n\"The sun turns black,\
+  \ earth sinks in the sea.\"\n\nThat is the northern hard truth.\nNot even the gods are promised escape.\n\nBut the lesson\
+  \ is not despair.\nIt is courage.\n\nIf even the highest must fall, dignity does not come from winning forever.\n\nIt comes\
+  \ from standing your ground when the sky itself is burning.\n\nStand anyway."
+final_line: Stand anyway.
+visual:
+  world: northern_fate
+  background_prompt_key: ragnarok_even_gods_fall
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: slow_zoom
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: classical_male
+  music_profile: dark_strings
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

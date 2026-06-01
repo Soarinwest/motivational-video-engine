@@ -32,6 +32,7 @@ final_line: A disordered soul cannot build a worthy life.
 visual:
   world: ancient_greece
   background_prompt_key: plato_inner_order_temple
+  background_override_path: null
   figure_prompt_key: none
   motion_profile: slow_zoom
   overlays: []

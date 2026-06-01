@@ -1,0 +1,48 @@
+id: lucretius_fear_of_death_001
+series: literary_dark
+author: Lucretius (De Rerum Natura)
+theme: mortality
+duration_seconds: 30
+message: 'In Book Three of De Rerum Natura, Lucretius takes the longest run at any subject in his poem: the fear of death.'
+hook: 'In Book Three of De Rerum Natura, Lucretius takes the longest run at any subject in his poem: the fear of death.'
+voiceover: 'In Book Three of De Rerum Natura, Lucretius takes the longest run at any subject in his poem: the fear of death.
+
+
+  His argument is cold and clean:
+
+
+  "Death therefore is nothing to us, nor concerns us in the least."
+
+
+  When death arrives, you are not there to meet it.
+
+  When you are here, it is not.
+
+
+  Lucretius is not arguing that dying is fine.
+
+
+  He is arguing that the fear of death is what steals the years you still have.
+
+
+  Stop rehearsing it.
+
+
+  And the time stays yours.'
+final_line: And the time stays yours.
+visual:
+  world: stoic_rome
+  background_prompt_key: lucretius_fear_of_death
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: slow_zoom
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: classical_male
+  music_profile: ambient_low
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

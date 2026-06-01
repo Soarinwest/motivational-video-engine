@@ -3,9 +3,9 @@ series: literary_dark
 author: Homer
 theme: mortality
 duration_seconds: 30
-message: In Book Eleven, Odysseus rows to the edge of the world.
-hook: In Book Eleven, Odysseus rows to the edge of the world.
-voiceover: 'In Book Eleven, Odysseus rows to the edge of the world.
+message: In Book XI of the Odyssey, Odysseus rows to the edge of the world.
+hook: In Book XI of the Odyssey, Odysseus rows to the edge of the world.
+voiceover: 'In Book XI of the Odyssey, Odysseus rows to the edge of the world.
 
 
   He sails to the land of the dead
@@ -39,16 +39,17 @@ voiceover: 'In Book Eleven, Odysseus rows to the edge of the world.
   And the journey continues past the homecoming.'
 final_line: And the journey continues past the homecoming.
 visual:
-  world: mythic
+  world: odyssey
   background_prompt_key: underworld_shoreline
+  background_override_path: null
   figure_prompt_key: none
   motion_profile: medium_zoom
   overlays: []
   caption_style: serif_quiet
 audio:
   tts_provider: kokoro
-  voice_profile: literary_male
-  music_profile: somber_cinematic
+  voice_profile: narrator_blend
+  music_profile: underworld_descent
 render:
   resolution: 1080x1920
   fps: 30

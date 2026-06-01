@@ -1,0 +1,67 @@
+script_id: 006_beowulf_face_the_monster
+arc_id: medieval_world_northern_fate_courage_under_doom
+region: medieval_world
+quote_source_id: beowulf_face_the_monster
+
+title: "Step Inside"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: am_michael
+music: distant_frame_drum
+visual_world: northern_fate
+visual_motif: "Beowulf alone in the center of a dark mead hall at night, Grendel's shadow at the doorway"
+caption_style: marble_serif_centered
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/norse_shieldmaiden/norse_shieldmaiden_skjaldmr_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "Beowulf"
+  role: "Geatish hero who comes to aid Hrothgar"
+
+addressee:
+  name: "Hrothgar and the Danish court"
+  role: "king and people terrorized by Grendel"
+
+scene_context: >
+  Beowulf arrives at Heorot and pledges to confront Grendel, the monster who
+  has been attacking the hall. The moment is public, dangerous, and tied to
+  service as much as glory.
+
+script: |
+  In Beowulf, the hero does not ask for a guarantee before entering the hall.
+
+  He commits himself:
+
+  "I shall fulfil that purpose."
+
+  This is not recklessness for applause.
+  It is courage aimed at what is devouring the people around him.
+
+  Every age has its monster.
+  Fear.
+  Vice.
+  Chaos.
+  Cowardice.
+
+  At some point, a person has to stop talking about it and step inside.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: Francis Barton Gummere
+  source_url: "https://www.gutenberg.org/ebooks/16328"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Verify Gummere line 632-638."

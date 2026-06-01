@@ -1,0 +1,65 @@
+script_id: 005_seneca_death_always_with_us
+arc_id: ancient_rome_death_fate_inner_citadel
+region: ancient_rome
+quote_source_id: seneca_letters_death_always_with_us
+
+title: "Close The Accounts Tonight"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: bm_george
+music: underworld_grief
+visual_world: stoic_rome
+visual_motif: "single oil lamp burning beside an open Roman scroll on a marble table, shadows of columns"
+caption_style: marble_serif_centered
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/underworld_grief/underworld_grief_cinematic_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "Seneca"
+  role: "writing to Lucilius after the sudden death of a mutual friend"
+
+addressee:
+  name: "Lucilius"
+  role: "the recipient of the Moral Letters, a Roman official Seneca is teaching by correspondence"
+
+scene_context: >
+  Senecio was prosperous, young, ambitious, scheduled. He died suddenly.
+  Seneca writes Lucilius the letter the death raises in him: stop postponing
+  life on the assumption that there will be time. Death is not a future event
+  for which you can prepare. It is present every day in every minute.
+
+script: |
+  In Letter One Hundred and One, Seneca writes to Lucilius after a wealthy young friend has died suddenly.
+
+  He takes the occasion to remove the reflex that always tempts the prosperous reader:
+
+  "Let us so order our minds as if we had come to the very end. Let us postpone nothing. Let us balance life's account every day."
+
+  Death is not the future.
+
+  It is always already here.
+
+  Stop running the bookkeeping of a life as if there are unlimited entries to come.
+
+  Close today's accounts before nightfall.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: Richard Gummere
+  source_url: "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Verify Gummere Letter 101."

@@ -1,0 +1,28 @@
+id: marcus_depart_this_moment_001
+series: stoic_practice
+author: Marcus Aurelius (Meditations)
+theme: mortality
+duration_seconds: 30
+message: 'In Meditations Book II, Marcus writes the single sentence the rest of the book is built around:'
+hook: 'In Meditations Book II, Marcus writes the single sentence the rest of the book is built around:'
+voiceover: "In Meditations Book II, Marcus writes the single sentence the rest of the book is built around:\n\n\"Since it\
+  \ is possible that thou mayest depart from life this very moment, regulate every act and thought accordingly.\"\n\nDeath\
+  \ is not a future event.\n\nIt is the standard against which the next move is measured.\n\nIf this were the last act \u2014\
+  \ would you still be doing it this way?\n\nRegulate the next act accordingly."
+final_line: Regulate the next act accordingly.
+visual:
+  world: stoic_rome
+  background_prompt_key: marcus_road_mist
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: slow_pan
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: classical_male
+  music_profile: underworld_grief
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

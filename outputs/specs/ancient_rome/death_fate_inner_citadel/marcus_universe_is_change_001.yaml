@@ -1,0 +1,47 @@
+id: marcus_universe_is_change_001
+series: stoic_practice
+author: Marcus Aurelius (Meditations)
+theme: mortality
+duration_seconds: 30
+message: In Meditations Book Seven, Marcus addresses the part of himself that resents change.
+hook: In Meditations Book Seven, Marcus addresses the part of himself that resents change.
+voiceover: 'In Meditations Book Seven, Marcus addresses the part of himself that resents change.
+
+
+  He poses the question directly:
+
+
+  "Is any one afraid of change? Why, what can take place without change? What then is more pleasing or more suitable to the
+  universal nature?"
+
+
+  He is not consoling himself.
+
+
+  He is naming the category error.
+
+
+  Resentment of change is resentment of existence itself.
+
+
+  The same flux you mourn is the one that produced everything you have ever loved.
+
+
+  It is the only thing that ever lets anything be.'
+final_line: It is the only thing that ever lets anything be.
+visual:
+  world: stoic_rome
+  background_prompt_key: ruined_forum_after_empire
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: slow_pan
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: classical_male
+  music_profile: ambient_low
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

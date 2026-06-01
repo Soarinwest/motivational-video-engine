@@ -1,0 +1,67 @@
+script_id: 010_maldon_courage_after_defeat
+arc_id: medieval_world_northern_fate_courage_under_doom
+region: medieval_world
+quote_source_id: maldon_heart_bolder
+
+title: "Stand Harder When Hope Gets Thinner"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: am_michael
+music: dark_strings
+visual_world: northern_fate
+visual_motif: "Anglo-Saxon warrior in a shield wall at dusk after his lord has fallen"
+caption_style: marble_serif_centered
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/grief_lament/grief_lament_strings_epic_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "Byrhtwold"
+  role: "old retainer and loyal warrior"
+
+addressee:
+  name: "the remaining English warriors"
+  role: "companions after the fall of their lord Byrhtnoth"
+
+scene_context: >
+  In The Battle of Maldon, after Byrhtnoth has fallen and defeat is near,
+  Byrhtwold exhorts the remaining warriors not to flee. The speech is one of
+  the clearest expressions of courage under doom in Old English literature.
+
+script: |
+  In The Battle of Maldon, after disaster has already come, Byrhtwold says:
+
+  "Will shall be the sterner, heart the bolder, spirit the greater as our strength lessens."
+
+  That is the northern ethic in one stroke.
+
+  Courage is not confidence in victory.
+  It is refusal to collapse when victory is slipping away.
+
+  When the numbers turn,
+  when the leader falls,
+  when the ending darkens —
+
+  that is when character is seen.
+
+  Stand harder when hope gets thinner.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: R. K. Gordon
+  source_url: "https://en.wikisource.org/wiki/The_Battle_of_Maldon"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Verify Gordon lines 312-313."

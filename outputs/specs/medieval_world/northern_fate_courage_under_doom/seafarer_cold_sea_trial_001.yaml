@@ -1,0 +1,55 @@
+id: seafarer_cold_sea_trial_001
+series: literary_dark
+author: Anonymous (The Seafarer)
+theme: self-command
+duration_seconds: 30
+message: 'In The Seafarer, the speaker remembers the sea plainly:'
+hook: 'In The Seafarer, the speaker remembers the sea plainly:'
+voiceover: 'In The Seafarer, the speaker remembers the sea plainly:
+
+
+  "My feet were by frost benumbed."
+
+
+  No glamour.
+
+  No comfort.
+
+  No false romance.
+
+
+  The trial matters because hardship strips a person down.
+
+  It shows what softness had hidden.
+
+
+  Cold.
+
+  Hunger.
+
+  Isolation.
+
+  The long pull forward.
+
+
+  There are things you only learn when the shore is gone.
+
+
+  Some truths arrive frozen.'
+final_line: Some truths arrive frozen.
+visual:
+  world: northern_fate
+  background_prompt_key: seafarer_cold_sea_trial
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: slow_pan
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: classical_male
+  music_profile: cold_ambient
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

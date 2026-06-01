@@ -1,0 +1,50 @@
+id: musashi_the_way_is_practice_001
+series: literary_dark
+author: Miyamoto Musashi (Five Rings)
+theme: self-command
+duration_seconds: 30
+message: Musashi's Book of Five Rings is not a book of decoration.
+hook: Musashi's Book of Five Rings is not a book of decoration.
+voiceover: 'Musashi''s Book of Five Rings is not a book of decoration.
+
+
+  Its demand is practice.
+
+
+  Not the idea of discipline.
+
+  Not the image of mastery.
+
+  Practice.
+
+
+  The hand learns.
+
+  The eye learns.
+
+  The body learns.
+
+  Then the self that needed applause begins to disappear.
+
+
+  A way is not something you admire from a distance.
+
+
+  If you do not practice it, it is not yet yours.'
+final_line: If you do not practice it, it is not yet yours.
+visual:
+  world: samurai_zen
+  background_prompt_key: way_is_practice
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: static
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: low_steady_male
+  music_profile: wooden_dojo_pulse
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

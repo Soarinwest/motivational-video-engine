@@ -3,9 +3,9 @@ series: stoic_practice
 author: Aristotle
 theme: habit
 duration_seconds: 30
-message: 'Aristotle writes that moral virtues do not simply appear in us by nature:'
-hook: 'Aristotle writes that moral virtues do not simply appear in us by nature:'
-voiceover: 'Aristotle writes that moral virtues do not simply appear in us by nature:
+message: 'In the Nicomachean Ethics, Aristotle writes that moral virtues do not simply appear in us by nature:'
+hook: 'In the Nicomachean Ethics, Aristotle writes that moral virtues do not simply appear in us by nature:'
+voiceover: 'In the Nicomachean Ethics, Aristotle writes that moral virtues do not simply appear in us by nature:
 
 
   "We are adapted by nature to receive them, and are made perfect by habit."
@@ -33,6 +33,7 @@ final_line: Practice becomes character.
 visual:
   world: stoic_rome
   background_prompt_key: aristotle_choice_marble
+  background_override_path: null
   figure_prompt_key: none
   motion_profile: slow_zoom
   overlays: []

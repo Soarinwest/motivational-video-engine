@@ -116,6 +116,44 @@ def test_resolve_assets_missing_figure_raises(tmp_path: Path) -> None:
         resolve_assets(spec, assets_root=tmp_path)
 
 
+def test_resolve_assets_background_override_path_wins(tmp_path: Path) -> None:
+    """When spec.visual.background_override_path is set, use that file directly."""
+    spec = _spec("marcus_self_command.yaml")
+    # Put a fallback bg in the world/key location so we can tell which one was used
+    fallback_bg = tmp_path / "backgrounds" / spec.visual.world / f"{spec.visual.background_prompt_key}.png"
+    _make_asset(fallback_bg)
+    # Put the figure where expected (figure layer still uses world/key)
+    fig = tmp_path / "figures" / spec.visual.world / f"{spec.visual.figure_prompt_key}.png"
+    _make_asset(fig)
+    # Put the override file at a totally unrelated repo-relative path
+    override_rel = "assets/figures/feminine/sirens/sirens_test.png"
+    override_abs = tmp_path.parent / override_rel
+    _make_asset(override_abs)
+
+    spec_with_override = spec.model_copy(
+        update={
+            "visual": spec.visual.model_copy(update={"background_override_path": override_rel})
+        }
+    )
+    paths = resolve_assets(spec_with_override, assets_root=tmp_path)
+    assert paths.background.resolve() == override_abs.resolve()
+    # Figure layer should still resolve via world/key
+    assert paths.figure == fig
+
+
+def test_resolve_assets_background_override_missing_file_raises(tmp_path: Path) -> None:
+    spec = _spec("marcus_self_command.yaml")
+    spec_with_override = spec.model_copy(
+        update={
+            "visual": spec.visual.model_copy(
+                update={"background_override_path": "assets/does/not/exist.png"}
+            )
+        }
+    )
+    with pytest.raises(FileNotFoundError, match="background_override_path is set"):
+        resolve_assets(spec_with_override, assets_root=tmp_path)
+
+
 def test_resolve_assets_figure_none_skipped(tmp_path: Path) -> None:
     """field_notes spec has figure_prompt_key='none' — no figure file required."""
     spec = _spec("field_notes_resilience.yaml")

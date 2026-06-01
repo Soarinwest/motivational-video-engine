@@ -1,0 +1,67 @@
+script_id: 004_voluspa_fate_of_gods
+arc_id: medieval_world_northern_fate_courage_under_doom
+region: medieval_world
+quote_source_id: voluspa_fate_of_gods
+
+title: "Fate Of The Gods"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: narrator_blend
+music: nordic_chant_low
+visual_world: northern_fate
+visual_motif: "Norse seeress on a black stone ridge in a snowstorm, Odin listening below in shadow"
+caption_style: marble_serif_centered
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/norse_skald_chant/norse_skald_chant_viking_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "the Völva (seeress)"
+  role: "prophetic woman who reveals past and future"
+
+addressee:
+  name: "Odin"
+  role: "seeker of hidden knowledge and fate"
+
+scene_context: >
+  In the Völuspá, the seeress recounts cosmic history and the coming doom of
+  gods and world. She speaks with authority before Odin, who has sought her
+  out for knowledge of what is coming.
+
+script: |
+  In the Völuspá, a seeress speaks to Odin and tells him what even gods must face:
+
+  "Brothers shall fight and fell each other. Hard is it on earth."
+
+  Brothers will fight.
+  The world will darken.
+  What is made will break.
+
+  The northern mind does not promise safety.
+  It does not flatter you with permanence.
+
+  It says: learn to live under fate without becoming small.
+
+  The strong person is not the one who thinks the end cannot come.
+
+  It is the one who stands upright while it approaches.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: Olive Bray
+  source_url: "https://en.wikisource.org/wiki/The_Elder_or_Poetic_Edda"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Verify Bray 'brothers shall fight' stanza."

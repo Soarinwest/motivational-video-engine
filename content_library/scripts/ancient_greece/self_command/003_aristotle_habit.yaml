@@ -13,6 +13,30 @@ visual_world: ancient_greece
 visual_motif: "olive grove, repeated footsteps on worn stone"
 caption_style: parchment_lower_third
 
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/soft_lyre_ambient/soft_lyre_ambient_mellow_piano_guitar_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "Aristotle"
+  role: "philosopher"
+
+addressee:
+  name: "his student / reader"
+  role: "anyone seeking moral education"
+
+scene_context: >
+  Nicomachean Ethics II.1: moral virtue is the result of habit; ethical
+  character is built by repeated action.
+
 script: |
   Aristotle, in the Nicomachean Ethics, does not treat virtue as a mood:
 

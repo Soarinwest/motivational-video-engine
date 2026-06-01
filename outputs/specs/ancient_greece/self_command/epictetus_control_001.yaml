@@ -33,6 +33,7 @@ final_line: Do not waste your strength arguing with what was never yours to comm
 visual:
   world: ancient_greece
   background_prompt_key: epictetus_control_vineyard
+  background_override_path: null
   figure_prompt_key: none
   motion_profile: slow_zoom
   overlays: []

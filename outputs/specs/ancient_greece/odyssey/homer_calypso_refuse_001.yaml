@@ -3,9 +3,9 @@ series: literary_dark
 author: Homer
 theme: mortality
 duration_seconds: 30
-message: Calypso offers Odysseus eternal life.
-hook: Calypso offers Odysseus eternal life.
-voiceover: 'Calypso offers Odysseus eternal life.
+message: In Book V of the Odyssey, Calypso offers Odysseus eternal life.
+hook: In Book V of the Odyssey, Calypso offers Odysseus eternal life.
+voiceover: 'In Book V of the Odyssey, Calypso offers Odysseus eternal life.
 
 
   Stay with her on the island. Beautiful. Endless.
@@ -34,8 +34,9 @@ voiceover: 'Calypso offers Odysseus eternal life.
   He went home to die.'
 final_line: He went home to die.
 visual:
-  world: mythic
+  world: odyssey
   background_prompt_key: calypso_island_twilight
+  background_override_path: null
   figure_prompt_key: none
   motion_profile: medium_zoom
   overlays: []
@@ -43,7 +44,7 @@ visual:
 audio:
   tts_provider: kokoro
   voice_profile: classical_male
-  music_profile: soft_lyre_ambient
+  music_profile: island_enchantment
 render:
   resolution: 1080x1920
   fps: 30

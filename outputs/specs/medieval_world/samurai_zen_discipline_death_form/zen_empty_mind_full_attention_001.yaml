@@ -1,0 +1,55 @@
+id: zen_empty_mind_full_attention_001
+series: literary_dark
+author: Zen tradition
+theme: self-command
+duration_seconds: 30
+message: The empty mind is not a dead mind.
+hook: The empty mind is not a dead mind.
+voiceover: 'The empty mind is not a dead mind.
+
+
+  It is a mind no longer crowded by performance.
+
+
+  No audience inside the skull.
+
+  No argument with the moment.
+
+  No endless rehearsal of the self.
+
+
+  Just attention.
+
+
+  This is harder than noise.
+
+  Harder than ambition.
+
+  Harder than appearing profound.
+
+
+  Sit.
+
+  Breathe.
+
+  See the thing before you.
+
+
+  A scattered mind cannot make a clean cut.'
+final_line: A scattered mind cannot make a clean cut.
+visual:
+  world: samurai_zen
+  background_prompt_key: empty_mind_full_attention
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: static
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: classical_male
+  music_profile: silence_and_bell
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

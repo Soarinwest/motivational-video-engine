@@ -1,0 +1,52 @@
+id: homer_bed_test_001
+series: literary_dark
+author: Homer
+theme: restraint
+duration_seconds: 30
+message: In Book XXIII of the Odyssey, Odysseus has come home, killed the suitors, told her his name.
+hook: In Book XXIII of the Odyssey, Odysseus has come home, killed the suitors, told her his name.
+voiceover: 'In Book XXIII of the Odyssey, Odysseus has come home, killed the suitors, told her his name.
+
+
+  Penelope still will not commit.
+
+
+  She orders the housekeeper to move the marriage bed out of the bedchamber for him.
+
+
+  Odysseus erupts:
+
+
+  "Who has been taking my bed from the place in which I left it?"
+
+
+  He built that bed around the trunk of a living olive tree. It cannot be moved.
+
+
+  Penelope smiles.
+
+
+  Talk is the cheap part.
+
+
+  The proof of who you are is in what you built with your own hands and remember exactly.
+
+
+  The trunk grew through it.'
+final_line: The trunk grew through it.
+visual:
+  world: odyssey
+  background_prompt_key: odysseus_olive_bed
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: slow_zoom
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: narrator_blend
+  music_profile: homecoming_recognition
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

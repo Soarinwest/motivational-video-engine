@@ -1,0 +1,67 @@
+script_id: 019_homer_gnawing_heart
+arc_id: ancient_greece_iliad
+region: ancient_greece
+quote_source_id: homer_iliad_gnawing_heart
+
+title: "Eating Your Own Heart"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: narrator_blend
+music: underworld_grief
+visual_world: iliad
+visual_motif: "Bronze-age commander's tent interior at sunset, bronze armor laid aside, ships through the open flap"
+caption_style: sparse_centered_captions
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/underworld_grief/underworld_grief_cinematic_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "Thetis"
+  role: "sea-goddess mother of Achilles"
+
+addressee:
+  name: "Achilles"
+  role: "her son, in the late stage of grief after Patroclus and Hector"
+
+scene_context: >
+  Achilles has killed Hector and is unable to stop. He drags the body around
+  Patroclus's tomb for twelve days, refusing food and sleep. The gods send
+  Thetis to her son with a message: it is time to give the body back. She
+  begins by naming what his grief has become.
+
+script: |
+  In Book XXIV of the Iliad, Achilles has killed Hector and cannot stop.
+
+  For twelve days he drags the body. No food. No sleep.
+
+  His mother Thetis comes from the sea, and she names what he is doing to himself:
+
+  "My son, how long are you going to eat your own heart out in lamentation?"
+
+  She is not telling him his grief is wrong.
+
+  She is telling him that grief, past its hour, becomes another way of dying.
+
+  The mother in the room sees it before the son does.
+
+  Eating your own heart out.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: Samuel Butler
+  source_url: "https://www.gutenberg.org/ebooks/2199"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Verify Butler XXIV.128-130."

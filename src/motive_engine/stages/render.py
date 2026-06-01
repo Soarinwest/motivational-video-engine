@@ -64,16 +64,31 @@ def resolve_assets(
     spec: ContentSpec,
     assets_root: Path = DEFAULT_ASSETS_ROOT,
 ) -> AssetPaths:
-    """Find background + (optional) figure assets for the spec's world+keys."""
-    bg_stem = assets_root / "backgrounds" / spec.visual.world / spec.visual.background_prompt_key
-    bg = _find_asset(bg_stem)
-    if bg is None:
-        raise FileNotFoundError(
-            f"No background asset for world '{spec.visual.world}' / key "
-            f"'{spec.visual.background_prompt_key}'.\n"
-            f"  Expected: {bg_stem}.{{png,jpg,jpeg,webp}}\n"
-            f"  Generate one with: motive make-image-prompt <spec>"
-        )
+    """Find background + (optional) figure assets for the spec's world+keys.
+
+    If spec.visual.background_override_path is set, it takes precedence over
+    the world/background_prompt_key lookup. Override paths are interpreted
+    relative to the repository root (the parent of `assets_root`).
+    """
+    override = spec.visual.background_override_path
+    if override:
+        bg = (assets_root.parent / override).resolve()
+        if not bg.is_file():
+            raise FileNotFoundError(
+                f"background_override_path is set but the file is missing: {bg}\n"
+                f"  spec id: {spec.id}\n"
+                f"  override: {override!r}"
+            )
+    else:
+        bg_stem = assets_root / "backgrounds" / spec.visual.world / spec.visual.background_prompt_key
+        bg = _find_asset(bg_stem)
+        if bg is None:
+            raise FileNotFoundError(
+                f"No background asset for world '{spec.visual.world}' / key "
+                f"'{spec.visual.background_prompt_key}'.\n"
+                f"  Expected: {bg_stem}.{{png,jpg,jpeg,webp}}\n"
+                f"  Generate one with: motive make-image-prompt <spec>"
+            )
 
     figure: Path | None = None
     if spec.visual.figure_prompt_key != "none":

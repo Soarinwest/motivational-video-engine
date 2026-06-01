@@ -1,0 +1,66 @@
+script_id: 006_hagakure_death_before_panic
+arc_id: samurai_zen_discipline_death_form
+region: medieval_world
+quote_source_id: hagakure_way_of_death
+
+title: "Death Before Panic"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: narrator_blend
+music: death_awareness_drone
+visual_world: samurai_zen
+visual_motif: "black samurai armor beside a low candle before dawn, katana on a stand"
+caption_style: marble_serif_centered
+
+quote_type: paraphrase
+
+music_asset:
+  local_path: "music/japanese_dark_temple_yellowbirdbeats/japanese_dark_temple_yellowbirdbeats_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: false
+  wording_modified_for_script: true
+
+speaker:
+  name: "Yamamoto Tsunetomo"
+  role: "former samurai retired to a hermitage, dictating his counsel"
+
+addressee:
+  name: "young samurai / reader"
+  role: "person receiving severe counsel about death and decisive action"
+
+scene_context: >
+  Hagakure repeatedly emphasizes death-awareness as a way to remove
+  hesitation, panic, and self-protective confusion in moments of action.
+
+script: |
+  Hagakure gives one of the severest samurai teachings:
+
+  the way is found in death.
+
+  Do not read that as a hunger to die.
+  Read it as training against panic.
+
+  A person who refuses to think about death becomes ruled by fear when death enters the room.
+
+  Death-awareness cuts through vanity.
+  It cuts through delay.
+  It asks what matters now.
+
+  Remember death, not to worship it —
+
+  but to stop being owned by it.
+
+rights:
+  quote_translation_status: paraphrase_only
+  translator: null
+  source_url: ""
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Paraphrase only. Hagakure English translations are modern; do not render as direct quote without PD source."

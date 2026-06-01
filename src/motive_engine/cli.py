@@ -295,7 +295,7 @@ def make_voice(
     shutil.copy(path, draft_dir / "spec.yaml")
 
     try:
-        synthesizer = voice_stage.make_kokoro_synthesizer(profile.lang_code)
+        synthesizer = voice_stage.make_kokoro_synthesizer(profile)
         track = voice_stage.render_voice(
             spec, profile, output_root=output_dir, synthesizer=synthesizer
         )

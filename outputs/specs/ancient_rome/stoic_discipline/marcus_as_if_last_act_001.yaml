@@ -1,0 +1,28 @@
+id: marcus_as_if_last_act_001
+series: stoic_practice
+author: Marcus Aurelius (Meditations)
+theme: duty
+duration_seconds: 30
+message: 'In Meditations Book II, Marcus instructs himself on the next thing in front of him:'
+hook: 'In Meditations Book II, Marcus instructs himself on the next thing in front of him:'
+voiceover: "In Meditations Book II, Marcus instructs himself on the next thing in front of him:\n\n\"Every moment think steadily,\
+  \ as a Roman and a man, to do what thou hast in hand with perfect and simple dignity \u2014 and to give thyself relief from\
+  \ all other thoughts.\"\n\nMost failure is not lack of effort.\n\nIt is the part of the mind that is somewhere else while\
+  \ the hands work.\n\nThe man who lays down every other thought owns the moment in front of him.\n\nPut the rest down."
+final_line: Put the rest down.
+visual:
+  world: stoic_rome
+  background_prompt_key: marcus_temple_platform
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: static
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: classical_male
+  music_profile: ambient_low
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

@@ -1,0 +1,65 @@
+script_id: 015_homer_andromache_the_news
+arc_id: ancient_greece_iliad
+region: ancient_greece
+quote_source_id: homer_iliad_andromache_the_news
+
+title: "The Veil Fell"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: narrator_blend
+music: grief_lament
+visual_world: iliad
+visual_motif: "noblewoman in dark robes on the weathered walls of Troy at dusk, ships in harbor below"
+caption_style: sparse_centered_captions
+
+quote_type: narrative_scene
+
+music_asset:
+  local_path: "music/grief_lament/grief_lament_strings_epic_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "Homeric narrator"
+  role: "epic narrator"
+
+addressee:
+  name: "the reader"
+  role: "a reader watching the moment domestic warmth ends"
+
+scene_context: >
+  Andromache is at her loom warming Hector's bath when the wail comes up from
+  the walls.
+
+script: |
+  In Book XXII of the Iliad, Andromache does not know her husband is dead yet.
+
+  She is at the loom, weaving a purple cloak with flowers.
+
+  She has called for the maids to warm his bath.
+
+  Then the wail goes up from the walls.
+
+  She runs out, sees what is being dragged behind the chariot, and the veil Aphrodite gave her on her wedding day falls from her head.
+
+  The bath was still warming.
+
+  That is where the war ended for her.
+
+  The veil fell.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: Samuel Butler
+  source_url: "https://www.gutenberg.org/ebooks/2199"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Treat the women_and_war frame carefully. Verify Book XXII line numbers."

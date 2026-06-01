@@ -1,0 +1,43 @@
+id: virgil_burden_of_destiny_001
+series: literary_dark
+author: Virgil (Aeneid)
+theme: duty
+duration_seconds: 30
+message: In Book Two of the Aeneid, Troy is burning.
+hook: In Book Two of the Aeneid, Troy is burning.
+voiceover: 'In Book Two of the Aeneid, Troy is burning.
+
+
+  Aeneas''s father Anchises tells his son to leave him. He is old. The city is finished. There is no point.
+
+
+  Aeneas does not argue. He does not explain. He lifts the old man onto his shoulders:
+
+
+  "Come then, dear father, mount upon my neck. I will bear you up on my own shoulders, nor will this burden weigh me down."
+
+
+  Duty is not an abstraction.
+
+
+  It is the weight of the person you cannot leave behind.
+
+
+  He picked up the man who carried him, and walked.'
+final_line: He picked up the man who carried him, and walked.
+visual:
+  world: stoic_rome
+  background_prompt_key: virgil_burden_of_destiny
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: slow_pan
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: classical_male
+  music_profile: grief_lament
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

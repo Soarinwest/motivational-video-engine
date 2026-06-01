@@ -3,25 +3,26 @@ series: women_left_alive
 author: Homer
 theme: patience
 duration_seconds: 30
-message: Penelope is alone in the great house.
-hook: Penelope is alone in the great house.
-voiceover: "Penelope is alone in the great house.\nTwenty years. Odysseus is gone.\n\nThe suitors crowd her halls every day,\n\
-  demanding she remarry.\n\nShe says yes.\nAfter I finish weaving this burial shroud for Laertes.\n\nShe weaves it by day.\n\
-  At night, by lamplight, she pulls every thread out.\n\nThe waiting wife is not a backdrop.\nShe is the second hero of the\
-  \ epic \u2014\n\noutlasting twenty years by refusing\nevery easy answer they offered her.\n\nShe held the house\nby holding\
-  \ her own hand back."
+message: In the Odyssey, Penelope is alone in the great house.
+hook: In the Odyssey, Penelope is alone in the great house.
+voiceover: "In the Odyssey, Penelope is alone in the great house.\nTwenty years. Odysseus is gone.\n\nThe suitors crowd her\
+  \ halls every day,\ndemanding she remarry.\n\nShe says yes.\nAfter I finish weaving this burial shroud for Laertes.\n\n\
+  She weaves it by day.\nAt night, by lamplight, she pulls every thread out.\n\nThe waiting wife is not a backdrop.\nShe is\
+  \ the second hero of the epic \u2014\n\noutlasting twenty years by refusing\nevery easy answer they offered her.\n\nShe\
+  \ held the house\nby holding her own hand back."
 final_line: by holding her own hand back.
 visual:
-  world: mythic
+  world: odyssey
   background_prompt_key: penelope_at_loom
+  background_override_path: null
   figure_prompt_key: none
   motion_profile: figure_pan
   overlays: []
   caption_style: serif_quiet
 audio:
   tts_provider: kokoro
-  voice_profile: literary_male
-  music_profile: ambient_strings_low
+  voice_profile: narrator_blend
+  music_profile: homecoming_recognition
 render:
   resolution: 1080x1920
   fps: 30

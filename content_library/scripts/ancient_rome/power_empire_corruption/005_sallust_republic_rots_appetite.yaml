@@ -1,0 +1,66 @@
+script_id: 005_sallust_republic_rots_appetite
+arc_id: ancient_rome_power_empire_corruption
+region: ancient_rome
+quote_source_id: sallust_catiline_republic_rots_appetite
+
+title: "The Soil They Stopped Tending"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: bm_george
+music: underworld_descent
+visual_world: stoic_rome
+visual_motif: "decaying Roman banquet hall after midnight, overturned wine cups, wilted garlands, marble statues watching"
+caption_style: marble_serif_centered
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/underworld_descent/underworld_descent_cinematic_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "Sallust (narrator)"
+  role: "Roman historian and former senator, writing in retirement after a politically tarnished career"
+
+addressee:
+  name: "the Roman reader"
+  role: "a citizen of a Republic in its final decade, watching what Sallust saw"
+
+scene_context: >
+  Sallust has lived through the civil wars. He has been expelled from the
+  Senate. He sits down to explain how Rome got here, and his answer is not
+  Catiline. His answer is the long erosion: once external pressure ended,
+  internal appetite was free to grow. Avarice, luxury, factionalism, the loss
+  of public virtue.
+
+script: |
+  In The Conspiracy of Catiline, Sallust looks back on civil wars he has lived through. He sits down to explain how Rome got here, and his answer is not Catiline.
+
+  His answer is appetite:
+
+  "Avarice destroyed honor, integrity, and every other virtue, and put arrogance and cruelty in their place."
+
+  A republic does not fall to invasion.
+
+  It rots from inside — once external pressure ends and internal hunger has nothing left to push against.
+
+  Institutions are hollowed out by the long abandonment of the small disciplines that kept them upright.
+
+  Catiline is what grew in the soil they stopped tending.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: J. C. Rolfe
+  source_url: "https://www.gutenberg.org/ebooks/9474"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Verify Rolfe Loeb Ch 10-13."

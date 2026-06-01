@@ -1,0 +1,67 @@
+script_id: 008_wanderer_exile_and_memory
+arc_id: medieval_world_northern_fate_courage_under_doom
+region: medieval_world
+quote_source_id: wanderer_exile_and_memory
+
+title: "Only Your Bearing Was"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: narrator_blend
+music: cold_ambient
+visual_world: northern_fate
+visual_motif: "old Anglo-Saxon exile walking alone along a frozen shoreline at dawn"
+caption_style: marble_serif_centered
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/ancient_low_drone/ancient_low_drone_calm_dreamscape_004.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "the Wanderer (the exile)"
+  role: "solitary speaker remembering lost lord, companions, and hall"
+
+addressee:
+  name: "himself / the listener"
+  role: "reflective audience drawn into the memory of loss"
+
+scene_context: >
+  The Wanderer reflects on exile, lost fellowship, dead lords, and vanished
+  halls. The famous "where is" passage mourns a disappeared heroic world.
+
+script: |
+  In The Wanderer, an exile moves through a broken world asking:
+
+  "Where is the horse? Where the rider? Where the giver of treasure?"
+
+  This is not just nostalgia.
+  It is the shock of discovering that whole worlds vanish.
+
+  Friends die.
+  Halls empty.
+  Warmth leaves.
+
+  But the poem does not collapse into self-pity.
+  It turns grief into endurance.
+
+  What passes away was never yours to keep forever.
+
+  Only your bearing was.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: R. K. Gordon
+  source_url: "https://en.wikisource.org/wiki/The_Wanderer"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Verify Gordon lines 92-96."

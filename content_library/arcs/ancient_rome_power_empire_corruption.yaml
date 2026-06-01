@@ -1,0 +1,78 @@
+arc_id: ancient_rome_power_empire_corruption
+region: ancient_rome
+title: "Ancient Rome: Power, Empire, and Corruption"
+
+purpose: >
+  The darker political arc. Rome on power: what it costs to hold, what
+  it costs to refuse, what it costs to be held by it. Cincinnatus
+  returning to the plow, Caesar at the Rubicon, Brutus choosing the
+  Republic over blood, Tacitus naming the desert that empire calls
+  peace, Sallust on the rot beneath. The cost of public virtue and the
+  faces of its absence.
+
+  Frame carefully — see ../03_CONTENT_ETHICS.md. The arc honors public
+  virtue without flattering empire, names tyranny without modern
+  political grievance, treats ambition as serious moral territory.
+
+visual_world: stoic_rome
+default_visual_motifs:
+  - "small Roman field at sunrise, plow, messengers approaching"
+  - "horseback at the edge of a narrow river at night, legions waiting"
+  - "shadowed Roman chamber, dagger on marble, ancestor busts"
+  - "ruined arches at dusk, distant soldiers across a barren landscape"
+  - "decaying Roman banquet hall after midnight, overturned cups"
+
+tone:
+  - severe
+  - cinematic
+  - cold
+  - observant
+  - mournful
+
+themes:
+  - ambition
+  - public_virtue
+  - corruption
+  - tyranny
+  - reputation
+  - power
+  - decay
+  - honor
+
+primary_sources:
+  - livy/ab_urbe_condita.md           # TODO create — early Roman virtue, civic myth
+  - sallust/conspiracy_of_catiline.md  # TODO create — corruption of the Republic
+  - tacitus/agricola.md                # TODO create — power, fear, empire
+  - tacitus/annals.md                  # TODO create — tyranny under principate
+  - plutarch/parallel_lives.md         # TODO create — bridge piece
+
+primary_source_ids:
+  # All to be written:
+  - livy_cincinnatus_power_to_plow              # TODO
+  - plutarch_caesar_crossing_rubicon            # TODO
+  - plutarch_brutus_republic_over_blood         # TODO
+  - tacitus_agricola_desert_and_peace           # TODO — "they make a desert and call it peace"
+  - sallust_catiline_republic_rots_appetite     # TODO
+
+scripts:
+  # All to be written:
+  - 001_cincinnatus_power_to_plow              # TODO — power returned to the plow
+  - 002_caesar_crossing_rubicon                # TODO — ambition crossing into the irreversible
+  - 003_brutus_republic_over_blood             # TODO — torn between loyalty and law
+  - 004_tacitus_desert_and_peace               # TODO — empire's quiet
+  - 005_sallust_republic_rots_appetite         # TODO — corruption from within
+
+publishing_notes: >
+  Publish in narrative order: virtue (Cincinnatus), ambition (Caesar),
+  conflict (Brutus), critique (Tacitus), decay (Sallust). The arc is
+  cold and observant — somber_cinematic across the board. Voice
+  classical_male (bm_george) for the historians; literary_male
+  (bm_lewis) for Brutus interior moments. Watch the ethics frame:
+  honor public virtue, name tyranny, never celebrate violence.
+
+review_rules:
+  - verify_translation_rights
+  - verify_quote_wording
+  - distinguish_quote_from_interpretation
+  - political_neutrality_check
+  - human_review_before_publish

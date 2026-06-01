@@ -1,0 +1,47 @@
+id: marcus_inner_citadel_001
+series: stoic_practice
+author: Marcus Aurelius (Meditations)
+theme: self-command
+duration_seconds: 30
+message: In Meditations Book Four, Marcus is on the Danube frontier. He has no quiet country house to escape to.
+hook: In Meditations Book Four, Marcus is on the Danube frontier. He has no quiet country house to escape to.
+voiceover: 'In Meditations Book Four, Marcus is on the Danube frontier. He has no quiet country house to escape to.
+
+
+  So he writes himself the instruction:
+
+
+  "Men seek retreats for themselves, houses in the country, sea-shores, and mountains. But it is in thy power whenever thou
+  shalt choose to retire into thyself."
+
+
+  Other men go to the country to escape.
+
+
+  You can go to the same place without leaving the room.
+
+
+  The retreat that matters is the one you do not have to travel to.
+
+
+  It is built, not found.
+
+
+  Step in.'
+final_line: Step in.
+visual:
+  world: stoic_rome
+  background_prompt_key: marcus_inner_citadel
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: static
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: classical_male
+  music_profile: ambient_low
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

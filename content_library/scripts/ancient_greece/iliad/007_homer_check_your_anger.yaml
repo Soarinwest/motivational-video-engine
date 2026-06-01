@@ -7,11 +7,35 @@ title: "The Quarrel"
 duration_target_seconds: 30
 word_count_target: "65-85"
 
-voice: bm_lewis
-music: low_strings
+voice: narrator_blend
+music: bronze_war_camp
 visual_world: war
 visual_motif: "empty war camp, extinguished fire"
 caption_style: slow_reveal_captions
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/bronze_war_camp/bronze_war_camp_drum_002.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "Nestor"
+  role: "elder Greek king and counselor"
+
+addressee:
+  name: "Agamemnon and Achilles"
+  role: "the quarreling leaders"
+
+scene_context: >
+  Nestor pleads with both men to end the quarrel before it ruins the Greek
+  army.
 
 script: |
   In the Iliad, Nestor pleads for peace between Agamemnon and Achilles:

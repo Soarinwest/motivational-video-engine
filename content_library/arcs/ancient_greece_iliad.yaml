@@ -7,7 +7,7 @@ purpose: >
   of ruin, duty under cost, mercy at the end of every reason for it,
   women holding what war breaks. Bronze-age tragedy with modern bite.
 
-visual_world: mythic
+visual_world: iliad
 default_visual_motifs:
   - "storm over Aegean, bronze helmet on sand"
   - "empty war camp, extinguished fire"
@@ -39,13 +39,19 @@ primary_source_ids:
   - homer_iliad_hector_farewell
   - homer_iliad_priam_mercy
   - homer_iliad_patroclus_rage
+  - homer_iliad_achilles_two_fates
+  - homer_iliad_andromache_the_news
+  - homer_iliad_helen_self_blame
 
 scripts:
   - 006_homer_anger
   - 007_homer_check_your_anger
-  - 011_homer_hector_farewell    # TODO write
-  - 012_homer_priam_mercy        # TODO write
-  - 013_homer_patroclus_rage     # TODO write
+  - 011_homer_hector_farewell
+  - 012_homer_priam_mercy
+  - 013_homer_patroclus_rage
+  - 014_homer_achilles_two_fates
+  - 015_homer_andromache_the_news
+  - 016_homer_helen_self_blame
 
 publishing_notes: >
   Publish in the order: Book I rage (006), the quarrel (007), then the

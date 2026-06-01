@@ -7,22 +7,48 @@ title: "Nobody"
 duration_target_seconds: 30
 word_count_target: "65-85"
 
-voice: bm_lewis
-music: somber_cinematic
-visual_world: mythic
+voice: narrator_blend
+music: cave_tension
+visual_world: odyssey
 visual_motif: "a glowing cave mouth at the bottom of a dark canyon, sheep nearby, two small figures"
 caption_style: sharp_white_text
 
+quote_type: narrative_scene
+
+music_asset:
+  local_path: "music/cave_tension/cave_tension_gallows_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "Odysseus"
+  role: "trapped in the Cyclops's cave"
+
+addressee:
+  name: "Polyphemus"
+  role: "the Cyclops"
+
+scene_context: >
+  Odysseus gives the false name 'Noman' to escape the cave; later shouts his
+  real name and pays for it.
+
 script: |
-  Trapped in the Cyclops's cave, Odysseus does the unmanly thing.
+  In Book IX of the Odyssey, trapped in the Cyclops's cave, Odysseus does not try to win by force.
+
+  He survives by silence, by timing, and by a false name.
 
   Asked his name, he says:
-  "Nobody."
+  "Noman."
 
   Then he blinds Polyphemus in his sleep
   and escapes under the bellies of the sheep.
 
-  He survived by being nobody.
+  He lives because he was no one.
 
   Then, sailing away, he cannot help himself.
   He shouts his real name across the water.
@@ -34,7 +60,7 @@ script: |
   Cunning saves you.
   Pride sells what cunning bought.
 
-  Be nobody first.
+  Be no one first.
 
 rights:
   quote_translation_status: public_domain_translation

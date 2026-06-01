@@ -1,0 +1,46 @@
+id: beowulf_old_king_last_fight_001
+series: literary_dark
+author: Anonymous (Beowulf)
+theme: duty
+duration_seconds: 30
+message: 'In the final part of Beowulf, the king is old, but the dragon still has to be faced:'
+hook: 'In the final part of Beowulf, the king is old, but the dragon still has to be faced:'
+voiceover: 'In the final part of Beowulf, the king is old, but the dragon still has to be faced:
+
+
+  "I risked my life often when I was young. Now I am old."
+
+
+  This is the hard dignity of age.
+
+  Strength fades.
+
+  Death approaches.
+
+  Responsibility does not vanish with either.
+
+
+  He does not confuse age with exemption.
+
+
+  The worthy question is not whether you are still young.
+
+
+  It is whether you still stand when duty calls.'
+final_line: It is whether you still stand when duty calls.
+visual:
+  world: northern_fate
+  background_prompt_key: beowulf_old_king_last_fight
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: slow_zoom
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: classical_male
+  music_profile: low_war_drone
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

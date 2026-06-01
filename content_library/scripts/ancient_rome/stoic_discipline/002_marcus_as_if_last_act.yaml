@@ -1,0 +1,61 @@
+script_id: 002_marcus_as_if_last_act
+arc_id: ancient_rome_stoic_discipline
+region: ancient_rome
+quote_source_id: marcus_meditations_as_if_last_act
+
+title: "Put The Rest Down"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: bm_george
+music: ancient_low_drone
+visual_world: stoic_rome
+visual_motif: "sun on a worn marble step, single figure entering frame"
+caption_style: marble_serif_centered
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/ancient_low_drone/ancient_low_drone_calm_dreamscape_004.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "Marcus Aurelius"
+  role: "emperor writing to himself"
+
+addressee:
+  name: "himself"
+  role: "a man preparing to act with full attention"
+
+scene_context: >
+  Marcus instructs himself: act now with simple dignity, put down every other
+  thought — Meditations II.5.
+
+script: |
+  In Meditations Book II, Marcus instructs himself on the next thing in front of him:
+
+  "Every moment think steadily, as a Roman and a man, to do what thou hast in hand with perfect and simple dignity — and to give thyself relief from all other thoughts."
+
+  Most failure is not lack of effort.
+
+  It is the part of the mind that is somewhere else while the hands work.
+
+  The man who lays down every other thought owns the moment in front of him.
+
+  Put the rest down.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: George Long
+  source_url: "https://classics.mit.edu/Antoninus/meditations.html"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Verify Long wording for Book II.5."

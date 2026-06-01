@@ -1,0 +1,63 @@
+script_id: 016_homer_helen_self_blame
+arc_id: ancient_greece_iliad
+region: ancient_greece
+quote_source_id: homer_iliad_helen_self_blame
+
+title: "She Named It First"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: narrator_blend
+music: grief_lament
+visual_world: iliad
+visual_motif: "Helen in pale robes at a tall stone balcony above Troy, Greek fleet on the sea at dawn"
+caption_style: sparse_centered_captions
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/grief_lament/grief_lament_strings_epic_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "Helen"
+  role: "Helen of Troy, cause of the war"
+
+addressee:
+  name: "Priam"
+  role: "king of Troy"
+
+scene_context: >
+  On the walls of Troy, Helen identifies the Greek champions for Priam and
+  begins by blaming herself.
+
+script: |
+  In Book III of the Iliad, Priam asks Helen to identify the Greek champions in the field below the walls of Troy.
+
+  She begins not with the warriors but with herself:
+
+  "Would that I had chosen death rather than to have come here with your son. I am hateful of all men."
+
+  The Iliad neither punishes her nor exempts her.
+
+  It lets her grieve out loud, in full view of the war her presence still funds.
+
+  The most honest grief is the kind that does not look for someone else to blame.
+
+  She named it before anyone else did.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: Samuel Butler
+  source_url: "https://www.gutenberg.org/ebooks/2199"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Treat Helen as moral subject. Verify Butler Book III 173-180."

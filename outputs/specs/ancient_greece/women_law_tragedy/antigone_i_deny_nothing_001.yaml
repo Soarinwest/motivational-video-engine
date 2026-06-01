@@ -31,13 +31,14 @@ final_line: Stand where you chose to stand.
 visual:
   world: stoic_rome
   background_prompt_key: antigone_ruined_courtyard
+  background_override_path: null
   figure_prompt_key: none
   motion_profile: medium_zoom
   overlays: []
   caption_style: serif_quiet
 audio:
   tts_provider: kokoro
-  voice_profile: literary_male
+  voice_profile: narrator_blend
   music_profile: ambient_strings_low
 render:
   resolution: 1080x1920

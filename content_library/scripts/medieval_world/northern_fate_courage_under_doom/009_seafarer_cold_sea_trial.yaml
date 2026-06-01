@@ -1,0 +1,70 @@
+script_id: 009_seafarer_cold_sea_trial
+arc_id: medieval_world_northern_fate_courage_under_doom
+region: medieval_world
+quote_source_id: seafarer_cold_sea_trial
+
+title: "Some Truths Arrive Frozen"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: narrator_blend
+music: cold_ambient
+visual_world: northern_fate
+visual_motif: "lone Anglo-Saxon seafarer on the deck of a small ship in icy northern waters"
+caption_style: marble_serif_centered
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/ancient_low_drone/ancient_low_drone_calm_dreamscape_004.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "the Seafarer"
+  role: "solitary speaker describing hardship, exile, and spiritual trial"
+
+addressee:
+  name: "the listener"
+  role: "audience receiving the speaker's memory and moral reflection"
+
+scene_context: >
+  The Seafarer describes the hardship of life on the winter sea: cold, hunger,
+  isolation, waves, birds, and longing. The sea is both physical trial and
+  spiritual discipline.
+
+script: |
+  In The Seafarer, the speaker remembers the sea plainly:
+
+  "My feet were by frost benumbed."
+
+  No glamour.
+  No comfort.
+  No false romance.
+
+  The trial matters because hardship strips a person down.
+  It shows what softness had hidden.
+
+  Cold.
+  Hunger.
+  Isolation.
+  The long pull forward.
+
+  There are things you only learn when the shore is gone.
+
+  Some truths arrive frozen.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: R. K. Gordon
+  source_url: "https://en.wikisource.org/wiki/The_Seafarer"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Verify Gordon lines 8-12."

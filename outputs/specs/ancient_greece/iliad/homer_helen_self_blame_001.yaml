@@ -1,0 +1,43 @@
+id: homer_helen_self_blame_001
+series: literary_dark
+author: Homer
+theme: grief
+duration_seconds: 30
+message: In Book III of the Iliad, Priam asks Helen to identify the Greek champions in the field below the walls of Troy.
+hook: In Book III of the Iliad, Priam asks Helen to identify the Greek champions in the field below the walls of Troy.
+voiceover: 'In Book III of the Iliad, Priam asks Helen to identify the Greek champions in the field below the walls of Troy.
+
+
+  She begins not with the warriors but with herself:
+
+
+  "Would that I had chosen death rather than to have come here with your son. I am hateful of all men."
+
+
+  The Iliad neither punishes her nor exempts her.
+
+
+  It lets her grieve out loud, in full view of the war her presence still funds.
+
+
+  The most honest grief is the kind that does not look for someone else to blame.
+
+
+  She named it before anyone else did.'
+final_line: She named it before anyone else did.
+visual:
+  world: iliad
+  background_prompt_key: helen_of_troy_at_balcony_sea
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: slow_zoom
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: narrator_blend
+  music_profile: grief_lament
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

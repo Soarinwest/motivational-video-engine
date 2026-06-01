@@ -8,10 +8,33 @@ duration_target_seconds: 30
 word_count_target: "65-85"
 
 voice: am_michael
-music: somber_cinematic
-visual_world: mythic
+music: aegean_voyage
+visual_world: odyssey
 visual_motif: "broken mast, dark sea, dawn line"
 caption_style: sharp_white_text
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/aegean_voyage/aegean_voyage_epic_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "Odysseus"
+  role: "the returning hero, setting out"
+
+addressee:
+  name: "Calypso"
+  role: "the immortal letting him go"
+
+scene_context: >
+  Odysseus accepts that the sea may wreck him; he will bear it and go on.
 
 script: |
   Odysseus says in the Odyssey:

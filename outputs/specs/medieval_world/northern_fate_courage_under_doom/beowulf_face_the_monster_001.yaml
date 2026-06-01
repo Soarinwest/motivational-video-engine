@@ -1,0 +1,50 @@
+id: beowulf_face_the_monster_001
+series: literary_dark
+author: Anonymous (Beowulf)
+theme: courage
+duration_seconds: 30
+message: In Beowulf, the hero does not ask for a guarantee before entering the hall.
+hook: In Beowulf, the hero does not ask for a guarantee before entering the hall.
+voiceover: 'In Beowulf, the hero does not ask for a guarantee before entering the hall.
+
+
+  He commits himself:
+
+
+  "I shall fulfil that purpose."
+
+
+  This is not recklessness for applause.
+
+  It is courage aimed at what is devouring the people around him.
+
+
+  Every age has its monster.
+
+  Fear.
+
+  Vice.
+
+  Chaos.
+
+  Cowardice.
+
+
+  At some point, a person has to stop talking about it and step inside.'
+final_line: At some point, a person has to stop talking about it and step inside.
+visual:
+  world: northern_fate
+  background_prompt_key: beowulf_face_the_monster
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: static
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: low_steady_male
+  music_profile: distant_frame_drum
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

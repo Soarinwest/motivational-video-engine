@@ -30,16 +30,17 @@ voiceover: 'In Homer''s Odyssey, Odysseus is offered ease, beauty, and escape.
   Then endure the sea between.'
 final_line: Then endure the sea between.
 visual:
-  world: ancient_greece
-  background_prompt_key: homer_return_home_ships
+  world: odyssey
+  background_prompt_key: ithaca_dawn_cliffs
+  background_override_path: null
   figure_prompt_key: none
-  motion_profile: medium_pan
+  motion_profile: slow_pan
   overlays: []
   caption_style: serif_quiet
 audio:
   tts_provider: kokoro
   voice_profile: classical_male
-  music_profile: soft_lyre_ambient
+  music_profile: aegean_voyage
 render:
   resolution: 1080x1920
   fps: 30

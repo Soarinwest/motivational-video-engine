@@ -1,0 +1,62 @@
+script_id: 003_seneca_each_day_a_life
+arc_id: ancient_rome_seneca_on_time
+region: ancient_rome
+quote_source_id: seneca_letters_each_day_a_life
+
+title: "Close The Day"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: bm_george
+music: underworld_grief
+visual_world: stoic_rome
+visual_motif: "stone room at dusk, candle nearly out, ledger closed"
+caption_style: marble_serif_centered
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/underworld_grief/underworld_grief_cinematic_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "Seneca"
+  role: "Stoic teacher writing to Lucilius"
+
+addressee:
+  name: "Lucilius"
+  role: "the recipient of the Moral Letters"
+
+scene_context: >
+  Letter XII — close every day as if it were the end of life; postpone
+  nothing.
+
+script: |
+  In Letter XII to Lucilius, Seneca writes:
+
+  "Let us so order our minds as if we had come to the end. Let us postpone nothing. Let us balance life's books each day."
+
+  A life is built out of days that have been closed.
+
+  Not days carried over.
+
+  The man who postpones is not waiting.
+  He is leaking life into a tomorrow that may not arrive.
+
+  Close the day.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: Richard Gummere
+  source_url: "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Verify Gummere Loeb wording for Letter XII closing."

@@ -13,3 +13,6 @@ series:
   field_notes:
     description: Observational pieces from nature, weather, recovery.
     default_world: field_notes
+  women_left_alive:
+    description: Women holding what war breaks — widow vigils, sister grief, the homefront after the front collapses. Penelope, Andromache, Antigone.
+    default_world: ancient_greece

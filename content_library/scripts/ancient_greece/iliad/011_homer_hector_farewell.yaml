@@ -7,11 +7,35 @@ title: "Hector at the Gates"
 duration_target_seconds: 30
 word_count_target: "65-85"
 
-voice: bm_lewis
-music: somber_cinematic
-visual_world: mythic
+voice: narrator_blend
+music: grief_lament
+visual_world: iliad
 visual_motif: "Bronze-age city gate at sunset, a warrior walking through, his wife and infant beside him"
 caption_style: sparse_centered_captions
+
+quote_type: narrative_scene
+
+music_asset:
+  local_path: "music/grief_lament/grief_lament_strings_epic_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "Hector"
+  role: "Trojan prince and defender of Troy"
+
+addressee:
+  name: "Andromache"
+  role: "his wife"
+
+scene_context: >
+  Hector embraces Andromache and their infant son at the Scaean Gates before
+  returning to the war that will kill him.
 
 script: |
   In the Iliad, Book VI, Hector says goodbye to his wife and infant son

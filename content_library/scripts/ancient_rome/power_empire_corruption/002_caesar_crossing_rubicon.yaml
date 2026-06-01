@@ -1,0 +1,67 @@
+script_id: 002_caesar_crossing_rubicon
+arc_id: ancient_rome_power_empire_corruption
+region: ancient_rome
+quote_source_id: plutarch_lives_caesar_crossing_rubicon
+
+title: "The Line You Cannot Uncross"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: bm_george
+music: bronze_war_camp
+visual_world: stoic_rome
+visual_motif: "horseback at the edge of a narrow river at night, legionaries waiting in silence, red standards lowered"
+caption_style: marble_serif_centered
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/bronze_war_camp/bronze_war_camp_drum_002.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "Julius Caesar"
+  role: "Roman general and proconsul of Gaul"
+
+addressee:
+  name: "his army (and himself)"
+  role: "the legionaries waiting on the north bank — and Caesar's own decision"
+
+scene_context: >
+  The Rubicon is a small river. Crossing it with an army is treason — the
+  Senate forbids any general to bring troops into Italy proper. On the north
+  bank Caesar pauses. Plutarch records him saying the decision is made — and
+  then he crosses, with his army, and the Republic is over.
+
+script: |
+  In Plutarch's Life of Caesar, the Rubicon is a small river. The Senate forbids any general to bring an army across it.
+
+  Caesar pauses on the north bank with his legions.
+
+  He knows the crossing costs not just his own future but a thousand years of Roman constitutional order.
+
+  Plutarch records the words he gives himself before he moves:
+
+  "The die is cast."
+
+  Ambition's most expensive feature is the line you cannot uncross.
+
+  Most decisions a man regrets were obvious before he made them.
+
+  He crossed.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: John Dryden / Arthur Hugh Clough
+  source_url: "https://www.gutenberg.org/ebooks/674"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Verify Dryden/Clough Caesar 32."

@@ -81,6 +81,138 @@ worlds:
         an empty ruined Roman courtyard at dawn after a city has fallen,
         broken stone steps, drifting ash, distant smoke beyond the columns,
         tragic and severe atmosphere
+      marcus_forum_morning: >-
+        an empty Roman forum at first light, weathered marble paving stones,
+        a long colonnade in cold golden dawn, distant temples in mist,
+        severe and disciplined ancient atmosphere
+      marcus_temple_platform: >-
+        the sunlit upper platform of a weathered Roman temple, fluted
+        marble columns casting long shadows, a worn marble step in the
+        foreground, cold golden light, severe and disciplined atmosphere
+      marcus_road_mist: >-
+        an empty paved Roman road disappearing into low morning mist,
+        weathered milestones to one side, cold grey light, a sense of
+        a single figure having just walked past, severe and elegiac
+        atmosphere
+      seneca_writing_desk: >-
+        a Roman writing desk at dawn beside a tall window, a half-finished
+        letter and stylus on parchment, a single oil lamp burning low,
+        cold storm light beyond the window, restrained and disciplined
+        atmosphere
+      seneca_stone_room_morning: >-
+        a quiet bare stone room at morning, a single book on a worn
+        wooden table, one chair, a tall window open to soft morning
+        light over distant ruins, restrained and contemplative atmosphere
+      seneca_stone_room_dusk: >-
+        a quiet bare stone room at dusk, a closed ledger and stylus on a
+        worn wooden table, a single candle nearly burned out, the last
+        cold light fading at the window, restrained and severe atmosphere
+
+      # ----- Rome arc — subject-in-scene backgrounds (15 figure-centric) -----
+      # These bgs have a named Roman figure as the foreground subject; for the
+      # newer "scene-only, subject-as-figure-cutout" pattern see prompts 16-20.
+      marcus_emperor_at_lamp: >-
+        Marcus Aurelius writing alone by oil lamp inside a military tent on
+        the Danube frontier, plain dark cloak over simple armor, scrolls and
+        wax tablets on a wooden campaign table, rain outside, Roman standards
+        in shadow, tired but disciplined, bronze and storm gray and cold gold
+      marcus_do_not_argue_goodness: >-
+        Marcus Aurelius at dawn before a quiet Roman camp, soldiers and red
+        standards in mist behind him, face calm and severe, one hand on a
+        worn leather journal, cold morning light over distant hills, duty
+        without applause
+      seneca_shortness_of_life: >-
+        Seneca seated in a sparse Roman study, old scrolls beside him,
+        sunlight cutting across marble floor, a small water clock nearby,
+        thoughtful and unsentimental, wealthy surroundings subdued by moral
+        seriousness, parchment and bronze and cold gold
+      seneca_imagined_suffering: >-
+        Seneca standing beside a dark window during a Roman storm, folded
+        letter in hand, candlelight behind him, calm while shadows gather
+        across the room, Stoic restraint, black marble and bronze and
+        storm gray
+      cicero_duty_over_advantage: >-
+        Cicero on the steps of the Roman Senate, toga wrapped tight against
+        wind, blurred senators behind, bronze doors open into darkness,
+        serious and morally burdened, marble white and deep red and bronze
+      cincinnatus_power_to_plow: >-
+        Cincinnatus in a small Roman field at sunrise, one hand on a wooden
+        plow, simple farmer's tunic, Roman messengers approaching with
+        military cloaks and standards in the distance, humble and resolute,
+        earth brown and muted red and cold gold
+      caesar_crossing_rubicon: >-
+        Julius Caesar on horseback at the edge of a narrow river at night,
+        legionaries waiting in silence behind, red standards lowered in mist,
+        torchlight on black water, decisive and unreadable, storm gray and
+        deep red and cold gold
+      brutus_republic_over_blood: >-
+        Brutus alone inside a shadowed Roman chamber, dagger on a marble
+        table before him, busts of ancestors lining the walls, faint red
+        light from outside, torn but controlled, marble white and bronze
+        and storm gray
+      tacitus_desert_and_peace: >-
+        Tacitus seated among ruined arches at dusk, writing on a scroll
+        while distant Roman soldiers march across a barren conquered
+        landscape, smoke rising on the horizon, cold and observant, ash
+        gray and bronze and deep red
+      sallust_republic_rots_appetite: >-
+        a decaying Roman banquet hall after midnight, overturned wine cups,
+        wilted garlands, marble statues watching in silence, a single Roman
+        historian apart with a scroll, disgusted and sorrowful, black marble
+        and wine red and bronze
+      marcus_leave_life_now: >-
+        Marcus Aurelius alone beside a funeral pyre at dusk, smoke rising
+        into a storm gray sky, Roman campfires glowing in the distance, calm
+        and mortal, no crown, only duty and impermanence, ash gray and
+        bronze and cold gold
+      marcus_inner_citadel: >-
+        Marcus Aurelius seated in meditation inside a dark stone chamber,
+        faint golden light outlining his face, chaos of battle suggested
+        only as shadows on the wall, steady and inwardly sovereign, black
+        stone and bronze and cold gold
+      virgil_burden_of_destiny: >-
+        Aeneas carrying his elderly father through burning Troy, child
+        following close behind, flames on bronze armor, smoke and ash
+        filling the night sky, determined and grief-stricken, fire gold
+        and ash gray and bronze
+      virgil_founding_through_loss: >-
+        Aeneas standing on a dark Italian shoreline at dawn, Trojan ships
+        behind him, sword lowered, marked by grief and resolve, distant
+        hills of future Rome through mist, cold gold and dark blue sea
+      lucretius_fear_of_death: >-
+        Lucretius beneath a vast night sky outside Rome, small oil lamp in
+        hand, stars above ancient ruins, skull and flowers on a stone table
+        nearby, calm and philosophical, black sky and marble white and cold
+        silver
+
+      # ----- Rome arc — scene-only backgrounds (no named subject) -----
+      # These follow the newer principle: scenes hold the world; figures
+      # (if any) are composited via alpha as foreground subjects.
+      senate_steps_in_rain: >-
+        empty Roman Senate steps under heavy rain, red cloak abandoned on
+        wet marble, bronze doors closed, storm clouds above the Forum,
+        political consequence and silence after decision, marble white and
+        storm gray and deep red
+      legion_road_at_dawn: >-
+        Roman legion road across misty hills at dawn, soldiers marching in
+        disciplined silence, red standards and bronze eagles in cold gold
+        light, no celebration, only endurance and duty, muted red and bronze
+        and storm gray
+      ruined_forum_after_empire: >-
+        the Roman Forum in ruins at twilight, broken columns, cracked
+        marble statues, grass through stone, distant birds in a storm gray
+        sky, vanished power and human impermanence, marble white and ash
+        gray and bronze
+      bronze_eagle: >-
+        close view of a Roman bronze eagle standard planted in dark earth
+        after battle, torn red banner moving in cold wind, helmets and
+        shields scattered nearby, no bodies visible, cost behind victory,
+        bronze and deep red and storm gray
+      oil_lamp_and_scroll: >-
+        single oil lamp burning beside an open Roman scroll on a marble
+        table, shadows of columns falling across the room, distant soundless
+        storm outside, austere philosophical mood, warm gold and black
+        marble and parchment
 
     figure_prompts:
       marcus_bust_storm_light: >-
@@ -196,18 +328,6 @@ worlds:
         Bronze-age Greek long ships resting on a dark shoreline at dawn,
         prows facing the sea, low mist over the water, distant cliffs,
         epic and elegiac atmosphere
-      ithaca_homecoming_path: >-
-        an ancient stone path through olive groves at golden hour,
-        leading toward a distant Doric temple above the sea, rugged
-        Mediterranean landscape, atmosphere of homecoming
-      woman_on_city_walls: >-
-        a noblewoman in dark robes seen from behind, standing on
-        weathered city walls overlooking a Mediterranean coastal city
-        at dusk, distant ships in harbor, atmosphere of vigil and grief
-      woman_at_balcony_sea: >-
-        a young woman in pale flowing robes seated at a tall stone
-        balcony window, looking out at a distant Mediterranean city
-        and sea at dawn, atmosphere of longing and waiting
 
     figure_prompts:
       epictetus_in_shadow: >-
@@ -415,50 +535,51 @@ worlds:
       neon, glossy AI render, anime, cartoon, fantasy creatures
 
   # -----------------------------------------------------------------------
-  mythic:
+  iliad:
     description: >-
-      Bronze-age warriors, ancient shorelines, wind-scoured ridges, and
-      camp-fire embers. Heroic but grounded — for Homer, Beowulf, the
-      Iliad-Odyssey lineage. Not fantasy armor, not exaggerated muscles.
+      Bronze-age Trojan war: war camps, fortified city walls, oil-lit
+      tents, broken shields, ships beached beneath Troy. Heroic but
+      grounded — for Homer's Iliad. Not fantasy armor, not exaggerated
+      muscles. Severe and mournful, not triumphalist.
     mood:
       - severe
       - heroic
       - mournful
-      - elemental
+      - weighty
       - weathered
-      - epic
+      - elegiac
     palette:
       - bronze
       - storm-cloud charcoal
-      - cold sea blue
+      - blood rust
       - ash grey
       - banked ember orange
       - weathered leather brown
+      - oil-lamp amber
     motifs:
       - bronze helmets and shields
-      - long ships on dark shores
+      - fortified city walls
+      - war camps and tents
       - extinguished campfires
-      - wind-scoured ridges
-      - cliffs above grey seas
-      - cracked stone cairns
+      - broken shields and spears
+      - beached longships
+      - oil lamps in dim tents
     common_overlays:
       - drifting_ash
       - storm_haze
       - subtle_grain
-      - sea_spray
+      - smoke
     recommended_motion_profiles:
       - static
       - slow_zoom
       - slow_pan
     suitable_series:
+      - literary_dark
       - hard_truths_for_men
     suitable_authors:
       - Homer
-      - Hesiod
-      - the Beowulf poet
 
     background_prompts:
-      # Iliad
       war_camp_fire_meadow: >-
         an empty Bronze-age war camp at dawn, extinguished fire pits,
         scattered weapons on bare ground, a single bronze helmet upturned
@@ -478,57 +599,21 @@ worlds:
         single oil lamp casting warm shadows on hanging cloth and a low
         table, an old king kneeling before a seated warrior, atmosphere
         of grief, mercy, and weighted silence
-
-      # Odyssey
-      polyphemus_cave: >-
-        a narrow rocky canyon at night with a glowing cave mouth at the
-        bottom, two small figures and a flock of sheep nearby, low
-        firelight inside the cave, severe and mythic atmosphere
-      sea_cave_entrance: >-
-        the dramatic view from inside a vast sea cave looking out toward
-        the open sea, the moon visible through the rocky opening, dark
-        waves on glistening rocks, weathered and elemental atmosphere
-      calypso_island_twilight: >-
-        a solitary stone cottage on an island shore at twilight, glowing
-        windows, grass path leading toward the sea, distant tree-lined
-        coast, mythic and longing atmosphere
-      penelope_by_window: >-
-        a woman in flowing ancient Greek robes seated quietly by a wide
-        window in a dim stone interior, oil lamp on a small table beside
-        her, sea visible in the distance through the window, atmosphere
-        of patient grief and waiting
-      bow_in_great_hall: >-
-        an ornate ancient bow with arrows resting on the polished stone
-        floor of a vast candlelit ancient hall, low ottoman beside it,
-        chandeliers and tall columns, atmosphere of return and judgement
-      ithaca_dawn_cliffs: >-
-        rugged Mediterranean cliffs at dawn with olive trees, an ancient
-        stone village clinging to the rocks above the sea, golden light,
-        homecoming atmosphere
-      odysseus_shoreline: >-
-        a cloaked figure standing on a cliff edge looking out over a dark
-        sea at sunset, distant rocky islets, weathered and still
-      odysseus_shoreline_dawn: >-
-        a cloaked figure on rocky cliffs at dawn, dramatic sky with
-        shafts of cold light through clouds, churning sea below,
-        epic and weathered atmosphere
-      boat_on_shore_sunset: >-
-        a single small wooden fishing boat on calm sandy beach at sunset,
-        a distant ship on the horizon, mythic and quiet atmosphere
-      underworld_shoreline: >-
-        a misty grey shoreline at dusk, the ruins of a stone gateway in
-        the distance reflected in still dark water, atmosphere of
-        confronting the dead
-      crossing_river_of_dead: >-
-        a dark Stygian river at night with a small boat rowed by a
-        cloaked ferryman, pale figures on the banks, dim moonlight,
-        atmosphere of crossing into the dead
-
-      # Iliad / Trojan war additions
-      hero_overlooking_camp: >-
-        a Bronze-age warrior hero seen from behind on a cliff at dusk,
-        looking down over a vast beached fleet and tented Greek camp,
-        weathered armor, atmospheric storm light
+      achilles_overlooking_camp: >-
+        Achilles in worn bronze armor seen from behind on a cliff at
+        dusk, looking down over a vast beached fleet and tented Greek
+        camp, weathered armor, atmospheric storm light, Bronze-age
+        Trojan war atmosphere
+      andromache_on_city_walls: >-
+        Andromache in dark robes seen from behind, standing on the
+        weathered Bronze-age walls of Troy at dusk, looking out over
+        distant Greek longships in harbor, atmosphere of vigil and
+        grief, severe and elegiac
+      helen_of_troy_at_balcony_sea: >-
+        Helen of Troy in pale flowing robes seated at a tall stone
+        balcony window above the walls of Troy, looking out at the
+        distant Greek fleet on the sea at dawn, atmosphere of longing,
+        regret, and the cost she became
       greek_camp_at_troy: >-
         a panoramic Bronze-age Greek encampment on the shore beneath
         distant walled Troy at dawn, beached longships, scattered fires,
@@ -557,8 +642,87 @@ worlds:
         a muddy battlefield at dawn, broken shield and spear in the
         foreground, walled city in the distance, shafts of cold light
         through clouds, atmosphere of cost
+      ship_in_lightning_storm: >-
+        an ancient Greek sailing ship caught in a violent storm at
+        sea, lightning splitting dark clouds, towering waves, figures
+        struggling at the rigging, severe and elemental
 
-      # Odyssey additions
+    figure_prompts:
+      none: ""
+      warrior_silhouette: >-
+        the silhouette of a Bronze-age warrior in worn cloak and bronze
+        helmet seen from behind, looking out toward a grey sea, weathered
+        and still
+
+    image_prompt_template: |
+      Create a cinematic vertical 9:16 image for an Iliad-tradition piece
+      about {theme}, in the spirit of {author}.
+
+      In the foreground, {figure}. The setting is {background}. The light
+      is severe, weighty, and weathered — bronze, storm, and oil-lamp
+      colors, no fantasy elements. Leave dark negative space in the upper
+      third for captions.
+
+      Style: painterly realism, cinematic lighting, weathered bronze and
+      stone, epic but grounded Bronze-age atmosphere, not cartoonish, not
+      glossy, not fantasy armor.
+
+    negative_prompt: >-
+      fantasy armor, exaggerated muscles, modern clothing, medieval armor,
+      knights, plate armor, text, watermark, logo, neon, glossy AI render,
+      smiling face, influencer pose, dragons, elves, orcs, anime, cartoon,
+      distorted face, extra fingers
+
+  # -----------------------------------------------------------------------
+  odyssey:
+    description: >-
+      Bronze-age long voyage: sea cliffs, island shores, caves, looms,
+      dawn over Aegean water. The return is the work. For Homer's
+      Odyssey. Not fantasy, not high-seas pirate aesthetic — elegiac,
+      mournful, longing.
+    mood:
+      - elegiac
+      - mournful
+      - longing
+      - elemental
+      - weathered
+      - severe
+    palette:
+      - cold sea blue
+      - storm-cloud charcoal
+      - weathered wood brown
+      - island gold
+      - dark stone
+      - dawn rose
+      - oil-lamp amber
+    motifs:
+      - long ships on dark shores
+      - sea caves and cliffs
+      - islands at twilight
+      - oars and weathered cloaks
+      - looms and oil lamps
+      - rocky Mediterranean shores
+      - dawn over open sea
+    common_overlays:
+      - sea_spray
+      - low_fog
+      - subtle_grain
+      - drifting_dust
+    recommended_motion_profiles:
+      - slow_pan
+      - slow_zoom
+      - static
+    suitable_series:
+      - literary_dark
+      - hard_truths_for_men
+    suitable_authors:
+      - Homer
+
+    background_prompts:
+      polyphemus_cave: >-
+        a narrow rocky canyon at night with a glowing cave mouth at the
+        bottom, two small figures and a flock of sheep nearby, low
+        firelight inside the cave, severe and mythic atmosphere
       polyphemus_cave_men_interior: >-
         the interior of a vast dim cave with the looming shadow of
         the Cyclops at the back, men huddled in the foreground around
@@ -571,6 +735,33 @@ worlds:
         the view down into a deep stone cave, a torch-bearer leading
         sheep past silent figures, looming dim cyclops shape behind,
         mythic and tense atmosphere
+      sea_cave_entrance: >-
+        the dramatic view from inside a vast sea cave looking out toward
+        the open sea, the moon visible through the rocky opening, dark
+        waves on glistening rocks, weathered and elemental atmosphere
+      calypso_island_twilight: >-
+        a solitary stone cottage on an island shore at twilight, glowing
+        windows, grass path leading toward the sea, distant tree-lined
+        coast, mythic and longing atmosphere
+      eumaeus_cottage_twilight: >-
+        a small stone cottage on an island path at twilight, glowing
+        doorway, garden with vines, distant sunset over the sea,
+        humble and welcoming atmosphere
+      ithaca_dawn_cliffs: >-
+        rugged Mediterranean cliffs at dawn with olive trees, an ancient
+        stone village clinging to the rocks above the sea, golden light,
+        homecoming atmosphere
+      ithaca_homecoming_path: >-
+        an ancient stone path through olive groves at golden hour,
+        leading toward a distant Doric temple above the sea, rugged
+        Mediterranean landscape, atmosphere of homecoming
+      odysseus_shoreline: >-
+        a cloaked figure standing on a cliff edge looking out over a dark
+        sea at sunset, distant rocky islets, weathered and still
+      odysseus_shoreline_dawn: >-
+        a cloaked figure on rocky cliffs at dawn, dramatic sky with
+        shafts of cold light through clouds, churning sea below,
+        epic and weathered atmosphere
       odysseus_facing_sunset: >-
         a cloaked Bronze-age figure seen from behind standing on a
         rocky shore at sunset, distant island, golden light on rough
@@ -579,24 +770,103 @@ worlds:
         a single weathered wooden oar lying alone in the wet sand at
         the edge of the sea at sunset, a distant ancient ship on the
         horizon, mythic and prophetic atmosphere
+      boat_on_shore_sunset: >-
+        a single small wooden fishing boat on calm sandy beach at sunset,
+        a distant ship on the horizon, mythic and quiet atmosphere
+      penelope_by_window: >-
+        a woman in flowing ancient Greek robes seated quietly by a wide
+        window in a dim stone interior, oil lamp on a small table beside
+        her, sea visible in the distance through the window, atmosphere
+        of patient grief and waiting
       penelope_at_loom: >-
         an ancient Greek woman seated at a tall wooden loom by a
         moonlit window, the sea visible through the window, single
         oil lamp on a small table, atmosphere of patient grief
-      ship_in_lightning_storm: >-
-        an ancient Greek sailing ship caught in a violent storm at
-        sea, lightning splitting dark clouds, towering waves, figures
-        struggling at the rigging, severe and elemental
+      bow_in_great_hall: >-
+        an ornate ancient bow with arrows resting on the polished stone
+        floor of a vast candlelit ancient hall, low ottoman beside it,
+        chandeliers and tall columns, atmosphere of return and judgement
       odysseus_olive_bed: >-
         a rough wooden bed built around the living trunk of an olive
         tree in a stone-walled bedchamber at dawn, soft light through
         linen curtains, atmosphere of homecoming and faithful memory
-      eumaeus_cottage_twilight: >-
-        a small stone cottage on an island path at twilight, glowing
-        doorway, garden with vines, distant sunset over the sea,
-        humble and welcoming atmosphere
+      underworld_shoreline: >-
+        a misty grey shoreline at dusk, the ruins of a stone gateway in
+        the distance reflected in still dark water, atmosphere of
+        confronting the dead
+      crossing_river_of_dead: >-
+        a dark Stygian river at night with a small boat rowed by a
+        cloaked ferryman, pale figures on the banks, dim moonlight,
+        atmosphere of crossing into the dead
 
-      # Beowulf / generic mythic
+    figure_prompts:
+      none: ""
+      odysseus_cloaked_silhouette: >-
+        the silhouette of a Bronze-age traveler in a worn cloak seen
+        from behind, looking out over a dark sea, weathered and still
+      penelope_at_window: >-
+        an ancient Greek woman in flowing robes seen from behind, seated
+        at a window facing the sea, patient and still
+
+    image_prompt_template: |
+      Create a cinematic vertical 9:16 image for an Odyssey-tradition
+      piece about {theme}, in the spirit of {author}.
+
+      In the foreground, {figure}. The setting is {background}. The light
+      is elegiac, elemental, and weathered — cold sea, dawn rose, island
+      gold, oil-lamp amber, no fantasy elements. Leave dark negative
+      space in the upper third for captions.
+
+      Style: painterly realism, cinematic lighting, weathered Bronze-age
+      Mediterranean atmosphere, longing and severe, not cartoonish, not
+      glossy, not fantasy.
+
+    negative_prompt: >-
+      fantasy armor, exaggerated muscles, modern clothing, medieval
+      tall ships, galleons, pirate aesthetic, text, watermark, logo,
+      neon, glossy AI render, smiling face, influencer pose, anime,
+      cartoon, distorted face, extra fingers
+
+  # -----------------------------------------------------------------------
+  mythic:
+    description: >-
+      Generic Bronze-age and northern-heroic atmosphere — for Beowulf,
+      Hesiod, and unattributed mythic pieces that don't belong to the
+      Iliad or Odyssey arcs. Wind-scoured ridges, cairns, lone ships
+      on dark shores. Heroic but grounded.
+    mood:
+      - severe
+      - mythic
+      - weathered
+      - elemental
+      - mournful
+    palette:
+      - storm-cloud charcoal
+      - cold sea blue
+      - ash grey
+      - bronze
+      - weathered stone grey
+    motifs:
+      - lone ships on dark shores
+      - wind-scoured ridges
+      - cracked stone cairns
+      - cliffs above grey seas
+    common_overlays:
+      - drifting_ash
+      - storm_haze
+      - subtle_grain
+      - sea_spray
+    recommended_motion_profiles:
+      - static
+      - slow_zoom
+      - slow_pan
+    suitable_series:
+      - hard_truths_for_men
+    suitable_authors:
+      - the Beowulf poet
+      - Hesiod
+
+    background_prompts:
       beowulf_warrior_cave: >-
         a lone figure walking toward the tall narrow mouth of a cave in
         a stark northern landscape, golden light pouring through the
@@ -632,3 +902,333 @@ worlds:
       fantasy armor, exaggerated muscles, modern clothing, text, watermark,
       logo, neon, glossy AI render, smiling face, influencer pose, dragons,
       elves, orcs, anime, cartoon, distorted face, extra fingers
+
+  # -----------------------------------------------------------------------
+  northern_fate:
+    description: >-
+      Norse, Anglo-Saxon, and northern-heroic visual world. Iron gray, ash
+      brown, snow white, cold blue, fire orange, deep pine green. Burial
+      mounds, mead halls, frozen shores, dragon barrows. Courage under doom,
+      not triumphalism. Mortal weight, not fantasy.
+    mood:
+      - severe
+      - elegiac
+      - mythic
+      - cold
+      - heroic
+      - mournful
+    palette:
+      - iron gray
+      - charcoal black
+      - blood red
+      - snow white
+      - cold blue
+      - fire orange
+      - ash brown
+      - deep pine green
+    motifs:
+      - burial mounds
+      - mead halls
+      - ravens
+      - shield walls
+      - frozen shores
+      - dragon barrows
+      - timber pillars
+      - hanging shields
+    common_overlays:
+      - low_fog
+      - drifting_ash
+      - subtle_grain
+      - sea_spray
+    recommended_motion_profiles:
+      - static
+      - slow_zoom
+      - slow_pan
+    suitable_series:
+      - literary_dark
+      - hard_truths_for_men
+    suitable_authors:
+      - the Hávamál poet
+      - the Völuspá seeress
+      - the Beowulf poet
+      - the Wanderer poet
+      - the Seafarer poet
+      - the Battle of Maldon poet
+
+    background_prompts:
+      havamal_reputation_after_death: >-
+        an old Norse wisdom figure standing beside a burial mound at dusk,
+        ravens circling overhead, wind moving through dead grass, distant
+        snow mountains under a darkening sky, expression severe but calm,
+        meditation on mortality and reputation, Norse mythic realism, iron
+        gray, ash brown, snow white, cold blue, faint firelight
+      havamal_wisdom_and_silence: >-
+        a solitary Norse man seated in silence inside a dim timber hall,
+        firelight low, other figures blurred in quiet conversation, his face
+        thoughtful and unreadable, carved wooden pillars and hanging shields,
+        atmosphere of restraint and listening, mythic realism, fire orange,
+        charcoal black, iron gray, deep pine green
+      odin_wisdom_has_a_cost: >-
+        Odin hanging in silhouette from a vast wind-torn ash tree at twilight,
+        one eye shadowed, spear wound visible, ravens on twisted branches,
+        storm clouds over a frozen landscape, atmosphere of sacrifice and
+        severe wisdom, Norse mythic realism, charcoal black, cold blue, iron
+        gray, blood red accents
+      voluspa_fate_of_the_gods: >-
+        a Norse seeress standing on a black stone ridge in a snowstorm, cloak
+        whipping in the wind, one hand raised as if speaking prophecy, Odin
+        listening in shadow below, ravens and distant lightning over a broken
+        horizon, atmosphere of fate and foretelling, mythic realism, iron
+        gray, cold blue, snow white, charcoal black
+      ragnarok_even_gods_fall: >-
+        Norse gods and warriors standing against a burning horizon at
+        Ragnarök, wolves and fire giants emerging through smoke, shattered
+        bridge in the distance, snow and ash falling together, no triumph
+        only doomed courage, mythic cinematic realism, blood red, charcoal
+        black, fire orange, iron gray, cold blue
+      beowulf_face_the_monster: >-
+        Beowulf standing alone in the center of a dark mead hall at night,
+        warriors asleep behind him, low firelight across wooden beams, the
+        massive shadow of Grendel entering through the doorway, expression
+        calm and ready, Anglo-Saxon heroic realism, ash brown, iron gray,
+        fire orange, deep black
+      beowulf_old_king_last_fight: >-
+        an aging Beowulf standing before a dragon's barrow at dawn, shield
+        in hand, face lined with years, a few retainers behind him in fearful
+        silence, smoke curling from the earth, atmosphere of final duty and
+        mortal courage, Anglo-Saxon mythic realism, iron gray, ash brown,
+        fire orange, cold blue
+      wanderer_exile_and_memory: >-
+        an old Anglo-Saxon exile walking alone along a frozen shoreline at
+        dawn, cloak torn by sea wind, ravens circling overhead, ruined hall
+        faintly visible in the distance, expression silent and grief-worn,
+        memory exile and endurance, cinematic realism, cold blue, iron gray,
+        snow white, ash brown
+      seafarer_cold_sea_trial: >-
+        a lone Anglo-Saxon seafarer standing on the deck of a small ship in
+        icy northern waters, cloak stiff with frost, waves black beneath a
+        winter sky, seabirds circling in the distance, expression weathered
+        and inward, atmosphere of hardship and discipline, cinematic realism,
+        cold blue, iron gray, snow white, black sea
+      maldon_courage_after_defeat: >-
+        an Anglo-Saxon warrior standing in a shield wall at dusk after his
+        lord has fallen, wounded companions beside him, enemy forces gathering
+        across a bleak field, torn banner in the wind, expression resolute
+        and unbroken, courage after defeat, cinematic realism, iron gray,
+        blood red, ash brown, storm sky
+
+    figure_prompts:
+      none: ""
+      norse_warrior_silhouette: >-
+        the silhouette of a Norse warrior in worn leather and iron, axe at
+        side, seen from behind looking out over a frozen landscape, weathered
+        and still
+      anglo_saxon_warrior_silhouette: >-
+        the silhouette of an Anglo-Saxon warrior in chain mail and round
+        shield, seen from behind, looking out over a windswept field
+
+    image_prompt_template: |
+      Create a cinematic vertical 9:16 image for a northern-fate piece about
+      {theme}, in the spirit of {author}.
+
+      In the foreground, {figure}. The setting is {background}. The light
+      is cold, severe, and elemental. Iron gray, charcoal, snow, fire, blood
+      red. No fantasy elements. Leave dark negative space in the upper third
+      for captions.
+
+      Style: painterly realism, cinematic lighting, weathered Norse and
+      Anglo-Saxon atmosphere, severe and elegiac, not cartoonish, not glossy,
+      not fantasy armor.
+
+    negative_prompt: >-
+      fantasy armor, exaggerated muscles, modern clothing, text, watermark,
+      logo, neon, glossy AI render, smiling face, influencer pose, dragons,
+      elves, orcs, anime, cartoon, distorted face, extra fingers, horned
+      helmets, viking-metal-album aesthetic
+
+  # -----------------------------------------------------------------------
+  samurai_zen:
+    description: >-
+      Japanese visual world for Bushido, samurai practice, Zen, and tea
+      tradition. Mist over a training courtyard, bamboo forest, rain on
+      temple roofs, ink-black mountains, quiet dojo, worn wooden floor, tea
+      bowl, sword rack, stone garden, temple bell, falling cherry blossoms,
+      white practice robe, black lacquer armor, candlelight on steel, monk
+      walking in snow. Discipline, stillness, form — never katana-motivation
+      cosplay.
+    mood:
+      - severe
+      - still
+      - disciplined
+      - elegiac
+      - contemplative
+      - restrained
+    palette:
+      - ink black
+      - rice paper white
+      - bamboo green
+      - rain gray
+      - temple brown
+      - muted crimson
+      - steel silver
+      - mist blue
+      - warm candle gold
+    motifs:
+      - mist over a training courtyard
+      - bamboo forest
+      - rain on temple roofs
+      - quiet dojo, worn wooden floor
+      - tea bowl
+      - sword rack
+      - stone garden
+      - temple bell
+      - falling cherry blossoms
+      - black lacquer armor
+      - candlelight on steel
+    common_overlays:
+      - low_fog
+      - light_rain
+      - subtle_grain
+    recommended_motion_profiles:
+      - static
+      - slow_zoom
+      - slow_pan
+    suitable_series:
+      - literary_dark
+      - hard_truths_for_men
+    suitable_authors:
+      - Inazo Nitobe
+      - Miyamoto Musashi
+      - Yamamoto Tsunetomo
+      - Wumen Huikai
+      - the Zen tradition
+
+    background_prompts:
+      rectitude_straight_path: >-
+        a lone samurai walking down a straight stone path toward a quiet dojo
+        at dawn, bamboo forest on both sides, mist low on the ground,
+        rain-dark wood, sword at his side but hand relaxed, moral clarity
+        and disciplined decision, ink black, bamboo green, rain gray, rice
+        paper white
+      courage_and_right_action: >-
+        a samurai standing before an open wooden gate in steady rain,
+        villagers hidden behind him, posture calm and protective rather than
+        aggressive, katana sheathed, gray sky and bamboo moving in wind,
+        courage serving duty
+      honor_as_inner_judge: >-
+        a samurai kneeling alone in a dark room, looking at his reflection
+        in a polished blade laid across a low wooden stand, candlelight
+        trembling on steel, expression quiet and severe, conscience and
+        inward judgment, ink black, steel silver, warm candle gold
+      way_is_practice: >-
+        a lone swordsman practicing repeated cuts in an empty wooden dojo
+        before sunrise, bare feet on worn floorboards, breath visible in
+        cold air, sword moving with controlled precision, no audience, no
+        ornament, form becoming discipline
+      form_without_show: >-
+        a samurai standing quietly in a rain-soaked courtyard, sword
+        sheathed, posture relaxed but exact, no battle, no audience, temple
+        roof and bamboo behind him, rain beads on black lacquer armor,
+        restrained mastery without display
+      death_before_panic: >-
+        black samurai armor resting beside a low candle before dawn, katana
+        on a simple stand, pale light entering through rice paper screens,
+        no person visible, death-awareness, readiness, and calm discipline
+      gateless_gate: >-
+        an empty wooden Zen temple gate standing open in heavy morning mist,
+        stone path disappearing beyond it, no people visible, bamboo and
+        moss around the entrance, silence, paradox, and direct seeing
+      empty_mind_full_attention: >-
+        a Zen monk seated before a raked stone garden at dawn, perfectly
+        still, bamboo shadows moving across white gravel, temple roof in
+        mist, no ornament, full attention and inner quiet
+      tea_form_and_respect: >-
+        close view of two hands holding a simple tea bowl in a quiet tatami
+        room, steam rising softly, bamboo shadow on rice paper wall, low
+        table, no clutter, respect, ritual, humility, disciplined form
+      power_under_form: >-
+        symbolic still life in a quiet Japanese room — a sheathed katana on
+        a low stand, a simple tea bowl beside it, an open temple gate
+        visible through rice paper doors, soft rain outside, power governed
+        by restraint, discipline, humility, form
+
+    figure_prompts:
+      none: ""
+      samurai_silhouette: >-
+        the silhouette of a samurai in plain black robe and katana, seen
+        from behind, posture exact and still, no ornament
+      zen_monk_silhouette: >-
+        the silhouette of a Zen monk in plain robe, seated, perfectly still,
+        no ornament
+
+    image_prompt_template: |
+      Create a cinematic vertical 9:16 image for a samurai/Zen-tradition piece
+      about {theme}, in the spirit of {author}.
+
+      In the foreground, {figure}. The setting is {background}. The light
+      is restrained, contemplative, severe — ink black, rice paper white,
+      bamboo green, rain gray, candle gold. No fantasy elements. Leave dark
+      negative space in the upper third for captions.
+
+      Style: painterly realism, cinematic lighting, weathered wood and
+      steel and rice paper, disciplined and quiet, not theatrical, not
+      anime, not glossy.
+
+    negative_prompt: >-
+      katana cosplay, anime, manga, exaggerated bushido fantasy, neon, glow,
+      modern clothing, text, watermark, logo, glossy AI render, smiling
+      face, influencer pose, samurai-vs-ninja video-game aesthetic,
+      cartoon, distorted face, extra fingers
+
+  # -----------------------------------------------------------------------
+  japan_history:
+    description: >-
+      Staged world for a future Japanese-history/proverbs arc (10 backgrounds
+      already in assets/backgrounds/japan_history/ but no scripts yet). Same
+      palette as samurai_zen — register prompts when scripts are authored.
+    mood:
+      - contemplative
+      - severe
+      - elegiac
+    palette:
+      - ink black
+      - rice paper white
+      - bamboo green
+    motifs:
+      - temple architecture
+      - heian court
+      - mongol invasion
+      - basho on the road
+    common_overlays:
+      - low_fog
+      - subtle_grain
+    recommended_motion_profiles:
+      - static
+      - slow_pan
+    suitable_series:
+      - literary_dark
+    suitable_authors:
+      - Bashō
+      - Japanese history
+
+    background_prompts:
+      # Placeholder — bgs exist on disk but scripts aren't written. Register
+      # specific prompts when the future arc is authored.
+      placeholder_buddhism_arrives_asuka: >-
+        Buddhism arrives in Japan during the Asuka period — temple under
+        construction, monks arriving with scrolls (placeholder prompt;
+        replace with real wording when arc is authored)
+
+    figure_prompts:
+      none: ""
+
+    image_prompt_template: |
+      Create a cinematic vertical 9:16 image for a Japanese-history piece
+      about {theme}. The setting is {background}. Leave dark negative space
+      in the upper third for captions.
+
+      Style: painterly realism, restrained color, period-appropriate, not
+      anime, not glossy.
+
+    negative_prompt: >-
+      anime, manga, modern clothing, text, watermark, glossy AI render

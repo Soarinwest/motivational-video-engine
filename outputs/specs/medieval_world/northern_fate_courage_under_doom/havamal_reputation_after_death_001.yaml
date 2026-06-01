@@ -1,0 +1,28 @@
+id: havamal_reputation_after_death_001
+series: literary_dark
+author: "Anonymous (H\xE1vam\xE1l)"
+theme: mortality
+duration_seconds: 30
+message: "In the H\xE1vam\xE1l, the old northern wisdom says:"
+hook: "In the H\xE1vam\xE1l, the old northern wisdom says:"
+voiceover: "In the H\xE1vam\xE1l, the old northern wisdom says:\n\n\"Cattle die, and kinsmen die; thyself too soon must die.\
+  \ But one thing never will die \u2014 fair fame of one who has earned.\"\n\nThis is not vanity.\nIt is responsibility.\n\
+  \nYour body ends.\nYour comfort ends.\nYour excuses end.\n\nWhat remains is the shape of your deeds in other people's memory.\n\
+  \nLive so that death does not erase you."
+final_line: Live so that death does not erase you.
+visual:
+  world: northern_fate
+  background_prompt_key: havamal_reputation_after_death
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: slow_pan
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: classical_male
+  music_profile: low_war_drone
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

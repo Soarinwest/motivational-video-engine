@@ -1,0 +1,28 @@
+id: cicero_duty_over_advantage_001
+series: stoic_practice
+author: Cicero (On Duties)
+theme: duty
+duration_seconds: 30
+message: 'In De Officiis Book Three, Cicero takes up the oldest excuse and refuses it:'
+hook: 'In De Officiis Book Three, Cicero takes up the oldest excuse and refuses it:'
+voiceover: "In De Officiis Book Three, Cicero takes up the oldest excuse and refuses it:\n\n\"Whatever is morally right is\
+  \ also expedient, and what is morally wrong is also inexpedient.\"\n\nRight and useful are not opposites.\n\nThe man who\
+  \ pits honor against advantage has misread both.\n\nThere is no clean transaction in which you trade conscience for gain.\n\
+  \nThe man who thinks he made it pays later \u2014 and not in the currency he expected.\n\nThere is no clean trade."
+final_line: There is no clean trade.
+visual:
+  world: stoic_rome
+  background_prompt_key: cicero_duty_over_advantage
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: slow_zoom
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: classical_male
+  music_profile: heroic_honor
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

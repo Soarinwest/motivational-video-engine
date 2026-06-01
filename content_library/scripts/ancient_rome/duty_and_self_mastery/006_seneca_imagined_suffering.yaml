@@ -1,0 +1,59 @@
+script_id: 006_seneca_imagined_suffering
+arc_id: ancient_rome_duty_and_self_mastery
+region: ancient_rome
+quote_source_id: seneca_letters_imagined_suffering
+
+title: "Stop Rehearsing It"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: bm_george
+music: low_strings
+visual_world: stoic_rome
+visual_motif: "Seneca beside a dark window during a Roman storm, candlelight behind him, calm while shadows gather"
+caption_style: marble_serif_centered
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/low_strings/low_strings_violin_cello_loop_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: ""
+  role: ""
+
+addressee:
+  name: ""
+  role: ""
+
+scene_context: ""
+
+script: |
+  In Letter Thirteen, Seneca writes to Lucilius about the fears that wear a man out before the thing he fears arrives:
+
+  "There are more things likely to frighten us than there are to crush us. We suffer more often in imagination than in reality."
+
+  Most of the catastrophe is in your head.
+
+  The body endures less than the mind rehearses.
+
+  Imagined suffering is the cheap kind — paid for in advance, on a debt that mostly never comes due.
+
+  Stop rehearsing it.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: Richard Gummere
+  source_url: "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Verify Gummere wording for Letter XIII.4."

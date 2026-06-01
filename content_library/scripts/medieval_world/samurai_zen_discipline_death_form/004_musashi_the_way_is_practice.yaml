@@ -1,0 +1,66 @@
+script_id: 004_musashi_the_way_is_practice
+arc_id: samurai_zen_discipline_death_form
+region: medieval_world
+quote_source_id: musashi_way_is_practice
+
+title: "The Way Is Practice"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: am_michael
+music: wooden_dojo_pulse
+visual_world: samurai_zen
+visual_motif: "lone swordsman practicing repeated cuts in an empty dojo before sunrise"
+caption_style: marble_serif_centered
+
+quote_type: paraphrase
+
+music_asset:
+  local_path: "music/japanese_pulse_hetyati/japanese_pulse_hetyati_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: false
+  wording_modified_for_script: true
+
+speaker:
+  name: "Miyamoto Musashi"
+  role: "swordsman and strategist, writing in retirement"
+
+addressee:
+  name: "students of strategy"
+  role: "practitioners learning the Way"
+
+scene_context: >
+  Musashi writes as a practical teacher of strategy, emphasizing repeated
+  study, embodied practice, and discipline rather than decoration or theory.
+
+script: |
+  Musashi's Book of Five Rings is not a book of decoration.
+
+  Its demand is practice.
+
+  Not the idea of discipline.
+  Not the image of mastery.
+  Practice.
+
+  The hand learns.
+  The eye learns.
+  The body learns.
+  Then the self that needed applause begins to disappear.
+
+  A way is not something you admire from a distance.
+
+  If you do not practice it, it is not yet yours.
+
+rights:
+  quote_translation_status: paraphrase_only
+  translator: null
+  source_url: ""
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Paraphrase only — Musashi English translations are modern; do not render as direct quote without PD source."

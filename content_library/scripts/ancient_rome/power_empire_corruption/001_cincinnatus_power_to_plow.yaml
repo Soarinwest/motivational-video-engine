@@ -1,0 +1,67 @@
+script_id: 001_cincinnatus_power_to_plow
+arc_id: ancient_rome_power_empire_corruption
+region: ancient_rome
+quote_source_id: livy_auc_cincinnatus_power_to_plow
+
+title: "He Went Back To The Plow"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: bm_george
+music: ancient_low_drone
+visual_world: stoic_rome
+visual_motif: "small Roman field at sunrise, plow, messengers approaching with cloaks and standards"
+caption_style: marble_serif_centered
+
+quote_type: narrative_scene
+
+music_asset:
+  local_path: "music/ancient_low_drone/ancient_low_drone_calm_dreamscape_004.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "Livy (narrator)"
+  role: "Roman historian, writing under Augustus, idealizing the early Republic"
+
+addressee:
+  name: "the reader"
+  role: "a Roman citizen who has lived through civil war and is meant to remember what republican virtue looked like"
+
+scene_context: >
+  Rome is in crisis. A consul and an army are surrounded by the Aequi. The
+  Senate calls Cincinnatus from his small farm across the Tiber and makes him
+  dictator with absolute power. He raises an army, lifts the siege, and
+  defeats the enemy in sixteen days. Then he lays down the dictatorship and
+  returns to his plow.
+
+script: |
+  In Livy's history, Rome is in crisis. The Senate calls Cincinnatus from his small farm and makes him dictator.
+
+  In sixteen days he raises an army, defeats the enemy, and lifts the siege.
+
+  Then he lays down absolute power, picks up his plow, and walks home.
+
+  The test of character is not the seizing.
+
+  It is the release.
+
+  Most men can be trusted to take a sword.
+  Almost none can be trusted to set it down on the table while the room is still afraid.
+
+  He went back to the plow.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: Canon Roberts
+  source_url: "https://www.gutenberg.org/ebooks/19725"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Verify Canon Roberts Livy III.26-29."

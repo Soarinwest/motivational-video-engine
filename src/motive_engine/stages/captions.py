@@ -42,31 +42,32 @@ class CaptionStyle:
 
 
 # Hand-picked styles. Fonts chosen for Windows availability + aesthetic fit.
-# Captions placed upper-third per the project's image-prompt convention.
+# Captions placed at the very top of the frame, smaller font, so they
+# don't cover faces in subject-in-scene backgrounds.
 CAPTION_STYLES: dict[str, CaptionStyle] = {
     "serif_quiet": CaptionStyle(
         name="serif_quiet",
         font="Georgia",
-        font_size=104,
+        font_size=72,
         primary_color="&H00FFFFFF",   # white
         outline_color="&H00000000",   # black
         outline_size=3,
         shadow_depth=2,
         bold=False,
         alignment=8,                  # top-center
-        margin_v=280,                 # ~upper-third on 1920px tall frame
+        margin_v=80,                  # ~4% from top edge on 1920px-tall frame
     ),
     "sans_quiet": CaptionStyle(
         name="sans_quiet",
         font="Segoe UI",
-        font_size=100,
+        font_size=70,
         primary_color="&H00FFFFFF",
         outline_color="&H00000000",
         outline_size=3,
         shadow_depth=2,
         bold=False,
         alignment=8,
-        margin_v=280,
+        margin_v=80,
     ),
 }
 
@@ -111,28 +112,58 @@ def load_voice_track(voice_dir: Path) -> VoiceTrack:
     return VoiceTrack.model_validate(data)
 
 
+MAX_CAPTION_WORDS = 10
+
+
+def _chunk_words(text: str, max_words: int = MAX_CAPTION_WORDS) -> list[str]:
+    """Split text into chunks of at most max_words words each.
+
+    Keeps the natural word order; the final chunk may be shorter than max_words.
+    """
+    words = text.split()
+    if not words:
+        return []
+    return [
+        " ".join(words[i : i + max_words])
+        for i in range(0, len(words), max_words)
+    ]
+
+
 def build_caption_track(spec: ContentSpec, voice_track: VoiceTrack) -> CaptionTrack:
-    """Compose a CaptionTrack from a VoiceTrack by accumulating durations."""
+    """Compose a CaptionTrack from a VoiceTrack by accumulating durations.
+
+    Each voice line is split into chunks of at most MAX_CAPTION_WORDS words so
+    no single caption block is too long to read or covers the picture. The
+    voice line's duration is distributed across its chunks proportionally to
+    word count.
+    """
     lines: list[CaptionLine] = []
     cursor = 0.0
     counter = 0
     for vline in voice_track.lines:
         text = vline.graphemes.strip()
-        # Voice lines with no readable text still advance the cursor.
         if not text:
             cursor += vline.duration_seconds
             continue
-        counter += 1
-        end = cursor + vline.duration_seconds
-        lines.append(
-            CaptionLine(
-                index=counter,
-                start_seconds=cursor,
-                end_seconds=end,
-                text=text,
+        chunks = _chunk_words(text)
+        if not chunks:
+            cursor += vline.duration_seconds
+            continue
+        total_words = sum(len(c.split()) for c in chunks)
+        for chunk in chunks:
+            chunk_words = len(chunk.split())
+            chunk_duration = vline.duration_seconds * (chunk_words / total_words)
+            counter += 1
+            end = cursor + chunk_duration
+            lines.append(
+                CaptionLine(
+                    index=counter,
+                    start_seconds=cursor,
+                    end_seconds=end,
+                    text=chunk,
+                )
             )
-        )
-        cursor = end
+            cursor = end
     return CaptionTrack(
         spec_id=spec.id,
         style=spec.visual.caption_style,

@@ -31,16 +31,17 @@ voiceover: 'Odysseus says in the Odyssey:
   Row through it.'
 final_line: Row through it.
 visual:
-  world: literary_dark
-  background_prompt_key: homer_bear_wreck_harbor
+  world: odyssey
+  background_prompt_key: oar_on_beach_sunset
+  background_override_path: null
   figure_prompt_key: none
-  motion_profile: medium_zoom
+  motion_profile: slow_pan
   overlays: []
   caption_style: serif_quiet
 audio:
   tts_provider: kokoro
   voice_profile: low_steady_male
-  music_profile: somber_cinematic
+  music_profile: aegean_voyage
 render:
   resolution: 1080x1920
   fps: 30

@@ -1,0 +1,66 @@
+script_id: 007_virgil_burden_of_destiny
+arc_id: ancient_rome_death_fate_inner_citadel
+region: ancient_rome
+quote_source_id: virgil_aeneid_burden_of_destiny
+
+title: "He Picked Up The Man Who Carried Him"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: narrator_blend
+music: grief_lament
+visual_world: stoic_rome
+visual_motif: "Aeneas carrying his elderly father through burning Troy, child following close behind, flames on bronze armor"
+caption_style: marble_serif_centered
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/grief_lament/grief_lament_strings_epic_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "Aeneas"
+  role: "Trojan prince, son of Anchises, future founder of the Roman people"
+
+addressee:
+  name: "his father Anchises"
+  role: "an old man refusing to leave the city he has loved"
+
+scene_context: >
+  The last night of Troy. The city burns behind them. Anchises tells his son
+  to leave him — he is old, the city is finished, there is no point. Aeneas
+  refuses. He lifts the old man onto his shoulders and walks out of the
+  burning city, son Iulus at his side, household gods in his hands. The
+  picture is the founding image of *pietas*.
+
+script: |
+  In Book Two of the Aeneid, Troy is burning.
+
+  Aeneas's father Anchises tells his son to leave him. He is old. The city is finished. There is no point.
+
+  Aeneas does not argue. He does not explain. He lifts the old man onto his shoulders:
+
+  "Come then, dear father, mount upon my neck. I will bear you up on my own shoulders, nor will this burden weigh me down."
+
+  Duty is not an abstraction.
+
+  It is the weight of the person you cannot leave behind.
+
+  He picked up the man who carried him, and walked.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: John Conington
+  source_url: "https://www.gutenberg.org/ebooks/22456"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Verify Conington Book II.707-711."

@@ -27,14 +27,35 @@ VOICE_MAP = {
     "bm_george": "classical_male",
     "am_michael": "low_steady_male",
     "bm_lewis": "literary_male",
+    "narrator_blend": "narrator_blend",
 }
 
 # Music slug used in content_library -> music_profile in config/brand.yaml.
 MUSIC_MAP = {
+    # legacy ambient motifs
     "ancient_low_drone": "ambient_low",
     "low_strings": "ambient_strings_low",
     "soft_lyre_ambient": "soft_lyre_ambient",
     "somber_cinematic": "somber_cinematic",
+    # Iliad
+    "bardic_invocation": "bardic_invocation",
+    "bronze_war_camp": "bronze_war_camp",
+    "dark_rage": "dark_rage",
+    "grief_lament": "grief_lament",
+    "underworld_grief": "underworld_grief",
+    # Odyssey
+    "aegean_voyage": "aegean_voyage",
+    "island_enchantment": "island_enchantment",
+    "cave_tension": "cave_tension",
+    "underworld_descent": "underworld_descent",
+    "homecoming_recognition": "homecoming_recognition",
+    # Cross-arc
+    "heroic_honor": "heroic_honor",
+    # Norse (Season 04 staging)
+    "norse_skald_chant": "norse_skald_chant",
+    "norse_hall_of_slain": "norse_hall_of_slain",
+    "norse_seeress": "norse_seeress",
+    "norse_shieldmaiden": "norse_shieldmaiden",
 }
 
 # Per-script overrides. The asset choices are best-fit substitutes from
@@ -120,9 +141,9 @@ SCRIPTS = [
         "author": "Homer",
         "theme": "restraint",
         "series": "literary_dark",
-        "world": "mythic",
+        "world": "iliad",
         "bg_key": "war_camp_fire_meadow",
-        "bg_source": None,  # already in place; no copy needed
+        "bg_source": None,  # already in place
         "motion": "medium_pan",
     },
     {
@@ -132,9 +153,9 @@ SCRIPTS = [
         "author": "Homer",
         "theme": "duty",
         "series": "literary_dark",
-        "world": "mythic",
+        "world": "iliad",
         "bg_key": "hector_city_gates",
-        "bg_source": None,  # needs ComfyUI gen
+        "bg_source": None,  # already in place
         "motion": "figure_pan",
     },
     {
@@ -144,9 +165,9 @@ SCRIPTS = [
         "author": "Homer",
         "theme": "grief",
         "series": "literary_dark",
-        "world": "mythic",
+        "world": "iliad",
         "bg_key": "priam_in_tent",
-        "bg_source": None,  # needs ComfyUI gen
+        "bg_source": None,  # already in place
         "motion": "medium_zoom",
     },
     {
@@ -156,7 +177,7 @@ SCRIPTS = [
         "author": "Homer",
         "theme": "grief",
         "series": "literary_dark",
-        "world": "mythic",
+        "world": "iliad",
         "bg_key": "greek_ship_storm",
         "bg_source": None,
         "motion": "medium_zoom",
@@ -169,10 +190,10 @@ SCRIPTS = [
         "author": "Homer",
         "theme": "endurance",
         "series": "literary_dark",
-        "world": "ancient_greece",
-        "bg_key": "homer_return_home_ships",
-        "bg_source": "ancient_greece/ancient_greece_homer_ships_dawn_001.png",
-        "motion": "medium_pan",
+        "world": "odyssey",
+        "bg_key": "ithaca_dawn_cliffs",
+        "bg_source": None,
+        "motion": "slow_pan",
     },
     {
         "script_id": "009_homer_bear_the_wreck",
@@ -181,10 +202,10 @@ SCRIPTS = [
         "author": "Homer",
         "theme": "endurance",
         "series": "literary_dark",
-        "world": "literary_dark",
-        "bg_key": "homer_bear_wreck_harbor",
-        "bg_source": "hudson_river_school/lane_stage_fort_across_gloucester_harbor.jpg",
-        "motion": "medium_zoom",
+        "world": "odyssey",
+        "bg_key": "oar_on_beach_sunset",
+        "bg_source": None,
+        "motion": "slow_pan",
     },
     {
         "script_id": "014_homer_polyphemus_cunning",
@@ -193,7 +214,7 @@ SCRIPTS = [
         "author": "Homer",
         "theme": "self-command",
         "series": "literary_dark",
-        "world": "mythic",
+        "world": "odyssey",
         "bg_key": "polyphemus_cave",
         "bg_source": None,
         "motion": "medium_zoom",
@@ -205,7 +226,7 @@ SCRIPTS = [
         "author": "Homer",
         "theme": "mortality",
         "series": "literary_dark",
-        "world": "mythic",
+        "world": "odyssey",
         "bg_key": "calypso_island_twilight",
         "bg_source": None,
         "motion": "medium_zoom",
@@ -217,7 +238,7 @@ SCRIPTS = [
         "author": "Homer",
         "theme": "patience",
         "series": "women_left_alive",
-        "world": "mythic",
+        "world": "odyssey",
         "bg_key": "penelope_at_loom",
         "bg_source": None,
         "motion": "figure_pan",
@@ -229,7 +250,7 @@ SCRIPTS = [
         "author": "Homer",
         "theme": "mortality",
         "series": "literary_dark",
-        "world": "mythic",
+        "world": "odyssey",
         "bg_key": "underworld_shoreline",
         "bg_source": None,
         "motion": "medium_zoom",
@@ -255,8 +276,8 @@ SCRIPTS = [
         "theme": "duty",
         "series": "literary_dark",
         "world": "ancient_greece",
-        "bg_key": "woman_on_city_walls",
-        "bg_source": None,  # already in place
+        "bg_key": "temple_above_sea",
+        "bg_source": None,  # Greek temple — fits "unwritten laws of Heaven"
         "motion": "slow_zoom",
     },
     {
@@ -266,10 +287,107 @@ SCRIPTS = [
         "author": "Sophocles (Antigone)",
         "theme": "grief",
         "series": "literary_dark",
-        "world": "ancient_greece",
-        "bg_key": "woman_at_balcony_sea",
-        "bg_source": None,  # already in place
+        "world": "stoic_rome",
+        "bg_key": "ruined_forum_after_empire",
+        "bg_source": None,  # ruins after collapse — fits Antigone's catalogued grief
         "motion": "slow_pan",
+    },
+    # --- Iliad arc additions (more Achilles + Andromache + Helen) ---
+    {
+        "script_id": "014_homer_achilles_two_fates",
+        "arc": "iliad",
+        "spec_id": "homer_achilles_two_fates_001",
+        "author": "Homer",
+        "theme": "mortality",
+        "series": "literary_dark",
+        "world": "iliad",
+        "bg_key": "achilles_overlooking_camp",
+        "bg_source": None,  # already in place
+        "motion": "slow_zoom",
+    },
+    {
+        "script_id": "015_homer_andromache_the_news",
+        "arc": "iliad",
+        "spec_id": "homer_andromache_the_news_001",
+        "author": "Homer",
+        "theme": "grief",
+        "series": "literary_dark",
+        "world": "iliad",
+        "bg_key": "andromache_on_city_walls",
+        "bg_source": None,
+        "motion": "slow_pan",
+    },
+    {
+        "script_id": "016_homer_helen_self_blame",
+        "arc": "iliad",
+        "spec_id": "homer_helen_self_blame_001",
+        "author": "Homer",
+        "theme": "grief",
+        "series": "literary_dark",
+        "world": "iliad",
+        "bg_key": "helen_of_troy_at_balcony_sea",
+        "bg_source": None,
+        "motion": "slow_zoom",
+    },
+    {
+        "script_id": "017_homer_anger_opening",
+        "arc": "iliad",
+        "spec_id": "homer_anger_opening_001",
+        "author": "Homer",
+        "theme": "mortality",
+        "series": "literary_dark",
+        "world": "iliad",
+        "bg_key": "troy_walls_storm",
+        "bg_source": None,
+        "motion": "slow_zoom",
+    },
+    {
+        "script_id": "018_homer_patroclus_has_fallen",
+        "arc": "iliad",
+        "spec_id": "homer_patroclus_has_fallen_001",
+        "author": "Homer",
+        "theme": "grief",
+        "series": "literary_dark",
+        "world": "iliad",
+        "bg_key": "warrior_grieving_campfire",
+        "bg_source": None,
+        "motion": "slow_pan",
+    },
+    {
+        "script_id": "019_homer_gnawing_heart",
+        "arc": "iliad",
+        "spec_id": "homer_gnawing_heart_001",
+        "author": "Homer",
+        "theme": "grief",
+        "series": "literary_dark",
+        "world": "iliad",
+        "bg_key": "war_tent_at_sunset",
+        "bg_source": None,
+        "motion": "slow_zoom",
+    },
+    {
+        "script_id": "018_homer_bind_me_tighter",
+        "arc": "odyssey",
+        "spec_id": "homer_bind_me_tighter_001",
+        "author": "Homer",
+        "theme": "self-command",
+        "series": "literary_dark",
+        "world": "odyssey",
+        "bg_key": "sea_cave_entrance",
+        "bg_source": None,
+        "motion": "slow_pan",
+    },
+    {
+        "script_id": "019_homer_bed_test",
+        "arc": "odyssey",
+        "spec_id": "homer_bed_test_001",
+        "author": "Homer",
+        "theme": "restraint",
+        "series": "literary_dark",
+        "world": "odyssey",
+        "bg_key": "odysseus_olive_bed",
+        "bg_source": None,
+        "motion": "slow_zoom",
     },
 ]
 
@@ -311,6 +429,7 @@ def build_spec(meta: dict) -> dict:
         "visual": {
             "world": meta["world"],
             "background_prompt_key": meta["bg_key"],
+            "background_override_path": script.get("image_path") or None,
             "figure_prompt_key": "none",
             "motion_profile": meta.get("motion", "slow_zoom"),
             "overlays": [],

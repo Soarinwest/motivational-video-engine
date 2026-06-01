@@ -1,0 +1,66 @@
+script_id: 005_ragnarok_even_gods_fall
+arc_id: medieval_world_northern_fate_courage_under_doom
+region: medieval_world
+quote_source_id: voluspa_ragnarok_even_gods_fall
+
+title: "Stand Anyway"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: narrator_blend
+music: dark_strings
+visual_world: northern_fate
+visual_motif: "Norse gods and warriors standing against a burning horizon at Ragnarök"
+caption_style: marble_serif_centered
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/grief_lament/grief_lament_strings_epic_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "the Völva (seeress)"
+  role: "prophetic speaker describing Ragnarök"
+
+addressee:
+  name: "Odin"
+  role: "god receiving knowledge of cosmic doom"
+
+scene_context: >
+  In the Völuspá, the seeress describes Ragnarök: cosmic disorder, divine
+  battle, the death of gods, fire, darkness, and the collapse of the known
+  world.
+
+script: |
+  In the Völuspá, the seeress describes Ragnarök, when the world itself breaks:
+
+  "The sun turns black, earth sinks in the sea."
+
+  That is the northern hard truth.
+  Not even the gods are promised escape.
+
+  But the lesson is not despair.
+  It is courage.
+
+  If even the highest must fall, dignity does not come from winning forever.
+
+  It comes from standing your ground when the sky itself is burning.
+
+  Stand anyway.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: Olive Bray
+  source_url: "https://en.wikisource.org/wiki/The_Elder_or_Poetic_Edda"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Verify Bray Ragnarök stanza."

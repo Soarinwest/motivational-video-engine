@@ -1,0 +1,69 @@
+script_id: 006_lucretius_fear_of_death
+arc_id: ancient_rome_death_fate_inner_citadel
+region: ancient_rome
+quote_source_id: lucretius_dnr_fear_of_death
+
+title: "The Time Stays Yours"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: bm_george
+music: ancient_low_drone
+visual_world: stoic_rome
+visual_motif: "vast night sky outside Rome, small oil lamp in hand, stars above ancient ruins"
+caption_style: marble_serif_centered
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/ancient_low_drone/ancient_low_drone_calm_dreamscape_004.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "Lucretius (the poet, addressing the reader)"
+  role: "Epicurean poet, writing in hexameter, taking on the fear of death directly"
+
+addressee:
+  name: "the Roman reader"
+  role: "a man who lives, like all men, under the long shadow of mortality"
+
+scene_context: >
+  Book III of De Rerum Natura is Lucretius's long argument that the fear of
+  death is the root of nearly every other human misery. Men pursue power,
+  pile up wealth, betray friends — usually because the awareness of death is
+  gnawing at them and they cannot meet it directly. Lucretius takes the fear
+  apart, line by line.
+
+script: |
+  In Book Three of De Rerum Natura, Lucretius takes the longest run at any subject in his poem: the fear of death.
+
+  His argument is cold and clean:
+
+  "Death therefore is nothing to us, nor concerns us in the least."
+
+  When death arrives, you are not there to meet it.
+  When you are here, it is not.
+
+  Lucretius is not arguing that dying is fine.
+
+  He is arguing that the fear of death is what steals the years you still have.
+
+  Stop rehearsing it.
+
+  And the time stays yours.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: H. A. J. Munro
+  source_url: "https://www.gutenberg.org/ebooks/785"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Verify Munro Book III. The central Latin is 'nil igitur mors est ad nos'."

@@ -1,0 +1,46 @@
+id: nitobe_rectitude_straight_path_001
+series: literary_dark
+author: Inazo Nitobe (Bushido)
+theme: duty
+duration_seconds: 30
+message: 'In Bushido: The Soul of Japan, Inazo Nitobe defines rectitude this way:'
+hook: 'In Bushido: The Soul of Japan, Inazo Nitobe defines rectitude this way:'
+voiceover: 'In Bushido: The Soul of Japan, Inazo Nitobe defines rectitude this way:
+
+
+  "Rectitude is the power of deciding upon a certain course of conduct in accordance with reason, without wavering."
+
+
+  This is not stubbornness.
+
+  It is clean moral movement.
+
+
+  Think carefully.
+
+  See clearly.
+
+  Then stop bargaining with yourself.
+
+
+  A crooked life is often built from small delays before obvious duties.
+
+
+  When the path is straight, walk it.'
+final_line: When the path is straight, walk it.
+visual:
+  world: samurai_zen
+  background_prompt_key: rectitude_straight_path
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: slow_pan
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: classical_male
+  music_profile: temple_drum_low
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

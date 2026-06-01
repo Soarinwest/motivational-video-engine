@@ -1,0 +1,64 @@
+script_id: 007_beowulf_old_king_last_fight
+arc_id: medieval_world_northern_fate_courage_under_doom
+region: medieval_world
+quote_source_id: beowulf_old_king_last_fight
+
+title: "Old King, Last Fight"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: bm_george
+music: low_war_drone
+visual_world: northern_fate
+visual_motif: "aging Beowulf before a dragon's barrow at dawn, shield in hand"
+caption_style: marble_serif_centered
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/norse_hall_of_slain/norse_hall_of_slain_viking_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "Beowulf (aged)"
+  role: "aged king of the Geats"
+
+addressee:
+  name: "his retainers / himself before the dragon fight"
+  role: "companions present before the final confrontation"
+
+scene_context: >
+  Late in the poem, Beowulf is no longer the young hero of Heorot. He is an
+  old king facing a dragon that threatens his people.
+
+script: |
+  In the final part of Beowulf, the king is old, but the dragon still has to be faced:
+
+  "I risked my life often when I was young. Now I am old."
+
+  This is the hard dignity of age.
+  Strength fades.
+  Death approaches.
+  Responsibility does not vanish with either.
+
+  He does not confuse age with exemption.
+
+  The worthy question is not whether you are still young.
+
+  It is whether you still stand when duty calls.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: Francis Barton Gummere
+  source_url: "https://www.gutenberg.org/ebooks/16328"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Verify Gummere lines 2425-2509."

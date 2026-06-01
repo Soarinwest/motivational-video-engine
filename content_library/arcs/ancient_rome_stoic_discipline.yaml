@@ -1,0 +1,51 @@
+arc_id: ancient_rome_stoic_discipline
+region: ancient_rome
+title: "Ancient Rome: Stoic Discipline (Marcus, Book II)"
+
+purpose: >
+  Marcus Aurelius's Meditations Book II as a working manual: rehearse
+  the day's friction before it arrives, hold attention to the present
+  act, let mortality regulate the next move. The interior emperor —
+  not the public one. Stoic practice without performance.
+
+visual_world: stoic_rome
+default_visual_motifs:
+  - "Roman forum at first light, empty colonnade"
+  - "sun on a worn marble step, single figure entering frame"
+  - "Roman road in mist, single figure walking forward"
+
+tone:
+  - severe
+  - restrained
+  - direct
+
+themes:
+  - self_command
+  - duty
+  - mortality
+  - restraint
+
+primary_sources:
+  - marcus_aurelius/meditations.md
+
+primary_source_ids:
+  - marcus_meditations_morning_preparation
+  - marcus_meditations_as_if_last_act
+  - marcus_meditations_depart_this_moment
+
+scripts:
+  - 001_marcus_morning_preparation
+  - 002_marcus_as_if_last_act
+  - 003_marcus_depart_this_moment
+
+publishing_notes: >
+  Open Season 02 with Book II.1 (the morning). Land on II.11 (depart
+  this moment). Marcus is the channel's most direct stoic voice;
+  pair with somber_cinematic only on II.11. The other two stay on
+  ancient_low_drone.
+
+review_rules:
+  - verify_translation_rights
+  - verify_quote_wording
+  - distinguish_quote_from_interpretation
+  - human_review_before_publish

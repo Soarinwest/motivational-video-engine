@@ -1,0 +1,47 @@
+id: homer_andromache_the_news_001
+series: literary_dark
+author: Homer
+theme: grief
+duration_seconds: 30
+message: In Book XXII of the Iliad, Andromache does not know her husband is dead yet.
+hook: In Book XXII of the Iliad, Andromache does not know her husband is dead yet.
+voiceover: 'In Book XXII of the Iliad, Andromache does not know her husband is dead yet.
+
+
+  She is at the loom, weaving a purple cloak with flowers.
+
+
+  She has called for the maids to warm his bath.
+
+
+  Then the wail goes up from the walls.
+
+
+  She runs out, sees what is being dragged behind the chariot, and the veil Aphrodite gave her on her wedding day falls from
+  her head.
+
+
+  The bath was still warming.
+
+
+  That is where the war ended for her.
+
+
+  The veil fell.'
+final_line: The veil fell.
+visual:
+  world: iliad
+  background_prompt_key: andromache_on_city_walls
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: slow_pan
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: narrator_blend
+  music_profile: grief_lament
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

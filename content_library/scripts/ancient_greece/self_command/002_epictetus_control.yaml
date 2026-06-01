@@ -13,6 +13,28 @@ visual_world: ancient_greece
 visual_motif: "stone road, hand opening and closing over dust"
 caption_style: clean_white_caps_centered
 
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/low_strings/low_strings_violin_cello_loop_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: ""
+  role: ""
+
+addressee:
+  name: ""
+  role: ""
+
+scene_context: ""
+
 script: |
   Epictetus begins the Enchiridion with a clean division:
 

@@ -29,14 +29,15 @@ voiceover: 'In Sophocles'' Antigone, Creon''s edict forbids her brother''s buria
 final_line: Answer to the older ones.
 visual:
   world: ancient_greece
-  background_prompt_key: woman_on_city_walls
+  background_prompt_key: temple_above_sea
+  background_override_path: assets/backgrounds/ancient_greece/ancient_greece_temple_cliff_storm_001.png
   figure_prompt_key: none
   motion_profile: slow_zoom
   overlays: []
   caption_style: serif_quiet
 audio:
   tts_provider: kokoro
-  voice_profile: literary_male
+  voice_profile: narrator_blend
   music_profile: ambient_strings_low
 render:
   resolution: 1080x1920

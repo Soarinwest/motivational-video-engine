@@ -1,0 +1,64 @@
+script_id: 001_havamal_reputation_after_death
+arc_id: medieval_world_northern_fate_courage_under_doom
+region: medieval_world
+quote_source_id: havamal_reputation_after_death
+
+title: "Reputation After Death"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: bm_george
+music: low_war_drone
+visual_world: northern_fate
+visual_motif: "old Norse wisdom figure beside a burial mound at dusk, ravens circling, dead grass in wind"
+caption_style: marble_serif_centered
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/norse_hall_of_slain/norse_hall_of_slain_viking_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "Odin (gnomic wisdom voice of the Hávamál)"
+  role: "traditional wisdom speaker"
+
+addressee:
+  name: "the listener"
+  role: "any person receiving counsel about death and reputation"
+
+scene_context: >
+  The Hávamál turns from the mortality of possessions, kin, and the self
+  toward the one thing that may remain after death: earned reputation.
+
+script: |
+  In the Hávamál, the old northern wisdom says:
+
+  "Cattle die, and kinsmen die; thyself too soon must die. But one thing never will die — fair fame of one who has earned."
+
+  This is not vanity.
+  It is responsibility.
+
+  Your body ends.
+  Your comfort ends.
+  Your excuses end.
+
+  What remains is the shape of your deeds in other people's memory.
+
+  Live so that death does not erase you.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: Olive Bray
+  source_url: "https://en.wikisource.org/wiki/The_Elder_or_Poetic_Edda"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Verify Bray Hávamál 76/77."

@@ -1,0 +1,72 @@
+script_id: 018_homer_bind_me_tighter
+arc_id: ancient_greece_odyssey
+region: ancient_greece
+quote_source_id: homer_odyssey_bind_me_tighter
+
+title: "Bind Me Tighter"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: narrator_blend
+music: island_enchantment
+visual_world: odyssey
+visual_motif: "view from inside a vast sea cave looking out, moon visible, dark waves on glistening rocks"
+caption_style: sparse_centered_captions
+
+# Image override: points at the Sirens figure (which actually depicts the scene)
+# instead of the generic cave background. Edit this line to swap to any image
+# file in the repo without changing the world or registering a new bg_key.
+image_path: "assets/figures/feminine/sirens/sirens_over_black_rocks.png"
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/island_enchantment/island_enchantment_flute_strings_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "Odysseus"
+  role: "returning hero, captain of the ship"
+
+addressee:
+  name: "his crew"
+  role: "the men responsible for binding him"
+
+scene_context: >
+  Odysseus knows in advance that he will not be able to resist the Sirens'
+  song. He plans his own restraint before the temptation begins. He is tied
+  to the mast and tells the crew: when I beg to be released — and I will — do
+  not loosen me. Tighten the ropes.
+
+script: |
+  In Book XII of the Odyssey, before the Sirens, Odysseus knows what is coming.
+
+  He knows that when the music starts, he will not be the man he is now.
+
+  So he gives his crew instructions while he can still mean them:
+
+  "If I beg you and bid you to set me free, then bind me more tightly still."
+
+  Self-control is rarely heroic in the moment.
+
+  Most of it is an instruction left in advance, for a future self you do not yet trust.
+
+  The man who plans his restraint before the temptation arrives.
+
+  Bind me tighter.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: Samuel Butler
+  source_url: "https://www.gutenberg.org/ebooks/1727"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Verify Butler Book XII Sirens episode."

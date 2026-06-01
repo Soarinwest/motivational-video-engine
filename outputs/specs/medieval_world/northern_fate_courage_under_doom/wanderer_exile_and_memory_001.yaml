@@ -1,0 +1,51 @@
+id: wanderer_exile_and_memory_001
+series: literary_dark
+author: Anonymous (The Wanderer)
+theme: grief
+duration_seconds: 30
+message: 'In The Wanderer, an exile moves through a broken world asking:'
+hook: 'In The Wanderer, an exile moves through a broken world asking:'
+voiceover: 'In The Wanderer, an exile moves through a broken world asking:
+
+
+  "Where is the horse? Where the rider? Where the giver of treasure?"
+
+
+  This is not just nostalgia.
+
+  It is the shock of discovering that whole worlds vanish.
+
+
+  Friends die.
+
+  Halls empty.
+
+  Warmth leaves.
+
+
+  But the poem does not collapse into self-pity.
+
+  It turns grief into endurance.
+
+
+  What passes away was never yours to keep forever.
+
+
+  Only your bearing was.'
+final_line: Only your bearing was.
+visual:
+  world: northern_fate
+  background_prompt_key: wanderer_exile_and_memory
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: slow_pan
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: classical_male
+  music_profile: cold_ambient
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

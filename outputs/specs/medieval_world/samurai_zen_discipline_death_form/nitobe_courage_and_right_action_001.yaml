@@ -1,0 +1,49 @@
+id: nitobe_courage_and_right_action_001
+series: literary_dark
+author: Inazo Nitobe (Bushido)
+theme: courage
+duration_seconds: 30
+message: 'Nitobe''s Bushido does not treat courage as noise or appetite for danger:'
+hook: 'Nitobe''s Bushido does not treat courage as noise or appetite for danger:'
+voiceover: 'Nitobe''s Bushido does not treat courage as noise or appetite for danger:
+
+
+  "Courage is doing what is right."
+
+
+  That is the line that matters.
+
+
+  Recklessness is easy.
+
+  Anger is easy.
+
+  Throwing yourself at danger can still be vanity.
+
+
+  Courage becomes virtue only when it serves the right thing.
+
+
+  Before you call yourself brave, ask what your bravery is protecting.
+
+
+  Risk is not enough.
+
+  Right action is.'
+final_line: Right action is.
+visual:
+  world: samurai_zen
+  background_prompt_key: courage_and_right_action
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: static
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: low_steady_male
+  music_profile: low_taiko_restraint
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

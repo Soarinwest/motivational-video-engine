@@ -1,0 +1,67 @@
+script_id: 003_marcus_universe_is_change
+arc_id: ancient_rome_death_fate_inner_citadel
+region: ancient_rome
+quote_source_id: marcus_meditations_universe_is_change
+
+title: "What Lets Anything Be"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: bm_george
+music: ancient_low_drone
+visual_world: stoic_rome
+visual_motif: "the Roman Forum in ruins at twilight, broken columns, grass through stone"
+caption_style: marble_serif_centered
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/ancient_low_drone/ancient_low_drone_calm_dreamscape_004.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "Marcus Aurelius (private notebook)"
+  role: "emperor reasoning out loud about change"
+
+addressee:
+  name: "himself"
+  role: "a man who, like all men, prefers stability to flux"
+
+scene_context: >
+  Marcus addresses the part of himself — and the part of any reader — that
+  resents change. He poses the question directly and refuses the resentment:
+  change is what existence is. The wish for stability is the wish for
+  nothing.
+
+script: |
+  In Meditations Book Seven, Marcus addresses the part of himself that resents change.
+
+  He poses the question directly:
+
+  "Is any one afraid of change? Why, what can take place without change? What then is more pleasing or more suitable to the universal nature?"
+
+  He is not consoling himself.
+
+  He is naming the category error.
+
+  Resentment of change is resentment of existence itself.
+
+  The same flux you mourn is the one that produced everything you have ever loved.
+
+  It is the only thing that ever lets anything be.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: George Long
+  source_url: "https://classics.mit.edu/Antoninus/meditations.html"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Verify Long VII.18."

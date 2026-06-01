@@ -1,0 +1,47 @@
+id: nitobe_honor_as_inner_judge_001
+series: literary_dark
+author: Inazo Nitobe (Bushido)
+theme: honor_service
+duration_seconds: 30
+message: In Nitobe's account of Bushido, honor is not just public reputation.
+hook: In Nitobe's account of Bushido, honor is not just public reputation.
+voiceover: 'In Nitobe''s account of Bushido, honor is not just public reputation.
+
+
+  It is "a vivid consciousness of personal dignity and worth."
+
+
+  That means the first witness is inside you.
+
+
+  You may hide a compromise from others.
+
+  You may explain it well.
+
+  You may even be praised for it.
+
+
+  But the inner judge remains.
+
+
+  Honor begins where performance ends.
+
+
+  Do not become someone you have to explain away.'
+final_line: Do not become someone you have to explain away.
+visual:
+  world: samurai_zen
+  background_prompt_key: honor_as_inner_judge
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: slow_zoom
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: classical_male
+  music_profile: still_koto_dark
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

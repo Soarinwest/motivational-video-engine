@@ -1,0 +1,32 @@
+id: sallust_republic_rots_appetite_001
+series: literary_dark
+author: Sallust (Conspiracy of Catiline)
+theme: corruption
+duration_seconds: 30
+message: In The Conspiracy of Catiline, Sallust looks back on civil wars he has lived through. He sits down to explain how
+  Rome got here, and his answer is not Catiline.
+hook: In The Conspiracy of Catiline, Sallust looks back on civil wars he has lived through. He sits down to explain how Rome
+  got here, and his answer is not Catiline.
+voiceover: "In The Conspiracy of Catiline, Sallust looks back on civil wars he has lived through. He sits down to explain\
+  \ how Rome got here, and his answer is not Catiline.\n\nHis answer is appetite:\n\n\"Avarice destroyed honor, integrity,\
+  \ and every other virtue, and put arrogance and cruelty in their place.\"\n\nA republic does not fall to invasion.\n\nIt\
+  \ rots from inside \u2014 once external pressure ends and internal hunger has nothing left to push against.\n\nInstitutions\
+  \ are hollowed out by the long abandonment of the small disciplines that kept them upright.\n\nCatiline is what grew in\
+  \ the soil they stopped tending."
+final_line: Catiline is what grew in the soil they stopped tending.
+visual:
+  world: stoic_rome
+  background_prompt_key: sallust_republic_rots_appetite
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: slow_zoom
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: classical_male
+  music_profile: underworld_descent
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

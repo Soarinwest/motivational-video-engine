@@ -1,0 +1,28 @@
+id: maldon_courage_after_defeat_001
+series: literary_dark
+author: Anonymous (The Battle of Maldon)
+theme: courage
+duration_seconds: 30
+message: 'In The Battle of Maldon, after disaster has already come, Byrhtwold says:'
+hook: 'In The Battle of Maldon, after disaster has already come, Byrhtwold says:'
+voiceover: "In The Battle of Maldon, after disaster has already come, Byrhtwold says:\n\n\"Will shall be the sterner, heart\
+  \ the bolder, spirit the greater as our strength lessens.\"\n\nThat is the northern ethic in one stroke.\n\nCourage is not\
+  \ confidence in victory.\nIt is refusal to collapse when victory is slipping away.\n\nWhen the numbers turn,\nwhen the leader\
+  \ falls,\nwhen the ending darkens \u2014\n\nthat is when character is seen.\n\nStand harder when hope gets thinner."
+final_line: Stand harder when hope gets thinner.
+visual:
+  world: northern_fate
+  background_prompt_key: maldon_courage_after_defeat
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: slow_zoom
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: low_steady_male
+  music_profile: dark_strings
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

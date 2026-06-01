@@ -1,0 +1,44 @@
+id: zen_gateless_gate_001
+series: literary_dark
+author: Wumen Huikai (Gateless Gate)
+theme: self-command
+duration_seconds: 30
+message: Zen gives us the image of the gateless gate.
+hook: Zen gives us the image of the gateless gate.
+voiceover: 'Zen gives us the image of the gateless gate.
+
+
+  The barrier is real.
+
+  But it is not where you think it is.
+
+
+  You keep looking for the locked door outside you.
+
+  The practice keeps pointing back to the mind that is gripping, naming, and resisting.
+
+
+  Not every obstacle is defeated by force.
+
+
+  Some are passed through by seeing clearly.
+
+
+  The gate opens when the self stops leaning on it.'
+final_line: The gate opens when the self stops leaning on it.
+visual:
+  world: samurai_zen
+  background_prompt_key: gateless_gate
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: slow_pan
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: classical_male
+  music_profile: temple_bell_mist
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

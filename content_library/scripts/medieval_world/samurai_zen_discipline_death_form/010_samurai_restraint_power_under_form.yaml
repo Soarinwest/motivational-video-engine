@@ -1,0 +1,68 @@
+script_id: 010_samurai_restraint_power_under_form
+arc_id: samurai_zen_discipline_death_form
+region: medieval_world
+quote_source_id: zen_samurai_restraint_synthesis
+
+title: "Power Under Form"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: am_michael
+music: temple_drum_and_koto_resolve
+visual_world: samurai_zen
+visual_motif: "still life — sheathed katana, tea bowl, open temple gate visible through rice paper"
+caption_style: marble_serif_centered
+
+quote_type: narrative_scene
+
+music_asset:
+  local_path: "music/japanese_traditional_bb3/japanese_traditional_bb3_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: false
+  wording_modified_for_script: false
+
+speaker:
+  name: "project narrator"
+  role: "interpretive voice closing the arc"
+
+addressee:
+  name: "the viewer"
+  role: "modern person applying the arc's moral discipline"
+
+scene_context: >
+  Synthesizes the arc: the sword, the tea bowl, the gate, the dojo, and
+  death-awareness all point toward power governed by form.
+
+script: |
+  The sword is not the lesson by itself.
+
+  The lesson is form.
+
+  How you stand.
+  How you breathe.
+  How you act before fear makes demands.
+
+  Power without form becomes panic.
+  Skill without restraint becomes vanity.
+  Discipline without humility becomes another mask.
+
+  The mature person does not become harmless.
+  He becomes governed.
+
+  Strength is not enough.
+
+  Strength must learn its shape.
+
+rights:
+  quote_translation_status: original_interpretation
+  translator: null
+  source_url: ""
+  translation_check_needed: false
+
+review:
+  human_review_required: true
+  notes: "Original interpretive closing script."

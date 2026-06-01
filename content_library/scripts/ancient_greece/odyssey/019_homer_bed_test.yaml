@@ -1,0 +1,72 @@
+script_id: 019_homer_bed_test
+arc_id: ancient_greece_odyssey
+region: ancient_greece
+quote_source_id: homer_odyssey_bed_test
+
+title: "The Trunk Grew Through It"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: narrator_blend
+music: homecoming_recognition
+visual_world: odyssey
+visual_motif: "wooden bed built around a living olive tree trunk in a stone-walled bedchamber at dawn"
+caption_style: sparse_centered_captions
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/homecoming_recognition/homecoming_recognition_strings_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "Odysseus"
+  role: "returned husband, not yet recognized by his wife"
+
+addressee:
+  name: "Penelope"
+  role: "his wife, testing whether the man before her is who he claims"
+
+scene_context: >
+  Twenty years of waiting. Penelope has outlasted suitors, rumors, false
+  hopes. The man in front of her could be Odysseus or could be one more
+  impostor. She sets a final test — a domestic detail only he could know. She
+  tells the housekeeper to move the bed out of the bedchamber. Odysseus
+  erupts.
+
+script: |
+  In Book XXIII of the Odyssey, Odysseus has come home, killed the suitors, told her his name.
+
+  Penelope still will not commit.
+
+  She orders the housekeeper to move the marriage bed out of the bedchamber for him.
+
+  Odysseus erupts:
+
+  "Who has been taking my bed from the place in which I left it?"
+
+  He built that bed around the trunk of a living olive tree. It cannot be moved.
+
+  Penelope smiles.
+
+  Talk is the cheap part.
+
+  The proof of who you are is in what you built with your own hands and remember exactly.
+
+  The trunk grew through it.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: Samuel Butler
+  source_url: "https://www.gutenberg.org/ebooks/1727"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Verify Butler XXIII.182-204. Treat Penelope as moral co-equal."

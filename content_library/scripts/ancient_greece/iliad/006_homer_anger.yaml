@@ -7,11 +7,35 @@ title: "Anger of Power"
 duration_target_seconds: 30
 word_count_target: "65-85"
 
-voice: bm_lewis
-music: somber_cinematic
+voice: narrator_blend
+music: bronze_war_camp
 visual_world: war
 visual_motif: "storm over Aegean, bronze helmet on sand"
 caption_style: large_centered_text
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/bronze_war_camp/bronze_war_camp_drum_002.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "Nestor"
+  role: "elder Greek king and counselor"
+
+addressee:
+  name: "Agamemnon"
+  role: "commander of the Achaean army"
+
+scene_context: >
+  Nestor intervenes during the quarrel between Agamemnon and Achilles in Book
+  I.
 
 script: |
   In Homer's Iliad, the war turns on rage, rank, and wounded pride.

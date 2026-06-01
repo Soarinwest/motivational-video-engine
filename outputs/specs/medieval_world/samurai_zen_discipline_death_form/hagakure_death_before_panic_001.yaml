@@ -1,0 +1,28 @@
+id: hagakure_death_before_panic_001
+series: literary_dark
+author: Yamamoto Tsunetomo (Hagakure)
+theme: mortality
+duration_seconds: 30
+message: 'Hagakure gives one of the severest samurai teachings:'
+hook: 'Hagakure gives one of the severest samurai teachings:'
+voiceover: "Hagakure gives one of the severest samurai teachings:\n\nthe way is found in death.\n\nDo not read that as a hunger\
+  \ to die.\nRead it as training against panic.\n\nA person who refuses to think about death becomes ruled by fear when death\
+  \ enters the room.\n\nDeath-awareness cuts through vanity.\nIt cuts through delay.\nIt asks what matters now.\n\nRemember\
+  \ death, not to worship it \u2014\n\nbut to stop being owned by it."
+final_line: but to stop being owned by it.
+visual:
+  world: samurai_zen
+  background_prompt_key: death_before_panic
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: slow_zoom
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: classical_male
+  music_profile: death_awareness_drone
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

@@ -13,8 +13,32 @@ visual_world: ancient_greece
 visual_motif: "sculptor's chisel on unfinished marble"
 caption_style: hard_cut_captions
 
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/low_strings/low_strings_violin_cello_loop_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "Aristotle"
+  role: "philosopher, on the genesis of moral virtue"
+
+addressee:
+  name: "his student / reader"
+  role: "anyone seeking to form good character"
+
+scene_context: >
+  Nicomachean Ethics II: moral virtues are not given by nature; they are
+  formed by practice.
+
 script: |
-  Aristotle writes that moral virtues do not simply appear in us by nature:
+  In the Nicomachean Ethics, Aristotle writes that moral virtues do not simply appear in us by nature:
 
   "We are adapted by nature to receive them, and are made perfect by habit."
 

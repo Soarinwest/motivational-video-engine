@@ -25,6 +25,17 @@ class VisualSpec(BaseModel):
         min_length=1,
         description="Key into the world's background prompts catalog.",
     )
+    background_override_path: str | None = Field(
+        default=None,
+        description=(
+            "Optional override path (repo-relative, e.g. "
+            "'assets/figures/feminine/sirens/sirens.png'). When set, render "
+            "uses this exact file and ignores world/background_prompt_key "
+            "lookup. Lint also skips the prompt-registry check. Lets you "
+            "edit a script YAML to point at any image without restructuring "
+            "the world/key registry."
+        ),
+    )
     figure_prompt_key: str = Field(
         min_length=1,
         description="Key into the world's figure prompts catalog. Use 'none' for no figure.",

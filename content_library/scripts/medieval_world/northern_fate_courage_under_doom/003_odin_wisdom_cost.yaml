@@ -1,0 +1,67 @@
+script_id: 003_odin_wisdom_cost
+arc_id: medieval_world_northern_fate_courage_under_doom
+region: medieval_world
+quote_source_id: havamal_odin_wisdom_cost
+
+title: "Wisdom Has A Cost"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: bm_george
+music: dark_strings
+visual_world: northern_fate
+visual_motif: "Odin hanging in silhouette from a wind-torn ash tree at twilight, ravens on branches"
+caption_style: marble_serif_centered
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/grief_lament/grief_lament_strings_epic_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "Odin"
+  role: "god seeking wisdom through ordeal and self-sacrifice"
+
+addressee:
+  name: "the listener"
+  role: "recipient of Odin's account of sacrifice and runic wisdom"
+
+scene_context: >
+  In the Runatal, Odin describes hanging on the world-tree for nine nights,
+  wounded by a spear, sacrificing himself to himself to gain the runes.
+
+script: |
+  In the Hávamál, Odin describes the price he paid for wisdom:
+
+  "I hung on a wind-rocked tree nine whole nights, with a spear wounded, and to Odin offered, myself to myself."
+
+  Wisdom here is not soft.
+  It is not downloaded.
+  It is not given to the comfortable.
+
+  To see more, you usually have to lose something:
+  pride,
+  ease,
+  illusion,
+  sometimes even the person you were.
+
+  Real understanding has a price.
+
+  If your knowledge costs you nothing, it may be worth the same.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: Olive Bray
+  source_url: "https://en.wikisource.org/wiki/The_Elder_or_Poetic_Edda"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Verify Bray Runatal 138-139."

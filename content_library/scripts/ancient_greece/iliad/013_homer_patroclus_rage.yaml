@@ -7,14 +7,38 @@ title: "Grief, Not Honor"
 duration_target_seconds: 30
 word_count_target: "65-85"
 
-voice: bm_lewis
-music: somber_cinematic
-visual_world: mythic
+voice: narrator_blend
+music: dark_rage
+visual_world: iliad
 visual_motif: "ancient Greek warship caught in storm, dark sky with shafts of light through clouds"
 caption_style: hard_cut_captions
 
+quote_type: narrative_scene
+
+music_asset:
+  local_path: "music/dark_rage/dark_rage_war_drums_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "Homeric narrator"
+  role: "epic narrator"
+
+addressee:
+  name: "the reader"
+  role: "a reader watching grief turn what pride could not move"
+
+scene_context: >
+  Achilles refuses to fight for Agamemnon but rises the moment Patroclus is
+  killed.
+
 script: |
-  Achilles will not fight.
+  In the Iliad, Achilles will not fight.
   Not for Agamemnon. Not for the spoils. Not for command.
 
   He stays in his tent. He sulks.

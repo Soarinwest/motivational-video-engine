@@ -1,0 +1,44 @@
+id: seneca_death_always_with_us_001
+series: stoic_practice
+author: Seneca (Letters)
+theme: mortality
+duration_seconds: 30
+message: In Letter One Hundred and One, Seneca writes to Lucilius after a wealthy young friend has died suddenly.
+hook: In Letter One Hundred and One, Seneca writes to Lucilius after a wealthy young friend has died suddenly.
+voiceover: 'In Letter One Hundred and One, Seneca writes to Lucilius after a wealthy young friend has died suddenly.
+
+
+  He takes the occasion to remove the reflex that always tempts the prosperous reader:
+
+
+  "Let us so order our minds as if we had come to the very end. Let us postpone nothing. Let us balance life''s account every
+  day."
+
+
+  Death is not the future.
+
+
+  It is always already here.
+
+
+  Stop running the bookkeeping of a life as if there are unlimited entries to come.
+
+
+  Close today''s accounts before nightfall.'
+final_line: Close today's accounts before nightfall.
+visual:
+  world: stoic_rome
+  background_prompt_key: oil_lamp_and_scroll
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: slow_zoom
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: classical_male
+  music_profile: underworld_grief
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

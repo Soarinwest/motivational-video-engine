@@ -1,0 +1,90 @@
+arc_id: samurai_zen_discipline_death_form
+region: medieval_world
+title: "The Samurai / Zen Arc: Discipline, Death, and Form"
+
+purpose: >
+  Disciplined form under mortality. Bushido, samurai strategy, Zen practice,
+  death-awareness, and ritual form converge to show that strength must be
+  governed by restraint, attention, and humility.
+
+core_thesis: >
+  The mature person is not merely intense, dangerous, or brave. He is
+  formed: able to decide cleanly, act precisely, face death without panic,
+  practice without performance, and carry strength without vanity.
+
+visual_world: samurai_zen
+
+default_visual_motifs:
+  - "lone samurai on a stone path at dawn"
+  - "samurai before an open gate in rain"
+  - "samurai kneeling before a polished blade in candlelight"
+  - "swordsman repeating cuts in an empty dojo"
+  - "armor beside a low candle before dawn"
+  - "empty Zen temple gate in mist"
+  - "monk seated before a raked stone garden"
+  - "hands holding a tea bowl in a tatami room"
+
+tone:
+  - severe
+  - still
+  - disciplined
+  - elegiac
+  - restrained
+  - contemplative
+
+themes:
+  - duty
+  - mortality
+  - restraint
+  - self_command
+  - honor_service
+  - courage
+  - wisdom
+
+primary_sources:
+  - nitobe/bushido.md
+  - musashi/book_of_five_rings.md
+  - yamamoto_tsunetomo/hagakure.md
+  - wumen_huikai/gateless_gate.md
+  - zen_and_tea/practice.md
+
+primary_source_ids:
+  - nitobe_rectitude
+  - nitobe_courage
+  - nitobe_honor
+  - musashi_way_is_practice
+  - musashi_form_without_show
+  - hagakure_way_of_death
+  - wumen_gateless_gate
+  - zen_empty_mind_full_attention
+  - zen_tea_form_and_respect
+  - zen_samurai_restraint_synthesis
+
+scripts:
+  - 001_nitobe_rectitude_straight_path
+  - 002_nitobe_courage_and_right_action
+  - 003_nitobe_honor_as_inner_judge
+  - 004_musashi_the_way_is_practice
+  - 005_musashi_form_without_show
+  - 006_hagakure_death_before_panic
+  - 007_zen_gateless_gate
+  - 008_zen_empty_mind_full_attention
+  - 009_tea_form_and_respect
+  - 010_samurai_restraint_power_under_form
+
+publishing_order_logic: >
+  Begin with Bushido's explicit moral virtues (rectitude, courage, honor),
+  then move into Musashi's practice and form (the Way is practice; form
+  without show), then Hagakure's death-awareness, then Zen's perception
+  and attention (the gateless gate; empty mind), then close by synthesizing
+  strength under disciplined form via tea practice and the closing
+  synthesis.
+
+review_rules:
+  - verify_public_domain_translation_before_direct_quote
+  - avoid_fake_samurai_quotes
+  - distinguish_bushido_history_from_later_romanticization
+  - avoid_violence_fantasy
+  - avoid_katana_aesthetic_without_moral_substance
+  - preserve_restraint_and_form
+  - human_review_before_publish

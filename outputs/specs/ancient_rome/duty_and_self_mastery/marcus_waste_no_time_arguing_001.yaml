@@ -1,0 +1,44 @@
+id: marcus_waste_no_time_arguing_001
+series: stoic_practice
+author: Marcus Aurelius (Meditations)
+theme: duty
+duration_seconds: 30
+message: 'In Meditations Book X, Marcus writes one line to himself and then closes the conversation:'
+hook: 'In Meditations Book X, Marcus writes one line to himself and then closes the conversation:'
+voiceover: 'In Meditations Book X, Marcus writes one line to himself and then closes the conversation:
+
+
+  "No longer talk at all about the kind of man that a good man ought to be, but be such."
+
+
+  Every hour spent characterizing the right kind of man is an hour not spent being one.
+
+
+  The argument about virtue is not the practice of virtue.
+
+
+  Stop describing.
+
+  Stop debating.
+
+  Stop performing the conversation.
+
+
+  Be one.'
+final_line: Be one.
+visual:
+  world: stoic_rome
+  background_prompt_key: marcus_do_not_argue_goodness
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: static
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: classical_male
+  music_profile: ambient_low
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

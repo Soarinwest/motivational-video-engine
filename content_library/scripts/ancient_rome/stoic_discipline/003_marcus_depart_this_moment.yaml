@@ -1,0 +1,61 @@
+script_id: 003_marcus_depart_this_moment
+arc_id: ancient_rome_stoic_discipline
+region: ancient_rome
+quote_source_id: marcus_meditations_depart_this_moment
+
+title: "Regulate The Next Act"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: bm_george
+music: underworld_grief
+visual_world: stoic_rome
+visual_motif: "Roman road in mist, single figure walking forward"
+caption_style: marble_serif_centered
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/underworld_grief/underworld_grief_cinematic_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "Marcus Aurelius"
+  role: "emperor writing to himself"
+
+addressee:
+  name: "himself"
+  role: "a man under death's nearness"
+
+scene_context: >
+  Marcus writes the single sentence the rest of Book II is built around —
+  Meditations II.11.
+
+script: |
+  In Meditations Book II, Marcus writes the single sentence the rest of the book is built around:
+
+  "Since it is possible that thou mayest depart from life this very moment, regulate every act and thought accordingly."
+
+  Death is not a future event.
+
+  It is the standard against which the next move is measured.
+
+  If this were the last act — would you still be doing it this way?
+
+  Regulate the next act accordingly.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: George Long
+  source_url: "https://classics.mit.edu/Antoninus/meditations.html"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Verify Long wording for Book II.11."

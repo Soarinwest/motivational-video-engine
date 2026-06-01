@@ -1,0 +1,52 @@
+arc_id: ancient_rome_seneca_on_time
+region: ancient_rome
+title: "Ancient Rome: Seneca on Time"
+
+purpose: >
+  Three letters from Seneca to Lucilius, treated as instructions to
+  the reader: hold the hour, settle the mind in one place, close the
+  day before nightfall. Time as the only non-renewable resource.
+  Scattered attention as the cost of refusing this.
+
+visual_world: stoic_rome
+default_visual_motifs:
+  - "Seneca's writing desk at dawn, half-finished letter, single candle burning down"
+  - "stone room, one book on the table, one chair, window open to morning"
+  - "stone room at dusk, candle nearly out, ledger closed"
+
+tone:
+  - direct
+  - restrained
+  - severe
+
+themes:
+  - mortality
+  - restraint
+  - self_command
+  - duty
+
+primary_sources:
+  - seneca/letters.md
+
+primary_source_ids:
+  - seneca_letters_hold_every_hour
+  - seneca_letters_remain_in_one_place
+  - seneca_letters_each_day_a_life
+
+scripts:
+  - 001_seneca_hold_every_hour
+  - 002_seneca_remain_in_one_place
+  - 003_seneca_each_day_a_life
+
+publishing_notes: >
+  Pair with the Marcus arc as Season 02's opening one-two. Letter I
+  first (time), Letter II second (attention), Letter XII to close
+  (each day a life). Letter II is technically about attention, not
+  time — but a scattered mind is the mechanism by which time is lost,
+  so it belongs.
+
+review_rules:
+  - verify_translation_rights
+  - verify_quote_wording
+  - distinguish_quote_from_interpretation
+  - human_review_before_publish

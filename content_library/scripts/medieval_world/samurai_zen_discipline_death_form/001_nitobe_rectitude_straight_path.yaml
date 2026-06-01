@@ -1,0 +1,64 @@
+script_id: 001_nitobe_rectitude_straight_path
+arc_id: samurai_zen_discipline_death_form
+region: medieval_world
+quote_source_id: nitobe_rectitude
+
+title: "Rectitude: The Straight Path"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: bm_george
+music: temple_drum_low
+visual_world: samurai_zen
+visual_motif: "lone samurai walking down a straight stone path toward a dojo at dawn"
+caption_style: marble_serif_centered
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/japanese_taiko_hitslab/japanese_taiko_hitslab_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "Inazo Nitobe"
+  role: "interpreter of Bushido ethics, writing in 1900 for a Western audience"
+
+addressee:
+  name: "the reader"
+  role: "general moral audience"
+
+scene_context: >
+  Nitobe defines rectitude as the central Bushido virtue of clean moral
+  decision — acting without wavering once reason has shown the right course.
+
+script: |
+  In Bushido: The Soul of Japan, Inazo Nitobe defines rectitude this way:
+
+  "Rectitude is the power of deciding upon a certain course of conduct in accordance with reason, without wavering."
+
+  This is not stubbornness.
+  It is clean moral movement.
+
+  Think carefully.
+  See clearly.
+  Then stop bargaining with yourself.
+
+  A crooked life is often built from small delays before obvious duties.
+
+  When the path is straight, walk it.
+
+rights:
+  quote_translation_status: public_domain_original
+  translator: null
+  source_url: "https://www.gutenberg.org/ebooks/12096"
+  translation_check_needed: false
+
+review:
+  human_review_required: true
+  notes: "Nitobe English original, PD in US. Verify exact wording against Chapter III."

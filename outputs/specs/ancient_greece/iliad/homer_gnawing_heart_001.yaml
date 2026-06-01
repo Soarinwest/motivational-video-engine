@@ -1,0 +1,46 @@
+id: homer_gnawing_heart_001
+series: literary_dark
+author: Homer
+theme: grief
+duration_seconds: 30
+message: In Book XXIV of the Iliad, Achilles has killed Hector and cannot stop.
+hook: In Book XXIV of the Iliad, Achilles has killed Hector and cannot stop.
+voiceover: 'In Book XXIV of the Iliad, Achilles has killed Hector and cannot stop.
+
+
+  For twelve days he drags the body. No food. No sleep.
+
+
+  His mother Thetis comes from the sea, and she names what he is doing to himself:
+
+
+  "My son, how long are you going to eat your own heart out in lamentation?"
+
+
+  She is not telling him his grief is wrong.
+
+
+  She is telling him that grief, past its hour, becomes another way of dying.
+
+
+  The mother in the room sees it before the son does.
+
+
+  Eating your own heart out.'
+final_line: Eating your own heart out.
+visual:
+  world: iliad
+  background_prompt_key: war_tent_at_sunset
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: slow_zoom
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: narrator_blend
+  music_profile: underworld_grief
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

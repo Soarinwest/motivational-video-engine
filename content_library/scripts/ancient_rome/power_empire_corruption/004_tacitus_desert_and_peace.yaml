@@ -1,0 +1,65 @@
+script_id: 004_tacitus_desert_and_peace
+arc_id: ancient_rome_power_empire_corruption
+region: ancient_rome
+quote_source_id: tacitus_agricola_desert_and_peace
+
+title: "They Call It Peace"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: bm_george
+music: low_strings
+visual_world: stoic_rome
+visual_motif: "ruined arches at dusk, distant Roman soldiers across a barren landscape, smoke on horizon"
+caption_style: marble_serif_centered
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/low_strings/low_strings_violin_cello_loop_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "Calgacus"
+  role: "Caledonian chieftain, as imagined and composed by Tacitus"
+
+addressee:
+  name: "his warriors before battle"
+  role: "the last free Britons about to fight Agricola's Roman legions at Mons Graupius"
+
+scene_context: >
+  Tacitus's father-in-law Agricola has spent years subduing Britain. Calgacus
+  is the leader of the last unconquered tribes. On the eve of the battle that
+  will end Caledonian freedom, Tacitus gives him a speech — a Roman historian
+  putting Rome's harshest self-critique into the mouth of its enemy.
+
+script: |
+  In his book on his father-in-law Agricola, the Roman historian Tacitus gives the harshest critique of Roman conquest to a Caledonian chieftain on the eve of his last battle:
+
+  "To plunder, butcher, steal — these things they misname empire. They make a desert and call it peace."
+
+  Tacitus is a Roman writing about his own.
+
+  He admits the conquered are not wrong.
+
+  Power renames its costs to make them disappear from the ledger.
+
+  Any time the word does not match the thing it describes — look for the desert.
+
+  They call it peace.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: Alfred John Church and William Brodribb
+  source_url: "https://www.gutenberg.org/ebooks/7524"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Verify Church/Brodribb Agricola Ch 30. Latin: 'ubi solitudinem faciunt, pacem appellant'."

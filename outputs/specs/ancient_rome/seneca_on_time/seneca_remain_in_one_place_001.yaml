@@ -1,0 +1,41 @@
+id: seneca_remain_in_one_place_001
+series: stoic_practice
+author: Seneca (Letters)
+theme: restraint
+duration_seconds: 30
+message: 'In his second letter to Lucilius, Seneca writes:'
+hook: 'In his second letter to Lucilius, Seneca writes:'
+voiceover: 'In his second letter to Lucilius, Seneca writes:
+
+
+  "The primary indication, to my thinking, of a well-ordered mind is a man''s ability to remain in one place and linger in
+  his own company."
+
+
+  Scattering across many books, many feeds, many cities is not curiosity.
+
+
+  It is restlessness wearing the costume of curiosity.
+
+
+  The settled mind does not need to be somewhere else.
+
+
+  Stay.'
+final_line: Stay.
+visual:
+  world: stoic_rome
+  background_prompt_key: seneca_stone_room_morning
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: static
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: classical_male
+  music_profile: ambient_strings_low
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

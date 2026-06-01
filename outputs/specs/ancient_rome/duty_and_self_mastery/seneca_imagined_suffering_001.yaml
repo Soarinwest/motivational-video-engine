@@ -1,0 +1,28 @@
+id: seneca_imagined_suffering_001
+series: stoic_practice
+author: Seneca (Letters)
+theme: restraint
+duration_seconds: 30
+message: 'In Letter Thirteen, Seneca writes to Lucilius about the fears that wear a man out before the thing he fears arrives:'
+hook: 'In Letter Thirteen, Seneca writes to Lucilius about the fears that wear a man out before the thing he fears arrives:'
+voiceover: "In Letter Thirteen, Seneca writes to Lucilius about the fears that wear a man out before the thing he fears arrives:\n\
+  \n\"There are more things likely to frighten us than there are to crush us. We suffer more often in imagination than in\
+  \ reality.\"\n\nMost of the catastrophe is in your head.\n\nThe body endures less than the mind rehearses.\n\nImagined suffering\
+  \ is the cheap kind \u2014 paid for in advance, on a debt that mostly never comes due.\n\nStop rehearsing it."
+final_line: Stop rehearsing it.
+visual:
+  world: stoic_rome
+  background_prompt_key: seneca_imagined_suffering
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: slow_pan
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: classical_male
+  music_profile: ambient_strings_low
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

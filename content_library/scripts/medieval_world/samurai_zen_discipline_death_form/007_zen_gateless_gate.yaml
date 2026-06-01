@@ -1,0 +1,64 @@
+script_id: 007_zen_gateless_gate
+arc_id: samurai_zen_discipline_death_form
+region: medieval_world
+quote_source_id: wumen_gateless_gate
+
+title: "The Gateless Gate"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: bm_george
+music: temple_bell_mist
+visual_world: samurai_zen
+visual_motif: "empty wooden Zen temple gate standing open in heavy morning mist"
+caption_style: marble_serif_centered
+
+quote_type: paraphrase
+
+music_asset:
+  local_path: "music/japanese_traditional_bb2/japanese_traditional_bb2_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: false
+  wording_modified_for_script: true
+
+speaker:
+  name: "Wumen Huikai (Mumon)"
+  role: "Zen master and compiler of the Wumenguan koan collection (1228 CE)"
+
+addressee:
+  name: "the Zen practitioner"
+  role: "student confronting the barrier of practice"
+
+scene_context: >
+  The Gateless Gate is a major Zen koan collection. Its title image — the
+  gateless gate — confronts students with a barrier that cannot be solved
+  by ordinary conceptual thinking.
+
+script: |
+  Zen gives us the image of the gateless gate.
+
+  The barrier is real.
+  But it is not where you think it is.
+
+  You keep looking for the locked door outside you.
+  The practice keeps pointing back to the mind that is gripping, naming, and resisting.
+
+  Not every obstacle is defeated by force.
+
+  Some are passed through by seeing clearly.
+
+  The gate opens when the self stops leaning on it.
+
+rights:
+  quote_translation_status: paraphrase_only
+  translator: null
+  source_url: "https://en.wikisource.org/wiki/The_Gateless_Gate"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Paraphrase only until PD English Wumenguan translation confirmed."

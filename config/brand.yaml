@@ -39,3 +39,187 @@ music_profiles:
     gain_db: -12
   silence:
     description: No music. Use sparingly.
+
+  # ----- Iliad-specific motifs (Homer war epic) -----
+  bardic_invocation:
+    description: Ancient kingdom-scale opening. For invocations, epic openings, narrator-frames-the-whole-tale.
+    folder: bardic_invocation
+    gain_db: -14
+  bronze_war_camp:
+    description: War drums under stillness. The camp before the battle, the discipline beneath the carnage. For Iliad set-pieces.
+    folder: bronze_war_camp
+    gain_db: -13
+  dark_rage:
+    description: Heavy war drums, propulsive, dark. For Patroclus rage, Achilles unmoored, anger as fuel.
+    folder: dark_rage
+    gain_db: -12
+  grief_lament:
+    description: Epic strings in mourning register. For Hector's farewell, Andromache's news, Priam in the tent.
+    folder: grief_lament
+    gain_db: -13
+  underworld_grief:
+    description: Cinematic dark, weighted. For Thetis with Achilles, the late Iliad mortality material.
+    folder: underworld_grief
+    gain_db: -13
+
+  # ----- Odyssey-specific motifs (Homer voyage epic) -----
+  aegean_voyage:
+    description: Epic with motion. For wide-sea passages, embarkation, the long return.
+    folder: aegean_voyage
+    gain_db: -13
+  island_enchantment:
+    description: Exotic flute and strings. For Calypso, Circe, the seduction-island scenes.
+    folder: island_enchantment
+    gain_db: -14
+  cave_tension:
+    description: Dark, tense, low menace. For Polyphemus, the Sirens, danger held at arm's length.
+    folder: cave_tension
+    gain_db: -13
+  underworld_descent:
+    description: Cinematic dread. For Book XI — the descent to consult the dead.
+    folder: underworld_descent
+    gain_db: -12
+  homecoming_recognition:
+    description: Strings, warm but severe. For Penelope's bed-test, the olive-tree bed, the recognitions.
+    folder: homecoming_recognition
+    gain_db: -14
+
+  # ----- Heroic / Roman / cross-arc -----
+  heroic_honor:
+    description: Honor and sword register. For Cincinnatus, Cicero, restrained Roman virtue.
+    folder: heroic_honor
+    gain_db: -14
+
+  # ----- Norse / Anglo-Saxon (Season 04 staging) -----
+  norse_skald_chant:
+    description: Viking chant, ancient. For Havamal, opening Norse arcs.
+    folder: norse_skald_chant
+    gain_db: -13
+  norse_hall_of_slain:
+    description: Valhalla register. For warrior-death pieces.
+    folder: norse_hall_of_slain
+    gain_db: -13
+  norse_seeress:
+    description: Spaekona / völva chant. For Voluspa, prophecy, fate-of-the-gods material.
+    folder: norse_seeress
+    gain_db: -13
+  norse_shieldmaiden:
+    description: Skjaldmær. For Norse women's-grief and battle material.
+    folder: norse_shieldmaiden
+    gain_db: -13
+
+  # ----- Northern fate (Season 04 — Norse / Anglo-Saxon) -----
+  # User-named motifs from the arc spec; map onto the Norse-audio drop and a
+  # couple of cross-arc fits (grief_lament, ancient_low_drone).
+  low_war_drone:
+    description: Valhalla register, mournful low-end. For Hávamál reputation, Beowulf's last fight.
+    folder: norse_hall_of_slain
+    gain_db: -13
+  cold_ambient:
+    description: Cold sustained drone. For exile elegies (Wanderer, Seafarer) and quiet wisdom (Hávamál silence).
+    folder: ancient_low_drone
+    gain_db: -14
+  dark_strings:
+    description: Dark epic strings. For Odin's sacrifice, Ragnarök, Maldon's last stand.
+    folder: grief_lament
+    gain_db: -13
+  nordic_chant_low:
+    description: Skaldic chant, low register. For Völuspá and prophecy material.
+    folder: norse_skald_chant
+    gain_db: -13
+  distant_frame_drum:
+    description: Restrained frame drum, distant. For Beowulf at Heorot, the moment before action.
+    folder: norse_shieldmaiden
+    gain_db: -13
+
+  # ----- Samurai / Zen (Season 04 / Japan arc) -----
+  temple_drum_low:
+    description: Low Japanese percussion with restraint. For Nitobe rectitude — the straight path.
+    folder: japanese_taiko_hitslab
+    gain_db: -13
+  low_taiko_restraint:
+    description: Restrained taiko, traditional register. For Nitobe courage and right action.
+    folder: japanese_traditional_bb1
+    gain_db: -13
+  still_koto_dark:
+    description: Dark koto, still. For Nitobe honor as inner judge — conscience material.
+    folder: japanese_koto_prettysleepy
+    gain_db: -14
+  wooden_dojo_pulse:
+    description: Steady pulse, mountain/resilience register. For Musashi — practice that becomes form.
+    folder: japanese_pulse_hetyati
+    gain_db: -13
+  rain_and_low_koto:
+    description: Koto with rain feeling. For Musashi form without show.
+    folder: japanese_koto_prettysleepy
+    gain_db: -14
+  death_awareness_drone:
+    description: Dark temple drone, samurai/yokai register. For Hagakure death-before-panic.
+    folder: japanese_dark_temple_yellowbirdbeats
+    gain_db: -13
+  temple_bell_mist:
+    description: Traditional Japanese, bell-like. For Zen — the gateless gate.
+    folder: japanese_traditional_bb2
+    gain_db: -13
+  silence_and_bell:
+    description: Traditional Japanese, quieter. For empty mind, full attention.
+    folder: japanese_traditional_bb3
+    gain_db: -14
+  soft_shakuhachi_roomtone:
+    description: Gentle Japanese piece. For tea practice, form and respect.
+    folder: japanese_gentle_godgrafix
+    gain_db: -14
+  temple_drum_and_koto_resolve:
+    description: Closing piece, resolving. For the arc's synthesis — power under form.
+    folder: japanese_traditional_bb3
+    gain_db: -13
+
+  # ----- Ancient Near East / Biblical Wisdom (Season 05 staging) -----
+  desert_low_drone:
+    description: Sustained desert drone. For Ecclesiastes vanity, opening mortality material.
+    folder: ane_desert_low_drone
+    gain_db: -14
+  slow_harp_and_desert_wind:
+    description: Slow harp under wind. For Ecclesiastes time, seasons, patience.
+    folder: ane_slow_harp_desert_wind
+    gain_db: -14
+  whirlwind_drone:
+    description: Cosmic drone. For Job from the whirlwind, divine confrontation.
+    folder: ane_whirlwind_drone
+    gain_db: -13
+  steady_hand_drum_and_lyre:
+    description: Steady builder rhythm. For Proverbs wisdom building, household material.
+    folder: ane_steady_drum_lyre
+    gain_db: -13
+  low_judgment_drums:
+    description: Low judgment drums. For Proverbs pride / fall material.
+    folder: ane_low_judgment_drums
+    gain_db: -13
+  threshold_tension_drone:
+    description: Low tense drone. For Genesis sin at the door, moral threshold material.
+    folder: ane_threshold_tension
+    gain_db: -13
+  desert_lament_with_flute:
+    description: Desert lament with flute. For Psalm 23 valley shadow material.
+    folder: ane_desert_lament_flute
+    gain_db: -14
+  prophetic_lift:
+    description: Uplifting prophetic register. For Isaiah strength renewed, Here am I.
+    folder: ane_prophetic_lift
+    gain_db: -14
+  mesopotamian_lament:
+    description: Mesopotamian lament. For Gilgamesh grief and fear of death.
+    folder: ane_whirlwind_drone
+    gain_db: -13
+  egyptian_reed_and_drone:
+    description: Egyptian reed/dulcimer drone. For Amenemope listening / teaching.
+    folder: ane_egyptian_reed
+    gain_db: -14
+
+  # ----- Quarantined (off-brand for ancient material; do not assign without review) -----
+  # _quarantine/: Soviet WW2, dark crime piano (×3), hip-hop offbrand. Held for
+  # possible future modern/political arcs only. Not for Greek, Roman, or Norse.
+  # _japan_action_pending/: desifreemusic intense taiko war drums, sonican fight
+  # action. Off-brand for Zen/wisdom; reserve for future Mongol-invasion / Divine
+  # Wind material if that scene gets a script.
+  # _japan_broad_fallback/: mfcc pan-East-Asian. Generic — use only as last resort.

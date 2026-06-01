@@ -1,0 +1,47 @@
+id: musashi_form_without_show_001
+series: literary_dark
+author: Miyamoto Musashi (Five Rings)
+theme: restraint
+duration_seconds: 30
+message: Musashi's discipline is not theatrical.
+hook: Musashi's discipline is not theatrical.
+voiceover: 'Musashi''s discipline is not theatrical.
+
+
+  The trained person does not need to look dangerous.
+
+  He does not need to signal mastery.
+
+  He does not tighten into a costume of seriousness.
+
+
+  True form becomes ordinary.
+
+  The body moves cleanly.
+
+  The mind does not beg to be seen.
+
+
+  This is the harder lesson:
+
+  do the work until you no longer need to perform the work.
+
+
+  Mastery has no need to pose.'
+final_line: Mastery has no need to pose.
+visual:
+  world: samurai_zen
+  background_prompt_key: form_without_show
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: slow_zoom
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: classical_male
+  music_profile: rain_and_low_koto
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

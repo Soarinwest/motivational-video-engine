@@ -1,0 +1,69 @@
+script_id: 004_marcus_soon_forgotten
+arc_id: ancient_rome_death_fate_inner_citadel
+region: ancient_rome
+quote_source_id: marcus_meditations_soon_forgotten
+
+title: "Soon Forget, Soon Forgotten"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: bm_george
+music: underworld_grief
+visual_world: stoic_rome
+visual_motif: "Roman bronze eagle standard planted in dark earth after battle, torn red banner in cold wind"
+caption_style: marble_serif_centered
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/underworld_grief/underworld_grief_cinematic_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "Marcus Aurelius (private notebook)"
+  role: "emperor, the most famous man in the world, writing to himself about being forgotten"
+
+addressee:
+  name: "himself"
+  role: "a man who, like everyone, secretly hopes to be remembered"
+
+scene_context: >
+  Marcus is the most powerful man alive. Statues will be erected of him;
+  histories will be written about him. He sits down in his tent and writes
+  himself the line that should disturb any man in his position: forget the
+  project of being remembered. It does not survive you.
+
+script: |
+  In Meditations Book Seven, Marcus is the most powerful man alive.
+
+  Statues will be erected of him. Histories will be written about him.
+
+  He sits in his tent and writes himself the line that should disturb any man in his position:
+
+  "Near is thy forgetfulness of all things. And near the forgetfulness of thee by all."
+
+  Legacy is the wrong target.
+
+  The present act has to be its own reason.
+
+  Most ambitious work is quietly underwritten by the fantasy of being remembered.
+
+  Marcus removes the underwriter.
+
+  Everything will soon forget you.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: George Long
+  source_url: "https://classics.mit.edu/Antoninus/meditations.html"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Verify Long VII.21."

@@ -13,6 +13,30 @@ visual_world: ancient_greece
 visual_motif: "temple columns aligned in shadow"
 caption_style: marble_serif_centered
 
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/ancient_low_drone/ancient_low_drone_calm_dreamscape_004.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "Socrates (in Plato's Republic)"
+  role: "philosopher arguing for the inner-order conception of justice"
+
+addressee:
+  name: "Glaucon and Adeimantus"
+  role: "interlocutors in the Republic dialogue"
+
+scene_context: >
+  Book IV: justice is the proper order of the parts of the soul, not just
+  compliance with external law.
+
 script: |
   In Plato's Republic, justice is not only about courts or cities.
   It is about the soul.

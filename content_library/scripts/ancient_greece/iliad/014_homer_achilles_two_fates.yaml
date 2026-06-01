@@ -1,0 +1,60 @@
+script_id: 014_homer_achilles_two_fates
+arc_id: ancient_greece_iliad
+region: ancient_greece
+quote_source_id: homer_iliad_achilles_two_fates
+
+title: "He Named The Trade"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: narrator_blend
+music: heroic_honor
+visual_world: iliad
+visual_motif: "Bronze-age warrior on a cliff at dusk overlooking the beached fleet, weathered armor, storm light"
+caption_style: marble_serif_centered
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/heroic_honor/heroic_honor_sword_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "Achilles"
+  role: "greatest Greek warrior"
+
+addressee:
+  name: "the embassy (Odysseus, Phoenix, Ajax)"
+  role: "envoys sent by Agamemnon to bring Achilles back to the war"
+
+scene_context: >
+  Achilles tells the embassy his mother's prophecy: stay and die famous, or
+  go home and live obscure.
+
+script: |
+  In Book IX of the Iliad, the embassy comes to Achilles to ask him back to the war. He tells them what his mother told him:
+
+  "If I stay here and fight, I shall not return alive but my name will live for ever. Whereas if I go home my name will die, but it will be long ere death shall take me."
+
+  Every man gets that trade.
+  Most spend their lives pretending it is not on the table.
+
+  Achilles is the one who says it out loud.
+
+  He named the trade.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: Samuel Butler
+  source_url: "https://www.gutenberg.org/ebooks/2199"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Verify Butler Book IX 410-416 wording. Do not glorify the death-young trade."

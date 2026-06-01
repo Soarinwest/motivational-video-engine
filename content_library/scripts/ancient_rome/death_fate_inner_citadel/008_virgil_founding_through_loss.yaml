@@ -1,0 +1,67 @@
+script_id: 008_virgil_founding_through_loss
+arc_id: ancient_rome_death_fate_inner_citadel
+region: ancient_rome
+quote_source_id: virgil_aeneid_founding_through_loss
+
+title: "So Great A Labor"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: narrator_blend
+music: heroic_honor
+visual_world: stoic_rome
+visual_motif: "Aeneas on a dark Italian shoreline at dawn, Trojan ships behind him, sword lowered, distant hills of future Rome through mist"
+caption_style: marble_serif_centered
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/heroic_honor/heroic_honor_sword_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "Virgil (narrator)"
+  role: "Roman epic poet, summing up Aeneas's labor in a single line"
+
+addressee:
+  name: "the Roman reader"
+  role: "a citizen of the city founded on the labor he is about to read"
+
+scene_context: >
+  The first thirty-three lines of the Aeneid lay out what the poem will
+  cover: exile from Troy, the long Mediterranean wandering, war in Italy, the
+  suffering of Aeneas's people, the eventual founding. Virgil closes the
+  prologue with one line that frames all of it as cost paid.
+
+script: |
+  In the opening of the Aeneid, Virgil lays out what the poem will cover: exile, war, the long sea, the dead left behind, the eventual founding of Rome.
+
+  He closes the prologue with one line:
+
+  "Such time, such toil, required the Roman name, such length of labour for so vast a frame."
+
+  Virgil refuses to romanticize the work.
+
+  He names it labor.
+
+  Nothing worth founding gets founded cheaply.
+
+  The man who imagines he can found a company, a family, a habit, without paying its cost has misread the genre.
+
+  So great a labor.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: John Dryden
+  source_url: "https://www.gutenberg.org/ebooks/228"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Verify Dryden Book I.33."

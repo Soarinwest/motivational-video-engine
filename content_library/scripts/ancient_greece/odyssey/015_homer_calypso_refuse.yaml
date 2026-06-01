@@ -8,13 +8,37 @@ duration_target_seconds: 30
 word_count_target: "65-85"
 
 voice: bm_george
-music: soft_lyre_ambient
-visual_world: mythic
+music: island_enchantment
+visual_world: odyssey
 visual_motif: "stone cottage on an island shore at twilight, glowing windows, path toward the sea"
 caption_style: sea_blue_shadow_captions
 
+quote_type: narrative_scene
+
+music_asset:
+  local_path: "music/island_enchantment/island_enchantment_flute_strings_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "Odysseus"
+  role: "the returning hero"
+
+addressee:
+  name: "Calypso"
+  role: "the immortal who has offered him eternal life"
+
+scene_context: >
+  Calypso offers Odysseus eternal life on her island. He refuses, choosing
+  mortality and home.
+
 script: |
-  Calypso offers Odysseus eternal life.
+  In Book V of the Odyssey, Calypso offers Odysseus eternal life.
 
   Stay with her on the island. Beautiful. Endless.
   Never grow old. Never die.

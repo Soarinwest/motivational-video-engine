@@ -1,0 +1,46 @@
+id: homer_bind_me_tighter_001
+series: literary_dark
+author: Homer
+theme: self-command
+duration_seconds: 30
+message: In Book XII of the Odyssey, before the Sirens, Odysseus knows what is coming.
+hook: In Book XII of the Odyssey, before the Sirens, Odysseus knows what is coming.
+voiceover: 'In Book XII of the Odyssey, before the Sirens, Odysseus knows what is coming.
+
+
+  He knows that when the music starts, he will not be the man he is now.
+
+
+  So he gives his crew instructions while he can still mean them:
+
+
+  "If I beg you and bid you to set me free, then bind me more tightly still."
+
+
+  Self-control is rarely heroic in the moment.
+
+
+  Most of it is an instruction left in advance, for a future self you do not yet trust.
+
+
+  The man who plans his restraint before the temptation arrives.
+
+
+  Bind me tighter.'
+final_line: Bind me tighter.
+visual:
+  world: odyssey
+  background_prompt_key: sea_cave_entrance
+  background_override_path: assets/figures/feminine/sirens/sirens_over_black_rocks.png
+  figure_prompt_key: none
+  motion_profile: slow_pan
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: narrator_blend
+  music_profile: island_enchantment
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

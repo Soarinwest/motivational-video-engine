@@ -30,3 +30,18 @@ voices:
     voice_id: bm_lewis
     lang_code: b       # British English
     speed: 0.88
+
+  narrator_blend:
+    description: >-
+      Blended narrator — 51.5% am_michael + 48.5% bm_lewis. Softens
+      pure-American directness with British literary restraint. Targets
+      a steadier, more natural cadence than either voice alone. Uses
+      American phonemes (matches the slightly-heavier-weighted voice).
+    tts_provider: kokoro
+    voice_blend:
+      - voice_id: am_michael
+        weight: 0.515
+      - voice_id: bm_lewis
+        weight: 0.485
+    lang_code: a       # American phonemes (heavier-weighted half)
+    speed: 0.90        # midpoint between American 0.92 and British 0.88

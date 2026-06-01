@@ -1,0 +1,48 @@
+id: caesar_crossing_rubicon_001
+series: literary_dark
+author: Plutarch (Life of Caesar)
+theme: ambition
+duration_seconds: 30
+message: In Plutarch's Life of Caesar, the Rubicon is a small river. The Senate forbids any general to bring an army across
+  it.
+hook: In Plutarch's Life of Caesar, the Rubicon is a small river. The Senate forbids any general to bring an army across it.
+voiceover: 'In Plutarch''s Life of Caesar, the Rubicon is a small river. The Senate forbids any general to bring an army across
+  it.
+
+
+  Caesar pauses on the north bank with his legions.
+
+
+  He knows the crossing costs not just his own future but a thousand years of Roman constitutional order.
+
+
+  Plutarch records the words he gives himself before he moves:
+
+
+  "The die is cast."
+
+
+  Ambition''s most expensive feature is the line you cannot uncross.
+
+
+  Most decisions a man regrets were obvious before he made them.
+
+
+  He crossed.'
+final_line: He crossed.
+visual:
+  world: stoic_rome
+  background_prompt_key: caesar_crossing_rubicon
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: static
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: classical_male
+  music_profile: bronze_war_camp
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

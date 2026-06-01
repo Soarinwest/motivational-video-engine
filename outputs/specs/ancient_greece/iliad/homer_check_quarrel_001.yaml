@@ -29,16 +29,17 @@ voiceover: 'In the Iliad, Nestor pleads for peace between Agamemnon and Achilles
   Win yourself before you try to win the room.'
 final_line: Win yourself before you try to win the room.
 visual:
-  world: mythic
+  world: iliad
   background_prompt_key: war_camp_fire_meadow
+  background_override_path: null
   figure_prompt_key: none
   motion_profile: medium_pan
   overlays: []
   caption_style: serif_quiet
 audio:
   tts_provider: kokoro
-  voice_profile: literary_male
-  music_profile: ambient_strings_low
+  voice_profile: narrator_blend
+  music_profile: bronze_war_camp
 render:
   resolution: 1080x1920
   fps: 30

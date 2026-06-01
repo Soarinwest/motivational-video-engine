@@ -7,11 +7,35 @@ title: "She Knew The Cost"
 duration_target_seconds: 30
 word_count_target: "65-85"
 
-voice: bm_lewis
-music: somber_cinematic
+voice: narrator_blend
+music: grief_lament
 visual_world: ancient_greece
 visual_motif: "two women in a doorway at dawn after a city falls"
 caption_style: sparse_centered_captions
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/grief_lament/grief_lament_strings_epic_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "Antigone"
+  role: "Theban princess"
+
+addressee:
+  name: "Ismene"
+  role: "her sister"
+
+scene_context: >
+  Before the burial, Antigone tells Ismene plainly: she has already seen
+  every kind of grief.
 
 script: |
   In Sophocles' Antigone, before the burial, before the trial, Antigone tells her sister Ismene plainly what she has already seen:

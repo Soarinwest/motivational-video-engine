@@ -1,0 +1,61 @@
+script_id: 007_cicero_duty_over_advantage
+arc_id: ancient_rome_duty_and_self_mastery
+region: ancient_rome
+quote_source_id: cicero_on_duties_duty_over_advantage
+
+title: "No Clean Trade"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: bm_george
+music: heroic_honor
+visual_world: stoic_rome
+visual_motif: "Cicero on the steps of the Roman Senate, toga in wind, bronze doors open into darkness"
+caption_style: marble_serif_centered
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/heroic_honor/heroic_honor_sword_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: ""
+  role: ""
+
+addressee:
+  name: ""
+  role: ""
+
+scene_context: ""
+
+script: |
+  In De Officiis Book Three, Cicero takes up the oldest excuse and refuses it:
+
+  "Whatever is morally right is also expedient, and what is morally wrong is also inexpedient."
+
+  Right and useful are not opposites.
+
+  The man who pits honor against advantage has misread both.
+
+  There is no clean transaction in which you trade conscience for gain.
+
+  The man who thinks he made it pays later — and not in the currency he expected.
+
+  There is no clean trade.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: Walter Miller
+  source_url: "https://en.wikisource.org/wiki/De_Officiis"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Verify Miller Loeb De Officiis III opening wording."

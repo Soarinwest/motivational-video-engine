@@ -1,0 +1,45 @@
+id: cincinnatus_power_to_plow_001
+series: stoic_practice
+author: Livy (Ab Urbe Condita)
+theme: public-responsibility
+duration_seconds: 30
+message: In Livy's history, Rome is in crisis. The Senate calls Cincinnatus from his small farm and makes him dictator.
+hook: In Livy's history, Rome is in crisis. The Senate calls Cincinnatus from his small farm and makes him dictator.
+voiceover: 'In Livy''s history, Rome is in crisis. The Senate calls Cincinnatus from his small farm and makes him dictator.
+
+
+  In sixteen days he raises an army, defeats the enemy, and lifts the siege.
+
+
+  Then he lays down absolute power, picks up his plow, and walks home.
+
+
+  The test of character is not the seizing.
+
+
+  It is the release.
+
+
+  Most men can be trusted to take a sword.
+
+  Almost none can be trusted to set it down on the table while the room is still afraid.
+
+
+  He went back to the plow.'
+final_line: He went back to the plow.
+visual:
+  world: stoic_rome
+  background_prompt_key: cincinnatus_power_to_plow
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: slow_pan
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: classical_male
+  music_profile: ambient_low
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

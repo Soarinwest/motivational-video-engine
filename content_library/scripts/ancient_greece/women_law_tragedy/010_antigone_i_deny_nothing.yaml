@@ -7,11 +7,35 @@ title: "I Deny Nothing"
 duration_target_seconds: 30
 word_count_target: "65-85"
 
-voice: bm_lewis
+voice: narrator_blend
 music: low_strings
 visual_world: ancient_greece
 visual_motif: "woman on temple steps after war, no crowd"
 caption_style: sparse_centered_captions
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/low_strings/low_strings_violin_cello_loop_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "Antigone"
+  role: "Theban princess defying Creon's decree"
+
+addressee:
+  name: "Creon"
+  role: "king of Thebes, her uncle"
+
+scene_context: >
+  Creon confronts Antigone about the burial of Polynices. She refuses to
+  dissemble.
 
 script: |
   In Sophocles' Antigone, Creon asks whether she committed the forbidden burial.

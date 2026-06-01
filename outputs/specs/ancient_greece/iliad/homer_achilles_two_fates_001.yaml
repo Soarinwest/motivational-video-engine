@@ -1,0 +1,43 @@
+id: homer_achilles_two_fates_001
+series: literary_dark
+author: Homer
+theme: mortality
+duration_seconds: 30
+message: 'In Book IX of the Iliad, the embassy comes to Achilles to ask him back to the war. He tells them what his mother
+  told him:'
+hook: 'In Book IX of the Iliad, the embassy comes to Achilles to ask him back to the war. He tells them what his mother told
+  him:'
+voiceover: 'In Book IX of the Iliad, the embassy comes to Achilles to ask him back to the war. He tells them what his mother
+  told him:
+
+
+  "If I stay here and fight, I shall not return alive but my name will live for ever. Whereas if I go home my name will die,
+  but it will be long ere death shall take me."
+
+
+  Every man gets that trade.
+
+  Most spend their lives pretending it is not on the table.
+
+
+  Achilles is the one who says it out loud.
+
+
+  He named the trade.'
+final_line: He named the trade.
+visual:
+  world: iliad
+  background_prompt_key: achilles_overlooking_camp
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: slow_zoom
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: narrator_blend
+  music_profile: heroic_honor
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

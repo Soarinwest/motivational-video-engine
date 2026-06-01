@@ -1,0 +1,50 @@
+id: tea_form_and_respect_001
+series: literary_dark
+author: Japanese tea tradition
+theme: restraint
+duration_seconds: 30
+message: Not all discipline looks like battle.
+hook: Not all discipline looks like battle.
+voiceover: 'Not all discipline looks like battle.
+
+
+  Sometimes it is a bowl.
+
+  A room.
+
+  A gesture done correctly when no one is impressed.
+
+
+  Tea practice teaches that form can train the heart.
+
+
+  The small act becomes a mirror:
+
+  are you rushing?
+
+  are you careless?
+
+  are you trying to dominate even silence?
+
+
+  Do ordinary things cleanly.
+
+
+  The way you hold the bowl is also the way you hold the world.'
+final_line: The way you hold the bowl is also the way you hold the world.
+visual:
+  world: samurai_zen
+  background_prompt_key: tea_form_and_respect
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: slow_zoom
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: classical_male
+  music_profile: soft_shakuhachi_roomtone
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

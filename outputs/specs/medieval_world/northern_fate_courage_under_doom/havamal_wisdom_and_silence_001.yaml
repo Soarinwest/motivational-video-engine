@@ -1,0 +1,28 @@
+id: havamal_wisdom_and_silence_001
+series: literary_dark
+author: "Anonymous (H\xE1vam\xE1l)"
+theme: restraint
+duration_seconds: 30
+message: "The H\xE1vam\xE1l warns against loose certainty:"
+hook: "The H\xE1vam\xE1l warns against loose certainty:"
+voiceover: "The H\xE1vam\xE1l warns against loose certainty:\n\n\"The unwise man thinks that he knows all.\"\n\nThis is the\
+  \ old lesson.\nNoise is not wisdom.\nBoasting is not strength.\nSpeaking first is not the same as seeing clearly.\n\nA foolish\
+  \ man feels tallest where he is never tested.\nA wise man learns caution, silence, and measure.\n\nDo not rush to prove\
+  \ yourself with words.\n\nLet reality examine you first."
+final_line: Let reality examine you first.
+visual:
+  world: northern_fate
+  background_prompt_key: havamal_wisdom_and_silence
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: static
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: low_steady_male
+  music_profile: cold_ambient
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

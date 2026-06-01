@@ -7,14 +7,37 @@ title: "He Went Down to Ask"
 duration_target_seconds: 30
 word_count_target: "65-85"
 
-voice: bm_lewis
-music: somber_cinematic
-visual_world: mythic
+voice: narrator_blend
+music: underworld_descent
+visual_world: odyssey
 visual_motif: "misty grey shoreline at dusk, ruins of a stone gateway reflected in still dark water"
 caption_style: sparse_centered_captions
 
+quote_type: narrative_scene
+
+music_asset:
+  local_path: "music/underworld_descent/underworld_descent_cinematic_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "Tiresias"
+  role: "the blind prophet in the land of the dead"
+
+addressee:
+  name: "Odysseus"
+  role: "the living man who has crossed to consult him"
+
+scene_context: >
+  Odysseus descends to the underworld in Book XI to ask the way home.
+
 script: |
-  In Book Eleven, Odysseus rows to the edge of the world.
+  In Book XI of the Odyssey, Odysseus rows to the edge of the world.
 
   He sails to the land of the dead
   to ask the blind prophet Tiresias the way home.

@@ -1,0 +1,66 @@
+script_id: 002_nitobe_courage_and_right_action
+arc_id: samurai_zen_discipline_death_form
+region: medieval_world
+quote_source_id: nitobe_courage
+
+title: "Courage and Right Action"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: am_michael
+music: low_taiko_restraint
+visual_world: samurai_zen
+visual_motif: "samurai before an open wooden gate in steady rain, villagers behind him"
+caption_style: marble_serif_centered
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/japanese_traditional_bb1/japanese_traditional_bb1_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "Inazo Nitobe"
+  role: "interpreter of Bushido ethics"
+
+addressee:
+  name: "the reader"
+  role: "general moral audience"
+
+scene_context: >
+  Nitobe distinguishes courage from mere daring. Courage only becomes a
+  virtue when it serves what is right.
+
+script: |
+  Nitobe's Bushido does not treat courage as noise or appetite for danger:
+
+  "Courage is doing what is right."
+
+  That is the line that matters.
+
+  Recklessness is easy.
+  Anger is easy.
+  Throwing yourself at danger can still be vanity.
+
+  Courage becomes virtue only when it serves the right thing.
+
+  Before you call yourself brave, ask what your bravery is protecting.
+
+  Risk is not enough.
+  Right action is.
+
+rights:
+  quote_translation_status: public_domain_original
+  translator: null
+  source_url: "https://www.gutenberg.org/ebooks/12096"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Verify exact wording in Nitobe Ch IV."

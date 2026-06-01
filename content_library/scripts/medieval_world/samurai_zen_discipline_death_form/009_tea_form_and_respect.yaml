@@ -1,0 +1,66 @@
+script_id: 009_tea_form_and_respect
+arc_id: samurai_zen_discipline_death_form
+region: medieval_world
+quote_source_id: zen_tea_form_and_respect
+
+title: "Form And Respect"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: bm_george
+music: soft_shakuhachi_roomtone
+visual_world: samurai_zen
+visual_motif: "two hands holding a simple tea bowl in a quiet tatami room"
+caption_style: marble_serif_centered
+
+quote_type: narrative_scene
+
+music_asset:
+  local_path: "music/japanese_gentle_godgrafix/japanese_gentle_godgrafix_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: false
+  wording_modified_for_script: false
+
+speaker:
+  name: "Japanese tea tradition"
+  role: "embodied discipline of form, respect, and attention"
+
+addressee:
+  name: "the practitioner / guest"
+  role: "person learning humility through form"
+
+scene_context: >
+  Tea practice turns small gestures into disciplined attention: bowl, water,
+  posture, silence, respect. Form outside warfare.
+
+script: |
+  Not all discipline looks like battle.
+
+  Sometimes it is a bowl.
+  A room.
+  A gesture done correctly when no one is impressed.
+
+  Tea practice teaches that form can train the heart.
+
+  The small act becomes a mirror:
+  are you rushing?
+  are you careless?
+  are you trying to dominate even silence?
+
+  Do ordinary things cleanly.
+
+  The way you hold the bowl is also the way you hold the world.
+
+rights:
+  quote_translation_status: original_interpretation
+  translator: null
+  source_url: ""
+  translation_check_needed: false
+
+review:
+  human_review_required: true
+  notes: "Original interpretive script."

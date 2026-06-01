@@ -1,0 +1,67 @@
+script_id: 002_marcus_inner_citadel
+arc_id: ancient_rome_death_fate_inner_citadel
+region: ancient_rome
+quote_source_id: marcus_meditations_inner_citadel
+
+title: "Step In"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: bm_george
+music: ancient_low_drone
+visual_world: stoic_rome
+visual_motif: "Marcus in meditation inside a dark stone chamber, faint golden light outlining his face"
+caption_style: marble_serif_centered
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/ancient_low_drone/ancient_low_drone_calm_dreamscape_004.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "Marcus Aurelius (private notebook)"
+  role: "emperor writing to himself on campaign"
+
+addressee:
+  name: "himself"
+  role: "a man under the daily pressure of empire, seeking interior shelter"
+
+scene_context: >
+  Marcus is on the Danube frontier. He has no quiet country house to escape
+  to. His relief from the noise of empire has to come from somewhere closer
+  than that. He writes himself the instruction — the retreat is interior, and
+  it is always available.
+
+script: |
+  In Meditations Book Four, Marcus is on the Danube frontier. He has no quiet country house to escape to.
+
+  So he writes himself the instruction:
+
+  "Men seek retreats for themselves, houses in the country, sea-shores, and mountains. But it is in thy power whenever thou shalt choose to retire into thyself."
+
+  Other men go to the country to escape.
+
+  You can go to the same place without leaving the room.
+
+  The retreat that matters is the one you do not have to travel to.
+
+  It is built, not found.
+
+  Step in.
+
+rights:
+  quote_translation_status: public_domain_translation
+  translator: George Long
+  source_url: "https://classics.mit.edu/Antoninus/meditations.html"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Verify Long IV.3."

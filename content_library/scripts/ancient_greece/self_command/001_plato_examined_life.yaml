@@ -13,6 +13,30 @@ visual_world: ancient_greece
 visual_motif: "Athenian agora at dusk, lone philosopher silhouette"
 caption_style: marble_serif_centered
 
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/ancient_low_drone/ancient_low_drone_calm_dreamscape_004.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "Socrates"
+  role: "philosopher on trial in Athens, 399 BCE"
+
+addressee:
+  name: "the Athenian jury"
+  role: "the men who will sentence him"
+
+scene_context: >
+  Socrates refuses to accept exile over death. The unexamined life, he says,
+  is not worth living.
+
 script: |
   Socrates, in Plato's Apology, gives us one of the hardest lines in philosophy:
 

@@ -8,10 +8,34 @@ duration_target_seconds: 30
 word_count_target: "65-85"
 
 voice: bm_george
-music: soft_lyre_ambient
-visual_world: mythic
+music: aegean_voyage
+visual_world: odyssey
 visual_motif: "shoreline at dawn, ship silhouette"
 caption_style: sea_blue_shadow_captions
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/aegean_voyage/aegean_voyage_epic_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "Odysseus"
+  role: "the returning hero"
+
+addressee:
+  name: "Calypso"
+  role: "the immortal who has held him on her island"
+
+scene_context: >
+  On Calypso's island, Odysseus refuses immortality. He wants only to go
+  home.
 
 script: |
   In Homer's Odyssey, Odysseus is offered ease, beauty, and escape.

@@ -1,0 +1,31 @@
+id: tacitus_desert_and_peace_001
+series: literary_dark
+author: Tacitus (Agricola)
+theme: tyranny
+duration_seconds: 30
+message: 'In his book on his father-in-law Agricola, the Roman historian Tacitus gives the harshest critique of Roman conquest
+  to a Caledonian chieftain on the eve of his last battle:'
+hook: 'In his book on his father-in-law Agricola, the Roman historian Tacitus gives the harshest critique of Roman conquest
+  to a Caledonian chieftain on the eve of his last battle:'
+voiceover: "In his book on his father-in-law Agricola, the Roman historian Tacitus gives the harshest critique of Roman conquest\
+  \ to a Caledonian chieftain on the eve of his last battle:\n\n\"To plunder, butcher, steal \u2014 these things they misname\
+  \ empire. They make a desert and call it peace.\"\n\nTacitus is a Roman writing about his own.\n\nHe admits the conquered\
+  \ are not wrong.\n\nPower renames its costs to make them disappear from the ledger.\n\nAny time the word does not match\
+  \ the thing it describes \u2014 look for the desert.\n\nThey call it peace."
+final_line: They call it peace.
+visual:
+  world: stoic_rome
+  background_prompt_key: tacitus_desert_and_peace
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: slow_pan
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: classical_male
+  music_profile: ambient_strings_low
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

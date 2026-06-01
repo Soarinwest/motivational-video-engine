@@ -11,16 +11,17 @@ voiceover: "In Book XXIV of the Iliad, the war is almost over.\nHector is dead. 
   \ it, no audience to see it \u2014\nthat is the only place mercy lives.\n\nThey wept.\nHe gave him back."
 final_line: He gave him back.
 visual:
-  world: mythic
+  world: iliad
   background_prompt_key: priam_in_tent
+  background_override_path: null
   figure_prompt_key: none
   motion_profile: medium_zoom
   overlays: []
   caption_style: serif_quiet
 audio:
   tts_provider: kokoro
-  voice_profile: literary_male
-  music_profile: ambient_strings_low
+  voice_profile: narrator_blend
+  music_profile: grief_lament
 render:
   resolution: 1080x1920
   fps: 30

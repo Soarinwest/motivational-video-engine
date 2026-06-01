@@ -1,0 +1,86 @@
+arc_id: ancient_rome_duty_and_self_mastery
+region: ancient_rome
+title: "Ancient Rome: Duty and Self-Mastery"
+
+purpose: >
+  The strongest motive-engine fit. Rome teaches what Greece prepared for:
+  do your duty, master luxury, face death, serve something larger than
+  comfort, carry responsibility without complaint. Marcus on the morning
+  and the next act, Seneca on time and imagined suffering, Cicero on
+  duty over advantage. Stoic practice under empire weight.
+
+  This is the umbrella arc. ancient_rome_stoic_discipline (Marcus
+  Book II) and ancient_rome_seneca_on_time are feeder sub-arcs already
+  in production; their scripts belong to this season as well.
+
+visual_world: stoic_rome
+default_visual_motifs:
+  - "Roman writing desk, oil lamp, scrolls, rain beyond"
+  - "Senate steps in cold rain, bronze doors closed"
+  - "Roman forum at first light, empty colonnade"
+  - "marble study, water clock, parchment in sunlight"
+  - "campaign tent on the Danube frontier, single lamp burning"
+
+tone:
+  - severe
+  - restrained
+  - direct
+  - weighty
+
+themes:
+  - discipline
+  - duty
+  - mortality
+  - self_command
+  - public_responsibility
+  - restraint
+  - time
+
+primary_sources:
+  - marcus_aurelius/meditations.md
+  - seneca/letters.md
+  - seneca/shortness_of_life.md       # TODO create
+  - cicero/on_duties.md                # TODO create
+  - epictetus/discourses.md            # bridge — Greek-language but Roman-tradition
+
+primary_source_ids:
+  # Already written (in stoic_discipline + seneca_on_time):
+  - marcus_meditations_morning_preparation
+  - marcus_meditations_as_if_last_act
+  - marcus_meditations_depart_this_moment
+  - seneca_letters_hold_every_hour
+  - seneca_letters_remain_in_one_place
+  - seneca_letters_each_day_a_life
+  # Targets for this arc — to be written:
+  - marcus_meditations_waste_no_time_arguing      # TODO
+  - seneca_shortness_life_long_enough             # TODO
+  - seneca_letters_imagined_suffering             # TODO
+  - cicero_on_duties_duty_over_advantage          # TODO
+
+scripts:
+  # Inherited from feeder sub-arcs:
+  - 001_marcus_morning_preparation          # in stoic_discipline/
+  - 002_marcus_as_if_last_act               # in stoic_discipline/
+  - 003_marcus_depart_this_moment           # in stoic_discipline/  (also pulled into death_fate arc)
+  - 001_seneca_hold_every_hour              # in seneca_on_time/
+  - 002_seneca_remain_in_one_place          # in seneca_on_time/
+  - 003_seneca_each_day_a_life              # in seneca_on_time/
+  # New for this arc — to be written:
+  - 004_marcus_waste_no_time_arguing        # TODO — Meditations II.16 or X.16
+  - 005_seneca_life_long_enough             # TODO — De Brevitate Vitae
+  - 006_seneca_imagined_suffering           # TODO — Letter XIII.4-5
+  - 007_cicero_duty_over_advantage          # TODO — De Officiis III
+
+publishing_notes: >
+  Open Season 02 with this arc. The progression from Greece is:
+  Socrates examined → Aristotle trained → Epictetus controlled →
+  Marcus did his duty → Seneca stopped wasting life → Cicero served
+  what is right. Pair with somber_cinematic for mortality pieces
+  (depart this moment, life is long enough) and ancient_low_drone
+  for the daily-practice pieces.
+
+review_rules:
+  - verify_translation_rights
+  - verify_quote_wording
+  - distinguish_quote_from_interpretation
+  - human_review_before_publish

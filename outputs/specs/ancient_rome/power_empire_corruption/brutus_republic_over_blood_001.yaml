@@ -1,0 +1,49 @@
+id: brutus_republic_over_blood_001
+series: literary_dark
+author: Plutarch (Life of Brutus)
+theme: duty
+duration_seconds: 30
+message: In Plutarch's Life of Brutus, Caesar has called Brutus his son.
+hook: In Plutarch's Life of Brutus, Caesar has called Brutus his son.
+voiceover: 'In Plutarch''s Life of Brutus, Caesar has called Brutus his son.
+
+
+  The conspirators come to Brutus and remind him that his ancestor expelled the kings of Rome five centuries earlier.
+
+
+  They ask: will you put personal love above the Republic, or the Republic above personal love?
+
+
+  Brutus chooses the Republic.
+
+
+  He helps kill the man who loved him.
+
+
+  And the Republic still died.
+
+
+  The duty that costs you the most is the one that does not solve the problem.
+
+
+  Brutus''s example is not the simple instruction to do the right thing.
+
+
+  It is the harder one: do the right thing knowing it will not work.'
+final_line: 'It is the harder one: do the right thing knowing it will not work.'
+visual:
+  world: stoic_rome
+  background_prompt_key: brutus_republic_over_blood
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: slow_zoom
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: classical_male
+  music_profile: grief_lament
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

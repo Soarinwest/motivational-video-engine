@@ -1,0 +1,90 @@
+arc_id: medieval_world_northern_fate_courage_under_doom
+region: medieval_world
+title: "Northern Fate: Courage Under Doom"
+
+purpose: >
+  Northern heroic and elegiac literature does not promise success. It asks
+  what kind of person remains upright under mortality, exile, doom, grief,
+  and defeat. This arc explores what remains when comfort, certainty, and
+  control fall away.
+
+core_thesis: >
+  Death is certain, fate is not fully controllable, and even the mighty fall.
+  The moral task is not to escape the ending, but to meet it with courage,
+  restraint, loyalty, and memory.
+
+visual_world: northern_fate
+
+default_visual_motifs:
+  - "burial mound at dusk with ravens"
+  - "silent mead hall lit by low fire"
+  - "Odin on the wind-rocked tree"
+  - "seeress on black stone in a snowstorm"
+  - "burning horizon at Ragnarök"
+  - "Anglo-Saxon shield wall at dusk"
+  - "frozen shoreline, lone exile"
+
+tone:
+  - severe
+  - elegiac
+  - mythic
+  - cold
+  - heroic
+  - mournful
+
+themes:
+  - mortality
+  - courage
+  - fate
+  - duty
+  - grief
+  - reputation
+  - restraint
+  - sacrifice
+
+primary_sources:
+  - anonymous_norse/havamal.md
+  - anonymous_norse/voluspa.md
+  - anonymous_anglo_saxon/beowulf.md
+  - anonymous_anglo_saxon/the_wanderer.md
+  - anonymous_anglo_saxon/the_seafarer.md
+  - anonymous_anglo_saxon/the_battle_of_maldon.md
+
+primary_source_ids:
+  - havamal_reputation_after_death
+  - havamal_wisdom_and_silence
+  - havamal_odin_wisdom_cost
+  - voluspa_fate_of_gods
+  - voluspa_ragnarok_even_gods_fall
+  - beowulf_face_the_monster
+  - beowulf_old_king_last_fight
+  - wanderer_exile_and_memory
+  - seafarer_cold_sea_trial
+  - maldon_heart_bolder
+
+scripts:
+  - 001_havamal_reputation_after_death
+  - 002_havamal_wisdom_and_silence
+  - 003_odin_wisdom_cost
+  - 004_voluspa_fate_of_gods
+  - 005_ragnarok_even_gods_fall
+  - 006_beowulf_face_the_monster
+  - 007_beowulf_old_king_last_fight
+  - 008_wanderer_exile_and_memory
+  - 009_seafarer_cold_sea_trial
+  - 010_maldon_courage_after_defeat
+
+publishing_order_logic: >
+  The arc begins with mortality and reputation (Hávamál), moves into
+  restraint and the cost of wisdom (silence; Odin's ordeal), expands into
+  prophecy and cosmic doom (Völuspá, Ragnarök), then descends into human
+  courage (Beowulf at Heorot), aging duty (the dragon fight), exile (the
+  Wanderer), sea-hardship (the Seafarer), and loyalty after defeat (Maldon).
+
+review_rules:
+  - verify_public_domain_translation
+  - verify_exact_quote_wording
+  - preserve_speaker_and_scene_context
+  - distinguish_quote_from_interpretation
+  - avoid_warrior_bro_tone
+  - human_review_before_publish

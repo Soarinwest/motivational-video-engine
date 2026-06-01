@@ -87,15 +87,18 @@ def _check_visual(spec: ContentSpec, worlds_path: Path) -> list[LintIssue]:
     world = worlds[world_id]
     issues: list[LintIssue] = []
 
-    bg_catalog = world.get("background_prompts") or {}
-    bg_key = spec.visual.background_prompt_key
-    if bg_key not in bg_catalog:
-        issues.append(
-            LintIssue(
-                "visual.background_prompt_key",
-                _unknown_msg(bg_key, bg_catalog, f"background prompt in '{world_id}'"),
+    # When background_override_path is set, the spec uses that exact file and
+    # bypasses the prompt-registry lookup entirely. Skip the bg_key check.
+    if not spec.visual.background_override_path:
+        bg_catalog = world.get("background_prompts") or {}
+        bg_key = spec.visual.background_prompt_key
+        if bg_key not in bg_catalog:
+            issues.append(
+                LintIssue(
+                    "visual.background_prompt_key",
+                    _unknown_msg(bg_key, bg_catalog, f"background prompt in '{world_id}'"),
+                )
             )
-        )
 
     fig_catalog = world.get("figure_prompts") or {}
     fig_key = spec.visual.figure_prompt_key

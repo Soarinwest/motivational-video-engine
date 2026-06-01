@@ -1,0 +1,65 @@
+script_id: 003_nitobe_honor_as_inner_judge
+arc_id: samurai_zen_discipline_death_form
+region: medieval_world
+quote_source_id: nitobe_honor
+
+title: "Honor As Inner Judge"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: narrator_blend
+music: still_koto_dark
+visual_world: samurai_zen
+visual_motif: "samurai kneeling alone, reflection in a polished blade, candlelight on steel"
+caption_style: marble_serif_centered
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/japanese_koto_prettysleepy/japanese_koto_prettysleepy_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "Inazo Nitobe"
+  role: "interpreter of Bushido ethics"
+
+addressee:
+  name: "the reader"
+  role: "general moral audience"
+
+scene_context: >
+  Nitobe describes honor as an internalized sense of dignity and moral worth
+  — not merely reputation before others.
+
+script: |
+  In Nitobe's account of Bushido, honor is not just public reputation.
+
+  It is "a vivid consciousness of personal dignity and worth."
+
+  That means the first witness is inside you.
+
+  You may hide a compromise from others.
+  You may explain it well.
+  You may even be praised for it.
+
+  But the inner judge remains.
+
+  Honor begins where performance ends.
+
+  Do not become someone you have to explain away.
+
+rights:
+  quote_translation_status: public_domain_original
+  translator: null
+  source_url: "https://www.gutenberg.org/ebooks/12096"
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Verify Nitobe Ch VII wording."

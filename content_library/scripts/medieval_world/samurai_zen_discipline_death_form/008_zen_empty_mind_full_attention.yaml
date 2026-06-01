@@ -1,0 +1,69 @@
+script_id: 008_zen_empty_mind_full_attention
+arc_id: samurai_zen_discipline_death_form
+region: medieval_world
+quote_source_id: zen_empty_mind_full_attention
+
+title: "Empty Mind, Full Attention"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: narrator_blend
+music: silence_and_bell
+visual_world: samurai_zen
+visual_motif: "Zen monk seated before a raked stone garden at dawn"
+caption_style: marble_serif_centered
+
+quote_type: narrative_scene
+
+music_asset:
+  local_path: "music/japanese_traditional_bb3/japanese_traditional_bb3_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: false
+  wording_modified_for_script: false
+
+speaker:
+  name: "Zen practice tradition"
+  role: "contemplative discipline (no single authored source)"
+
+addressee:
+  name: "the practitioner"
+  role: "person training attention"
+
+scene_context: >
+  Zen practice cuts against discursive overthinking and points toward
+  direct, embodied attention.
+
+script: |
+  The empty mind is not a dead mind.
+
+  It is a mind no longer crowded by performance.
+
+  No audience inside the skull.
+  No argument with the moment.
+  No endless rehearsal of the self.
+
+  Just attention.
+
+  This is harder than noise.
+  Harder than ambition.
+  Harder than appearing profound.
+
+  Sit.
+  Breathe.
+  See the thing before you.
+
+  A scattered mind cannot make a clean cut.
+
+rights:
+  quote_translation_status: original_interpretation
+  translator: null
+  source_url: ""
+  translation_check_needed: false
+
+review:
+  human_review_required: true
+  notes: "Original interpretive script."

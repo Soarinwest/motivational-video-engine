@@ -110,6 +110,72 @@ This is the cluster where rights and editorial voice are kept apart. **Always fi
 - **human_review_required** — defaults to `true`. The project's hard rule: a human reviews and approves before publishing.
 - **notes** — review-stage notes (translation to verify, ethics flag to check, etc.).
 
+### Quote classification (recommended on every entry)
+
+Every entry should declare what *kind* of content it is. The render pipeline does not enforce this yet, but it lets writers and reviewers distinguish a verified direct quote from an excerpt, a paraphrase, or a scene retold without a single quotable line.
+
+```yaml
+quote_type: direct_quote   # required when feasible; defaults to "direct_quote" if absent
+# Allowed values:
+#   direct_quote     — exact translated wording, verified against the cited edition
+#   excerpt          — a short, exact phrase pulled from a longer passage
+#   paraphrase       — author's idea restated in modern English; not exact
+#   narrative_scene  — a scene from the work retold without a single quotable line
+
+quote_integrity:
+  exact_translation_verified: false   # set true after wording check against the cited edition
+  public_domain_translation: true     # the translator's edition is in PD
+  wording_modified_for_script: false  # script reformats / abbreviates the quote
+  excerpted: false                    # a slice of a longer continuous passage
+```
+
+**Rules of thumb:**
+- If `direct_quote` is non-empty, default `quote_type` is `direct_quote`.
+- If `direct_quote` is empty but the entry retells a scene, set `quote_type: narrative_scene`. `direct_quote_required: false` may be added explicitly for clarity.
+- Use `excerpt` when the entry pulls a short phrase from a longer continuous passage and you have not yet quoted the full surrounding context.
+- Use `paraphrase` when the `direct_quote` field holds a modernized restatement — flag clearly so it is not mistaken for an exact translation.
+
+### Optional drama fields (for dialogue-bearing works)
+
+Homer, Sophocles, Shakespeare, and other works where the quote is *spoken by* a character benefit from these top-level optional fields. They anchor the quote in drama rather than presenting it as floating wisdom.
+
+```yaml
+speaker:
+  name: Nestor
+  role: elder Greek king and counselor
+
+addressee:
+  name: Agamemnon
+  role: commander of the Achaean army
+
+scene_context: >
+  Nestor intervenes during the quarrel between Agamemnon and Achilles.
+  The Greek army is already suffering, and the argument between leaders
+  threatens to damage the whole war effort.
+
+plot_function: >
+  Nestor's failed appeal is the moment that locks in Achilles's
+  withdrawal. The quarrel does not pause; it accelerates.
+
+modern_use_angle: >
+  Anger held by someone with authority becomes other people's
+  catastrophe. Restraint is a leadership skill, not weakness.
+```
+
+For passages with no character speaker (narrator openings, choral commentary), use:
+
+```yaml
+speaker:
+  name: Homeric narrator
+  role: epic narrator
+
+addressee:
+  name: Muse
+  role: divine source of song invoked at the poem's opening
+```
+
+These fields are **optional**. Existing entries do not need to be retrofitted in bulk — add them when you touch an entry, prioritize for new entries on dialogue-heavy works (Iliad, Odyssey, Sophocles, Shakespeare).
+
 ## Important rules
 
 - **`direct_quote` is the dangerous field.** If you cannot prove the translation is in the public domain, leave it empty and use `paraphrase` instead. See [04_RIGHTS_AND_SOURCE_NOTES.md](04_RIGHTS_AND_SOURCE_NOTES.md).

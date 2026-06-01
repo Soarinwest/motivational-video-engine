@@ -31,14 +31,15 @@ final_line: Often, it is command lost.
 visual:
   world: literary_dark
   background_prompt_key: homer_anger_storm
+  background_override_path: null
   figure_prompt_key: none
   motion_profile: medium_zoom
   overlays: []
   caption_style: serif_quiet
 audio:
   tts_provider: kokoro
-  voice_profile: literary_male
-  music_profile: somber_cinematic
+  voice_profile: narrator_blend
+  music_profile: bronze_war_camp
 render:
   resolution: 1080x1920
   fps: 30

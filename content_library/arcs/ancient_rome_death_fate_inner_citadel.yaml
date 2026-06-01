@@ -1,0 +1,76 @@
+arc_id: ancient_rome_death_fate_inner_citadel
+region: ancient_rome
+title: "Ancient Rome: Death, Fate, and the Inner Citadel"
+
+purpose: >
+  Where Rome becomes cinematic and heavy. Marcus on impermanence and
+  the citadel within. Seneca on death always present. Lucretius on
+  the fear that poisons life. Virgil on the cost of founding a destiny.
+  The arc earns its weight by refusing consolation — death is named,
+  fate is met, the inner citadel is the only sovereignty left.
+
+visual_world: stoic_rome
+default_visual_motifs:
+  - "funeral pyre at dusk, smoke rising into storm gray sky"
+  - "dark stone chamber, faint golden light outlining a face in meditation"
+  - "burning Troy, a man carrying his father through the night"
+  - "dark Italian shoreline at dawn, Trojan ships behind, sword lowered"
+  - "vast night sky outside Rome, stars above ruins, oil lamp in hand"
+
+tone:
+  - severe
+  - elegiac
+  - mournful
+  - philosophical
+  - restrained
+
+themes:
+  - mortality
+  - fate
+  - impermanence
+  - grief
+  - acceptance
+  - legacy
+  - nature
+
+primary_sources:
+  - marcus_aurelius/meditations.md
+  - seneca/letters.md
+  - lucretius/on_the_nature_of_things.md     # TODO create
+  - virgil/aeneid.md                          # TODO create
+
+primary_source_ids:
+  # Already written:
+  - marcus_meditations_depart_this_moment    # pulled in from stoic_discipline
+  # Targets — to be written:
+  - marcus_meditations_soon_forgotten         # TODO — "Soon you will have forgotten everything"
+  - marcus_meditations_universe_is_change     # TODO
+  - seneca_letters_death_always_with_us       # TODO
+  - lucretius_dnr_fear_of_death               # TODO
+  - virgil_aeneid_burden_of_destiny           # TODO
+  - virgil_aeneid_founding_through_loss       # TODO
+
+scripts:
+  - 003_marcus_depart_this_moment             # inherited from stoic_discipline (mortality)
+  # New for this arc:
+  - 001_marcus_leave_life_now                 # TODO — Meditations II.11 closer, or VII.69
+  - 002_marcus_inner_citadel                  # TODO — VIII.48 or IV.3 "retreat into yourself"
+  - 003_marcus_universe_is_change             # TODO — IV.36 or VII.18
+  - 004_seneca_death_always_with_us           # TODO — Letter 101
+  - 005_lucretius_fear_of_death               # TODO — De Rerum Natura III
+  - 006_virgil_burden_of_destiny              # TODO — Aeneid II (burning Troy, carrying Anchises)
+  - 007_virgil_founding_through_loss          # TODO — Aeneid I or VI
+
+publishing_notes: >
+  Close Season 02 with this arc. Pair every script with somber_cinematic
+  music. Voice classical_male (bm_george) for Marcus/Seneca/Lucretius;
+  literary_male (bm_lewis) for Virgil (the epic register). The arc must
+  earn its mortality material by being unsentimental — no false comfort,
+  no nihilist pose. Stoic acceptance and epic burden, not despair.
+
+review_rules:
+  - verify_translation_rights
+  - verify_quote_wording
+  - distinguish_quote_from_interpretation
+  - mortality_frame_check
+  - human_review_before_publish
