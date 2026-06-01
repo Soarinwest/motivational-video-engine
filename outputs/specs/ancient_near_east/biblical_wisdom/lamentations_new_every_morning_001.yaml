@@ -1,0 +1,28 @@
+id: lamentations_new_every_morning_001
+series: literary_dark
+author: Lamentations
+theme: courage
+duration_seconds: 30
+message: 'Lamentations speaks from ruin, not comfort:'
+hook: 'Lamentations speaks from ruin, not comfort:'
+voiceover: "Lamentations speaks from ruin, not comfort:\n\n\"It is of the LORD's mercies that we are not consumed\u2026 they\
+  \ are new every morning.\"\n\nThis is not cheap hope.\nThe city has fallen.\nGrief is real.\nLoss is real.\n\nBut mercy\
+  \ is still named.\n\nSometimes endurance is not a shout.\n\nIt is waking again after devastation and finding one more morning\
+  \ given.\n\nBegin there."
+final_line: Begin there.
+visual:
+  world: ancient_near_east
+  background_prompt_key: lamentations_new_every_morning
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: slow_pan
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: classical_male
+  music_profile: steady_hand_drum_and_lyre
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

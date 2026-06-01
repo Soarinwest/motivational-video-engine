@@ -1,0 +1,52 @@
+id: isaiah_strength_renewed_001
+series: literary_dark
+author: Isaiah
+theme: self-command
+duration_seconds: 30
+message: 'Isaiah speaks to the weary:'
+hook: 'Isaiah speaks to the weary:'
+voiceover: 'Isaiah speaks to the weary:
+
+
+  "They that wait upon the LORD shall renew their strength."
+
+
+  This is not the language of instant victory.
+
+  It is the language of endurance.
+
+
+  Some strength is not seized.
+
+  It is renewed.
+
+
+  Waiting can be cowardice.
+
+  But it can also be discipline:
+
+  refusing panic,
+
+  refusing despair,
+
+  refusing to let exhaustion become your god.
+
+
+  Be still long enough to be restored.'
+final_line: Be still long enough to be restored.
+visual:
+  world: ancient_near_east
+  background_prompt_key: isaiah_strength_renewed
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: slow_pan
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: classical_male
+  music_profile: steady_hand_drum_and_lyre
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

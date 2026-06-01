@@ -1,0 +1,67 @@
+script_id: 014_jeremiah_fire_in_the_bones
+arc_id: ancient_near_east_biblical_wisdom
+region: ancient_near_east
+quote_source_id: jeremiah_fire_in_bones
+
+title: "Fire in the Bones"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: narrator_blend
+music: prophetic_lift
+visual_world: ancient_near_east
+visual_motif: "prophet alone at night beside a city wall, faint firelight beneath his robe"
+caption_style: marble_serif_centered
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/ane_prophetic_lift/ane_prophetic_lift_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: true
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "Jeremiah"
+  role: "prophet struggling with the burden of speaking"
+
+addressee:
+  name: "himself / God / hearer"
+  role: "lament and confession of prophetic burden"
+
+scene_context: >
+  Jeremiah suffers for speaking and tries to hold back, but the
+  prophetic word becomes unbearable within him.
+
+script: |
+  Jeremiah tries to hold back.
+
+  Then he says:
+
+  "His word was in mine heart as a burning fire shut up in my bones."
+
+  This is not comfortable inspiration.
+  It is burden.
+
+  Some truths do not make you popular.
+  Some truths do not make you safe.
+  But silence can become its own kind of wound.
+
+  When the heart knows what must be spoken, avoidance becomes fire.
+
+  Speak cleanly.
+  Do not perform the flame.
+
+rights:
+  quote_translation_status: public_domain_original
+  translator: KJV
+  source_url: "https://www.gutenberg.org/ebooks/10"
+  translation_check_needed: false
+
+review:
+  human_review_required: true
+  notes: "KJV Jeremiah 20:9."

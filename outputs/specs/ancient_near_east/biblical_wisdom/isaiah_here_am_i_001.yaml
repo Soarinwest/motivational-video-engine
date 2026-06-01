@@ -1,0 +1,57 @@
+id: isaiah_here_am_i_001
+series: literary_dark
+author: Isaiah
+theme: duty
+duration_seconds: 30
+message: 'Isaiah hears the question:'
+hook: 'Isaiah hears the question:'
+voiceover: 'Isaiah hears the question:
+
+
+  "Whom shall I send?"
+
+
+  And he answers:
+
+
+  "Here am I; send me."
+
+
+  This is not swagger.
+
+  He has just been humbled.
+
+  He has seen his own uncleanness.
+
+
+  But humility does not become hiding.
+
+
+  Once he is called, he steps forward.
+
+
+  There is a moment when readiness is not a feeling.
+
+  It is an answer.
+
+
+  Say it plainly:
+
+  here I am.'
+final_line: here I am.
+visual:
+  world: ancient_near_east
+  background_prompt_key: isaiah_here_am_i
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: slow_zoom
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: classical_male
+  music_profile: sacred_opera_lament
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

@@ -1,0 +1,64 @@
+script_id: 006_genesis_sin_at_the_door
+arc_id: ancient_near_east_biblical_wisdom
+region: ancient_near_east
+quote_source_id: genesis_sin_at_the_door
+
+title: "Sin at the Door"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: narrator_blend
+music: desert_lament_with_flute
+visual_world: ancient_near_east
+visual_motif: "ancient stone doorway at dusk, young man in shadow with clenched hands"
+caption_style: marble_serif_centered
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/ane_desert_lament_flute/ane_desert_lament_flute_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: true
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "the LORD"
+  role: "divine speaker warning Cain"
+
+addressee:
+  name: "Cain"
+  role: "man at the edge of envy, anger, and violence"
+
+scene_context: >
+  Before Cain kills Abel, God warns him that sin is crouching at the
+  door and that he must master it. The warning comes before the act.
+
+script: |
+  In Genesis, before Cain kills Abel, the warning comes first:
+
+  "Sin lieth at the door… and thou shalt rule over him."
+
+  The danger is not yet blood on the ground.
+  It is resentment at the threshold.
+
+  Envy.
+  Anger.
+  The story you tell yourself before harm becomes action.
+
+  This is where responsibility begins.
+
+  Do not wait until the damage is done to notice what has been crouching at the door.
+
+rights:
+  quote_translation_status: public_domain_original
+  translator: KJV
+  source_url: "https://www.gutenberg.org/ebooks/10"
+  translation_check_needed: false
+
+review:
+  human_review_required: true
+  notes: "KJV Genesis 4:7."

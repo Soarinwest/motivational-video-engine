@@ -1,0 +1,67 @@
+script_id: 012_micah_do_justice_love_mercy
+arc_id: ancient_near_east_biblical_wisdom
+region: ancient_near_east
+quote_source_id: micah_do_justice
+
+title: "Do Justice, Love Mercy"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: bm_george
+music: whirlwind_drone
+visual_world: ancient_near_east
+visual_motif: "city gate where judge, poor family, and prophet stand in morning light"
+caption_style: marble_serif_centered
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/ane_whirlwind_drone/ane_whirlwind_drone_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: true
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "the prophet Micah"
+  role: "prophetic voice of moral requirement"
+
+addressee:
+  name: "Israel / hearer"
+  role: "people being called away from empty religion toward moral life"
+
+scene_context: >
+  Micah reduces public righteousness to justice, mercy, and humility
+  rather than mere ritual display.
+
+script: |
+  Micah asks what is required:
+
+  "To do justly, and to love mercy, and to walk humbly with thy God."
+
+  Not performance.
+  Not noise.
+  Not public righteousness as costume.
+
+  Justice is what you do.
+  Mercy is what you love.
+  Humility is how you walk.
+
+  Leave out one, and the soul bends out of shape.
+
+  Be just.
+  Be merciful.
+  Do not make yourself the god of either.
+
+rights:
+  quote_translation_status: public_domain_original
+  translator: KJV
+  source_url: "https://www.gutenberg.org/ebooks/10"
+  translation_check_needed: false
+
+review:
+  human_review_required: true
+  notes: "KJV Micah 6:8."

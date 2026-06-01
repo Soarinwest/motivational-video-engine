@@ -1,0 +1,28 @@
+id: genesis_sin_at_the_door_001
+series: literary_dark
+author: Genesis
+theme: self-command
+duration_seconds: 30
+message: 'In Genesis, before Cain kills Abel, the warning comes first:'
+hook: 'In Genesis, before Cain kills Abel, the warning comes first:'
+voiceover: "In Genesis, before Cain kills Abel, the warning comes first:\n\n\"Sin lieth at the door\u2026 and thou shalt rule\
+  \ over him.\"\n\nThe danger is not yet blood on the ground.\nIt is resentment at the threshold.\n\nEnvy.\nAnger.\nThe story\
+  \ you tell yourself before harm becomes action.\n\nThis is where responsibility begins.\n\nDo not wait until the damage\
+  \ is done to notice what has been crouching at the door."
+final_line: Do not wait until the damage is done to notice what has been crouching at the door.
+visual:
+  world: ancient_near_east
+  background_prompt_key: genesis_sin_at_the_door
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: static
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: narrator_blend
+  music_profile: desert_lament_with_flute
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

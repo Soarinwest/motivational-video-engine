@@ -1,0 +1,71 @@
+script_id: 013_isaiah_here_am_i
+arc_id: ancient_near_east_biblical_wisdom
+region: ancient_near_east
+quote_source_id: isaiah_here_am_i
+
+title: "Here Am I"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: bm_george
+music: sacred_opera_lament
+visual_world: ancient_near_east
+visual_motif: "young prophet in shadowed temple filled with smoke and golden light"
+caption_style: marble_serif_centered
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/ane_sacred_opera_lament/ane_sacred_opera_lament_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: true
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "Isaiah"
+  role: "prophet responding to divine call"
+
+addressee:
+  name: "the LORD"
+  role: "divine speaker asking whom to send"
+
+scene_context: >
+  Isaiah sees a vision of holiness, becomes aware of his own
+  uncleanness, and then responds to the call to be sent.
+
+script: |
+  Isaiah hears the question:
+
+  "Whom shall I send?"
+
+  And he answers:
+
+  "Here am I; send me."
+
+  This is not swagger.
+  He has just been humbled.
+  He has seen his own uncleanness.
+
+  But humility does not become hiding.
+
+  Once he is called, he steps forward.
+
+  There is a moment when readiness is not a feeling.
+  It is an answer.
+
+  Say it plainly:
+  here I am.
+
+rights:
+  quote_translation_status: public_domain_original
+  translator: KJV
+  source_url: "https://www.gutenberg.org/ebooks/10"
+  translation_check_needed: false
+
+review:
+  human_review_required: true
+  notes: "KJV Isaiah 6:8."

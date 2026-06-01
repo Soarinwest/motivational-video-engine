@@ -1,0 +1,49 @@
+id: gilgamesh_return_to_the_walls_001
+series: literary_dark
+author: Anonymous (Gilgamesh)
+theme: mortality
+duration_seconds: 30
+message: Gilgamesh searches for eternal life and loses it.
+hook: Gilgamesh searches for eternal life and loses it.
+voiceover: 'Gilgamesh searches for eternal life and loses it.
+
+
+  He does not return immortal.
+
+  He returns human.
+
+
+  At the end, he points to the walls of Uruk.
+
+
+  Not because stone defeats death.
+
+  It does not.
+
+
+  But because a mortal life can still build, protect, remember, and return.
+
+
+  The lesson is severe:
+
+  you may not escape death.
+
+
+  Still, you must come home and build.'
+final_line: Still, you must come home and build.
+visual:
+  world: ancient_near_east
+  background_prompt_key: gilgamesh_return_to_the_walls
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: slow_zoom
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: narrator_blend
+  music_profile: whirlwind_drone
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

@@ -1,0 +1,53 @@
+id: ecclesiastes_all_is_vanity_001
+series: literary_dark
+author: Ecclesiastes (Qoheleth)
+theme: mortality
+duration_seconds: 30
+message: 'Ecclesiastes opens with a hard sentence:'
+hook: 'Ecclesiastes opens with a hard sentence:'
+voiceover: 'Ecclesiastes opens with a hard sentence:
+
+
+  "Vanity of vanities, saith the Preacher, vanity of vanities; all is vanity."
+
+
+  This is not an excuse to do nothing.
+
+  It is a warning against worshiping what passes.
+
+
+  Work passes.
+
+  Praise passes.
+
+  Youth passes.
+
+  Possession passes.
+
+
+  The question is not whether you should build.
+
+
+  The question is whether you have mistaken the building for your soul.
+
+
+  Do the work.
+
+  Do not kneel to it.'
+final_line: Do not kneel to it.
+visual:
+  world: ancient_near_east
+  background_prompt_key: ecclesiastes_all_is_vanity
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: slow_pan
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: classical_male
+  music_profile: whirlwind_drone
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

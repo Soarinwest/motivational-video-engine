@@ -1,0 +1,69 @@
+script_id: 001_ecclesiastes_all_is_vanity
+arc_id: ancient_near_east_biblical_wisdom
+region: ancient_near_east
+quote_source_id: ecclesiastes_all_is_vanity
+
+title: "All Is Vanity"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: bm_george
+music: whirlwind_drone
+visual_world: ancient_near_east
+visual_motif: "ancient desert ruins at sunset, solitary robed figure with scroll"
+caption_style: marble_serif_centered
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/ane_whirlwind_drone/ane_whirlwind_drone_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: true
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "the Preacher (Qoheleth)"
+  role: "wisdom speaker reflecting on labor, death, and meaning"
+
+addressee:
+  name: "the reader"
+  role: "person being confronted with mortality"
+
+scene_context: >
+  Ecclesiastes opens with a severe meditation on human labor, ambition,
+  and mortality. "Vanity of vanities" frames worldly striving as vapor
+  when treated as ultimate.
+
+script: |
+  Ecclesiastes opens with a hard sentence:
+
+  "Vanity of vanities, saith the Preacher, vanity of vanities; all is vanity."
+
+  This is not an excuse to do nothing.
+  It is a warning against worshiping what passes.
+
+  Work passes.
+  Praise passes.
+  Youth passes.
+  Possession passes.
+
+  The question is not whether you should build.
+
+  The question is whether you have mistaken the building for your soul.
+
+  Do the work.
+  Do not kneel to it.
+
+rights:
+  quote_translation_status: public_domain_original
+  translator: KJV
+  source_url: "https://www.gutenberg.org/ebooks/10"
+  translation_check_needed: false
+
+review:
+  human_review_required: true
+  notes: "KJV Ecclesiastes 1:2."

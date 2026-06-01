@@ -1,0 +1,66 @@
+script_id: 016_proverbs_soft_answer
+arc_id: ancient_near_east_biblical_wisdom
+region: ancient_near_east
+quote_source_id: proverbs_soft_answer
+
+title: "A Soft Answer"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: bm_george
+music: egyptian_reed_and_drone
+visual_world: ancient_near_east
+visual_motif: "two ancient men at a city gate, one angry, one calm with open hands"
+caption_style: marble_serif_centered
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/ane_egyptian_reed/ane_egyptian_reed_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: true
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "proverb tradition (wisdom teacher)"
+  role: "teacher of speech and restraint"
+
+addressee:
+  name: "student / reader"
+  role: "person learning discipline over speech"
+
+scene_context: >
+  Proverbs treats speech as morally powerful. Words can cool wrath or
+  feed it.
+
+script: |
+  Proverbs says:
+
+  "A soft answer turneth away wrath: but grievous words stir up anger."
+
+  This is not cowardice.
+  It is command.
+
+  Anyone can throw fuel.
+  Anyone can answer heat with heat.
+  Anyone can make the room worse.
+
+  The harder strength is measured speech when pride wants a sharper blade.
+
+  Do not confuse escalation with courage.
+
+  Sometimes the strongest answer lowers the fire.
+
+rights:
+  quote_translation_status: public_domain_original
+  translator: KJV
+  source_url: "https://www.gutenberg.org/ebooks/10"
+  translation_check_needed: false
+
+review:
+  human_review_required: true
+  notes: "KJV Proverbs 15:1."

@@ -1,0 +1,67 @@
+script_id: 018_daniel_refuse_defilement
+arc_id: ancient_near_east_biblical_wisdom
+region: ancient_near_east
+quote_source_id: daniel_purposed_heart
+
+title: "Refuse Defilement"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: am_michael
+music: imperial_judgment
+visual_world: ancient_near_east
+visual_motif: "young exile in a Babylonian palace chamber, rich food before him, calm and inwardly resolved"
+caption_style: marble_serif_centered
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/ane_imperial_judgment/ane_imperial_judgment_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: true
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "the narrator"
+  role: "biblical narrator describing Daniel's resolve"
+
+addressee:
+  name: "the reader"
+  role: "audience watching exile and court pressure"
+
+scene_context: >
+  Daniel is in exile in Babylon and placed under imperial pressure to
+  assimilate at the level of diet, court training, and identity.
+
+script: |
+  Daniel is in exile, inside another empire's court.
+
+  The text says:
+
+  "Daniel purposed in his heart that he would not defile himself."
+
+  Notice where resistance begins.
+
+  Not with noise.
+  Not with spectacle.
+  Not with public performance.
+
+  In the heart.
+
+  Before the pressure comes, he has already decided what he will not become.
+
+  If you wait until the room is watching, you may decide too late.
+
+rights:
+  quote_translation_status: public_domain_original
+  translator: KJV
+  source_url: "https://www.gutenberg.org/ebooks/10"
+  translation_check_needed: false
+
+review:
+  human_review_required: true
+  notes: "KJV Daniel 1:8."

@@ -1,0 +1,50 @@
+id: psalm_valley_shadow_001
+series: literary_dark
+author: Psalms
+theme: courage
+duration_seconds: 30
+message: The psalm does not say there is no valley.
+hook: The psalm does not say there is no valley.
+voiceover: 'The psalm does not say there is no valley.
+
+
+  It says:
+
+
+  "Yea, though I walk through the valley of the shadow of death, I will fear no evil."
+
+
+  The shadow is real.
+
+  The path is real.
+
+  The danger is real.
+
+
+  But fear is not given the throne.
+
+
+  Some darkness has to be walked through, not explained away.
+
+
+  Keep walking.
+
+
+  The valley is not your final name.'
+final_line: The valley is not your final name.
+visual:
+  world: ancient_near_east
+  background_prompt_key: psalm_valley_shadow
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: slow_pan
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: classical_male
+  music_profile: steady_hand_drum_and_lyre
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

@@ -1,0 +1,51 @@
+id: ecclesiastes_time_for_everything_001
+series: literary_dark
+author: Ecclesiastes (Qoheleth)
+theme: duty
+duration_seconds: 30
+message: 'Ecclesiastes says:'
+hook: 'Ecclesiastes says:'
+voiceover: 'Ecclesiastes says:
+
+
+  "To every thing there is a season, and a time to every purpose under the heaven."
+
+
+  This is not passivity.
+
+  It is timing.
+
+
+  There is a time to build.
+
+  A time to stop.
+
+  A time to speak.
+
+  A time to be silent.
+
+
+  Wisdom is not doing everything with force.
+
+
+  Wisdom is knowing what the hour requires.
+
+
+  Do not demand harvest from a season of planting.'
+final_line: Do not demand harvest from a season of planting.
+visual:
+  world: ancient_near_east
+  background_prompt_key: ecclesiastes_time_for_everything
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: slow_zoom
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: classical_male
+  music_profile: slow_harp_and_desert_wind
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

@@ -1,0 +1,48 @@
+id: gilgamesh_fear_of_death_001
+series: literary_dark
+author: Anonymous (Gilgamesh)
+theme: mortality
+duration_seconds: 30
+message: After Enkidu dies, Gilgamesh is no longer only a king.
+hook: After Enkidu dies, Gilgamesh is no longer only a king.
+voiceover: 'After Enkidu dies, Gilgamesh is no longer only a king.
+
+
+  He is a man afraid of death.
+
+
+  His walls, strength, and fame cannot answer the grave.
+
+
+  That is the ancient wound:
+
+  the powerful discover they are mortal too.
+
+
+  Grief strips the crown down to the skull beneath it.
+
+
+  The lesson is not to despise greatness.
+
+
+  It is to know what greatness cannot save you from.
+
+
+  Death humbles every throne.'
+final_line: Death humbles every throne.
+visual:
+  world: ancient_near_east
+  background_prompt_key: gilgamesh_fear_of_death
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: slow_zoom
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: narrator_blend
+  music_profile: whirlwind_drone
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

@@ -1232,3 +1232,188 @@ worlds:
 
     negative_prompt: >-
       anime, manga, modern clothing, text, watermark, glossy AI render
+
+  # -----------------------------------------------------------------------
+  ancient_near_east:
+    description: >-
+      Ancient Near East and Biblical wisdom visual world. Desert roads,
+      ruined city gates, candlelit scrolls, fig trees, stone wells, storm
+      over Jerusalem, dust-colored hills, ancient tablets, cedar beams,
+      sheepfolds at night, exile roads, temple shadows, empty throne rooms,
+      mourning clothes, river reeds, Mesopotamian walls, Egyptian scribal
+      rooms. Prophetic, desert-worn, severe, merciful, ancient.
+    mood:
+      - prophetic
+      - desert_worn
+      - severe
+      - merciful
+      - ancient
+      - existential
+    palette:
+      - sand gold
+      - desert ochre
+      - lamp black
+      - linen white
+      - cedar brown
+      - blood red
+      - river blue
+      - ash gray
+      - olive green
+      - candle gold
+    motifs:
+      - desert roads
+      - ruined city gates
+      - candlelit scrolls
+      - fig trees
+      - stone wells
+      - cedar beams
+      - sheepfolds at night
+      - temple shadows
+      - empty throne rooms
+      - papyrus scrolls
+    common_overlays:
+      - drifting_dust
+      - low_fog
+      - subtle_grain
+    recommended_motion_profiles:
+      - static
+      - slow_zoom
+      - slow_pan
+    suitable_series:
+      - literary_dark
+      - hard_truths_for_men
+    suitable_authors:
+      - the Preacher (Qoheleth)
+      - the Book of Job
+      - the Proverbs tradition
+      - the Psalmist
+      - Isaiah
+      - Jeremiah
+      - the Lamentations poet
+      - Micah
+      - Daniel
+      - Jonah
+      - the Genesis narrator
+      - the Gilgamesh epic
+      - Amenemope
+
+    background_prompts:
+      ecclesiastes_all_is_vanity: >-
+        ancient desert ruins at sunset, broken stone columns half-buried in
+        sand, wind moving dust across an empty courtyard, a solitary robed
+        figure with a scroll, mortality and passing human ambition, sand
+        gold, desert ochre, ash gray, lamp black
+      ecclesiastes_time_for_everything: >-
+        ancient terraced hillside with a fig tree under changing light, half
+        warm with harvest sun and half shadowed by winter wind, robed figure
+        with a scroll, seasons and patience, olive green, sand gold, cedar
+        brown, ash gray
+      job_limits_of_understanding: >-
+        lone suffering man in torn robes kneeling beneath a vast desert
+        whirlwind, stars and storm clouds above, ancient hills in the
+        distance, mystery and divine scale, ash gray, sand gold, lamp black,
+        cold blue
+      proverbs_wisdom_builds_house: >-
+        ancient stone house being built at dawn, cedar beams lifted into
+        place, a wise elder watching a young worker set foundation stones,
+        olive tree nearby, wisdom and patient construction, cedar brown,
+        sand gold, olive green, linen white
+      proverbs_pride_before_fall: >-
+        proud ancient ruler atop a high city wall at sunset, the stones
+        beneath him cracked and unstable, advisors in shadow below, storm
+        clouds gathering over desert hills, pride before collapse, sand
+        gold, blood red, ash gray, lamp black
+      genesis_sin_at_the_door: >-
+        ancient stone doorway at dusk, a young man in shadow with clenched
+        hands, a field beyond glowing with fading light, dark animal-like
+        shadow low near the threshold, temptation and moral choice, desert
+        ochre, lamp black, blood red, ash gray
+      psalm_valley_shadow: >-
+        lone shepherd walking through a narrow desert valley at twilight,
+        high dark cliffs casting long shadows, small flock close behind,
+        staff in hand, faint candle-gold light beyond the pass, fear and
+        trust, ash gray, desert ochre, candle gold, linen white
+      isaiah_strength_renewed: >-
+        weary travelers on an ancient exile road at dawn, desert hills
+        stretching behind them, an eagle rising in the pale sky, one figure
+        looking upward with quiet hope, endurance and renewal, sand gold,
+        ash gray, linen white, river blue
+      gilgamesh_fear_of_death: >-
+        ancient Mesopotamian king alone before the massive walls of Uruk
+        at night, lion skin cloak, crown lowered, desert wind and stars
+        above, grief-stricken and afraid, mortality and the fear of death,
+        sand gold, cedar brown, lamp black, river blue
+      amenemope_listen_to_wisdom: >-
+        ancient Egyptian scribe seated in a quiet room beside papyrus
+        scrolls, teaching a younger student by lamplight, reed pens and ink
+        on a low table, carved stone walls and river reeds through an
+        opening, wisdom and listening, sand gold, linen white, river blue,
+        lamp black, candle gold
+      psalm_number_our_days: >-
+        ancient desert hill at dawn, a robed figure marking days on a clay
+        tablet beside a small oil lamp, distant city walls in pale light,
+        mortality and numbered time
+      micah_do_justice_love_mercy: >-
+        ancient city gate where a judge, a poor family, and a humble
+        prophet stand in morning light, scales resting on stone, olive
+        branches nearby, justice and mercy
+      isaiah_here_am_i: >-
+        young prophet standing in a shadowed temple filled with smoke and
+        golden light, face humbled but willing, ancient stone pillars
+        rising into darkness, calling and service
+      jeremiah_fire_in_the_bones: >-
+        ancient prophet alone at night beside a city wall, hand pressed to
+        his chest as faint firelight glows beneath his robe, scroll on the
+        ground, hostile city shadows behind him, burdened truth and
+        prophetic fire
+      lamentations_new_every_morning: >-
+        ruined ancient city at dawn after destruction, broken walls and
+        ash in the street, a small group of survivors standing in quiet
+        morning light, grief and fragile hope
+      proverbs_soft_answer: >-
+        two ancient men arguing at a city gate, one leaning forward in
+        anger while the other answers calmly with open hands, crowd held
+        in tense silence, restraint and wisdom
+      proverbs_keep_thy_heart: >-
+        ancient person standing beside a stone well at night, looking down
+        into dark water reflecting stars, hand over heart, oil lamp beside
+        the well, inner life and vigilance
+      daniel_refuse_defilement: >-
+        young exile standing in a Babylonian palace chamber, rich food and
+        golden cups on a table before him, massive columns and foreign
+        banners around him, calm and inwardly resolved
+      jonah_mercy_wider_than_anger: >-
+        ancient prophet sitting bitterly on a desert hill overlooking a
+        vast city, withered plant beside him, city walls glowing in
+        evening light below, anger and mercy
+      gilgamesh_return_to_the_walls: >-
+        Gilgamesh and a weary boatman standing before the great walls of
+        Uruk at dawn, massive baked-brick towers glowing in first light,
+        river reeds nearby, king's face changed by grief and acceptance
+
+    figure_prompts:
+      none: ""
+      prophet_silhouette: >-
+        the silhouette of an ancient prophet in robes, seen from behind,
+        looking out over desert hills at dusk
+      scribe_silhouette: >-
+        the silhouette of an ancient scribe seated at a low table with a
+        scroll and reed pen, lamplit, restrained and still
+
+    image_prompt_template: |
+      Create a cinematic vertical 9:16 image for an Ancient Near East /
+      Biblical-wisdom piece about {theme}, in the spirit of {author}.
+
+      In the foreground, {figure}. The setting is {background}. The light
+      is desert-worn, severe, and merciful — sand gold, desert ochre, lamp
+      black, candle gold. No fantasy elements. Leave dark negative space
+      in the upper third for captions.
+
+      Style: painterly realism, cinematic lighting, weathered Near Eastern
+      atmosphere, prophetic and severe, not cartoonish, not glossy.
+
+    negative_prompt: >-
+      modern clothing, text, watermark, logo, neon, glossy AI render,
+      smiling face, influencer pose, anime, cartoon, fantasy armor,
+      distorted face, extra fingers, cathedral / Christian iconography
+      anachronism

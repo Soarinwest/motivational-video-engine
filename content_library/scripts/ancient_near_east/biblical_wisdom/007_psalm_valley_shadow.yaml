@@ -1,0 +1,67 @@
+script_id: 007_psalm_valley_shadow
+arc_id: ancient_near_east_biblical_wisdom
+region: ancient_near_east
+quote_source_id: psalm_valley_shadow
+
+title: "The Valley and the Shadow"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: bm_george
+music: steady_hand_drum_and_lyre
+visual_world: ancient_near_east
+visual_motif: "lone shepherd in a narrow desert valley at twilight"
+caption_style: marble_serif_centered
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/ane_steady_drum_lyre/ane_steady_drum_lyre_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: true
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "the psalmist"
+  role: "speaker of trust under danger"
+
+addressee:
+  name: "God / listener"
+  role: "prayer and testimony"
+
+scene_context: >
+  Psalm 23 is a poem of trust using shepherd imagery. The speaker does
+  not deny danger; he passes through it under divine presence.
+
+script: |
+  The psalm does not say there is no valley.
+
+  It says:
+
+  "Yea, though I walk through the valley of the shadow of death, I will fear no evil."
+
+  The shadow is real.
+  The path is real.
+  The danger is real.
+
+  But fear is not given the throne.
+
+  Some darkness has to be walked through, not explained away.
+
+  Keep walking.
+
+  The valley is not your final name.
+
+rights:
+  quote_translation_status: public_domain_original
+  translator: KJV
+  source_url: "https://www.gutenberg.org/ebooks/10"
+  translation_check_needed: false
+
+review:
+  human_review_required: true
+  notes: "KJV Psalm 23:4."

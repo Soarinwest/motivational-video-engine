@@ -1,0 +1,66 @@
+script_id: 019_jonah_mercy_wider_than_anger
+arc_id: ancient_near_east_biblical_wisdom
+region: ancient_near_east
+quote_source_id: jonah_should_i_not_spare
+
+title: "Mercy Wider Than Anger"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: narrator_blend
+music: desert_lament_with_flute
+visual_world: ancient_near_east
+visual_motif: "prophet sitting bitterly on a desert hill overlooking a vast city"
+caption_style: marble_serif_centered
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/ane_desert_lament_flute/ane_desert_lament_flute_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: true
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "the LORD"
+  role: "divine speaker challenging Jonah's anger"
+
+addressee:
+  name: "Jonah"
+  role: "prophet angry that mercy was given to Nineveh"
+
+scene_context: >
+  Jonah resents divine mercy toward Nineveh. The closing question
+  exposes the smallness of Jonah's anger beside the breadth of mercy.
+
+script: |
+  Jonah wanted judgment.
+
+  At the end, God asks:
+
+  "Should not I spare Nineveh, that great city?"
+
+  The question cuts deeper than Jonah's anger.
+
+  He wanted the guilty punished.
+  He did not want them spared.
+
+  That is the hard place in the heart:
+  when justice becomes hunger for destruction.
+
+  Mercy does not deny evil.
+  But it refuses to let your anger become the measure of the world.
+
+rights:
+  quote_translation_status: public_domain_original
+  translator: KJV
+  source_url: "https://www.gutenberg.org/ebooks/10"
+  translation_check_needed: false
+
+review:
+  human_review_required: true
+  notes: "KJV Jonah 4:11."

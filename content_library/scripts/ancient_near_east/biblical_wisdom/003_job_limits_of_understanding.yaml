@@ -1,0 +1,64 @@
+script_id: 003_job_limits_of_understanding
+arc_id: ancient_near_east_biblical_wisdom
+region: ancient_near_east
+quote_source_id: job_where_were_you
+
+title: "The Limits of Understanding"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: narrator_blend
+music: desert_lament_with_flute
+visual_world: ancient_near_east
+visual_motif: "lone suffering man kneeling beneath a vast desert whirlwind"
+caption_style: marble_serif_centered
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/ane_desert_lament_flute/ane_desert_lament_flute_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: true
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "the LORD"
+  role: "divine speaker from the whirlwind"
+
+addressee:
+  name: "Job"
+  role: "suffering man demanding an answer"
+
+scene_context: >
+  After Job's suffering and long speeches, God answers from the
+  whirlwind. The answer confronts Job with the vastness of creation and
+  the limits of human knowledge.
+
+script: |
+  In Job, after suffering and argument, the answer comes from the whirlwind:
+
+  "Where wast thou when I laid the foundations of the earth?"
+
+  It is not a neat explanation.
+  It is a confrontation with scale.
+
+  Job is not told that his pain is small.
+  He is shown that his sight is partial.
+
+  Some suffering will not fit inside your explanation.
+
+  Humility begins where control runs out.
+
+rights:
+  quote_translation_status: public_domain_original
+  translator: KJV
+  source_url: "https://www.gutenberg.org/ebooks/10"
+  translation_check_needed: false
+
+review:
+  human_review_required: true
+  notes: "KJV Job 38:4."

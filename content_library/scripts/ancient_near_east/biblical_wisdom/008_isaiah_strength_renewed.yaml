@@ -1,0 +1,67 @@
+script_id: 008_isaiah_strength_renewed
+arc_id: ancient_near_east_biblical_wisdom
+region: ancient_near_east
+quote_source_id: isaiah_strength_renewed
+
+title: "Strength Renewed"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: bm_george
+music: steady_hand_drum_and_lyre
+visual_world: ancient_near_east
+visual_motif: "weary travelers on an ancient exile road at dawn, eagle rising"
+caption_style: marble_serif_centered
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/ane_steady_drum_lyre/ane_steady_drum_lyre_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: true
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "prophetic voice of Isaiah"
+  role: "speaker of consolation and divine promise"
+
+addressee:
+  name: "weary people / exiles"
+  role: "those in need of endurance and restoration"
+
+scene_context: >
+  Isaiah 40 speaks consolation to a weary people, contrasting human
+  weakness with divine strength and endurance.
+
+script: |
+  Isaiah speaks to the weary:
+
+  "They that wait upon the LORD shall renew their strength."
+
+  This is not the language of instant victory.
+  It is the language of endurance.
+
+  Some strength is not seized.
+  It is renewed.
+
+  Waiting can be cowardice.
+  But it can also be discipline:
+  refusing panic,
+  refusing despair,
+  refusing to let exhaustion become your god.
+
+  Be still long enough to be restored.
+
+rights:
+  quote_translation_status: public_domain_original
+  translator: KJV
+  source_url: "https://www.gutenberg.org/ebooks/10"
+  translation_check_needed: false
+
+review:
+  human_review_required: true
+  notes: "KJV Isaiah 40:31."

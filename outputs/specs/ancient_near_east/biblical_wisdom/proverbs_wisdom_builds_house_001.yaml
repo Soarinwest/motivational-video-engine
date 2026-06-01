@@ -1,0 +1,50 @@
+id: proverbs_wisdom_builds_house_001
+series: literary_dark
+author: Proverbs
+theme: duty
+duration_seconds: 30
+message: 'Proverbs says:'
+hook: 'Proverbs says:'
+voiceover: 'Proverbs says:
+
+
+  "Through wisdom is an house builded; and by understanding it is established."
+
+
+  Wisdom is not just having thoughts.
+
+  It is building something that can stand.
+
+
+  A home.
+
+  A character.
+
+  A way of speaking.
+
+  A pattern of choices.
+
+
+  Impulse can decorate a life.
+
+  Wisdom builds one.
+
+
+  If the house keeps falling, examine the foundation.'
+final_line: If the house keeps falling, examine the foundation.
+visual:
+  world: ancient_near_east
+  background_prompt_key: proverbs_wisdom_builds_house
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: static
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: low_steady_male
+  music_profile: egyptian_reed_and_drone
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

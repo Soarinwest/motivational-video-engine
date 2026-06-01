@@ -1,0 +1,49 @@
+id: jonah_mercy_wider_than_anger_001
+series: literary_dark
+author: Jonah
+theme: duty
+duration_seconds: 30
+message: Jonah wanted judgment.
+hook: Jonah wanted judgment.
+voiceover: 'Jonah wanted judgment.
+
+
+  At the end, God asks:
+
+
+  "Should not I spare Nineveh, that great city?"
+
+
+  The question cuts deeper than Jonah''s anger.
+
+
+  He wanted the guilty punished.
+
+  He did not want them spared.
+
+
+  That is the hard place in the heart:
+
+  when justice becomes hunger for destruction.
+
+
+  Mercy does not deny evil.
+
+  But it refuses to let your anger become the measure of the world.'
+final_line: But it refuses to let your anger become the measure of the world.
+visual:
+  world: ancient_near_east
+  background_prompt_key: jonah_mercy_wider_than_anger
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: slow_pan
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: narrator_blend
+  music_profile: desert_lament_with_flute
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

@@ -1,0 +1,67 @@
+script_id: 010_amenemope_listen_to_wisdom
+arc_id: ancient_near_east_biblical_wisdom
+region: ancient_near_east
+quote_source_id: amenemope_listen_to_wisdom
+
+title: "Listen to Wisdom"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: bm_george
+music: egyptian_reed_and_drone
+visual_world: ancient_near_east
+visual_motif: "Egyptian scribe teaching a younger student by lamplight"
+caption_style: marble_serif_centered
+
+quote_type: paraphrase
+
+music_asset:
+  local_path: "music/ane_egyptian_reed/ane_egyptian_reed_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: false
+  wording_modified_for_script: true
+
+speaker:
+  name: "Amenemope (Amen-em-apt)"
+  role: "Egyptian wisdom teacher / fatherly instructor"
+
+addressee:
+  name: "his son / student"
+  role: "young person being instructed in conduct, speech, humility"
+
+scene_context: >
+  The Instruction of Amenemope belongs to the Egyptian wisdom tradition,
+  giving practical moral counsel on speech, greed, anger, humility, and
+  listening.
+
+script: |
+  The Egyptian wisdom of Amenemope begins with the posture of listening.
+
+  Give the ear.
+  Give the heart.
+  Learn to understand.
+
+  Wisdom does not enter a clenched person.
+
+  It enters through attention,
+  humility,
+  and the willingness to be corrected.
+
+  The proud man hears only interruption.
+  The teachable person hears rescue.
+
+  If you cannot listen, you cannot be formed.
+
+rights:
+  quote_translation_status: paraphrase_only
+  translator: null
+  source_url: ""
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Paraphrase only. Modern translations under copyright."

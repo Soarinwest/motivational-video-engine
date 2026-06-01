@@ -1,0 +1,67 @@
+script_id: 009_gilgamesh_fear_of_death
+arc_id: ancient_near_east_biblical_wisdom
+region: ancient_near_east
+quote_source_id: gilgamesh_fear_of_death
+
+title: "The Fear of Death"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: narrator_blend
+music: whirlwind_drone
+visual_world: ancient_near_east
+visual_motif: "Mesopotamian king alone before the walls of Uruk at night"
+caption_style: marble_serif_centered
+
+quote_type: paraphrase
+
+music_asset:
+  local_path: "music/ane_whirlwind_drone/ane_whirlwind_drone_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: false
+  wording_modified_for_script: true
+
+speaker:
+  name: "Gilgamesh"
+  role: "king of Uruk, grieving friend, seeker of immortality"
+
+addressee:
+  name: "the listener"
+  role: "ancient hearer or modern reader confronted with mortality"
+
+scene_context: >
+  After Enkidu dies, Gilgamesh is shaken by grief and mortality. His
+  quest for immortality begins not from wisdom but from terror at the
+  death that now seems to be waiting for him too.
+
+script: |
+  After Enkidu dies, Gilgamesh is no longer only a king.
+
+  He is a man afraid of death.
+
+  His walls, strength, and fame cannot answer the grave.
+
+  That is the ancient wound:
+  the powerful discover they are mortal too.
+
+  Grief strips the crown down to the skull beneath it.
+
+  The lesson is not to despise greatness.
+
+  It is to know what greatness cannot save you from.
+
+  Death humbles every throne.
+
+rights:
+  quote_translation_status: paraphrase_only
+  translator: null
+  source_url: ""
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Paraphrase only. Verify against Langdon or Jastrow/Clay PD edition before any direct quotation."

@@ -1,0 +1,46 @@
+id: proverbs_pride_before_fall_001
+series: literary_dark
+author: Proverbs
+theme: restraint
+duration_seconds: 30
+message: 'Proverbs gives the warning plainly:'
+hook: 'Proverbs gives the warning plainly:'
+voiceover: 'Proverbs gives the warning plainly:
+
+
+  "Pride goeth before destruction, and an haughty spirit before a fall."
+
+
+  Pride does not always look loud.
+
+  Sometimes it looks like refusing correction.
+
+  Refusing counsel.
+
+  Refusing to admit that the path is cracking.
+
+
+  The fall rarely begins at the edge.
+
+
+  It begins when you decide you no longer need to listen.
+
+
+  If no one can warn you, reality will.'
+final_line: If no one can warn you, reality will.
+visual:
+  world: ancient_near_east
+  background_prompt_key: proverbs_pride_before_fall
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: slow_zoom
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: low_steady_male
+  music_profile: imperial_judgment
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

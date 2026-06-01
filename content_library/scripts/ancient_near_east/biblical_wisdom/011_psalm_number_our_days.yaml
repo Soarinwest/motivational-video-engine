@@ -1,0 +1,67 @@
+script_id: 011_psalm_number_our_days
+arc_id: ancient_near_east_biblical_wisdom
+region: ancient_near_east
+quote_source_id: psalm_number_our_days
+
+title: "Number Our Days"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: bm_george
+music: slow_harp_and_desert_wind
+visual_world: ancient_near_east
+visual_motif: "robed figure marking days on a clay tablet at dawn"
+caption_style: marble_serif_centered
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/ane_slow_harp_desert_wind/ane_slow_harp_desert_wind_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: true
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "the psalmist"
+  role: "prayerful wisdom speaker"
+
+addressee:
+  name: "God"
+  role: "divine addressee of the prayer"
+
+scene_context: >
+  Psalm 90 reflects on human frailty, short life, and the need for
+  wisdom under mortality.
+
+script: |
+  Psalm 90 gives a prayer for mortal people:
+
+  "So teach us to number our days, that we may apply our hearts unto wisdom."
+
+  This is not morbid.
+  It is clarifying.
+
+  You do not have endless time.
+  You do not have endless chances.
+  You do not have endless attention.
+
+  Numbering your days is not despair.
+
+  It is how the heart stops wasting what cannot be replaced.
+
+  Count the days.
+  Then live like they matter.
+
+rights:
+  quote_translation_status: public_domain_original
+  translator: KJV
+  source_url: "https://www.gutenberg.org/ebooks/10"
+  translation_check_needed: false
+
+review:
+  human_review_required: true
+  notes: "KJV Psalm 90:12."

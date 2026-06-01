@@ -212,9 +212,21 @@ music_profiles:
     folder: ane_whirlwind_drone
     gain_db: -13
   egyptian_reed_and_drone:
-    description: Egyptian reed/dulcimer drone. For Amenemope listening / teaching.
+    description: Persian/Arabic hammered dulcimer. Best for Amenemope, Proverbs wisdom, ancient Near East texture.
     folder: ane_egyptian_reed
     gain_db: -14
+  imperial_judgment:
+    description: Grand imperial register (Roman-coded). For pride before fall (Proverbs), Daniel court pressure.
+    folder: ane_imperial_judgment
+    gain_db: -13
+  sacred_opera_lament:
+    description: Sacred/Latin opera vocal grandeur. For Isaiah Here Am I, Jeremiah burden climax only.
+    folder: ane_sacred_opera_lament
+    gain_db: -14
+  battle_return_lament:
+    description: Roman gladiator return cue. Backup for Gilgamesh return, Lamentations aftermath.
+    folder: ane_battle_return_lament
+    gain_db: -13
 
   # ----- Quarantined (off-brand for ancient material; do not assign without review) -----
   # _quarantine/: Soviet WW2, dark crime piano (×3), hip-hop offbrand. Held for

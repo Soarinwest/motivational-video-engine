@@ -1,0 +1,50 @@
+id: amenemope_listen_to_wisdom_001
+series: literary_dark
+author: Amenemope
+theme: restraint
+duration_seconds: 30
+message: The Egyptian wisdom of Amenemope begins with the posture of listening.
+hook: The Egyptian wisdom of Amenemope begins with the posture of listening.
+voiceover: 'The Egyptian wisdom of Amenemope begins with the posture of listening.
+
+
+  Give the ear.
+
+  Give the heart.
+
+  Learn to understand.
+
+
+  Wisdom does not enter a clenched person.
+
+
+  It enters through attention,
+
+  humility,
+
+  and the willingness to be corrected.
+
+
+  The proud man hears only interruption.
+
+  The teachable person hears rescue.
+
+
+  If you cannot listen, you cannot be formed.'
+final_line: If you cannot listen, you cannot be formed.
+visual:
+  world: ancient_near_east
+  background_prompt_key: amenemope_listen_to_wisdom
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: static
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: classical_male
+  music_profile: egyptian_reed_and_drone
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

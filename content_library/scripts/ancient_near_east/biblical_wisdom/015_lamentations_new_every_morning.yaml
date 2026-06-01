@@ -1,0 +1,66 @@
+script_id: 015_lamentations_new_every_morning
+arc_id: ancient_near_east_biblical_wisdom
+region: ancient_near_east
+quote_source_id: lamentations_new_every_morning
+
+title: "New Every Morning"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: bm_george
+music: steady_hand_drum_and_lyre
+visual_world: ancient_near_east
+visual_motif: "ruined ancient city at dawn after destruction, survivors in quiet morning light"
+caption_style: marble_serif_centered
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/ane_steady_drum_lyre/ane_steady_drum_lyre_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: true
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "the lamenting poet"
+  role: "speaker grieving ruin while still reaching for mercy"
+
+addressee:
+  name: "God / community / self"
+  role: "prayerful and communal lament"
+
+scene_context: >
+  Lamentations speaks from catastrophe and ruin. The claim of mercy
+  comes not from comfort, but from inside grief.
+
+script: |
+  Lamentations speaks from ruin, not comfort:
+
+  "It is of the LORD's mercies that we are not consumed… they are new every morning."
+
+  This is not cheap hope.
+  The city has fallen.
+  Grief is real.
+  Loss is real.
+
+  But mercy is still named.
+
+  Sometimes endurance is not a shout.
+
+  It is waking again after devastation and finding one more morning given.
+
+  Begin there.
+
+rights:
+  quote_translation_status: public_domain_original
+  translator: KJV
+  source_url: "https://www.gutenberg.org/ebooks/10"
+  translation_check_needed: false
+
+review:
+  human_review_required: true
+  notes: "KJV Lamentations 3:22-23."

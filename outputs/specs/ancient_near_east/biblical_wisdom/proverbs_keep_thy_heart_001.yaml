@@ -1,0 +1,47 @@
+id: proverbs_keep_thy_heart_001
+series: literary_dark
+author: Proverbs
+theme: self-command
+duration_seconds: 30
+message: 'Proverbs gives a command before the damage appears:'
+hook: 'Proverbs gives a command before the damage appears:'
+voiceover: 'Proverbs gives a command before the damage appears:
+
+
+  "Keep thy heart with all diligence; for out of it are the issues of life."
+
+
+  Guard the source.
+
+
+  Not just the action.
+
+  Not just the reputation.
+
+  Not just the visible failure.
+
+
+  The heart moves first.
+
+
+  What you feed there will eventually speak, choose, and act.
+
+
+  Do not wait until life breaks open to ask what has been growing within.'
+final_line: Do not wait until life breaks open to ask what has been growing within.
+visual:
+  world: ancient_near_east
+  background_prompt_key: proverbs_keep_thy_heart
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: slow_zoom
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: classical_male
+  music_profile: slow_harp_and_desert_wind
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

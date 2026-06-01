@@ -1,0 +1,52 @@
+id: micah_do_justice_love_mercy_001
+series: literary_dark
+author: Micah
+theme: duty
+duration_seconds: 30
+message: 'Micah asks what is required:'
+hook: 'Micah asks what is required:'
+voiceover: 'Micah asks what is required:
+
+
+  "To do justly, and to love mercy, and to walk humbly with thy God."
+
+
+  Not performance.
+
+  Not noise.
+
+  Not public righteousness as costume.
+
+
+  Justice is what you do.
+
+  Mercy is what you love.
+
+  Humility is how you walk.
+
+
+  Leave out one, and the soul bends out of shape.
+
+
+  Be just.
+
+  Be merciful.
+
+  Do not make yourself the god of either.'
+final_line: Do not make yourself the god of either.
+visual:
+  world: ancient_near_east
+  background_prompt_key: micah_do_justice_love_mercy
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: slow_pan
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: classical_male
+  music_profile: whirlwind_drone
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

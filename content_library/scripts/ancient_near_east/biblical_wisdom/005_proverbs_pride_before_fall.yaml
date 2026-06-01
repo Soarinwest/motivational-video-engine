@@ -1,0 +1,64 @@
+script_id: 005_proverbs_pride_before_fall
+arc_id: ancient_near_east_biblical_wisdom
+region: ancient_near_east
+quote_source_id: proverbs_pride_before_fall
+
+title: "Pride Before Fall"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: am_michael
+music: imperial_judgment
+visual_world: ancient_near_east
+visual_motif: "proud ruler atop a cracked city wall at sunset"
+caption_style: marble_serif_centered
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/ane_imperial_judgment/ane_imperial_judgment_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: true
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "proverb tradition (wisdom teacher)"
+  role: "teacher of moral consequence"
+
+addressee:
+  name: "the reader"
+  role: "person warned against pride"
+
+scene_context: >
+  Proverbs warns that pride generates consequence. Pride is framed not
+  as confidence but as blindness before collapse.
+
+script: |
+  Proverbs gives the warning plainly:
+
+  "Pride goeth before destruction, and an haughty spirit before a fall."
+
+  Pride does not always look loud.
+  Sometimes it looks like refusing correction.
+  Refusing counsel.
+  Refusing to admit that the path is cracking.
+
+  The fall rarely begins at the edge.
+
+  It begins when you decide you no longer need to listen.
+
+  If no one can warn you, reality will.
+
+rights:
+  quote_translation_status: public_domain_original
+  translator: KJV
+  source_url: "https://www.gutenberg.org/ebooks/10"
+  translation_check_needed: false
+
+review:
+  human_review_required: true
+  notes: "KJV Proverbs 16:18."

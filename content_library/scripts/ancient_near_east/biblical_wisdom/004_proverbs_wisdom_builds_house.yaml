@@ -1,0 +1,66 @@
+script_id: 004_proverbs_wisdom_builds_house
+arc_id: ancient_near_east_biblical_wisdom
+region: ancient_near_east
+quote_source_id: proverbs_wisdom_builds_house
+
+title: "Wisdom Builds the House"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: am_michael
+music: egyptian_reed_and_drone
+visual_world: ancient_near_east
+visual_motif: "ancient stone house being built at dawn, cedar beams, elder watching"
+caption_style: marble_serif_centered
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/ane_egyptian_reed/ane_egyptian_reed_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: true
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "proverb tradition (wisdom teacher)"
+  role: "teacher of practical and moral wisdom"
+
+addressee:
+  name: "the student / reader"
+  role: "person learning how a life is built"
+
+scene_context: >
+  Proverbs frames wisdom as practical order: building a household,
+  governing of speech, restraint of pride, formation of character.
+
+script: |
+  Proverbs says:
+
+  "Through wisdom is an house builded; and by understanding it is established."
+
+  Wisdom is not just having thoughts.
+  It is building something that can stand.
+
+  A home.
+  A character.
+  A way of speaking.
+  A pattern of choices.
+
+  Impulse can decorate a life.
+  Wisdom builds one.
+
+  If the house keeps falling, examine the foundation.
+
+rights:
+  quote_translation_status: public_domain_original
+  translator: KJV
+  source_url: "https://www.gutenberg.org/ebooks/10"
+  translation_check_needed: false
+
+review:
+  human_review_required: true
+  notes: "KJV Proverbs 24:3."

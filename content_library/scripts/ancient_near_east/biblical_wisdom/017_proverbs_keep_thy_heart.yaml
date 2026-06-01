@@ -1,0 +1,65 @@
+script_id: 017_proverbs_keep_thy_heart
+arc_id: ancient_near_east_biblical_wisdom
+region: ancient_near_east
+quote_source_id: proverbs_keep_thy_heart
+
+title: "Keep Thy Heart"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: bm_george
+music: slow_harp_and_desert_wind
+visual_world: ancient_near_east
+visual_motif: "ancient person beside a stone well at night, hand over heart, oil lamp"
+caption_style: marble_serif_centered
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/ane_slow_harp_desert_wind/ane_slow_harp_desert_wind_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: true
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "proverb tradition (wisdom teacher)"
+  role: "teacher of inner discipline"
+
+addressee:
+  name: "student / child / reader"
+  role: "person being instructed in the roots of conduct"
+
+scene_context: >
+  Proverbs emphasizes that conduct flows from the heart: desires,
+  attention, speech, and choices.
+
+script: |
+  Proverbs gives a command before the damage appears:
+
+  "Keep thy heart with all diligence; for out of it are the issues of life."
+
+  Guard the source.
+
+  Not just the action.
+  Not just the reputation.
+  Not just the visible failure.
+
+  The heart moves first.
+
+  What you feed there will eventually speak, choose, and act.
+
+  Do not wait until life breaks open to ask what has been growing within.
+
+rights:
+  quote_translation_status: public_domain_original
+  translator: KJV
+  source_url: "https://www.gutenberg.org/ebooks/10"
+  translation_check_needed: false
+
+review:
+  human_review_required: true
+  notes: "KJV Proverbs 4:23."

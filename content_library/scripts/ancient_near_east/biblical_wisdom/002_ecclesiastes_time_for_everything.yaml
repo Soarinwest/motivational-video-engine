@@ -1,0 +1,67 @@
+script_id: 002_ecclesiastes_time_for_everything
+arc_id: ancient_near_east_biblical_wisdom
+region: ancient_near_east
+quote_source_id: ecclesiastes_time_for_everything
+
+title: "A Time for Everything"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: bm_george
+music: slow_harp_and_desert_wind
+visual_world: ancient_near_east
+visual_motif: "terraced hillside with fig tree under changing light"
+caption_style: marble_serif_centered
+
+quote_type: direct_quote
+
+music_asset:
+  local_path: "music/ane_slow_harp_desert_wind/ane_slow_harp_desert_wind_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: true
+  public_domain_translation: true
+  wording_modified_for_script: false
+
+speaker:
+  name: "the Preacher (Qoheleth)"
+  role: "wisdom speaker on seasons and timing"
+
+addressee:
+  name: "the reader"
+  role: "person learning the rhythm and limits of action"
+
+scene_context: >
+  Ecclesiastes 3 presents life as ordered by seasons. Wisdom includes
+  knowing that not every moment is for the same action.
+
+script: |
+  Ecclesiastes says:
+
+  "To every thing there is a season, and a time to every purpose under the heaven."
+
+  This is not passivity.
+  It is timing.
+
+  There is a time to build.
+  A time to stop.
+  A time to speak.
+  A time to be silent.
+
+  Wisdom is not doing everything with force.
+
+  Wisdom is knowing what the hour requires.
+
+  Do not demand harvest from a season of planting.
+
+rights:
+  quote_translation_status: public_domain_original
+  translator: KJV
+  source_url: "https://www.gutenberg.org/ebooks/10"
+  translation_check_needed: false
+
+review:
+  human_review_required: true
+  notes: "KJV Ecclesiastes 3:1."

@@ -1,0 +1,67 @@
+script_id: 020_gilgamesh_return_to_the_walls
+arc_id: ancient_near_east_biblical_wisdom
+region: ancient_near_east
+quote_source_id: gilgamesh_return_to_walls
+
+title: "Return to the Walls"
+duration_target_seconds: 30
+word_count_target: "65-85"
+
+voice: narrator_blend
+music: whirlwind_drone
+visual_world: ancient_near_east
+visual_motif: "Gilgamesh and boatman before the walls of Uruk at dawn"
+caption_style: marble_serif_centered
+
+quote_type: paraphrase
+
+music_asset:
+  local_path: "music/ane_whirlwind_drone/ane_whirlwind_drone_001.mp3"
+  rights_status: open_license_attribution_required
+  attribution_required: true
+
+quote_integrity:
+  exact_translation_verified: false
+  public_domain_translation: false
+  wording_modified_for_script: true
+
+speaker:
+  name: "Gilgamesh"
+  role: "king of Uruk, returned from the failed search for immortality"
+
+addressee:
+  name: "Urshanabi"
+  role: "boatman / companion near the end of the journey"
+
+scene_context: >
+  After failing to secure immortality, Gilgamesh returns to Uruk and
+  points to the city walls. The human answer to death is not escape,
+  but return, work, memory, and what has been built.
+
+script: |
+  Gilgamesh searches for eternal life and loses it.
+
+  He does not return immortal.
+  He returns human.
+
+  At the end, he points to the walls of Uruk.
+
+  Not because stone defeats death.
+  It does not.
+
+  But because a mortal life can still build, protect, remember, and return.
+
+  The lesson is severe:
+  you may not escape death.
+
+  Still, you must come home and build.
+
+rights:
+  quote_translation_status: paraphrase_only
+  translator: null
+  source_url: ""
+  translation_check_needed: true
+
+review:
+  human_review_required: true
+  notes: "Paraphrase only. Verify against Langdon/Jastrow PD edition."

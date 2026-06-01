@@ -1,0 +1,51 @@
+id: jeremiah_fire_in_the_bones_001
+series: literary_dark
+author: Jeremiah
+theme: self-command
+duration_seconds: 30
+message: Jeremiah tries to hold back.
+hook: Jeremiah tries to hold back.
+voiceover: 'Jeremiah tries to hold back.
+
+
+  Then he says:
+
+
+  "His word was in mine heart as a burning fire shut up in my bones."
+
+
+  This is not comfortable inspiration.
+
+  It is burden.
+
+
+  Some truths do not make you popular.
+
+  Some truths do not make you safe.
+
+  But silence can become its own kind of wound.
+
+
+  When the heart knows what must be spoken, avoidance becomes fire.
+
+
+  Speak cleanly.
+
+  Do not perform the flame.'
+final_line: Do not perform the flame.
+visual:
+  world: ancient_near_east
+  background_prompt_key: jeremiah_fire_in_the_bones
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: slow_zoom
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: narrator_blend
+  music_profile: prophetic_lift
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

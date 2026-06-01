@@ -1,0 +1,51 @@
+id: psalm_number_our_days_001
+series: literary_dark
+author: Psalm 90
+theme: mortality
+duration_seconds: 30
+message: 'Psalm 90 gives a prayer for mortal people:'
+hook: 'Psalm 90 gives a prayer for mortal people:'
+voiceover: 'Psalm 90 gives a prayer for mortal people:
+
+
+  "So teach us to number our days, that we may apply our hearts unto wisdom."
+
+
+  This is not morbid.
+
+  It is clarifying.
+
+
+  You do not have endless time.
+
+  You do not have endless chances.
+
+  You do not have endless attention.
+
+
+  Numbering your days is not despair.
+
+
+  It is how the heart stops wasting what cannot be replaced.
+
+
+  Count the days.
+
+  Then live like they matter.'
+final_line: Then live like they matter.
+visual:
+  world: ancient_near_east
+  background_prompt_key: psalm_number_our_days
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: slow_zoom
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: classical_male
+  music_profile: slow_harp_and_desert_wind
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4

@@ -1,0 +1,106 @@
+arc_id: ancient_near_east_biblical_wisdom
+region: ancient_near_east
+title: "Ancient Near East & Biblical Wisdom: Exile, Judgment, and the Heart"
+
+purpose: >
+  This arc explores mortality, pride, suffering, wisdom, humility, exile,
+  grief, temptation, justice, mercy, and endurance through Biblical
+  wisdom, prophecy, poetry, and ancient Near Eastern literature. Not
+  "religious content" in a shallow sense — wisdom under pressure.
+
+core_thesis: >
+  Human beings are limited, mortal, tempted, and often proud. Wisdom
+  begins when the heart becomes teachable, when suffering humbles false
+  certainty, and when strength is joined to mercy, patience, and
+  reverence.
+
+visual_world: ancient_near_east
+
+default_visual_motifs:
+  - "ancient desert ruins at sunset"
+  - "terraced hillside with fig tree"
+  - "suffering man beneath a desert whirlwind"
+  - "stone house being built at dawn"
+  - "proud ruler atop a cracked city wall"
+  - "stone doorway at dusk, threshold shadow"
+  - "lone shepherd in a narrow valley at twilight"
+  - "exile road at dawn, eagle rising"
+  - "Mesopotamian king before the walls of Uruk"
+  - "Egyptian scribe teaching by lamplight"
+
+tone:
+  - prophetic
+  - desert_worn
+  - severe
+  - merciful
+  - elegiac
+  - ancient
+
+themes:
+  - mortality
+  - restraint
+  - self_command
+  - duty
+  - grief
+  - honor_service
+
+primary_sources:
+  - ecclesiastes/ecclesiastes.md
+  - job/job.md
+  - proverbs/proverbs.md
+  - genesis/genesis.md
+  - psalms/psalm_023.md
+  - isaiah/isaiah.md
+  - gilgamesh/epic_of_gilgamesh.md
+  - amenemope/instruction.md
+
+primary_source_ids:
+  - ecclesiastes_all_is_vanity
+  - ecclesiastes_time_for_everything
+  - job_where_were_you
+  - proverbs_wisdom_builds_house
+  - proverbs_pride_before_fall
+  - genesis_sin_at_the_door
+  - psalm_valley_shadow
+  - isaiah_strength_renewed
+  - gilgamesh_fear_of_death
+  - amenemope_listen_to_wisdom
+
+scripts:
+  - 001_ecclesiastes_all_is_vanity
+  - 002_ecclesiastes_time_for_everything
+  - 003_job_limits_of_understanding
+  - 004_proverbs_wisdom_builds_house
+  - 005_proverbs_pride_before_fall
+  - 006_genesis_sin_at_the_door
+  - 007_psalm_valley_shadow
+  - 008_isaiah_strength_renewed
+  - 009_gilgamesh_fear_of_death
+  - 010_amenemope_listen_to_wisdom
+  - 011_psalm_number_our_days
+  - 012_micah_do_justice_love_mercy
+  - 013_isaiah_here_am_i
+  - 014_jeremiah_fire_in_the_bones
+  - 015_lamentations_new_every_morning
+  - 016_proverbs_soft_answer
+  - 017_proverbs_keep_thy_heart
+  - 018_daniel_refuse_defilement
+  - 019_jonah_mercy_wider_than_anger
+  - 020_gilgamesh_return_to_the_walls
+
+publishing_order_logic: >
+  Begin by stripping illusions of permanence (Ecclesiastes). Move into
+  timing, suffering, and the limits of human understanding (Job). Then
+  rebuild with Proverbs: wisdom builds, pride falls. Move into temptation
+  (Cain), endurance (Psalm 23), renewal (Isaiah), mortality (Gilgamesh),
+  and teachability (Amenemope).
+
+review_rules:
+  - verify_translation_before_direct_quote
+  - use_kjv_for_public_domain_biblical_quotes
+  - mark_gilgamesh_translation_check_needed
+  - mark_amenemope_translation_check_needed
+  - distinguish_quote_from_paraphrase
+  - avoid_flattening_religious_texts_into_hustle_content
+  - preserve_suffering_mercy_and_humility
+  - human_review_before_publish

@@ -1,0 +1,44 @@
+id: job_limits_of_understanding_001
+series: literary_dark
+author: Book of Job
+theme: mortality
+duration_seconds: 30
+message: 'In Job, after suffering and argument, the answer comes from the whirlwind:'
+hook: 'In Job, after suffering and argument, the answer comes from the whirlwind:'
+voiceover: 'In Job, after suffering and argument, the answer comes from the whirlwind:
+
+
+  "Where wast thou when I laid the foundations of the earth?"
+
+
+  It is not a neat explanation.
+
+  It is a confrontation with scale.
+
+
+  Job is not told that his pain is small.
+
+  He is shown that his sight is partial.
+
+
+  Some suffering will not fit inside your explanation.
+
+
+  Humility begins where control runs out.'
+final_line: Humility begins where control runs out.
+visual:
+  world: ancient_near_east
+  background_prompt_key: job_limits_of_understanding
+  background_override_path: null
+  figure_prompt_key: none
+  motion_profile: slow_zoom
+  overlays: []
+  caption_style: serif_quiet
+audio:
+  tts_provider: kokoro
+  voice_profile: narrator_blend
+  music_profile: desert_lament_with_flute
+render:
+  resolution: 1080x1920
+  fps: 30
+  format: mp4
